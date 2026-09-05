@@ -1,0 +1,4770 @@
+{
+ "ministeres": [
+  {
+   "name": "MAECI – MINISTERE DES AFFAIRES ETRANGERES ET DE LA COOPERATION INTERNATIONALE",
+   "addr": "KOULOUBA - BP E 792 - BAMAKO",
+   "tel": "+223 20 22 50 92/ 20 22 67 40",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-des-affaires-etrangeres-et-de-la-cooperation-internationale/"
+  },
+  {
+   "name": "MINISTERE DE L’ADMINISTRATION TERRITORIALE ET DE LA DECENTRALISATION",
+   "addr": "RUE BABA DIARRA - BP 215 - BAMAKO",
+   "tel": "+223 20 22 42 12 / 20 22 42 67 / 20 22 34 09",
+   "fax": "+223 20 23 02 47",
+   "web": "https://www.matcl.gov.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-ladministration-territoriale-et-de-la-decentralisation/"
+  },
+  {
+   "name": "MINISTERE DE L’ARTISANAT, DE LA CULTURE, DE L’INDUSTRIE HOTELIERE ET DU TOURISME",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 5 - BP E 4075 - BAMAKO",
+   "tel": "+223  20 01 50 00",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-lartisanat-et-du-tourisme/"
+  },
+  {
+   "name": "MINISTERE DE L’ECONOMIE ET DES FINANCES",
+   "addr": "HAMDALLAYE ACI 2000 - BP 234 - BAMAKO",
+   "tel": "+223  20 22 58 58",
+   "fax": "",
+   "web": "http://www.finances.gouv.ml/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-leconomie-et-des-finances/"
+  },
+  {
+   "name": "MINISTERE DE L’EDUCATION NATIONALE",
+   "addr": "PLACE DE LA LIBERTE - BP 71 - BAMAKO",
+   "tel": "+223 20 23 10 35",
+   "fax": "+223 20 23 05 45",
+   "web": "https://www.porteduc.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-leducation-nationale/"
+  },
+  {
+   "name": "MINISTERE DE L’ELEVAGE ET DE LA PECHE",
+   "addr": "CITE ADMINISTRATIVE - BAMAKO",
+   "tel": "+223 20 23 51 97",
+   "fax": "",
+   "web": "http://www.mep.gouv.ml",
+   "date": "06/04/2021",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-lelevage-et-de-la-peche/"
+  },
+  {
+   "name": "MINISTERE DE L’ENERGIE ET DE L’HYDRAULIQUE",
+   "addr": "QUARTIER DU FLEUVE - BAMAKO",
+   "tel": "+223 20224184",
+   "fax": "+223 20222160",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-lenergie-et-de-lhydraulique/"
+  },
+  {
+   "name": "MINISTERE DE L’ENTREPRENARIAT NATIONAL, DE L’EMPLOI ET DE LA FORMATION PROFESSIONNELLE",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 8 - BP 3298 - BAMAKO",
+   "tel": "+223 20 79 42 85",
+   "fax": "",
+   "web": "https://menefp.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-lemploi-et-de-la-formation-professionnelle/"
+  },
+  {
+   "name": "MINISTERE DE L’ENVIRONNEMENT, DE L’ASSAINISSEMENT ET DU DEVELOPPEMENT DURABLE",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 20 29 51 68",
+   "fax": "+223 20 29 51 70",
+   "web": "https://environnement.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-lenvironnement-de-lassainissement-et-du-developpement-durable/"
+  },
+  {
+   "name": "MINISTERE DE L’URBANISME ET DE LA POLITIQUE DE LA VILLE",
+   "addr": "BAMAKO",
+   "tel": "+223 20220548",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-lurbanisme-et-de-la-politique-de-la-ville/"
+  },
+  {
+   "name": "MINISTERE DE LA COMMUNICATION ET DE L’ECONOMIE NUMERIQUE",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 9 - BAMAKO",
+   "tel": "+223 20 21 90 04",
+   "fax": "",
+   "web": "https://communication.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-communication-et-de-leconomie-numerique/"
+  },
+  {
+   "name": "MINISTERE DE LA DEFENSE ET DES ANCIENS COMBATTANTS",
+   "addr": "BAMAKO",
+   "tel": "+223 20225021",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-defense-et-des-anciens-combattants/"
+  },
+  {
+   "name": "MINISTERE DE LA JEUNESSE ET DES SPORTS",
+   "addr": "BAMAKO",
+   "tel": "+223 20220133",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-jeunesse-et-des-sports/"
+  },
+  {
+   "name": "MINISTERE DE LA JUSTICE",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 12 - BP 97 - BAMAKO",
+   "tel": "+223  20 01 59 11 /  20 01 59 16 / 20 01 59 00",
+   "fax": "",
+   "web": "http://www.justice.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-justice/"
+  },
+  {
+   "name": "MINISTERE DE LA PROMOTION DE LA FEMME, DE L’ENFANT ET DE LA FAMILLE",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 4 - BP 2688 - BAMAKO",
+   "tel": "+223 20 79 34 36",
+   "fax": "",
+   "web": "https://mpfef.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-promotion-de-la-femme-de-lenfant-et-de-la-famille/"
+  },
+  {
+   "name": "MINISTERE DE LA RECONCILIATION, DE LA PAIX ET DE LA COHESION NATIONALE",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 9 - BAMAKO",
+   "tel": "+223 20 01 90 00",
+   "fax": "",
+   "web": "https://reconciliation.gouv.ml",
+   "date": "28/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-reconciliation-de-la-paix-et-de-la-cohesion-nationale/"
+  },
+  {
+   "name": "MINISTERE DE LA REFONDATION DE L’ETAT",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 2 - BAMAKO",
+   "tel": "+223 20 01 47 17 / 79 21 16 67",
+   "fax": "",
+   "web": "",
+   "date": "29/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-refondation-de-letat/"
+  },
+  {
+   "name": "MINISTERE DE LA SANTE ET DU DEVELOPPEMENT SOCIAL",
+   "addr": "CITE ADMINISTRATIVE - BP 232 - BAMAKO",
+   "tel": "+223 20 23 42 66/ 20 23 02 03",
+   "fax": "",
+   "web": "http://www.sante.gov.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-sante/"
+  },
+  {
+   "name": "MINISTERE DE LA SECURITE ET DE LA PROTECTION CIVILE",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223  20 23 10 74",
+   "fax": "",
+   "web": "https://www.securite.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-securite-et-de-la-protection-civile/"
+  },
+  {
+   "name": "MINISTERE DES MALIENS DE L’EXTERIEUR ET DE L’INTEGRATION AFRICAINE",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT N° 6 - BAMAKO",
+   "tel": "+223 20 01 60 00 / 20 21 81 49/ 20 21 81 48",
+   "fax": "+223 20 22 07 57",
+   "web": "http://maliens-exterieur.gouv.ml",
+   "date": "04/06/2022",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-des-maliens-de-lexterieur-et-de-lintegration-africaine/"
+  },
+  {
+   "name": "MINISTERE DES MINES",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 3 - BAMAKO",
+   "tel": "+223 20 01 35 00",
+   "fax": "",
+   "web": "https://www.mines.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-des-mines/"
+  },
+  {
+   "name": "MINISTERE DES TRANSPORT ET DES INFRASTRUCTURES",
+   "addr": "AVENUE DE LA LIBERTE - BP 78 - BAMAKO",
+   "tel": "+223 20 29 11 25",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-des-transport-et-des-infrastructures/"
+  },
+  {
+   "name": "MINISTERE DU DEVELOPPEMENT RURAL",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT N° 1 - BAMAKO",
+   "tel": "+223 20 01 10 00",
+   "fax": "",
+   "web": "https://maep.gouv.ml/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-du-developpement-rural/"
+  }
+ ],
+ "mairies": [
+  {
+   "name": "MAIRIE COMMUNE I",
+   "addr": "KOROFINA NORD - BAMAKO",
+   "tel": "+223 20 24 90 65",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-commune-i/"
+  },
+  {
+   "name": "MAIRIE COMMUNE II",
+   "addr": "MISSIRA - BAMAKO",
+   "tel": "+223 20 21 66 66",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-commune-ii/"
+  },
+  {
+   "name": "MAIRIE COMMUNE III",
+   "addr": "OUOLOFOBOUGOU - BAMAKO",
+   "tel": "+223 20 22 62 76",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-commune-iii/"
+  },
+  {
+   "name": "MAIRIE COMMUNE IV",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 20 29 64 84",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-commune-iv/"
+  },
+  {
+   "name": "MAIRIE COMMUNE V",
+   "addr": "BAMAKO COURA - BAMAKO",
+   "tel": "+223 20 28 20 96",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-commune-v/"
+  },
+  {
+   "name": "MAIRIE COMMUNE VI",
+   "addr": "SOGONIKO - BAMAKO",
+   "tel": "+223 20 20 38 77/ 76 32 86 14",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-commune-vi/"
+  },
+  {
+   "name": "MAIRIE DE BADIANGARA",
+   "addr": "BANDIAGARA",
+   "tel": "+223 21 42 00 12",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-badiangara/"
+  },
+  {
+   "name": "MAIRIE DE BAMAKO",
+   "addr": "PLACE DE LA LIBERTE - BP 256 - BAMAKO",
+   "tel": "+223  20 22 29 46 / 20 22 55 40",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-bamako/"
+  },
+  {
+   "name": "MAIRIE DE DJENNE",
+   "addr": "DJENNE",
+   "tel": "+223 21 42 02 48",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-djenne/"
+  },
+  {
+   "name": "MAIRIE DE GAO",
+   "addr": "GAO",
+   "tel": "+223 21 82 02 69",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-gao/"
+  },
+  {
+   "name": "MAIRIE DE KAYES",
+   "addr": "AVENUE DU 22 SEPTEMBRE - KAYES",
+   "tel": "+223 21 52 10 82",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-kayes/"
+  },
+  {
+   "name": "MAIRIE DE KIDAL",
+   "addr": "KIDAL",
+   "tel": "+223 21 85 00 76",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-kidal/"
+  },
+  {
+   "name": "MAIRIE DE KOULIKORO",
+   "addr": "KOULIKORO",
+   "tel": "+223 21 26 20 18",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-koulikoro/"
+  },
+  {
+   "name": "MAIRIE DE KOURY",
+   "addr": "BP 01 - KOURY",
+   "tel": "+223 21 64 42 02",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-koury/"
+  },
+  {
+   "name": "MAIRIE DE LA COMMUNE DE PELENGANA",
+   "addr": "BP 604 - PELENGANA",
+   "tel": "+223 21 32 14 21",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-la-commune-de-pelengana/"
+  },
+  {
+   "name": "MAIRIE DE MOPTI",
+   "addr": "AVENUE DE L'INDEPENDANCE - BP 150 - MOPTI",
+   "tel": "+223 21 43 01 51/ 77 10 60 09 / 76 24 00 48",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-mopti/"
+  },
+  {
+   "name": "MAIRIE DE SANA",
+   "addr": "SANA",
+   "tel": "+223 21 37 54 34",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-sana/"
+  },
+  {
+   "name": "MAIRIE DE SANZANA",
+   "addr": "SANZANA",
+   "tel": "+223 21 63 00 60",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-sanzana/"
+  },
+  {
+   "name": "MAIRIE DE SEGOU",
+   "addr": "QUARTIER ADMINISTRATIF - RN 6 - BP 90 - SEGOU",
+   "tel": "+223 21 32 19 57",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-segou/"
+  },
+  {
+   "name": "MAIRIE DE SIKASSO",
+   "addr": "KABOILA II - AVENUE LOURY - BP 32 - SIKASSO",
+   "tel": "+223 76 01 07 34 / 69 81 00 70",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-sikasso/"
+  },
+  {
+   "name": "MAIRIE DE TESSALIT",
+   "addr": "TESSALIT",
+   "tel": "+223 21 85 30 03",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-tessalit/"
+  },
+  {
+   "name": "MAIRIE DE TOMBOUCTOU",
+   "addr": "TOMBOUCTOU",
+   "tel": "+223 21 92 13 87",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-tombouctou/"
+  }
+ ],
+ "cliniques-et-hopitaux": [
+  {
+   "name": "CABINET DENTAIRE ATHIA",
+   "addr": "BADALABOUGOU - BP 573 - BAMAKO",
+   "tel": "+223 20 22 86 18",
+   "fax": "",
+   "web": "",
+   "date": "06/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/cabinet-dentaire-athia/"
+  },
+  {
+   "name": "CABINET DENTAIRE BLANCO DENT",
+   "addr": "HAMDALLAYE ACI 2000 - PLACE DE LA CAN - IMMEUBLE SOKA SYLLA - BAMAKO",
+   "tel": "+223 20 29 13 19 / 79 18 40 98",
+   "fax": "",
+   "web": "https://www.blancodent.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cabinet-dentaire-blanco-dent/"
+  },
+  {
+   "name": "CABINET DENTAIRE DU GOLF",
+   "addr": "KALABANCORO - BAMAKO",
+   "tel": "+223 20 71 45 08/ 77 27 28 61",
+   "fax": "",
+   "web": "",
+   "date": "06/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/cabinet-dentaire-du-golf/"
+  },
+  {
+   "name": "CABINET DENTAIRE NIAMBELE",
+   "addr": "QUARTIER DU FLEUVE - BAMAKO",
+   "tel": "+223 20 22 82 85",
+   "fax": "",
+   "web": "",
+   "date": "06/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/cabinet-dentaire-niambele/"
+  },
+  {
+   "name": "CABINET DENTAIRE ORODENT",
+   "addr": "BACODJICORONI ACI - RUE 612 PORTE 889 - BAMAKO",
+   "tel": "+223 77 27 28 61",
+   "fax": "",
+   "web": "",
+   "date": "23/05/2023",
+   "url": "https://www.malipages.com/annuaire/lien/cabinet-dentaire-orodent/"
+  },
+  {
+   "name": "CABINET MEDICAL D’OPHTALMOLOGIE VISION SANTE",
+   "addr": "BAGADADJI - RUE 513 PORTE 307 - BAMAKO",
+   "tel": "+223 20 22 87 48",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cabinet-medical-dophtalmologie-vision-sante/"
+  },
+  {
+   "name": "CABINET MEDICAL DELTA",
+   "addr": "KANADJIGUILA - RUE 50 - BAMAKO",
+   "tel": "+223 20 72 33 99",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/cabinet-medical-delta/"
+  },
+  {
+   "name": "CABINET MEDICAL DU CENTRE",
+   "addr": "KOROFINA SUD - ROUTE DE KOULIKORO - PORTE 544 - BAMAKO",
+   "tel": "+223 76 39 03 44",
+   "fax": "",
+   "web": "",
+   "date": "16/07/2020",
+   "url": "https://www.malipages.com/annuaire/lien/cabinet-medical-du-centre/"
+  },
+  {
+   "name": "CABINET MEDICAL KADIA MAIGA",
+   "addr": "BAGUINEDA",
+   "tel": "+223 71 82 53 85",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/cabinet-medical-kadia-maiga/"
+  },
+  {
+   "name": "CABINET MEDICAL MAYI",
+   "addr": "KALABANCORO SANGA - BAMAKO",
+   "tel": "+223 90 40 47 00",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/cabinet-medical-mayi/"
+  },
+  {
+   "name": "CENTRE HOSPITALIER MERE ENFANT LE LUXEMBOURG",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 20 29 44 44",
+   "fax": "",
+   "web": "",
+   "date": "18/10/2021",
+   "url": "https://www.malipages.com/annuaire/lien/centre-hospitalier-mere-enfant-le-luxembourg/"
+  },
+  {
+   "name": "CENTRE MEDICAL MARIE CURIE",
+   "addr": "BADALABOUGOU - BAMAKO",
+   "tel": "+223 20 22 80 04",
+   "fax": "",
+   "web": "",
+   "date": "25/05/2024",
+   "url": "https://www.malipages.com/annuaire/lien/centre-medical-marie-curie/"
+  },
+  {
+   "name": "CLINIQUE ALMED",
+   "addr": "SOTUBA ACI - BAMAKO",
+   "tel": "+223 66 94 67 67/ 97 70 70 97",
+   "fax": "",
+   "web": "",
+   "date": "23/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-almed/"
+  },
+  {
+   "name": "CLINIQUE CELY",
+   "addr": "RUE CHARLES MERIEUX - EX BASE AERIENNE - BAMAKO",
+   "tel": "+223 20 23 60 19/ 20 23 15 15",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-cely/"
+  },
+  {
+   "name": "CLINIQUE CHOALA",
+   "addr": "DOUMANZANA - RUE 444 - BAMAKO",
+   "tel": "+223 20 24 17 07/ 66 73 81 17",
+   "fax": "",
+   "web": "",
+   "date": "23/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-choala/"
+  },
+  {
+   "name": "CLINIQUE D’ACCOUCHEMENT DANAYA",
+   "addr": "KOROFINA NORD - RUE 144. PORTE 37 - BAMAKO",
+   "tel": "+223 66 72 68 36/ 76 49 07 86",
+   "fax": "",
+   "web": "",
+   "date": "23/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-daccouchement-danaya/"
+  },
+  {
+   "name": "CLINIQUE DEFI SANTE",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 20 29 72 34",
+   "fax": "",
+   "web": "",
+   "date": "11/02/2024",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-defi-sante/"
+  },
+  {
+   "name": "CLINIQUE DENTAIRE INTERNATIONALE DE BAMAKO – CDIB",
+   "addr": "BAMAKO",
+   "tel": "+223 90 06 10 10",
+   "fax": "",
+   "web": "",
+   "date": "24/12/2025",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-dentaire-internationale-de-bamako-cdib/"
+  },
+  {
+   "name": "CLINIQUE DU FARAKO",
+   "addr": "BADIALAN III - BP 813 - BAMAKO",
+   "tel": "+223 20 22 53 87/ 92 31 31 33",
+   "fax": "+223 20 21 52 49",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-du-farako/"
+  },
+  {
+   "name": "CLINIQUE FILANY",
+   "addr": "BADALABOUGOU - AVENUE DE L'OUA - BAMAKO",
+   "tel": "+223 20 23 28 44",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-filany/"
+  },
+  {
+   "name": "CLINIQUE KABALA",
+   "addr": "HAMDALLAYE ACI 2000 - BP 197 - BAMAKO",
+   "tel": "+223 20 29 06 72/ 70 70 91 91",
+   "fax": "",
+   "web": "https://www.cliniquekabala.com",
+   "date": "24/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-kabala/"
+  },
+  {
+   "name": "CLINIQUE LE LAC TELE",
+   "addr": "HAMDALLAYE ACI 2000 -BP E 241 - BAMAKO",
+   "tel": "+223 20 29 24 74",
+   "fax": "+223 20292963",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-le-lac-tele/"
+  },
+  {
+   "name": "CLINIQUE LES ACACIAS",
+   "addr": "QUINZAMBOUGOU - RUE 220 PORTE 273 - BAMAKO",
+   "tel": "+223 51 00 66 66",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-les-acacias/"
+  },
+  {
+   "name": "CLINIQUE MAHAROUF",
+   "addr": "DJICORONI PARA - BAMAKO",
+   "tel": "+223 20 29 05 86",
+   "fax": "",
+   "web": "",
+   "date": "06/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-maharouf/"
+  },
+  {
+   "name": "CLINIQUE MEDICALE BANAN",
+   "addr": "BANANKABOUGOU SEMA - BAMAKO",
+   "tel": "+223 77 01 89 32",
+   "fax": "",
+   "web": "",
+   "date": "23/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-medicale-banan/"
+  },
+  {
+   "name": "CLINIQUE MEDICALE DE L’AVENIR",
+   "addr": "LAFIABOUGOU - RUE 101 PORTE 1728 - BP 318 - SIKASSO",
+   "tel": "+223 76 53 12 49 / 21 62 26 97",
+   "fax": "",
+   "web": "",
+   "date": "23/06/2021",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-medicale-de-lavenir/"
+  },
+  {
+   "name": "CLINIQUE MEDICALE SAFARI",
+   "addr": "MAGNAMBOUGOU FASO KANU - BAMAKO",
+   "tel": "+223 79 09 14 40",
+   "fax": "",
+   "web": "",
+   "date": "20/12/2025",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-medicale-safari/"
+  },
+  {
+   "name": "CLINIQUE NOTRE SANTE",
+   "addr": "FALADIE - BAMAKO",
+   "tel": "+223  20 20 69 73",
+   "fax": "",
+   "web": "",
+   "date": "23/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-notre-sante/"
+  },
+  {
+   "name": "CLINIQUE PAPE",
+   "addr": "BADALA SEMA 1 - BAMAKO",
+   "tel": "+223 95 83 66 67/ 20 22 84 89",
+   "fax": "",
+   "web": "",
+   "date": "06/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-pape/"
+  },
+  {
+   "name": "CLINIQUE PERINATALE MOHAMMED VI",
+   "addr": "SEBENIKORO - BAMAKO",
+   "tel": "+223 77 00 71 87",
+   "fax": "",
+   "web": "",
+   "date": "23/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-perinatale-mohammed-vi/"
+  },
+  {
+   "name": "CLINIQUE VETERINAIRE 30 MILLIONS D’AMIS",
+   "addr": "HAMDALLAYE - BAMAKO",
+   "tel": "+223 20291449",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-veterinaire-30-millions-damis/"
+  },
+  {
+   "name": "CMS – CENTRE MEDICO SOCIAL DE BAMAKO",
+   "addr": "QUARTIER DU FLEUVE - AVENUE DE L'YSER PORTE 509 - BAMAKO",
+   "tel": "+223 20 22 50 72",
+   "fax": "+223 20 21 31 36",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cms-centre-medico-social/"
+  },
+  {
+   "name": "GOLDEN LIFE AMERICAN HOSPITAL",
+   "addr": "BADALABOUGOU - RUE 50 PORTE 734 - BAMAKO",
+   "tel": "+223 20 22 11 11/ 20 22 99 99",
+   "fax": "",
+   "web": "https://glahospital.com",
+   "date": "09/04/2021",
+   "url": "https://www.malipages.com/annuaire/lien/golden-life-american-hospital/"
+  },
+  {
+   "name": "HOPITAL DE DERMATOLOGIE DE BAMAKO",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 61 72 09 03",
+   "fax": "",
+   "web": "",
+   "date": "23/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/hopital-de-dermatologie-de-bamako/"
+  },
+  {
+   "name": "HOPITAL DE KATI",
+   "addr": "CAMP MILITAIRE SOUNDIATA KEITA - BP 16 - KATI",
+   "tel": "+223 21 27 20 65/ 21 27 29 13/ 21 27 29 14",
+   "fax": "+223  21 27 20 08",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/hopital-de-kati/"
+  },
+  {
+   "name": "HOPITAL DE SIKASSO",
+   "addr": "LAFIABOUGOU - BP 22 - SIKASSO",
+   "tel": "+223  21 62 00 13 / 21 62 02 09/ 77 01 68 30",
+   "fax": "+223 21 62 06 22",
+   "web": "https://www.hopitalsikasso.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/hopital-de-sikasso/"
+  },
+  {
+   "name": "HOPITAL DE TOMBOUCTOU",
+   "addr": "TOMBOUCTOU",
+   "tel": "+223 21 92 11 69",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/hopital-de-tombouctou/"
+  },
+  {
+   "name": "HOPITAL DU MALI",
+   "addr": "MISSABOUGOU - BAMAKO",
+   "tel": "+223 20 72 75 69",
+   "fax": "",
+   "web": "",
+   "date": "23/02/2024",
+   "url": "https://www.malipages.com/annuaire/lien/hopital-du-mali/"
+  },
+  {
+   "name": "HOPITAL DU POINT G",
+   "addr": "COLLINE DU POINT G - ROUTE DE KATI - BP 333 - BAMAKO",
+   "tel": "+223 20 22 50 02/ 20 22 50 03",
+   "fax": "+223 20 22 97 90",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/hopital-du-point-g/"
+  },
+  {
+   "name": "HOPITAL FOUSSEYNI DAOU DE KAYES",
+   "addr": "BP 98 - KAYES",
+   "tel": "+223 21 52 12 32/76 18 04 29",
+   "fax": "",
+   "web": "",
+   "date": "09/04/2021",
+   "url": "https://www.malipages.com/annuaire/lien/hopital-fousseyni-daou-de-kayes/"
+  },
+  {
+   "name": "HOPITAL GABRIEL TOURE",
+   "addr": "MEDINA COURA - BP 267 - BAMAKO",
+   "tel": "+223 20 23 07 80/ 20 23 99 86",
+   "fax": "+223 20 22 60 90",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/hopital-gabriel-toure/"
+  },
+  {
+   "name": "HOPITAL HANGADOUMBO MOULAYE TOURE DE GAO",
+   "addr": "SOSSOKOIRA - GAO",
+   "tel": "+223 21 82 02 54/ 91 33 55 80",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/hopital-de-gao/"
+  },
+  {
+   "name": "HOPITAL MALI GAVARDO",
+   "addr": "SEBENIKORO - BAMAKO",
+   "tel": "+223 79 15 13 52 / 73 00 38 28",
+   "fax": "",
+   "web": "",
+   "date": "23/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/hopital-mali-gavardo/"
+  },
+  {
+   "name": "HOPITAL MERE ENFANT NAOMI HARRYS DE KAYES",
+   "addr": "RN 1 - KAYES",
+   "tel": "+223 76 01 14 58/ 73 73 14 49",
+   "fax": "",
+   "web": "",
+   "date": "23/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/hopital-mere-enfant-naomi-harrys-de-kayes/"
+  },
+  {
+   "name": "HOPITAL REGIONAL NIANANKORO FOMBA DE SEGOU",
+   "addr": "MEDINE - BP 169 - SEGOU",
+   "tel": "+223 21 32 00 51",
+   "fax": "+223 21 32 18 66",
+   "web": "",
+   "date": "09/04/2021",
+   "url": "https://www.malipages.com/annuaire/lien/hopital-regional-nianankoro-fomba/"
+  },
+  {
+   "name": "HOPITAL SOMINO DOLO DE MOPTI",
+   "addr": "SEVARE - MOPTI",
+   "tel": "+223 21 42 16 58 / 21 42 16 61",
+   "fax": "",
+   "web": "",
+   "date": "09/04/2021",
+   "url": "https://www.malipages.com/annuaire/lien/hopital-somino-dolo/"
+  },
+  {
+   "name": "HOPITAL VETERINAIRE DE BAMAKO",
+   "addr": "FALADIE IJA - RUE 846 PORTE 124 - BAMAKO",
+   "tel": "+223 20 20 29 75",
+   "fax": "",
+   "web": "",
+   "date": "09/04/2021",
+   "url": "https://www.malipages.com/annuaire/lien/hopital-veterinaire-de-bamako/"
+  },
+  {
+   "name": "POLYCLINIQUE ALLIANCE MEDICALE",
+   "addr": "SOTUBA ACI - BAMAKO",
+   "tel": "+223 20 24 23 51",
+   "fax": "",
+   "web": "",
+   "date": "11/02/2025",
+   "url": "https://www.malipages.com/annuaire/lien/polyclinique-alliance-medicale/"
+  },
+  {
+   "name": "POLYCLINIQUE AYA",
+   "addr": "KOROFINA NORD - RUE 136 PORTE 550 - BAMAKO",
+   "tel": "+223 77 34 02 63/ 62 40 54 99",
+   "fax": "",
+   "web": "https://polycliniqueaya.net",
+   "date": "02/04/2024",
+   "url": "https://www.malipages.com/annuaire/lien/polyclinique-aya/"
+  },
+  {
+   "name": "POLYCLINIQUE GUINDO",
+   "addr": "BADALABOUGOU - RUE 18 PORTE 19 - BP E 2267 - BAMAKO",
+   "tel": "+223 20 22 22 07",
+   "fax": "",
+   "web": "",
+   "date": "02/04/2024",
+   "url": "https://www.malipages.com/annuaire/lien/polyclinique-guindo/"
+  },
+  {
+   "name": "POLYCLINIQUE LE FUGA",
+   "addr": "SOTUBA ACI - BAMAKO",
+   "tel": "+223 20 71 93 33/ 44 90 71 81",
+   "fax": "",
+   "web": "https://polycliniquefuga.com",
+   "date": "29/07/2025",
+   "url": "https://www.malipages.com/annuaire/lien/polyclinique-le-fuga/"
+  },
+  {
+   "name": "POLYCLINIQUE MOHAMED V",
+   "addr": "BADALABOUGOU - BAMAKO",
+   "tel": "+223 20 23 75 45",
+   "fax": "",
+   "web": "",
+   "date": "06/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/polyclinique-mohamed-v/"
+  },
+  {
+   "name": "POLYCLINIQUE PASTEUR",
+   "addr": "HAMDALAYE ACI 2000 - AVENUE DU MALLI - BP E 4794 - BAMAKO",
+   "tel": "+223 20 29 10 10",
+   "fax": "+223 20 29 14 38",
+   "web": "https://cliniquepasteurmali.com",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/polyclinique-pasteur/"
+  }
+ ],
+ "ecoles-et-universites": [
+  {
+   "name": "ACADEMIA MALI",
+   "addr": "BANANKABOUGOU - IMMEUBLE DIABALY TRANSIT - BAMAKO",
+   "tel": "+223 93 58 48 97",
+   "fax": "",
+   "web": "https://academia-mali.com",
+   "date": "29/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/academia-mali/"
+  },
+  {
+   "name": "AGENCE UNIVERSITAIRE DE LA FRANCOPHONIE – CAMPUS NUMERIQUE FRANCOPHONE DE BAMAKO",
+   "addr": "FACULTE DES SCIENCES TECHNIQUES DE BAMAKO - BAMAKO",
+   "tel": "+223 20 22 35 16",
+   "fax": "+223 20 22 35 19",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/agence-universitaire-de-la-francophonie-campus-numerique-francophone-de-bamako/"
+  },
+  {
+   "name": "AMERICAN INTERNATIONAL SCHOOL OF BAMAKO – AISB",
+   "addr": "BOUGOUBA SOTUBA - RUE 90 PORTE 134 - BAMAKO",
+   "tel": "+223 93 03 64 92/ 65 30 09 09",
+   "fax": "",
+   "web": "https://aisbmali.org/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/american-international-school-of-bamako-aisb/"
+  },
+  {
+   "name": "ASKUNI MALI",
+   "addr": "SOTUBA SOTERCO BOUGOUBA - BAMAKO",
+   "tel": "+223 71 99 33 91 / 71 96 01 09",
+   "fax": "",
+   "web": "https://askunimali.com",
+   "date": "16/02/2026",
+   "url": "https://www.malipages.com/annuaire/lien/askuni-mali/"
+  },
+  {
+   "name": "BAMACOURS",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 93 90 82 40",
+   "fax": "",
+   "web": "https://bamacours.com",
+   "date": "17/09/2022",
+   "url": "https://www.malipages.com/annuaire/lien/bamacours/"
+  },
+  {
+   "name": "BILINGUAL SCHOOL OF BAMAKO",
+   "addr": "SOTUBA ACI - BAMAKO",
+   "tel": "+223 75 10 94 95",
+   "fax": "",
+   "web": "",
+   "date": "06/05/2025",
+   "url": "https://www.malipages.com/annuaire/lien/bilingual-school-of-bamako/"
+  },
+  {
+   "name": "CAMPUS MALI",
+   "addr": "BADALABOUGOU - BATIMENT DGESRS - BAMAKO",
+   "tel": "+223 20 29 38 38",
+   "fax": "",
+   "web": "",
+   "date": "17/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/campus-mali/"
+  },
+  {
+   "name": "CEFIB BAMAKO",
+   "addr": "QUINZAMBOUGOU - BP 2838 - BAMAKO",
+   "tel": "+223  20 21 59 52",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cefib-bamako/"
+  },
+  {
+   "name": "CENOU MALI – CENTRE NATIONAL DES OEUVRES UNIVERSITAIRES",
+   "addr": "CITE UNIVERSITAIRE DE KABALA - BAMAKO",
+   "tel": "+223 20 71 76 88",
+   "fax": "+223 20 71 76 89",
+   "web": "",
+   "date": "01/02/2025",
+   "url": "https://www.malipages.com/annuaire/lien/cenou-mali-centre-national-des-oeuvres-universitaires/"
+  },
+  {
+   "name": "CENTRE DE FORMATION ET DE PERFECTIONNEMENT EN STATISTIQUE – CFP STAT",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 20 22 44 78/ 76 38 80 69",
+   "fax": "",
+   "web": "",
+   "date": "30/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/centre-de-formation-et-de-perfectionnement-en-statistique-cfp-stat/"
+  },
+  {
+   "name": "CENTRE MARIDIE NIARE – ECOLE DE MODE",
+   "addr": "FALADIE - BAMAKO",
+   "tel": "+223 76 12 11 18/ 20 20 18 20",
+   "fax": "",
+   "web": "",
+   "date": "22/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/centre-maridie-niare-ecole-de-mode/"
+  },
+  {
+   "name": "CERFILTEX – CENTRE DE RECHERCHE ET DE FORMATION POUR LES INDUSTRIES LEGERES ET TEXTILES",
+   "addr": "BP 323 - SEGOU",
+   "tel": "+223 21 32 04 93",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cerfiltex-centre-de-recherche-et-de-formation-pour-les-industries-legeres-et-textiles/"
+  },
+  {
+   "name": "CFD – CENTRE DE FORMATION POUR LE DEVELOPPEMENT",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 20 21 55 28/ 20 22 55 28",
+   "fax": "",
+   "web": "",
+   "date": "20/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/cfd-centre-de-formation-pour-le-developpement/"
+  },
+  {
+   "name": "CHEZ MAMIE – CRECHE ET GARDERIE",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 79 20 10 10",
+   "fax": "",
+   "web": "",
+   "date": "04/02/2023",
+   "url": "https://www.malipages.com/annuaire/lien/chez-mamie-creche-et-garderie/"
+  },
+  {
+   "name": "CHIS SAHEL",
+   "addr": "SIRAKORO MEGUETANA - BAMAKO",
+   "tel": "+223 98 10 12 37",
+   "fax": "",
+   "web": "",
+   "date": "10/12/2025",
+   "url": "https://www.malipages.com/annuaire/lien/chis-sahel/"
+  },
+  {
+   "name": "CIFED – CENTRE INTERNATIONAL DE FORMATION EN ENERGIE ET DEVELOPPEMENT DURABLE",
+   "addr": "BADALABOUGOU - COLLINE DU SAVOIR - BAMAKO",
+   "tel": "+223 94 81 02 15 / 65 94 49 94",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cifed-centre-international-de-formation-en-energie-et-developpement-durable/"
+  },
+  {
+   "name": "COMPLEXE SCOLAIRE ALIF",
+   "addr": "SEBENIKORO - BAMAKO",
+   "tel": "+223 52 04 09 15",
+   "fax": "",
+   "web": "",
+   "date": "26/07/2024",
+   "url": "https://www.malipages.com/annuaire/lien/complexe-scolaire-alif/"
+  },
+  {
+   "name": "COMPLEXE SCOLAIRE KOUNARY",
+   "addr": "N'GOLONINA RUE 376 PORTE 788 - BAMAKO",
+   "tel": "+223 52 54 96 64",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/complexe-scolaire-kounary/"
+  },
+  {
+   "name": "COMPLEXE SCOLAIRE LE BON SAMARITAIN",
+   "addr": "KALABAN COURA - BAMAKO",
+   "tel": "+223 44 65 12 94",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/complexe-scolaire-le-bon-samaritain/"
+  },
+  {
+   "name": "COMPLEXE SCOLAIRE LES CABRIS",
+   "addr": "NIAMAKORO - CITE UNICEF - RUE 76 PORTE 88 - BP 2612 - BAMAKO",
+   "tel": "+223 72 77 54 22",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/complexe-scolaire-les-cabris/"
+  },
+  {
+   "name": "COMPLEXE SCOLAIRE MAMADOU MOUCTAR BA",
+   "addr": "SOTUBA - RUE PASTEUR - BAMAKO",
+   "tel": "+223 20 21 77 74/ 74 15 41 31",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/complexe-scolaire-mamadou-mouctar-ba/"
+  },
+  {
+   "name": "COMPLEXE SCOLAIRE MANSA COULIBALY",
+   "addr": "NIAMANA",
+   "tel": "+223 66 17 30 98",
+   "fax": "+223 20 77 20 18",
+   "web": "",
+   "date": "11/06/2025",
+   "url": "https://www.malipages.com/annuaire/lien/complexe-scolaire-mansa-coulibaly/"
+  },
+  {
+   "name": "CRECHE MATERNELLE LES FRIMOUSSES",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 20 77 99 86",
+   "fax": "",
+   "web": "",
+   "date": "24/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/creche-maternelle-les-frimousses/"
+  },
+  {
+   "name": "DELTA C",
+   "addr": "DAOUDABOUGOU - RUE 252 PORTE 163 - BAMAKO",
+   "tel": "+223 74 87 71 20/ 65 63 35 60",
+   "fax": "",
+   "web": "https://delta-c.net",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/delta-c/"
+  },
+  {
+   "name": "DONIYA CLASSROOM",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 76 00 11 34",
+   "fax": "",
+   "web": "",
+   "date": "06/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/doniya-classroom/"
+  },
+  {
+   "name": "ECICA – ECOLE CENTRLE POUR L’INDUSTRIE, LE COMMERCE ET L’ADMINISTRATION",
+   "addr": "MEDINA COURA - BAMAKO",
+   "tel": "+223 20 22 26 91",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ecica-ecole-centrle-pour-lindustrie-le-commerce-et-ladministration/"
+  },
+  {
+   "name": "ÉCOLE ALPHONSE DE LAMARTINE",
+   "addr": "CITÉ DU NIGER - BAMAKO",
+   "tel": "+223 91 69 69 69",
+   "fax": "",
+   "web": "",
+   "date": "08/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-alphonse-de-lamartine/"
+  },
+  {
+   "name": "ECOLE BIYA BAMAKO",
+   "addr": "FALADIE - BAMAKO",
+   "tel": "+223 66 44 92 18/ 76 33 98 33",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-biya-bamako/"
+  },
+  {
+   "name": "ECOLE DE SANTE DE BAMAKO",
+   "addr": "ROUTE DE KOULIKORO - BAMAKO",
+   "tel": "+223 20 21 87 96 / 78 75 28 10",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-de-sante-de-bamako/"
+  },
+  {
+   "name": "ECOLE DE SANTE EPC",
+   "addr": "KABALA - ROUTE DU FLEUVE - BAMAKO",
+   "tel": "+223 51 32 94 60",
+   "fax": "",
+   "web": "",
+   "date": "11/12/2021",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-de-sante-epc/"
+  },
+  {
+   "name": "ECOLE DE SANTE LE DJENNE",
+   "addr": "BANANKABOUGOU - RUE 776 PORTE 465 - BP 2827 - BAMAKO",
+   "tel": "+223 76 06 73 75/  65 91 42 79",
+   "fax": "",
+   "web": "",
+   "date": "10/07/2018",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-de-sante-le-djenne/"
+  },
+  {
+   "name": "ÉCOLE FONDAMENTALE BILINGUE LES PETITS LEADERS",
+   "addr": "BOULKASSOUMBOUGOU - BAMAKO",
+   "tel": "+223 68 19 79 27",
+   "fax": "",
+   "web": "",
+   "date": "10/06/2023",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-fondamentale-bilingue-les-petits-leaders/"
+  },
+  {
+   "name": "ECOLE GRAINE D’EVEIL",
+   "addr": "MAGNAMBOUGOU RURAL SECTEUR 4 - BP 2571 - BAMAKO",
+   "tel": "+223 90 00 02 38",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-graine-deveil/"
+  },
+  {
+   "name": "ECOLE INTERNATIONALE KALANSO",
+   "addr": "DJELIBOUGOU - RUE 254 PORTE 179 - BAMAKO",
+   "tel": "+223 74 17 34 29",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-internationale-kalanso/"
+  },
+  {
+   "name": "ECOLE LES LAUREATS",
+   "addr": "NIAMAKORO - CITE UNICEF - RUE 58 PORTE 434 - BAMAKO",
+   "tel": "+223 20 20 08 89 / 70 72 01 01",
+   "fax": "",
+   "web": "https://ecoleleslaureatsbko.com",
+   "date": "28/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-les-laureats/"
+  },
+  {
+   "name": "ECOLE LES LUTINS",
+   "addr": "SOTUBA ACI - BAMAKO",
+   "tel": "+223 77 99 47 47",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-les-lutins/"
+  },
+  {
+   "name": "ECOLE LES PETITS GENIES",
+   "addr": "KOROFINA NORD - RUE 187 PORTE 89 - BAMAKO",
+   "tel": "+223 20 24 92 12",
+   "fax": "",
+   "web": "https://www.lespetitsgeniesaumali.com",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-les-petits-genies/"
+  },
+  {
+   "name": "ECOLE MATERNELLE LES BOUT’CHOUX",
+   "addr": "HIPPODROME - RUE 235 PORTE 71 - BP E 3017 - BAMAKO",
+   "tel": "+223 75 28 97 15",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-maternelle-les-bouts-chous/"
+  },
+  {
+   "name": "ECOLE SUPERIEURE ELITE INTERNATIONAL DE BAMAKO",
+   "addr": "HAMDALLAYE ACI 2000 - IMMEUBLE TOUNKARA - BAMAKO",
+   "tel": "+223 78 19 27 76",
+   "fax": "",
+   "web": "",
+   "date": "10/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-superieure-elite-international-de-bamako/"
+  },
+  {
+   "name": "ECOSUP ALTERNANCE",
+   "addr": "DJELIBOUGOU - RUE 312 PORTE 711 - IMMEUBLE FASSIRIMA DOUMBIA - BAMAKO",
+   "tel": "+223 79 14 41 14/ 72 84 47 69",
+   "fax": "+223 20 24 00 11",
+   "web": "",
+   "date": "06/04/2020",
+   "url": "https://www.malipages.com/annuaire/lien/ecosup-alternance/"
+  },
+  {
+   "name": "EHESP MALI – ECOLE DES HAUTS ETUDES EN SANTE PUBLIQUE",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 76 67 85 36 / 78 97 97 90",
+   "fax": "",
+   "web": "",
+   "date": "01/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/ehesp-mali-ecole-des-hauts-etudes-en-sante-publique/"
+  },
+  {
+   "name": "EIG – ECOLE INTERNATIONALE DE GRAPHISME DU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 62 10 53 58",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2024",
+   "url": "https://www.malipages.com/annuaire/lien/eig-ecole-internationale-de-graphisme-du-mali/"
+  },
+  {
+   "name": "EMI SCHOOL MALI",
+   "addr": "FALADIE SEMA - RUE DU GOUVERNEUR",
+   "tel": "+223 76 64 88 12",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/emi-school-mali/"
+  },
+  {
+   "name": "EMPABB – ECOLE DE MAINTIEN DE LA PAIX ALIOUNE BLONDIN BEYE DE BAMAKO",
+   "addr": "HAMDALLAYE ACI 2000 - BP E 28 - BAMAKO",
+   "tel": "+223 20 23 23 67/ 20 22 86 02",
+   "fax": "",
+   "web": "https://www.empbamako.org",
+   "date": "14/02/2025",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-de-maintien-de-la-paix-alioune-blondin-beye-de-bamako/"
+  },
+  {
+   "name": "ENA MALI – ECOLE NATIONALE D’ADMINISTRATION",
+   "addr": "KATI SANANFARA - BP E 2877 - BAMAKO",
+   "tel": "+223 20 22 27 19 / 20 22 33 68",
+   "fax": "",
+   "web": "https://www.enamali.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ena-ecole-nationale-dadministration/"
+  },
+  {
+   "name": "ENI ABT – ECOLE NATIONALE D’INGENIEURS ABDERHAMANE BABA TOURE",
+   "addr": "AVENUE VOLLENHOVEN PORTE 410 - BP 242 - BAMAKO",
+   "tel": "+223 20 22 27 36",
+   "fax": "+223 20 22 71 84",
+   "web": "https://www.eni-abt.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/eni-abt-ecole-nationale-dingenieurs-abderhamane-baba-toure/"
+  },
+  {
+   "name": "ENKO BAMAKO INTERNATIONAL SCHOOL",
+   "addr": "QUARTIER DU FLEUVE - AVENUE DE L'YSER PORTE 510 - BP 104 - BAMAKO",
+   "tel": "+223 71 92 04 69/ 71 86 27 65",
+   "fax": "",
+   "web": "https://enkoeducation.com/bamako/fr/",
+   "date": "06/05/2025",
+   "url": "https://www.malipages.com/annuaire/lien/enko-bamako-international-school/"
+  },
+  {
+   "name": "ENSUP – ECOLE NORMALE SUPERIEURE DE BAMAKO",
+   "addr": "QUARTIER DU FLEUVE - RUE 22 OCTOBRE 1946 - BP 241 - BAMAKO",
+   "tel": "+223 20 22 21 89",
+   "fax": "+223 20 23 04 61",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ensup-ecole-normale-superieure-de-bamako/"
+  },
+  {
+   "name": "ERPIE – ECOLE RATIONNELLE PRIVEE D’INFORMATIQUE ET D’ELECTRONIQUE",
+   "addr": "BOULKASSOUMBOUGOU - BAMAKO",
+   "tel": "+223 20 24 32 81/ 76 12 44 73",
+   "fax": "",
+   "web": "https://erpie.ml",
+   "date": "09/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/erpie-ecole-rationnelle-privee-dinformatique-et-delectronique/"
+  },
+  {
+   "name": "ESC MALI – SCHOOL OF MANAGEMENT",
+   "addr": "KALABAN COURA - RUE 268 PORTE 276 - BP 2599 - BAMAKO",
+   "tel": "+223  20 20 63 94/ 73 29 02 00",
+   "fax": "",
+   "web": "https://www.esc-mali.com",
+   "date": "12/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/esc-mali-school-of-management/"
+  },
+  {
+   "name": "ESCAE – ECOLE SPECIALE DE COMMERCE D’ADMINISTRATION ET DE ENTREPRENEURIAT",
+   "addr": "HAMDALLAYE ACI 2000 - PLACE CAN - BAMAKO",
+   "tel": "+223 20 29 35 94 / 91 91 17 17",
+   "fax": "",
+   "web": "https://www.escaemali.com",
+   "date": "12/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/escae-ecole-speciale-de-commerce-dadministration-et-de-entrepreneuriat/"
+  },
+  {
+   "name": "ESCT –  ECOLE SUPÉRIEURE DE COMMERCE ET DE TECHNOLOGIE",
+   "addr": "TOROKOROBOUGOU - ROUTE DE BACODJICORONI - BAMAKO",
+   "tel": "+223 76 86 99 03 / 65 92 13 62",
+   "fax": "",
+   "web": "https://esct.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/esct-ecole-superieure-de-commerce-et-de-technologie/"
+  },
+  {
+   "name": "ESG – ECOLE SUPERIEURE DE GESTION",
+   "addr": "BADIALAN II - IMMEUBLE EX CINEMA ABC - BAMAKO",
+   "tel": "+223 20 29 68 32/ 91 20 27 55",
+   "fax": "",
+   "web": "https://esgmali.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/esg-ecole-superieure-de-gestion/"
+  },
+  {
+   "name": "ESGIC – ECOLE SECONDAIRE ET SUPERIEURE DE GESTION D’INFORMATIQUE ET DE COMPTABILITE",
+   "addr": "TOROKOROBOUGOU - BAMAKO",
+   "tel": "+223 66 74 28 80",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/esgic-ecole-secondaire-et-superieure-de-gestion-dinformatique-et-de-comptabilite/"
+  },
+  {
+   "name": "ESGM MALI – ECOLE SUPERIEURE PRIVEE DE GEOLOGIE ET DE MINES",
+   "addr": "MAGNAMBOUGOU PROJET - RUE 398 PORTE 372 - BAMAKO",
+   "tel": "+223 76 03 63 88/ 60 03 63 88",
+   "fax": "",
+   "web": "https://esgmmali.com",
+   "date": "23/01/2026",
+   "url": "https://www.malipages.com/annuaire/lien/esgm-mali-ecole-superieure-privee-de-geologie-et-de-mines/"
+  },
+  {
+   "name": "ESIAU – ECOLE SUPERIEURE D’INGENIERIE, D’ARCHTECTURE ET D’URBANISME",
+   "addr": "BADIALAN I - RUE 446 PORTE 28 - BP E 3238 - BAMAKO",
+   "tel": "+223 20 22 74 05 / 79 10 07 64",
+   "fax": "",
+   "web": "https://esiau-mali.com",
+   "date": "02/10/2017",
+   "url": "https://www.malipages.com/annuaire/lien/esiau-ecole-superieure-dingenierie-darchtecture-durbanisme/"
+  },
+  {
+   "name": "ESPGMP – ECOLE SUPERIEURE EN PASSATION ET GESTION DES MARCHES PUBLICS",
+   "addr": "HAMDALLAYE ACI 2000 - BP 6029 - BAMAKO",
+   "tel": "+223 76 56 89 89 / 77 77 78 78",
+   "fax": "",
+   "web": "https://espgmp.com",
+   "date": "15/02/2018",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-superieure-passation-gestion-marches-publics/"
+  },
+  {
+   "name": "ESTM – ECOLE SUPERIEURE DE TECHNOLOGIE ET DE MANAGEMENT",
+   "addr": "FALADIE SOKORO - BAMAKO",
+   "tel": "+223  20 20 60 79",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/estm-ecole-superieure-de-technologie-et-de-management/"
+  },
+  {
+   "name": "ETABLISSEMENT LIBERTE",
+   "addr": "MEDINA COURA - BP 910 - BAMAKO",
+   "tel": "+223 44 98 01 80",
+   "fax": "",
+   "web": "https://www.libertebko.org",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/etablissement-liberte/"
+  },
+  {
+   "name": "ETABLISSEMENT SCOLAIRE LES ECRIVAINS",
+   "addr": "OUOLOFOBOUGOU - RUE 415 PORTE 6550 - BP E 1675 - BAMAKO",
+   "tel": "+223 77 00 37 00/ 70 98 60 36",
+   "fax": "",
+   "web": "https://www.lesecrivains.fr",
+   "date": "24/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/etablissement-scolaire-les-ecrivains/"
+  },
+  {
+   "name": "EUTG – ECOLE UNIVERSITAIRE DE TECHNOLOGIE ET DE GESTION",
+   "addr": "BACO-DJICORONI ACI SUD GOLF - BAMAKO",
+   "tel": "+223 77 25 40 35/ 74 82 22 87",
+   "fax": "",
+   "web": "https://www.eutg-mali.com",
+   "date": "17/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/eutg-ecole-universitaire-de-technologie-et-de-gestion/"
+  },
+  {
+   "name": "EXPERT LAB TECHNOLOGIE",
+   "addr": "SOTUBA ACI - BAMAKO",
+   "tel": "+223 77 77 17 19/ 67 77 17 19",
+   "fax": "",
+   "web": "https://expertlabtech.com",
+   "date": "16/02/2026",
+   "url": "https://www.malipages.com/annuaire/lien/expert-lab-technologie/"
+  },
+  {
+   "name": "FAMINOV MALI SARL",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 93 95 12 05",
+   "fax": "",
+   "web": "",
+   "date": "22/02/2025",
+   "url": "https://www.malipages.com/annuaire/lien/faminov-mali-sarl/"
+  },
+  {
+   "name": "FMOS – FACULTE DE MEDECINE ET D’ODONTO-STOMATOLOGIE",
+   "addr": "BAMAKO",
+   "tel": "+223 20 22 52 77",
+   "fax": "+223 20 22 96 58",
+   "web": "https://fmos.usttb.edu.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/fmos-faculte-de-medecine-et-dodonto-stomatologie/"
+  },
+  {
+   "name": "FONDATION MAARIF",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 394 PORTE 357 - BAMAKO",
+   "tel": "+223 93 99 99 54",
+   "fax": "",
+   "web": "",
+   "date": "09/06/2024",
+   "url": "https://www.malipages.com/annuaire/lien/fondation-maarif/"
+  },
+  {
+   "name": "FSEG – FACULTE DES SCIENCES ECONOMIQUES ET DE GESTION",
+   "addr": "BADALABOUGOU - BAMAKO",
+   "tel": "+223 70 95 32 57/ 79 13 04 89",
+   "fax": "",
+   "web": "https://fseg-ussgb.net",
+   "date": "17/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/fseg-faculte-des-sciences-economiques-et-de-gestion/"
+  },
+  {
+   "name": "GROUPE SCOLAIRE LA PERRUCHE",
+   "addr": "KOROFINA SUD/ MISSABOUGOU - BAMAKO",
+   "tel": "+223 20 24 51 23/ 76 68 60 70",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ecole-la-perruche/"
+  },
+  {
+   "name": "GROUPE SCOLAIRE LA PETITE ACADEMY",
+   "addr": "SEBENIKORO SEMA II - BAMAKO",
+   "tel": "+223 74 74 29 98",
+   "fax": "",
+   "web": "",
+   "date": "28/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/groupe-scolaire-la-petite-academy/"
+  },
+  {
+   "name": "GROUPE SCOLAIRE LES ANGELOTS",
+   "addr": "ZONE UNIVERSITAIRE BADALABOUGOU - BP E 3448 - BAMAKO",
+   "tel": "+223 44 25 09 46 / 44 23 97 78",
+   "fax": "",
+   "web": "https://groupescolairelesangelots.com",
+   "date": "28/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/groupe-scolaire-les-angelots/"
+  },
+  {
+   "name": "HETEC INTERNATIONAL",
+   "addr": "BADALABOUGOU - AVENUE DE L'OUA - BP 2185 - BAMAKO",
+   "tel": "+223 76 21 18 00/ 66 76 70 72",
+   "fax": "",
+   "web": "http://www.mali-hetec.com",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/hetec-international/"
+  },
+  {
+   "name": "IAM – INSTITUT AFRICAIN DE MANAGEMENT",
+   "addr": "HAMDALLAYE - IMMEUBLE SARAMOUROU KEITA - BP E 3737 - BAMAKO",
+   "tel": "+223 20 29 29 69/ 94 94 53 19",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/iam-institut-africain-de-management/"
+  },
+  {
+   "name": "IAMA – INSTITUT AFRICAIN DES METIERS DE L’AERIEN",
+   "addr": "AEROPORT DE BAMAKO SENOU - BP E 5670 - BAMAKO",
+   "tel": "+223 83 00 40 40",
+   "fax": "",
+   "web": "",
+   "date": "17/06/2021",
+   "url": "https://www.malipages.com/annuaire/lien/iama-institut-africain-des-metiers-de-laerien/"
+  },
+  {
+   "name": "ICLA – INSTITUT CANADIEN DE LANGUES EN AFRIQUE",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 432 PORTE 1148 - BAMAKO",
+   "tel": "+223 74 01 33 33 / 20 29 07 78",
+   "fax": "",
+   "web": "https://www.icla.ml",
+   "date": "19/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/icla-institut-canadien-de-langues-en-afrique/"
+  },
+  {
+   "name": "IDES – INSTITUT DE DEVELOPPEMENT ECONOMIQUE ET SOCIAL",
+   "addr": "ACI SOTUBA - BAMAKO",
+   "tel": "+223 20 77 65 08/ 63 74 23 03",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ides-institut-de-developpement-economique-et-social/"
+  },
+  {
+   "name": "IFAM",
+   "addr": "SOTUBA ACI - BAMAKO",
+   "tel": "+223 79 05 29 72",
+   "fax": "+223 83 20 20 00",
+   "web": "",
+   "date": "04/02/2023",
+   "url": "https://www.malipages.com/annuaire/lien/ifam/"
+  },
+  {
+   "name": "IGC – INSTITUT DE GESTION ET DE COMMUNICATION",
+   "addr": "N'GOLONINA - NIARELA EXTENSION - BAMAKO",
+   "tel": "+223 77 25 35 25",
+   "fax": "",
+   "web": "",
+   "date": "26/02/2024",
+   "url": "https://www.malipages.com/annuaire/lien/igc-institut-de-gestion-et-de-communication/"
+  },
+  {
+   "name": "IGC – INSTITUT DE GESTION ET DE COMPTABILITE",
+   "addr": "NIARELA - IMMEUBLE ALLIANCES - BAMAKO",
+   "tel": "+223 77 25 35 25",
+   "fax": "",
+   "web": "",
+   "date": "16/07/2020",
+   "url": "https://www.malipages.com/annuaire/lien/igc-institut-de-gestion-et-de-comptabilite/"
+  },
+  {
+   "name": "IGLAM – INSTITUT DE GESTION ET DES LANGUES APPLIQUEES AUX METIERS",
+   "addr": "BACODJICORONI GOLF - BAMAKO",
+   "tel": "+223 65 51 11 02",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/iglam-institut-de-gestion-et-des-langues-appliquees-aux-metiers/"
+  },
+  {
+   "name": "IHEM – INSTITUT DES HAUTES ETUDES EN MANAGEMENT",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 384 - BP E 1752 - BAMAKO",
+   "tel": "+223 20 29 28 64/ 76 47 81 83",
+   "fax": "",
+   "web": "https://ihemmali.com/fr/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ihem-institut-des-hautes-etudes-en-management/"
+  },
+  {
+   "name": "IKAM – INSTITUT KORE DES ARTS METIERS",
+   "addr": "SEGOU",
+   "tel": "+223 21 32 13 35 / 21 32 30 30",
+   "fax": "",
+   "web": "",
+   "date": "25/09/2021",
+   "url": "https://www.malipages.com/annuaire/lien/ikam-institut-kore-des-arts-metiers/"
+  },
+  {
+   "name": "IMAKO IKASSO",
+   "addr": "BACODJICORONI - BAMAKO",
+   "tel": "+223 73 25 25 59 / 72 98 98 94",
+   "fax": "",
+   "web": "",
+   "date": "21/04/2025",
+   "url": "https://www.malipages.com/annuaire/lien/imako-ikasso/"
+  },
+  {
+   "name": "IMATEC MALI – INSTITUT DE MANAGEMENT ET DE TECHNOLOGIE",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 384 PORTE 289 - BAMAKO",
+   "tel": "+223 93 94 01 48 / 78 61 50 90",
+   "fax": "",
+   "web": "",
+   "date": "05/11/2022",
+   "url": "https://www.malipages.com/annuaire/lien/imatec-mali-institut-de-management-et-de-technologie/"
+  },
+  {
+   "name": "INERDE MALI",
+   "addr": "NIAMAKORO - ROUTE DE L'IJA - BAMAKO",
+   "tel": "+223 20 20 18 12",
+   "fax": "",
+   "web": "",
+   "date": "12/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/inerde-mali/"
+  },
+  {
+   "name": "INSTITUT NATIONAL D’INGENIERIE DE FORMATION PROFESSIONNELLE (INIFORP)",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 316 PORTE 318 - BAMAKO",
+   "tel": "+223 20 22 50 09 / 66 72 87 88",
+   "fax": "",
+   "web": "",
+   "date": "30/01/2026",
+   "url": "https://www.malipages.com/annuaire/lien/institut-national-dingenierie-de-formation-professionnelle-iniforp/"
+  },
+  {
+   "name": "INSTITUT NATIONAL DE FORMATION PROFESSIONNELLE POUR BATIMENT, LES TRANSPORTS ET LES TRAVAUX PUBLICS – INFP BTP",
+   "addr": "ZONE INDUSTRIELLE - BP 1850 - BAMAKO",
+   "tel": "+223 20 21 38 12",
+   "fax": "",
+   "web": "",
+   "date": "25/01/2026",
+   "url": "https://www.malipages.com/annuaire/lien/institut-national-de-formation-professionnelle-pour-batiment-les-transports-et-les-travaux-publics-infp-btp/"
+  },
+  {
+   "name": "INSTITUT VITO SCHOOL",
+   "addr": "KALABAN COURA - BAMAKO",
+   "tel": "+223 82 06 82 06",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/institut-vito-school/"
+  },
+  {
+   "name": "INTEC – INSTITUT DE TECHNIQUES ECONOMIQUES, COMPTABLES ET COMMERCIALES",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 78 92 92 53 / 72 21 21 93",
+   "fax": "",
+   "web": "https://intec-sup.com",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/intec-institut-de-techniques-economiques-comptables-et-commerciales/"
+  },
+  {
+   "name": "INTEC SUP",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 68 88 02 02 / 78 92 92 53",
+   "fax": "",
+   "web": "https://intec-sup.com",
+   "date": "24/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/intec-sup/"
+  },
+  {
+   "name": "INTERLINES TRAINING SERVICES",
+   "addr": "DAOUDABOUGOU - BAMAKO",
+   "tel": "+223 75 65 71 77/ 61 66 46 51",
+   "fax": "",
+   "web": "",
+   "date": "18/01/2018",
+   "url": "https://www.malipages.com/annuaire/lien/interlines/"
+  },
+  {
+   "name": "IPR IFRA – INSTITUT POLYTECHNIQUE RURAL DE FORMATION ET DE RECHERCHE APPLIQUEE",
+   "addr": "KATIBOUGOU - BAMAKO",
+   "tel": "+223 21 26 20 12",
+   "fax": "",
+   "web": "https://www.ipr-ifra.edu.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ipr-ifra-institut-polytechnique-rural-de-formation-et-de-recherche-appliquee/"
+  },
+  {
+   "name": "IPSMART – INSTITUT PRIVE SMART",
+   "addr": "NIAMAKORO - CITE UNICEF - BAMAKO",
+   "tel": "+223 75 78 07 78",
+   "fax": "",
+   "web": "",
+   "date": "26/03/2024",
+   "url": "https://www.malipages.com/annuaire/lien/ipsmart-institut-prive-smart/"
+  },
+  {
+   "name": "ISA – INSTITUT DES SCIENCES APPLIQUEES",
+   "addr": "CAMPUS UNIVERSITAIRE DE BADALABOUGOU - BAMAKO",
+   "tel": "+223 20 22 44 21",
+   "fax": "",
+   "web": "https://www.isamali.org",
+   "date": "28/05/2023",
+   "url": "https://www.malipages.com/annuaire/lien/isa-institut-des-sciences-appliquees/"
+  },
+  {
+   "name": "ISC BUSINESS SCHOOL",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 74 74 02 50/ 60 71 71 80",
+   "fax": "",
+   "web": "https://www.iscmali.ml",
+   "date": "12/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/isc-business-school/"
+  },
+  {
+   "name": "ISFIC – INSTITUT SUPERIEUR DE FORMATION EN INFORMATIQUE ET COMMERCE",
+   "addr": "BOULKASSOUMBOUGOU - RUE 481 PORTE 21 - BAMAKO",
+   "tel": "+223 76 78 83 83 | 66 43 50 50",
+   "fax": "+223 20 24 02 66",
+   "web": "https://isfic.ml",
+   "date": "17/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/isfic-institut-superieur-de-formation-en-informatique-et-commerce/"
+  },
+  {
+   "name": "ISFMI – INSTITUT SIMON FINANCE ET MANAGEMENT INTERNATIONAL",
+   "addr": "SOTUBA ACI - BAMAKO",
+   "tel": "+223 72 03 30 30/ 70 56 99 74",
+   "fax": "",
+   "web": "",
+   "date": "04/10/2020",
+   "url": "https://www.malipages.com/annuaire/lien/isfmi-institut-simon-finance-et-management-international/"
+  },
+  {
+   "name": "ISFRA – INSTITUT SUPERIEUR DE FORMATION ET DE RECHERCHE APPLIQUEE",
+   "addr": "N'GOLONINA - RUE 268 PORTE 238 - BP E 475 - BAMAKO",
+   "tel": "+223 20 21 04 66/ 73 00 88 09",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/isfra-institut-superieur-de-formation-et-de-recherche-appliquee/"
+  },
+  {
+   "name": "ISPP – INSTITUT SUPERIEUR POLYTECHNIQUE PANAFRICAIN",
+   "addr": "DIELIBOUGOU - BAMAKO",
+   "tel": "+223 68 19 79 27",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/institut-superieur-polytechnique-panafricain-ispp/"
+  },
+  {
+   "name": "ISPRIC – INSTITUT DES SCIENCES POLITIQUES, RELATIONS INTERNATIONALES ET COMMUNICATION",
+   "addr": "BADALABOUGOU - COLLINE DU SAVOIR - BAMAKO",
+   "tel": "+223 66 75 33 95/ 66 74 45 17",
+   "fax": "",
+   "web": "",
+   "date": "24/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/ispric-institut-des-sciences-politiques-relations-internationales-et-communication/"
+  },
+  {
+   "name": "ISTAG – INSTITUT SUPÉRIEUR DE TECHNOLOGIE APPLIQUÉE ET DE GESTION",
+   "addr": "BACO DJICORONI ACI SUD - RUE 822 PORTE 1780 - BP E 09 - BAMAKO",
+   "tel": "+223  74 22 76 76 / 74 47 57 33",
+   "fax": "",
+   "web": "https://www.istagmali.com",
+   "date": "09/10/2019",
+   "url": "https://www.malipages.com/annuaire/lien/istag-institut-superieur-de-technologie-appliquee-et-de-gestion/"
+  },
+  {
+   "name": "ITMA MALI – INSTITUT PRIVE AFRICAIN DE TECHNOLOGIES ET MANAGEMENT",
+   "addr": "BACODJICORONI  ACI - ROUTE TIKEN JAH - BAMAKO",
+   "tel": "+223 20 28 16 68",
+   "fax": "",
+   "web": "",
+   "date": "26/02/2025",
+   "url": "https://www.malipages.com/annuaire/lien/itma-mali-institut-prive-africain-de-technologies-et-management/"
+  },
+  {
+   "name": "LIVING SCHOOL MARIAM TRAORE ECOLE BILINGUE LAIQUE",
+   "addr": "SANGAREBOUGOU - BAMAKO",
+   "tel": "+223 20 24 07 59/ 66 48 64 48",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/living-school-mariam-traore-ecole-bilingue-laique/"
+  },
+  {
+   "name": "LYCEE ASKIA MOHAMED",
+   "addr": "AVENUE DE LA LIBERTE - BAMAKO",
+   "tel": "+223 44 24 00 73",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/lycee-askia-mohamed/"
+  },
+  {
+   "name": "LYCEE BIYA",
+   "addr": "FALADIE - RUE 720 PORTE 286 - BAMAKO",
+   "tel": "+223 20 20 37 28/ 90 49 90 19",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/lycee-biya/"
+  },
+  {
+   "name": "LYCEE CABRAL",
+   "addr": "BP 253 - SEGOU",
+   "tel": "+223 21 32 01 20/ 78 47 03 78",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/lycee-cabral/"
+  },
+  {
+   "name": "LYCEE EL MADANI DRAVE",
+   "addr": "LAFIABOUGOU - RUE 269 PORTE 11 - BAMAKO",
+   "tel": "+223 20 29 14 84",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/lycee-el-madani-drave/"
+  },
+  {
+   "name": "LYCEE KODONSO",
+   "addr": "DJELIBOUGOU - RUE 263 PORTE 340 - BP 331 - BAMAKO",
+   "tel": "+223  20 24 14 11/ 71 33 80 05",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/lycee-kodonso/"
+  },
+  {
+   "name": "LYCEE LES CIMES – GROUPE SCOLAIRE LES CIMES",
+   "addr": "BOULKASSOUMBOUGOU - BAMAKO",
+   "tel": "+223 20 24 72 81",
+   "fax": "",
+   "web": "https://ecolelescimes.com",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/lycee-les-cimes/"
+  },
+  {
+   "name": "LYCEE NOTRE DAME DU NIGER",
+   "addr": "QUARTIER DU FLEUVE - BP 152 - BAMAKO",
+   "tel": "+223 20 22 31 74",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/lycee-notre-dame-du-niger/"
+  },
+  {
+   "name": "LYCEE PROSPER KAMARA",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 20 29 39 28",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/lycee-prosper-kamara/"
+  },
+  {
+   "name": "LYCEE SACRE-COEUR",
+   "addr": "BACO DJICORONI ACI - BAMAKO",
+   "tel": "+223 20 28 65 29/ 93 14 37 94",
+   "fax": "",
+   "web": "",
+   "date": "01/09/2018",
+   "url": "https://www.malipages.com/annuaire/lien/lycee-sacre-coeur/"
+  },
+  {
+   "name": "LYCEE SIKA",
+   "addr": "BACODJICORONI GOLF - BAMAKO",
+   "tel": "+223 90 90 86 85",
+   "fax": "",
+   "web": "",
+   "date": "21/04/2025",
+   "url": "https://www.malipages.com/annuaire/lien/lycee-sika/"
+  },
+  {
+   "name": "LYCEE SOUNDIATA KEITA",
+   "addr": "BACO DJICORONI ACI - BP E 4997 - BAMAKO",
+   "tel": "+223 20 28 51 64/ 76 33 67 35",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/lycee-soundiata-keita/"
+  },
+  {
+   "name": "MELI-MELO ECOLE MATERNELLE",
+   "addr": "NIARELA - RUE 457 PORTE 84 - BAMAKO",
+   "tel": "+223 20 21 67 19",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/meli-melo-ecole-maternelle/"
+  },
+  {
+   "name": "MOON LIGHT MALI",
+   "addr": "YIRIMADJO - BAMAKO",
+   "tel": "+223 77 59 70 66",
+   "fax": "",
+   "web": "",
+   "date": "21/09/2021",
+   "url": "https://www.malipages.com/annuaire/lien/moon-light-mali/"
+  },
+  {
+   "name": "NEGE BLON – CENTRE DE PROMOTION DES METIERS DE LA CHAUDRONNERIE ET DE LA TUYAUTERIE AU MALI",
+   "addr": "NIAMANA - ROUTE DE SEGOU - BP E 4494 - BAMAKO",
+   "tel": "+223 44 38 97 83 / 79 05 12 71",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/nege-blon-centre-de-promotion-des-metiers-de-la-chaudronnerie-et-de-la-tuyauterie-au-mali/"
+  },
+  {
+   "name": "PIT’CHOUNNES",
+   "addr": "N'TOROKOROBOUGOU - BAMAKO",
+   "tel": "+223 90 78 43 72/ 68 84 96 68",
+   "fax": "",
+   "web": "https://www.pitchounnes.com",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/pitchounnes/"
+  },
+  {
+   "name": "SEQUOIA INTERNATIONAL ACADEMY BAMAKO – SIAB",
+   "addr": "BADALABOUGOU - RUE 111 PORTE 36 - BAMAKO",
+   "tel": "+223 74 74 95 20/ 20 22 13 87",
+   "fax": "",
+   "web": "",
+   "date": "20/02/2022",
+   "url": "https://www.malipages.com/annuaire/lien/sequoia-international-academy-bamako-siab/"
+  },
+  {
+   "name": "SIMPLON MALI",
+   "addr": "HAMDALLAYE ACI 2000 -  ROUTE RADISSON BLU - IMMEUBLE SAIBOU SYLLA A11 - BAMAKO",
+   "tel": "+223 75 21 81 91",
+   "fax": "",
+   "web": "",
+   "date": "02/11/2023",
+   "url": "https://www.malipages.com/annuaire/lien/simplon-mali/"
+  },
+  {
+   "name": "SKILL CODING",
+   "addr": "GARANTIBOUGOU FEU - BAMAKO",
+   "tel": "+223 83 85 90 08/ 73 23 16 45",
+   "fax": "",
+   "web": "https://skillcodiing.com/",
+   "date": "09/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/skill-coding/"
+  },
+  {
+   "name": "SPEAKIT",
+   "addr": "DJELIBOUGOU - BAMAKO",
+   "tel": "+223 74 03 09 90",
+   "fax": "",
+   "web": "",
+   "date": "10/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/speakit/"
+  },
+  {
+   "name": "STC ENGLISH 21",
+   "addr": "KALABAN COURA - BAMAKO",
+   "tel": "+223 71 10 88 06",
+   "fax": "",
+   "web": "https://stc-english21.com",
+   "date": "06/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/stc-english-21/"
+  },
+  {
+   "name": "SUP’MANAGEMENT – ECOLE SUPERIEUR DE MANAGEMENT DU COMMERCE ET DE L’INFORMATION",
+   "addr": "HIPPODROME - RUE 214 PORTE 297 - BAMAKO",
+   "tel": "+223 78 01 20 20",
+   "fax": "",
+   "web": "https://www.supmanagement.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/supmanagement-ecole-superieur-de-management-du-commerce-et-de-linformation/"
+  },
+  {
+   "name": "TECHNOLAB – ISTA – INSTITUT SUPERIEUR DE TECHNOLOGIES APPLIQUEES",
+   "addr": "HAMDALLAYE ACI 2000 - BP E 3123 - BAMAKO",
+   "tel": "+223 20 29 01 54",
+   "fax": "+223 20 29 32 66",
+   "web": "https://www.technolab-ista.net",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/technolab-ista-institut-superieur-de-technologies-appliquees/"
+  },
+  {
+   "name": "UIE MALI – UNIVERSITE INTERNATIONALE PRIVEE D’EXCELLENCE",
+   "addr": "BADALABOUGOU - BAMAKO",
+   "tel": "+223 68 28 28 42 / 78 28 28 42",
+   "fax": "",
+   "web": "https://uiemali.ac",
+   "date": "24/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/uie-mali/"
+  },
+  {
+   "name": "ULSHB – UNIVERSITE DES LETTRES ET DES SCIENCES HUMAINES DE BAMAKO",
+   "addr": "CITE UNIVERSITAIRE DE KABALA - BP E 2528 - BAMAKO",
+   "tel": "+223 20 70 77 03",
+   "fax": "",
+   "web": "",
+   "date": "17/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/ulshb-universite-des-lettres-et-des-sciences-humaines-de-bamako/"
+  },
+  {
+   "name": "UNIVERSITE APTECH MALI",
+   "addr": "HAMDALLAYE - IMMEUBLE ALOU TOMOTA - BAMAKO",
+   "tel": "+223 76 65 39 39",
+   "fax": "",
+   "web": "https://aptech-mali.com/",
+   "date": "09/10/2019",
+   "url": "https://www.malipages.com/annuaire/lien/universite-aptech-mali/"
+  },
+  {
+   "name": "UNIVERSITE BAZO",
+   "addr": "BADIALAN III / ZRNY 26 MARS / SOTUBA ACI - BAMAKO",
+   "tel": "+223 77 77 76 75/ 64 46 88 88",
+   "fax": "",
+   "web": "",
+   "date": "20/09/2025",
+   "url": "https://www.malipages.com/annuaire/lien/universite-bazo/"
+  },
+  {
+   "name": "UNIVERSITE DE SEGOU",
+   "addr": "SEBOUGOU - RN6 - BP 24 - SEGOU",
+   "tel": "+223 21 32 02 30",
+   "fax": "",
+   "web": "",
+   "date": "17/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/universite-de-segou/"
+  },
+  {
+   "name": "UNIVERSITE KORO",
+   "addr": "NIAMANA",
+   "tel": "+223 75 18 75 89 / 78 77 54 42",
+   "fax": "",
+   "web": "https://universitekoro.com",
+   "date": "26/03/2026",
+   "url": "https://www.malipages.com/annuaire/lien/universite-koro/"
+  },
+  {
+   "name": "UNIVERSITE KURUKANFUGA DE BAMAKO",
+   "addr": "BADALABOUGOU - BP 2528 - BAMAKO",
+   "tel": "+223 76 39 61 24 / 99 60 10 20",
+   "fax": "",
+   "web": "",
+   "date": "22/05/2025",
+   "url": "https://www.malipages.com/annuaire/lien/universite-kurukanfuga-de-bamako/"
+  },
+  {
+   "name": "UNIVERSITE POLYTECHNIQUE DE BAMAKO",
+   "addr": "BOULKASSOUMBOUGOU - BAMAKO",
+   "tel": "+223 72 76 71 58",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/universite-polytechnique-de-bamako/"
+  },
+  {
+   "name": "UNIVERSITE VIRTUELLE DU MALI",
+   "addr": "SOTUBA ACI - BAMAKO",
+   "tel": "+223 20 71 93 33",
+   "fax": "",
+   "web": "",
+   "date": "31/08/2020",
+   "url": "https://www.malipages.com/annuaire/lien/universite-virtuelle-du-mali/"
+  },
+  {
+   "name": "UNIVERSITÉ YAMBO OUOLOGUEM DE BAMAKO – UYOB",
+   "addr": "CITE UNIVERSITAIRE DE KABALA - BAMAKO",
+   "tel": "+223 76 37 83 39/ 76 45 37 76",
+   "fax": "",
+   "web": "",
+   "date": "24/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/universite-yambo-ouologuem-de-bamako-uyob/"
+  },
+  {
+   "name": "UPMSC – UNIVERSITE PRIVEE MARY SAINT-CLAIRE",
+   "addr": "MISSABOUGOU - BAMAKO",
+   "tel": "+223 73 61 61 68",
+   "fax": "",
+   "web": "https://www.univmarysaintclaire.com",
+   "date": "25/08/2026",
+   "url": "https://www.malipages.com/annuaire/lien/upmsc-universite-privee-mary-saint-claire/"
+  },
+  {
+   "name": "USSGB – UNIVERSITE DES SCIENCES SOCIALES ET DE GESTION DE BAMAKO",
+   "addr": "QUARTIER DU FLEUVE - RUE 310 PORTE 238 - BP 2575 - BAMAKO",
+   "tel": "+223 20 22 08 65",
+   "fax": "+223  20 22 08 66",
+   "web": "",
+   "date": "18/08/2021",
+   "url": "https://www.malipages.com/annuaire/lien/ussgb-universite-des-sciences-sociales-et-de-gestion-de-bamako/"
+  },
+  {
+   "name": "USTTB – UNIVERSITE DES SCIENCES, DES TECHNIQUES ET DES TECHNOLOGIES DE BAMAKO",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 405 PORTE 359 - BP E 423 - BAMAKO",
+   "tel": "+223 20 29 04 07",
+   "fax": "+223 20 29 04 08",
+   "web": "http://www.usttb.edu.ml",
+   "date": "16/12/2019",
+   "url": "https://www.malipages.com/annuaire/lien/usttb-universite-des-sciences-des-techniques-et-des-technologies-de-bamako/"
+  }
+ ],
+ "gouvernement-ambassades": [
+  {
+   "name": "AMBASSADE DES ETATS UNIS D’AMERIQUE – US EMBASSY",
+   "addr": "ACI 2000 - RUE 243 PORTE 297 - BP 34 - BAMAKO",
+   "tel": "+223 20 70 23 00",
+   "fax": "+223 20 70 24 79",
+   "web": "https://ml.usembassy.gov/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-des-etats-unis-damerique-us-embassy/"
+  },
+  {
+   "name": "ACALAN – ACADEMIE AFRICAINE DES LANGUES",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 394 PORTE 223 - BAMAKO",
+   "tel": "+223 20 29 04 59",
+   "fax": "+223 20 29 04 57",
+   "web": "",
+   "date": "13/06/2026",
+   "url": "https://www.malipages.com/annuaire/lien/acalan-academie-africaine-des-langues/"
+  },
+  {
+   "name": "ADN – AGENCE DE DEVELOPPEMENT DU NORD",
+   "addr": "LAFIABOUGOU - BAMAKO",
+   "tel": "+223 20 29 25 91",
+   "fax": "+223  20 29 15 05",
+   "web": "",
+   "date": "05/06/2022",
+   "url": "https://www.malipages.com/annuaire/lien/adn-agence-de-developpement-du-nord/"
+  },
+  {
+   "name": "ADNM – AGENCE DE DEVELOPPEMENT DU NORD DU MALI",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT PRIMATURE - BAMAKO",
+   "tel": "+223 20 79 69 75",
+   "fax": "",
+   "web": "",
+   "date": "24/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/adnm-agence-de-developpement-du-nord-du-mali/"
+  },
+  {
+   "name": "AEDD – AGENCE DE L’ENVIRONNEMENT ET DU DEVELOPPEMENT DURABLE",
+   "addr": "QUARTIER DU FLEUVE - RUE 311 PORTE 328 - BP 2357 - BAMAKO",
+   "tel": "+223 20 23 10 74 / 74 13 69 07 / 75 01 71 44 / 66 43 64 82",
+   "fax": "+223 20 23 58 67",
+   "web": "",
+   "date": "26/07/2020",
+   "url": "https://www.malipages.com/annuaire/lien/aedd-agence-de-lenvironnement-et-du-developpement-durable/"
+  },
+  {
+   "name": "AGEFAU MALI",
+   "addr": "QUARTIER DU FLEUVE - BASE B - RUE FARAKO - IMMEUBLE INVESTIM - BAMAKO",
+   "tel": "+223 20 22 46 03",
+   "fax": "",
+   "web": "",
+   "date": "13/02/2020",
+   "url": "https://www.malipages.com/annuaire/lien/agefau-mali/"
+  },
+  {
+   "name": "AGENCE DES ENERGIES RENOUVELABLES DU MALI",
+   "addr": "COLLINE DE BADALABOUGOU - BAMAKO",
+   "tel": "+223 20 22 71 84 / 20 22 68 03",
+   "fax": "",
+   "web": "",
+   "date": "24/08/2023",
+   "url": "https://www.malipages.com/annuaire/lien/agence-des-energies-renouvelables-du-mali/"
+  },
+  {
+   "name": "AGENCE NATIONALE DE COMMUNICATION POUR LE DEVELOPPEMENT – ANCD",
+   "addr": "ROUTE DE KOULOUBA - BAMAKO",
+   "tel": "+223 20 22 80 70",
+   "fax": "",
+   "web": "",
+   "date": "24/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/agence-nationale-de-communication-pour-le-developpement-ancd/"
+  },
+  {
+   "name": "AGENCE NATIONALE DE LA METEOROLOGIE – MALI METEO",
+   "addr": "ROUTE DE L'AEROPORT - BP 237 - BAMAKO",
+   "tel": "+223 20 20 62 04",
+   "fax": "+223 20 20 21 10",
+   "web": "",
+   "date": "04/08/2023",
+   "url": "https://www.malipages.com/annuaire/lien/agence-nationale-de-la-meteorologie-mali-meteo/"
+  },
+  {
+   "name": "AGENCE NATIONALE DE TELESANTE ET D’INFORMATIQUE MEDICALE – ANTIM",
+   "addr": "HAMDALLAYE  ACI 2000 - RUE 340  PORTE 541 - BAMAKO",
+   "tel": "+223 20 22 38 44",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/agence-nationale-de-telesante-et-dinformatique-medicale-antim/"
+  },
+  {
+   "name": "AGEROUTE",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 311 - BAMAKO",
+   "tel": "+223 20 21 69 96",
+   "fax": "+223 20 21 69 90",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ageroute/"
+  },
+  {
+   "name": "AGETIC – AGENCE DES TECHNOLOGIES DE L’INFORMATION ET DE LA COMMUNICATION",
+   "addr": "ACI 2000 - BIBLIOTHEQUE NATIONALE - BP E 5467 - BAMAKO",
+   "tel": "+223 20 23 04 04",
+   "fax": "",
+   "web": "https://agetic.gouv.ml/",
+   "date": "06/06/2022",
+   "url": "https://www.malipages.com/annuaire/lien/agetic-agence-des-technologies-de-linformation-et-de-la-communication/"
+  },
+  {
+   "name": "AGETIER – AGENCE D’EXECUTION DES TRAVAUX D’INFRASTRUCTURES ET D’EQUIPEMENTS RURAUX",
+   "addr": "QUARTIER RESIDENTIEL - RUE 545 PORTE 324 - BP 428 - SEGOU",
+   "tel": "+223 21 32 18 09",
+   "fax": "+223 21 32 18 08",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/agetier-agence-dexecution-des-travaux-dinfrastructures-et-dequipements-ruraux/"
+  },
+  {
+   "name": "AGETIPE – AGENCE D’EXECUTION DES TRAVAUX D’INTERET PUBLIC POUR L’EMPLOI",
+   "addr": "HAMDALLAYE ACI 2000 - BP 2398 - BAMAKO",
+   "tel": "+223 20 29 57 25 / 20 29 57 24",
+   "fax": "+223  20 29 09 71",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/agetipe-agence-dexecution-des-travaux-dinteret-public-pour-lemploi/"
+  },
+  {
+   "name": "AJA MALI – ASSOCIATION JEUNESSE ACTION MALI",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 432 PORTE 1102 - BP E 2141 - BAMAKO",
+   "tel": "+223 20 29 58 21",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/aja-mali-association-jeunesse-action-mali/"
+  },
+  {
+   "name": "ALPHA-LOG – ASSOCIATION LIBRE POUR LA PROMOTION DE L’HABITAT ET LE LOGEMENT",
+   "addr": "FALADIE - HALLES DE BAMAKO - BAMAKO",
+   "tel": "+223 20 22 84 40/ 96 61 27 46",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/alpha-log-association-libre-pour-la-promotion-de-lhabitat-et-le-logement/"
+  },
+  {
+   "name": "AMADECOM – ASSOCIATION MALIENNE POUR LE DEVELOPPEMENT COMMUNAUTAIRE",
+   "addr": "DJELIBOUGOU - ROUTE DE KOULIKORO - IMMEUBLE MAMADOU BABA SYLLA- BP E 156 - BAMAKO",
+   "tel": "+223 20 24 09 21",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/amadecom/"
+  },
+  {
+   "name": "AMALAN – ACADEMIE MALIENNE DES LANGUES",
+   "addr": "ROUTE DE KOULOUBA - AVENUE DE LA LIBERTE - BP E 2187 - BAMAKO",
+   "tel": "+223 20 22 15 77/ 93 07 79 56",
+   "fax": "",
+   "web": "",
+   "date": "04/04/2020",
+   "url": "https://www.malipages.com/annuaire/lien/amalan-academie-malienne-des-langues/"
+  },
+  {
+   "name": "AMANORM – AGENCE MALIENNE DE NORMALISATION ET DE PROMOTION DE LA QUALITE",
+   "addr": "LAFIABOUGOU - AVENUE CHEICK ZAYED - BP 278 - BAMAKO",
+   "tel": "+223 20 73 89 82 / 76 41 42 82",
+   "fax": "",
+   "web": "",
+   "date": "21/02/2025",
+   "url": "https://www.malipages.com/annuaire/lien/amanorm-agence-malienne-de-normalisation-et-de-promotion-de-la-qualite/"
+  },
+  {
+   "name": "AMAP – AGENCE MALIENNE DE PRESSE ET DE PUBLICITE",
+   "addr": "SQUARE PATRICE LUMUMBA - BP 141 - BAMAKO",
+   "tel": "+223 20 22 36 83",
+   "fax": "+223 20 23 43 74",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/amap-agence-malienne-de-presse-et-de-publicite/"
+  },
+  {
+   "name": "AMAPEF – ASSOCIATION PROMOTION ENTRETIEN FEMININE",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 77 58 58 27",
+   "fax": "",
+   "web": "https://amapef.org",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/amapef-association-promotion-entretien-feminine/"
+  },
+  {
+   "name": "AMAPROS – ASSOCIATION MALIENNE POUR LA PROMOTION DU SAHEL",
+   "addr": "SEBENIKORO - BAMAKO",
+   "tel": "+223 20 29 53 95",
+   "fax": "",
+   "web": "https://www.amapros.org",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/amapros/"
+  },
+  {
+   "name": "AMARAP – AGENCE MALIENNE DE RADIO PROTECTION",
+   "addr": "COLLINE DE BADALABOUGOU - COMPLEXE DE L'EX-CRES - BATIMENT A3 - BAMAKO",
+   "tel": "+223 20 23 87 19/ 20 23 86 61",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/amarap-agence-malienne-de-radio-protection/"
+  },
+  {
+   "name": "AMASEF – ASSOCIATION MALIENNE SCOLARISATION EDUCATION FILLES / FAWE MALI",
+   "addr": "HAMDALLAYE ACI 2000 - IMMEUBLE MEME ABK 6 - BP E 1366 - BAMAKO",
+   "tel": "+223 20 29 36 19",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/amasef-association-malienne-scolarisation-education-filles/"
+  },
+  {
+   "name": "AMBASSADE D’AFRIQUE DU SUD AU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - ROUTE DE LAFIABOUGOU - BAMAKO",
+   "tel": "+223 20 29 31 72",
+   "fax": "+223 20 29 29 26",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-dafrique-du-sud/"
+  },
+  {
+   "name": "AMBASSADE D’ALGERIE AU MALI",
+   "addr": "DAOUDABOUGOU - AVENUE DE L'OUA - BP 02 - BAMAKO",
+   "tel": "+223 20 20 18 83 / 20 20 45 72",
+   "fax": "+223  20 22 93 74",
+   "web": "https://embbamako.mfa.gov.dz/fr",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-dalgerie/"
+  },
+  {
+   "name": "AMBASSADE D’ALLEMAGNE",
+   "addr": "BADALABOUGOU - AVENUE DE L' OUA - BAMAKO",
+   "tel": "+223 20223715",
+   "fax": "+223 20229650",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-dallemagne/"
+  },
+  {
+   "name": "AMBASSADE D’ARABIE SAOUDITE AU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - BP 81 - BAMAKO",
+   "tel": "+223 20 21 50 64",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-darabie-saoudite/"
+  },
+  {
+   "name": "AMBASSADE D’AUTRICHE",
+   "addr": "BAMAKO",
+   "tel": "+223 20241567",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-dautriche/"
+  },
+  {
+   "name": "AMBASSADE D’EGYPTE AU MALI",
+   "addr": "BADALABOUGOU EST - RUE 25 PORTE 109 - BAMAKO",
+   "tel": "+223  20 22 89 71/ 20 22 35 65",
+   "fax": "+223 20 22 08 91",
+   "web": "https://www.egyptembassy.org/location/mali/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-degypte/"
+  },
+  {
+   "name": "AMBASSADE D’ESPAGNE AU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 44 98 24 30​​/  20 70 73 50",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-despagne-au-mali/"
+  },
+  {
+   "name": "AMBASSADE D’INDE AU MALI",
+   "addr": "BADALABOUGOU EST - AVENUE DE L'OUA - BP 8008 - BAMAKO",
+   "tel": "+223 20 23 54 20",
+   "fax": "+223 20 23 54 17",
+   "web": "https://www.embassyofindiabamako.gov.in",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-dinde/"
+  },
+  {
+   "name": "AMBASSADE D’IRAN AU MALI",
+   "addr": "HIPPODROME - BAMAKO",
+   "tel": "+223 20 21 07 31 / 44 90 07 50",
+   "fax": "+223 20 21 35 68 / 44 90 07 49",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-diran-au-mali/"
+  },
+  {
+   "name": "AMBASSADE DE BELGIQUE AU MALI",
+   "addr": "QUARTIER DU FLEUVE - IMMEUBLE SANLAM - BP E 1633 - BAMAKO",
+   "tel": "+223 20 21 69 55 / 84 91 39 29",
+   "fax": "+223 20211279",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-de-belgique-au-mali/"
+  },
+  {
+   "name": "AMBASSADE DE CHINEAU MALI",
+   "addr": "HIPPODROME - ROUTE DE KOULIKORO - BAMAKO",
+   "tel": "+223 20 21 35 97/ 72 55 84 07",
+   "fax": "+223 20 21 34 43",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-de-chine/"
+  },
+  {
+   "name": "AMBASSADE DE COTE D’IVOIRE AU MALI",
+   "addr": "SQUARE PATRICE LUMUMBA - BP E 3644 - BAMAKO",
+   "tel": "+223 20 21 13 76",
+   "fax": "+223 20 21 13 79",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-de-cote-divoire-au-mali/"
+  },
+  {
+   "name": "AMBASSADE DE CUBA AU MALI",
+   "addr": "FASO KANU - RUE 23 PORTE 2394 - BAMAKO",
+   "tel": "+223 20 20 02 88",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-cuba/"
+  },
+  {
+   "name": "AMBASSADE DE FRANCE AU MALI",
+   "addr": "SQUARE PATRICE LUMUMBA - BP 17 - BAMAKO",
+   "tel": "+223 44 97 57 57",
+   "fax": "",
+   "web": "https://ml.ambafrance.org",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-de-france-au-mali/"
+  },
+  {
+   "name": "AMBASSADE DE GUINEE AU MALI",
+   "addr": "MAGNAMBOUGOU FASO KANU - BAMAKO",
+   "tel": "+223 20 20 20 36",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-de-guinee-au-mali/"
+  },
+  {
+   "name": "AMBASSADE DE L’ETAT DE PALESTINE",
+   "addr": "HIPPODROME - RUE 218 - BP 1951 - BAMAKO",
+   "tel": "+223 20 21 53 28",
+   "fax": "+223 20 21 64 62",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-de-letat-de-palestine/"
+  },
+  {
+   "name": "AMBASSADE DE LIBYE",
+   "addr": "N'GOLONINA - IMMEUBLE NIMAGA - BAMAKO",
+   "tel": "+223 20 22 25 18",
+   "fax": "+223 20 22 34 96",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-de-libye/"
+  },
+  {
+   "name": "AMBASSADE DE MAURITANIE AU MALI",
+   "addr": "HIPPODROME - RUE 218 PORTE 667 - BP 135 - BAMAKO",
+   "tel": "+223 20 21 48 15/ 20 21 58 81",
+   "fax": "+223 20 21 49 08",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-de-mauritanie-au-mali/"
+  },
+  {
+   "name": "AMBASSADE DE RUSSIE AU MALI",
+   "addr": "NIARELA - BAMAKO",
+   "tel": "+223 20 21 51 77/ 20 21 85 40",
+   "fax": "+223 20218262",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-de-russie/"
+  },
+  {
+   "name": "AMBASSADE DE TUNISIE AU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 329 PORTE 53 - BAMAKO",
+   "tel": "+223 20 23 17 54",
+   "fax": "+223 20 23 56 65",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-de-tunisie/"
+  },
+  {
+   "name": "AMBASSADE DE TURQUIE AU MALI",
+   "addr": "CITE DU NIGER II - BAMAKO",
+   "tel": "+223 20 21 02 81",
+   "fax": "+223 20 21 07 26",
+   "web": "",
+   "date": "06/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-de-turquie/"
+  },
+  {
+   "name": "AMBASSADE DES PAYS BAS AU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 250 PORTE 31 - BAMAKO",
+   "tel": "+223 44 97 82 00",
+   "fax": "",
+   "web": "https://www.nederlandwereldwijd.nl/landen/mali/over-ons/de-ambassade-in-bamako",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-royale-des-pays-bas/"
+  },
+  {
+   "name": "AMBASSADE DU BRESIL",
+   "addr": "BADALABOUGOU OUEST - RUE 113 PORTE 62 - BAMAKO",
+   "tel": "+223 20 22 98 17/ 73 55 55 25",
+   "fax": "",
+   "web": "",
+   "date": "14/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-du-bresil/"
+  },
+  {
+   "name": "AMBASSADE DU BURKINA FASO AU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 204 PORTE 394 - BAMAKO",
+   "tel": "+223 20 29 31 71",
+   "fax": "+223 20 29 92 66",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-du-burkina-faso-au-mali/"
+  },
+  {
+   "name": "AMBASSADE DU CANADA AU MALI",
+   "addr": "HIPPODROME - ROUTE DE KOULIKORO - IMMEUBLE SEMEGA - BAMAKO",
+   "tel": "+223 44 98 04 50",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-du-canada/"
+  },
+  {
+   "name": "AMBASSADE DU GHANA AU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - BP 3161 - BAMAKO",
+   "tel": "+223 20 29 60 83",
+   "fax": "+223  20 29 60 34",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-du-ghana/"
+  },
+  {
+   "name": "AMBASSADE DU JAPON AU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - AVENUE DU MALI - BAMAKO",
+   "tel": "+223 44 97 92 20",
+   "fax": "",
+   "web": "https://www.ml.emb-japan.go.jp/itprtop_fr/index.html",
+   "date": "13/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-du-japon-au-mali/"
+  },
+  {
+   "name": "AMBASSADE DU NIGER AU MALI",
+   "addr": "CITE DU NIGER II - RUE 47 VILLA 2L 100 - BP E 856 - BAMAKO",
+   "tel": "+223 20 21 43 64 / 20 21 43 36",
+   "fax": "",
+   "web": "https://www.ambniger-mali.org",
+   "date": "14/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-du-niger/"
+  },
+  {
+   "name": "AMBASSADE DU NIGERIA AU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - BP 57 - BAMAKO",
+   "tel": "+223 20 23 08 46",
+   "fax": "",
+   "web": "http://bamako.foreignaffairs.gov.ng/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-du-nigeria/"
+  },
+  {
+   "name": "AMBASSADE DU QATAR AU MALI",
+   "addr": "COURA BOLIBANA EX BASE - RUE 403 - BP E 1300 - BAMAKO",
+   "tel": "+223 20 21 41 48",
+   "fax": "+223 20 21 41 46",
+   "web": "",
+   "date": "14/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-du-qatar/"
+  },
+  {
+   "name": "AMBASSADE DU ROYAME DU MAROC AU MALI",
+   "addr": "FASO KANU - AVENUE DE L'OUA - BAMAKO",
+   "tel": "+223 20 22 21 23",
+   "fax": "+223 20 22 77 87",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-du-royame-du-maroc/"
+  },
+  {
+   "name": "AMBASSADE DU ROYAME-UNI AU MALI",
+   "addr": "CITE DU NIGER II - BAMAKO",
+   "tel": "+223 44 97 69 13",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-du-royame-uni-au-mali/"
+  },
+  {
+   "name": "AMBASSADE DU SENEGAL AU MALI",
+   "addr": "BADALABOUGOU - RUE 50 PORTE 636 - BP 42 - BAMAKO",
+   "tel": "+223 20 23 82 73",
+   "fax": "+223 20211780",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-du-senegal/"
+  },
+  {
+   "name": "AMBASSADE ROYALE DE DANEMARK AU MALI",
+   "addr": "CITE DU NIGER II - LOTS 94-95 - BP E 1733 - BAMAKO",
+   "tel": "+223 20 70 53 00",
+   "fax": "+223 20 70 53 29",
+   "web": "http://mali.um.dk",
+   "date": "08/08/2019",
+   "url": "https://www.malipages.com/annuaire/lien/ambassade-royale-de-danemark/"
+  },
+  {
+   "name": "AMPPF – ASSOCIATION MALIENNE POUR LA PROTECTION ET LA PROMOTION DE LA FAMILLE",
+   "addr": "OUOLOFOBOUGOU BOLIBANA - AVENUE KASSE KEITA - BP 105 - BAMAKO",
+   "tel": "+223 20 22 44 94",
+   "fax": "",
+   "web": "https://amppfmali.org/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/amppf-association-malienne-pour-la-protection-et-la-promotion-de-la-famille/"
+  },
+  {
+   "name": "AMRTP – AUTORITE MALIENNE DE REGULATION DES TELECOMMUNICATIONS, DES TIC ET DES POSTES",
+   "addr": "HAMDALLAYE ACI 2000 - BP 2206 - BAMAKO",
+   "tel": "+223 20 70 57 00 / 44 97 65 21",
+   "fax": "+223 20 23 14 94",
+   "web": "https://www.amrtp.ml",
+   "date": "26/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/amrtp-autorite-malienne-de-regulation-des-telecommunications-des-tic-et-des-postes/"
+  },
+  {
+   "name": "AMSS – ASSOCIATION MALIENNE POUR LA SURVIE AU SAHEL",
+   "addr": "BANANKABOUGOU - RUE 737 PORTE 218 - BAMAKO",
+   "tel": "+223 20 20 27 28",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/amss-association-malienne-pour-la-survie-au-sahel/"
+  },
+  {
+   "name": "ANAC – AGENCE NATIONALE DE L’AVIATION CIVILE",
+   "addr": "ROUTE DE L'AEROPORT - BP 227 - BAMAKO",
+   "tel": "+223 20 20 55 24 / 20 20 61 75",
+   "fax": "+223 20 20 61 75",
+   "web": "https://anacmali.org/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/anac-agence-nationale-de-laviation-civile/"
+  },
+  {
+   "name": "ANAM – AGENCE NATIONALE D’ASSISTANCE MEDICALE",
+   "addr": "BAMAKO",
+   "tel": "+223 20 23 28 46 / 66 75 68 55",
+   "fax": "",
+   "web": "https://www.anam-mali.org",
+   "date": "24/04/2026",
+   "url": "https://www.malipages.com/annuaire/lien/anam-agence-nationale-dassistance-medicale/"
+  },
+  {
+   "name": "ANGESEM – AGENCE NATIONALE DE GESTION DES STATIONS D’EPURATION DU MALI",
+   "addr": "ZONE INDUSTRIELLE - BAMAKO",
+   "tel": "+223 20 24 94 55",
+   "fax": "",
+   "web": "",
+   "date": "29/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/angesem-agence-nationale-de-gestion-des-stations-depuration-du-mali/"
+  },
+  {
+   "name": "ANICT – AGENCE NATIONALE D’INVESTISSEMENT DES COLLECTIVITES TERRITORIALES",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 1 - 1ER ETAGE - BP E 446 - BAMAKO",
+   "tel": "+223  20 22 46 34",
+   "fax": "+223 20 22 46 03",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/anict-agence-nationale-dinvestissement-des-collectivites-territoriales/"
+  },
+  {
+   "name": "ANPE – AGENCE NATIONALE POUR L’EMPLOI",
+   "addr": "QUARTIER DU FLEUVE - AVENUE MOUSSA TRAVELE - BP 211 - BAMAKO",
+   "tel": "+223 20 22 31 87/ 20 22 83 54",
+   "fax": "+223 20 23 26 24 20",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/anpe-agence-nationale-pour-lemploi/"
+  },
+  {
+   "name": "ANPE – AGENCE NATIONALE POUR L’EMPLOI GAO",
+   "addr": "CHATEAU SECTEUR I - BP 38 - GAO",
+   "tel": "+223 21820036",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/anpe-agence-nationale-pour-lemploi-gao/"
+  },
+  {
+   "name": "ANPE – AGENCE NATIONALE POUR L’EMPLOI KAYES",
+   "addr": "LIBERTE -BP 118 - KAYES",
+   "tel": "+223 21 53 16 53",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/anpe-agence-nationale-pour-lemploi-kayes/"
+  },
+  {
+   "name": "ANPE – AGENCE NATIONALE POUR L’EMPLOI KIDAL",
+   "addr": "ETAMBAR - BP 60 - KIDAL",
+   "tel": "+223 20 22 01 95",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/anpe-agence-nationale-pour-lemploi-kidal/"
+  },
+  {
+   "name": "ANPE – AGENCE NATIONALE POUR L’EMPLOI KOULIKORO",
+   "addr": "KOULIKOROBA - BP 21 - KOULIKORO",
+   "tel": "+223 21 26 21 87",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/anpe-agence-nationale-pour-lemploi-koulikoro/"
+  },
+  {
+   "name": "ANPE – AGENCE NATIONALE POUR L’EMPLOI MOPTI",
+   "addr": "KOMOGUEL II - BP 162 - MOPTI",
+   "tel": "+223 21 43 02 11",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/anpe-agence-nationale-pour-lemploi-mopti/"
+  },
+  {
+   "name": "ANPE – AGENCE NATIONALE POUR L’EMPLOI SEGOU",
+   "addr": "CENTRE COMMERCIAL - RUE 24 PORTE 222 - BP 158 - SEGOU",
+   "tel": "+223 21 32 03 88",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/anpe-agence-nationale-pour-lemploi-segou/"
+  },
+  {
+   "name": "ANPE – AGENCE NATIONALE POUR L’EMPLOI SIKASSO",
+   "addr": "WAYERMA II - BP 204 - SIKASSO",
+   "tel": "+223 21 62 03 60",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/anpe-agence-nationale-pour-lemploi-sikasso/"
+  },
+  {
+   "name": "ANPE – AGENCE NATIONALE POUR L’EMPLOI TOMBOUCTOU",
+   "addr": "DJINGAREIBER - ROUTE DE KABARA - BP 45 - TOMBOUCTOU",
+   "tel": "+223 21 92 10 44",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/anpe-agence-nationale-pour-lemploi-tombouctou/"
+  },
+  {
+   "name": "APCAM – ASSEMBLEE PERMANENTE DES CHAMBRES D’AGRICULTURE DU MALI",
+   "addr": "SQUARE PATRICE LUMUMBA - PORTE 15 - BP 3299 - BAMAKO",
+   "tel": "+223 20 21 87 25",
+   "fax": "+223 20 21 87 37",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/apcam-assemblee-permanente-des-chambres-dagriculture-du-mali/"
+  },
+  {
+   "name": "APCMM – ASSEMBLEE PERMANENTE DES CHAMBRES DE METIERS DU MALI",
+   "addr": "NIARELA - AVENUE DE LA SOMME - BAMAKO",
+   "tel": "+223 66 75 24 57",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/apcmm-assemblee-permanente-des-chambres-de-metiers-du-mali/"
+  },
+  {
+   "name": "APDP – AUTORITE DE PROTECTION DES DONNEES A CARACTERE PERSONNEL",
+   "addr": "AVENUE MOUSSA TRAVELE PORTE 462 - BAMAKO",
+   "tel": "+223 20 23 86 15",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/apdp-autorite-de-protection-des-donnees-a-caractere-personnel/"
+  },
+  {
+   "name": "APEJ – AGENCE POUR LA PROMOTION DE L’EMPLOI DES JEUNES",
+   "addr": "HAMDALLAYE ACI 2000 - BP E 2584 - BAMAKO",
+   "tel": "+223 20 29 64 55",
+   "fax": "+223 20 29 64 59",
+   "web": "https://apej.ml/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/apej-agence-pour-la-promotion-de-lemploi-des-jeunes/"
+  },
+  {
+   "name": "APEX MALI – AGENCE POUR LA PROMOTION DES EXPORTATIONS DU MALI",
+   "addr": "QUARTIER DU FLEUVE - EX-IMMEUBLE AIR AFRIQUE - 2 ETAGE - BAMAKO",
+   "tel": "+223 20 22 11 44 / 20 22 11 45",
+   "fax": "",
+   "web": "",
+   "date": "01/10/2022",
+   "url": "https://www.malipages.com/annuaire/lien/apex-mali-agence-pour-la-promotion-des-exportations-du-mali/"
+  },
+  {
+   "name": "API MALI –  AGENCE POUR LA PROMOTION DES INVESTISSEMENTS AU MALI",
+   "addr": "QUARTIER DU FLEUVE - BP 1980 - BAMAKO",
+   "tel": "+223  20 22 95 25/ 20 22 95 26",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/api-mali-agence-pour-la-promotion-des-investissements-au-mali/"
+  },
+  {
+   "name": "APROCA – ASSOCIATION DES PRODUCTEURS DE COTON AFRICAINS",
+   "addr": "BADALABOUGOU OUEST - BAMAKO",
+   "tel": "+223 20 22 63 67",
+   "fax": "",
+   "web": "https://aproca.org",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/aproca-association-des-producteurs-de-coton-africains/"
+  },
+  {
+   "name": "ARAFD – ASSOCIATION DE RECHERCHE ACTION FEMME ET DEVELOPPEMENT",
+   "addr": "BADALABOUGOU SEMA I - RUE 72 PORTE 245 - BP 2401 - BAMAKO",
+   "tel": "+223  20 22 75 89",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/arafd-association-de-recherche-action-femme-et-developpement/"
+  },
+  {
+   "name": "ARMDS – AUTORITE DE REGULATION DES MARCHES PUBLICS ET DES DELEGATIONS DE SERVICE PUBLIC",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 390 - BAMAKO",
+   "tel": "+223 20 29 40 12 / 20 29 40 13",
+   "fax": "+223 20 29 40 08",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/armds-autorite-de-regulation-des-marches-publics-et-des-delegations-de-service-public/"
+  },
+  {
+   "name": "ASSAFE – ASSOCIATION DU SAHEL D’AIDE A LA FEMME ET A L’ENFANCE",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 359 PORTE 347 - BP 6049 - BAMAKO",
+   "tel": "+223 20 29 40 84/ 76 30 91 45",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/assafe-association-du-sahel-daide-a-la-femme-et-a-lenfance/"
+  },
+  {
+   "name": "ASSEMBLEE NATIONALE DU MALI",
+   "addr": "BAGADADJI - BP 284 - BAMAKO",
+   "tel": "+223 20 21 57 24/ 20 21 61 69",
+   "fax": "+223 20 21 03 74",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/assemblee-nationale-du-mali/"
+  },
+  {
+   "name": "ASSEMBLEE REGIONALE DE KIDAL",
+   "addr": "KIDAL",
+   "tel": "+223 21 85 00 99",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/assemblee-regionale-de-kidal/"
+  },
+  {
+   "name": "AUTORITE INDEPENDANTE DE GESTION DES ELECTIONS – AIGE",
+   "addr": "BADALABOUGOU EST - AVENUE DE L'OUA - RUE 39 PORTE 31 - BP 71 - BAMAKO",
+   "tel": "+223 20 22 21 25",
+   "fax": "+223 20 22 24 50.",
+   "web": "",
+   "date": "11/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/autorite-independante-de-gestion-des-elections-aige/"
+  },
+  {
+   "name": "BSTP MALI – BOURSE DE SOUS-TRAITANCE ET DE PARTENARIAT DU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - IMMEUBLE PATRONAT - BAMAKO",
+   "tel": "+223 96 94 31 65 / 20 21 90 77",
+   "fax": "",
+   "web": "https://www.bstpmali.com",
+   "date": "09/03/2026",
+   "url": "https://www.malipages.com/annuaire/lien/bstp-mali-bourse-de-sous-traitance-et-de-partenariat-du-mali/"
+  },
+  {
+   "name": "BUMDA – BUREAU MALIEN DU DROIT DE L’AUTEUR",
+   "addr": "BAMAKO",
+   "tel": "+223 20 20 98 70",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/bumda-bureau-malien-du-droit-de-lauteur/"
+  },
+  {
+   "name": "BUREAU DU VERIFICATEUR GENERAL DE LA REPUBLIQUE DU MALI",
+   "addr": "HAMDALLAY ACI 2000 - RUE 286 - IMMEUBLE BGV - BP E 118 - BAMAKO",
+   "tel": "+223 44 98 38 77 / 44 98 38 78",
+   "fax": "",
+   "web": "http://www.bvg-mali.org/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/bureau-du-verificateur-general-de-la-republique/"
+  },
+  {
+   "name": "CAISFF – CELLULE D’APPUI A L’INFORMATISATION DES SERVICES FISCAUX ET FINANCIERS",
+   "addr": "HAMDALLAYE ACI 2000 - IMMEUBLE MINISTERE DE L'ECONOMIE - BAMAKO",
+   "tel": "+223 20 22 93 03/ 20 22 81 56",
+   "fax": "",
+   "web": "",
+   "date": "17/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/cellule-dappui-a-linformatisation-des-services-fiscaux-et-financiers/"
+  },
+  {
+   "name": "CANAM – CAISSE NATIONALE D’ASSURANCE MALADIE",
+   "addr": "HAMDALLAYE ACI 2000 - AVENUE DU MALI - IMMEUBLE SALIA DAOU - BAMAKO",
+   "tel": "+223 44 97 64 12 / 80 00 55 50",
+   "fax": "",
+   "web": "http://canammali.ml",
+   "date": "29/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/canam-caisse-nationale-dassurance-maladie/"
+  },
+  {
+   "name": "CCF – CENTRE CULTUREL FRANCAIS / INSTITUT FRANCAIS DU MALI",
+   "addr": "BOULEVARD DE L'INDEPENDENCE - BP 1547 - BAMAKO",
+   "tel": "+223 20 22 40 19",
+   "fax": "+223 20 22 58 28",
+   "web": "http://www.institutfrancaismali.org",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ccf-centre-culturel-francais-institut-francais-du-mali/"
+  },
+  {
+   "name": "CCIM – CHAMBRE DE COMMERCE ET INDUSTRIE DU MALI",
+   "addr": "CENTRE COMMERCIAL PLACE DE LA LIBERTE - PORTE 2 - BP 46 - BAMAKO",
+   "tel": "+223  20 22 50 36 / 76 13 02 36",
+   "fax": "",
+   "web": "https://www.cci.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ccim-chambre-de-commerce-et-industrie-du-mali/"
+  },
+  {
+   "name": "CECAM – CENTRE DE RECONCILIATION ET D’ARBITRAGE DU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - CITE DES 16 VILLAS - BAMAKO",
+   "tel": "+223 20 29 78 70/ 77 88 73 83",
+   "fax": "",
+   "web": "https://www.cecam.ml",
+   "date": "29/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/cecam-centre-de-reconciliation-et-darbitrage-du-mali/"
+  },
+  {
+   "name": "CEMAPI – CENTRE MALIEN DE PROMOTION DE LA PROPRIETE INDUSTRIELLE",
+   "addr": "BACO DJICORONI - BAMAKO",
+   "tel": "+223 20 29 90 90",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cemapi-centre-malien-de-promotion-de-la-propriete-industrielle/"
+  },
+  {
+   "name": "CENOU MALI – CENTRE NATIONAL DES OEUVRES UNIVERSITAIRES",
+   "addr": "CITE UNIVERSITAIRE DE KABALA - BAMAKO",
+   "tel": "+223 20 71 76 88",
+   "fax": "+223 20 71 76 89",
+   "web": "",
+   "date": "01/02/2025",
+   "url": "https://www.malipages.com/annuaire/lien/cenou-mali-centre-national-des-oeuvres-universitaires/"
+  },
+  {
+   "name": "CFCT – CENTRE DE FORMATION DES COLLECTIVITES TERRITORIALES",
+   "addr": "ROUTE DE KATI - BAMAKO",
+   "tel": "+223 20 74 21 34 /76 04 17 50",
+   "fax": "",
+   "web": "",
+   "date": "07/07/2021",
+   "url": "https://www.malipages.com/annuaire/lien/cfct-centre-de-formation-des-collectivites-territoriales/"
+  },
+  {
+   "name": "CICB – CENTRE INTERNATIONAL DE CONFERENCES DE BAMAKO",
+   "addr": "QUARTIER DU FLEUVE - BOULEVARD ABDEL AZIZ BOUTEFLIKA - BAMAKO",
+   "tel": "+223 20 70 64 64 / 76 44 81 13",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/palais-des-congres/"
+  },
+  {
+   "name": "CMSS – CAISSE MALIENNE DE SECURITE SOCIALE",
+   "addr": "HAMDALLAYE ACI 2000 - BP 484 - BAMAKO",
+   "tel": "+223 20 29 30 46 / 20 29 27 07",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cmss-caisse-malienne-de-securite-sociale/"
+  },
+  {
+   "name": "CMTR – CONSEIL MALIEN DES TRANSPORTEURS ROUTIERS",
+   "addr": "HIPPODROME - RUE 238 PORTE PORTE 235 - BP E 5535 - BAMAKO",
+   "tel": "+223 20 21 00 68 / 66 75 03 84",
+   "fax": "",
+   "web": "",
+   "date": "13/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/cmtr-conseil-malien-des-transporteurs-routiers/"
+  },
+  {
+   "name": "CNAM – CENTRE NATIONAL D’APPUI A LA LUTTE CONTRE LA MALADIE",
+   "addr": "DJICORONI PARA - BP 251 - BAMAKO",
+   "tel": "+223 20 22 51 31",
+   "fax": "+223 20 22 28 45",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cnam-centre-national-dappui-a-la-lutte-contre-la-maladie/"
+  },
+  {
+   "name": "CNDH – COMMISSION NATIONALE DES DROITS DE L’HOMME DU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 359 - BP E 3512 - BAMAKO",
+   "tel": "+223  20 29 70 21",
+   "fax": "",
+   "web": "https://cndhmali.ml",
+   "date": "07/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/cndh-commission-nationale-des-droits-de-lhomme-du-mali/"
+  },
+  {
+   "name": "CNOS – CENTRE NATIONAL D’ODONTO STOMATOLOGIE",
+   "addr": "QUARTIER DU FLEUVE - BP 2067 - BAMAKO",
+   "tel": "+223 20 22 65 17/ 20 23 31 83",
+   "fax": "+223 20 22 44 13/ 20 23 31 83",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cnos-centre-national-dodonto-stomatologie/"
+  },
+  {
+   "name": "CNPM – CONSEIL NATIONAL DU PATRONAT DU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - BP 2445 - BAMAKO",
+   "tel": "+223 20 21 63 11/ 44 90 17 10",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cnpm-conseil-national-du-patronat-du-mali/"
+  },
+  {
+   "name": "CNR-ENF – CENTRE NATIONAL DES RESSOURCES DE L’EDUCATION NON FORMELLE",
+   "addr": "DARSALAM - ROUTE DE KOULOUBA - BAMAKO",
+   "tel": "+223 20 22 41 62",
+   "fax": "",
+   "web": "",
+   "date": "20/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/cnr-enf-centre-national-des-ressources-de-leducation-non-formelle/"
+  },
+  {
+   "name": "CNREX BTP – CENTRE NATIONAL DE RECHERCHE ET D’EXPERIMENTATION POUR LE BATIMENTS ET LES TRAVAUX PUBLIQUES",
+   "addr": "SOGONIKO - ROUTE DE NIAMAKORO - BP 1398 - BAMAKO",
+   "tel": "+223 20 20 21 43",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cnrex-centre-national-de-recherche-et-dexperimentation-pour-le-batiments-et-les-travaux-publiques/"
+  },
+  {
+   "name": "COMMISSARIAT DE POLICE – 10EME ARRONDISSEMENT",
+   "addr": "BAMAKO",
+   "tel": "+223 20 20 37 20",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-10eme-arrondissement/"
+  },
+  {
+   "name": "COMMISSARIAT DE POLICE – 11EME ARRONDISSEMENT",
+   "addr": "BAMAKO",
+   "tel": "+223 20 28 10 05",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-11eme-arrondissement/"
+  },
+  {
+   "name": "COMMISSARIAT DE POLICE – 12EME ARRONDISSEMENT",
+   "addr": "BAMAKO",
+   "tel": "+223 20 24 26 31",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-12eme-arrondissement/"
+  },
+  {
+   "name": "COMMISSARIAT DE POLICE – 13EME ARRONDISSEMENT",
+   "addr": "BAMAKO",
+   "tel": "+223 20 20 53 07",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-13eme-arrondissement/"
+  },
+  {
+   "name": "COMMISSARIAT DE POLICE – 15EME ARRONDISSEMENT",
+   "addr": "BAMAKO",
+   "tel": "+223 20 28 38 33",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-15eme-arrondissement/"
+  },
+  {
+   "name": "COMMISSARIAT DE POLICE – 1ER ARRONDISSEMENT",
+   "addr": "BAMAKO",
+   "tel": "+223 20 22 51 37",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-1er-arrondissement/"
+  },
+  {
+   "name": "COMMISSARIAT DE POLICE – 2EME ARRONDISSEMENT",
+   "addr": "BAMAKO",
+   "tel": "+223 20 22 34 29",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-2eme-arrondissement/"
+  },
+  {
+   "name": "COMMISSARIAT DE POLICE – 3EME ARRONDISSEMENT",
+   "addr": "BAMAKO",
+   "tel": "+223 20 21 23 61",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-3eme-arrondissement/"
+  },
+  {
+   "name": "COMMISSARIAT DE POLICE – 4EME ARRONDISSEMENT",
+   "addr": "BAMAKO",
+   "tel": "+223 20 22 42 47",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-4eme-arrondissement/"
+  },
+  {
+   "name": "COMMISSARIAT DE POLICE – 5EME ARRONDISSEMENT",
+   "addr": "BAMAKO",
+   "tel": "+223 20 29 40 43",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-5eme-arrondissement/"
+  },
+  {
+   "name": "COMMISSARIAT DE POLICE – 6EME ARRONDISSEMENT",
+   "addr": "BAMAKO",
+   "tel": "+223 20 24 66 88",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-6eme-arrondissement/"
+  },
+  {
+   "name": "COMMISSARIAT DE POLICE – 7EME ARRONDISSEMENT",
+   "addr": "BAMAKO",
+   "tel": "+223 20 20 09 81",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-7eme-arrondissement/"
+  },
+  {
+   "name": "COMMISSARIAT DE POLICE – 8EME ARRONDISSEMENT",
+   "addr": "BAMAKO",
+   "tel": "+223 20 22 53 76",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-8eme-arrondissement/"
+  },
+  {
+   "name": "COMMISSARIAT DE POLICE – 9EME ARRONDISSEMENT",
+   "addr": "BAMAKO",
+   "tel": "+223 20 27 34 63",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-9eme-arrondissement/"
+  },
+  {
+   "name": "COMPLEXE NUMERIQUE DE BAMAKO",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223  20 29 64 54",
+   "fax": "+223 https://complexenumerique.ml",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/complexe-numerique-de-bamako/"
+  },
+  {
+   "name": "CONFED – CELLULE ORDONNATEUR NATIONAL DU FED",
+   "addr": "KOULOUBA - BAMAKO",
+   "tel": "+223 20 22 98 20",
+   "fax": "+223 20 22 45 34",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/confed-cellule-ordonnateur-national-du-fed/"
+  },
+  {
+   "name": "CONSEIL ECONOMIQUE, SOCIAL ET CULTUREL",
+   "addr": "KOULOUBA - BP E 15 - BAMAKO",
+   "tel": "+223 20 23 40 00/",
+   "fax": "+223 20 22 84 52",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/conseil-economique-social-et-culturel/"
+  },
+  {
+   "name": "CONSEIL REGIONAL DE MOPTI",
+   "addr": "ROUTE DE L'ABATOIR - SEVARE - BP 185 - MOPTI",
+   "tel": "+223 66 97 37 99 / 75 80 58 28",
+   "fax": "",
+   "web": "",
+   "date": "26/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/conseil-regional-de-mopti/"
+  },
+  {
+   "name": "CONSEIL REGIONAL DE SEGOU",
+   "addr": "HOTEL DE REGION - QUARTIER ADMINISTRATIF - BP 107 - SEGOU",
+   "tel": "+223 21 32 15 26",
+   "fax": "+223 21 32 15 79",
+   "web": "",
+   "date": "24/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/conseil-regional-de-segou/"
+  },
+  {
+   "name": "CONSEIL REGIONAL DE TOMBOUCTOU",
+   "addr": "HAMABANGOU - SECTEUR SANS FIL - TOMBOUCTOU",
+   "tel": "+223 76 43 58 57",
+   "fax": "",
+   "web": "",
+   "date": "26/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/conseil-regional-de-tombouctou/"
+  },
+  {
+   "name": "CONSULAT DE BELGIQUE AU MALI",
+   "addr": "QUARTIER DU FLEUVE - IMMEUBLE SANLAM - BP E 1633 - BAMAKO",
+   "tel": "+223 20 21 69 55 / 84 91 39 29",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/consulat-de-belgique-au-mali/"
+  },
+  {
+   "name": "CONSULAT DU BENIN AU MALI",
+   "addr": "HIPPODROME - RUE 250 PORTE 457 - BAMAKO",
+   "tel": "+223 20 21 23 80/ 70 36 20 20",
+   "fax": "",
+   "web": "",
+   "date": "06/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/consulat-du-benin-au-mali/"
+  },
+  {
+   "name": "CONSULAT DU LIBAN",
+   "addr": "HIPPODROME - RUE 218 - BAMAKO",
+   "tel": "+223 83 83 92 92/ 68 15 15 68",
+   "fax": "",
+   "web": "http://www.consulatlibanmali.org",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/consulat-du-liban/"
+  },
+  {
+   "name": "CONSULAT HONORAIRE DE L’ITALIE A BAMAKO",
+   "addr": "MISSABOUGOU -  CORNICHE DU CANAL N 25 - BP 1244 - BAMAKO",
+   "tel": "+223 44 42 13 72/ 76 12 85 47",
+   "fax": "+223 20 79 43 65",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/consulat-italie/"
+  },
+  {
+   "name": "COUR CONSTITUTIONNELLE DU MALI",
+   "addr": "BP E 213 - BAMAKO",
+   "tel": "+223 20 22 56 32",
+   "fax": "+223 20 22 56 09",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cour-constitutionnelle-du-mali/"
+  },
+  {
+   "name": "COUR SUPREME DU MALI",
+   "addr": "BANANKABOUGOU BOLE - BP 07 - BAMAKO",
+   "tel": "+223 20 20 24 04",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cour-supreme-du-mali/"
+  },
+  {
+   "name": "CREDOS – CENTRE DE RECHERCHE ET D’ETUDES ET DE DOCUMENTATION POUR LA SURVIE DE L’ENFANT",
+   "addr": "CITE MALI UNIVERS - BAMAKO",
+   "tel": "+223 20 21 51 52",
+   "fax": "+223  20 21 31 29",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/credos-centre-de-recherche-et-detudes-et-de-documentation-pour-la-survie-de-lenfant/"
+  },
+  {
+   "name": "CSA – COMMISSARIAT A LA SECURITE ALIMENTAIRE",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 317 PORTE 396 - BAMAKO",
+   "tel": "+223 20 29 15 36",
+   "fax": "+223 20 29 85 73",
+   "web": "https://csa.gouv.ml",
+   "date": "26/10/2019",
+   "url": "https://www.malipages.com/annuaire/lien/csa-commissariat-a-la-securite-alimentaire/"
+  },
+  {
+   "name": "CSLS TBH – CELLULE SECTORIELLE DE LUTTE CONTRE LE VIH/SIDA, LA TUBERCULOSE ET LES HEPATITES VIRALES",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 378",
+   "tel": "+223 76 01 98 40/ 50 05 17 84",
+   "fax": "",
+   "web": "",
+   "date": "10/07/2021",
+   "url": "https://www.malipages.com/annuaire/lien/csls-tbh-cellule-sectorielle-de-lutte-contre-le-vih-sida-la-tuberculose-et-les-hepatites-virales/"
+  },
+  {
+   "name": "DELEGATION DE L’UNION EUROPEENNE AU MALI",
+   "addr": "QUARTIER DU FLEUVE - IMMEUBLE UATT - BP 115 - BAMAKO",
+   "tel": "+223 44 92 92 92",
+   "fax": "",
+   "web": "https://www.eeas.europa.eu/delegations/mali_fr",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/delegation-de-lunion-europeenne-au-mali/"
+  },
+  {
+   "name": "DGDM – DIRECTION GENERALE DES DOUANES MALIENNES",
+   "addr": "SAMAKO II - BP 269 - BAMAKO",
+   "tel": "+223 20 20 34 07",
+   "fax": "",
+   "web": "https://douanes.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/dgdm-direction-generale-des-douanes-maliennes/"
+  },
+  {
+   "name": "DGE – DELEGATION GENERALE AUX ELECTIONS",
+   "addr": "HAMDALLAYE ACI 2000 - EX BASE AERIENNE - BP E 5386 - BAMAKO",
+   "tel": "+223 20 23 99 80",
+   "fax": "+223 20 23 82 17",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/delegation-generale-aux-elections/"
+  },
+  {
+   "name": "DGI – DIRECTION GENERALE DES IMPOTS",
+   "addr": "HAMDALLAYE ACI 2000 - BP 776 - BAMAKO",
+   "tel": "+223 20 29 99 18/ 20 29 25 29",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/dgi-direction-generale-des-impots/"
+  },
+  {
+   "name": "DIRECTION NATIONALE DES ARCHIVES DU MALI",
+   "addr": "HAMDALLAYE ACI 2000",
+   "tel": "+223 20 29 94 20 / 20 29 53 93 / 20 29 94 03",
+   "fax": "+223 20 29 94 03",
+   "web": "",
+   "date": "07/06/2022",
+   "url": "https://www.malipages.com/annuaire/lien/direction-nationale-des-archives-du-mali/"
+  },
+  {
+   "name": "DIRECTION REGIONALE DE LA SANTE DE KAYES",
+   "addr": "KAYES KHASSO - BP 231 - KAYES",
+   "tel": "+223  21 52 10 58",
+   "fax": "",
+   "web": "",
+   "date": "11/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/direction-regionale-de-la-sante-de-kayes/"
+  },
+  {
+   "name": "DNCC – DIRECTION NATIONALE DU COMMERCE ET DE LA CONCURRENCE",
+   "addr": "QUINZAMBOUGOU - BP 201 - BAMAKO",
+   "tel": "+223 20 21 23 14/ 20 21 49 28",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/direction-nationale-du-commerce-et-de-la-concurrence/"
+  },
+  {
+   "name": "DNGM – DIRECTION NATIONALE DE LA GEOLOGIE ET DES MINES",
+   "addr": "ZONE INDUSTRIELLE - ROUTE DE SOTUBA - BAMAKO",
+   "tel": "+223 20 21 58 21",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/dngm-direction-nationale-de-la-geologie-et-des-mines/"
+  },
+  {
+   "name": "DNH – DIRECTION NATIONALE DE L’HYDRAULIQUE",
+   "addr": "QUARTIER DU FLEUVE - SQUARE PATRICE LUMUMBA - BP 66 - BAMAKO",
+   "tel": "+223 20 21 48 77 / 20 21 25 88",
+   "fax": "+223 20 21 86 35",
+   "web": "https://dnhmali.org",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/dnh-direction-nationale-de-lhydraulique/"
+  },
+  {
+   "name": "DNI – DIRECTION NATIONALE DE L’INDUSTRIE",
+   "addr": "LAFIABOUGOU - AVENUE CHEICK ZAYED - BP 278 - BAMAKO",
+   "tel": "+223 20 29 57 60",
+   "fax": "+223 20 29 61 38",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/direction-nationale-de-lindustrie/"
+  },
+  {
+   "name": "DNUH – DIRECTION NATIONALE DE L’URBANISME ET DE L’HABITAT",
+   "addr": "DARSALAM - BAMAKO",
+   "tel": "+223 20 22 56 60/ 20 22 35 67",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/direction-nationale-de-lurbanisme-et-de-lhabitat/"
+  },
+  {
+   "name": "DRH – DIRECTION REGIONALE DE L’HYDRAULIQUE DE KAYES",
+   "addr": "BP 38 - KAYES",
+   "tel": "+223 21 52 13 20",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/drh-direction-regionale-de-lhydraulique-de-kayes/"
+  },
+  {
+   "name": "DRH – DIRECTION REGIONALE DE L’HYDRAULIQUE DE GAO",
+   "addr": "GAO",
+   "tel": "+223 21 82 03 43",
+   "fax": "",
+   "web": "",
+   "date": "22/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/drh-direction-regionale-de-lhydraulique-de-gao/"
+  },
+  {
+   "name": "DRH – DIRECTION REGIONALE DE L’HYDRAULIQUE DE KIDAL",
+   "addr": "KIDAL",
+   "tel": "+223 21 85 00 83",
+   "fax": "",
+   "web": "",
+   "date": "22/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/drh-direction-regionale-de-lhydraulique-de-kidal/"
+  },
+  {
+   "name": "DRH – DIRECTION REGIONALE DE L’HYDRAULIQUE DE KOULIKORO",
+   "addr": "KOULIKORO",
+   "tel": "+223 21 26 25 33",
+   "fax": "",
+   "web": "",
+   "date": "22/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/drh-direction-regionale-de-lhydraulique-de-koulikoro/"
+  },
+  {
+   "name": "DRH – DIRECTION REGIONALE DE L’HYDRAULIQUE DE MOPTI",
+   "addr": "MOPTI",
+   "tel": "+223 21 42 01 17",
+   "fax": "",
+   "web": "",
+   "date": "22/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/drh-direction-regionale-de-lhydraulique-de-mopti/"
+  },
+  {
+   "name": "DRH – DIRECTION REGIONALE DE L’HYDRAULIQUE DE SEGOU",
+   "addr": "SEGOU",
+   "tel": "+223 21 32 01 58",
+   "fax": "",
+   "web": "",
+   "date": "22/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/drh-direction-regionale-de-lhydraulique-de-segou/"
+  },
+  {
+   "name": "DRH – DIRECTION REGIONALE DE L’HYDRAULIQUE DE SIKASSO",
+   "addr": "SIKASSO",
+   "tel": "+223 21 62 03 10",
+   "fax": "",
+   "web": "",
+   "date": "22/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/drh-direction-regionale-de-lhydraulique-de-sikasso/"
+  },
+  {
+   "name": "DRH – DIRECTION REGIONALE DE L’HYDRAULIQUE DE TOMBOUCTOU",
+   "addr": "TOMBOUCTOU",
+   "tel": "+223 21 92 11 66",
+   "fax": "",
+   "web": "",
+   "date": "22/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/drh-direction-regionale-de-lhydraulique-de-tombouctou/"
+  },
+  {
+   "name": "DRH – DIRECTION REGIONALE DE L’HYDRAULIQUE DU DISTRICT DE BAMAKO",
+   "addr": "BAMAKO",
+   "tel": "+223 21 22 70 00",
+   "fax": "",
+   "web": "",
+   "date": "22/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/drh-direction-regionale-de-lhydraulique-du-district-de-bamako/"
+  },
+  {
+   "name": "FAFPA – FONDS D’APPUI A LA FORMATION PROFESSIONNELLE ET A L’APPRENTISSAGE",
+   "addr": "SOTUBA - BP E 3597 - BAMAKO",
+   "tel": "+223 20 22 14 72 / 20 22 59 84",
+   "fax": "+223 20 23 27 62",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/fafpa-fonds-dappui-a-la-formation-professionnelle-et-a-lapprentissage/"
+  },
+  {
+   "name": "FENAGROUP – FEDERATION PATRONALE DES TRANSPORTEURS DU MALI",
+   "addr": "DJICORONI PARA - IMMEUBLE DIDI TOURE - BAMAKO",
+   "tel": "+223  76 45 50 54",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/fenagroup-federation-patronale-des-transporteurs-du-mali/"
+  },
+  {
+   "name": "FENASCOM – FEDERATION NATIONALE DES ASSOCIATIONS DE SANTE COMMUNAUTAIRE",
+   "addr": "TOROKOROBOUGOU - BAMAKO",
+   "tel": "+223 20 28 59 32",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/fenascom-federation-nationale-des-associations-de-sante-communautaire/"
+  },
+  {
+   "name": "FERLAIT – FEDERATION REGIONALE DES UNIONS DE SOCIETES COOPERATIVES DES PRODUCTEURS DE LAIT DE SIKASSO",
+   "addr": "MEDINE - REU 402 PORTE 320 - SIKASSO",
+   "tel": "+223 21 62 16 53/ 66 72 48 01",
+   "fax": "",
+   "web": "",
+   "date": "30/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/ferlait-federation-regionale-des-unions-de-societes-cooperatives-des-producteurs-de-lait-de-sikasso/"
+  },
+  {
+   "name": "FNAM – FEDERATION NATIONALE DES ARTISANS DU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 115 PORTE 317 - BP 1502 - BAMAKO",
+   "tel": "+223 20 29 84 58",
+   "fax": "+223 20 29 26 02",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/fnam-federation-nationale-des-artisans-du-mali/"
+  },
+  {
+   "name": "HAUTE AUTORITE DE LA COMMUNICATION – HAC MALI",
+   "addr": "HAMDALLAYE ACI 2000 - IMMEUBLE DU CONTROLE GENERAL DES SERVICES PUBLICS - BAMAKO",
+   "tel": "+223 20 23 00 60",
+   "fax": "",
+   "web": "https://www.hac.ml/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/conseil-superieur-de-la-communication/"
+  },
+  {
+   "name": "HCNLS – HAUT CONSEIL NATIONAL DE LUTTE CONTRE LE SIDA",
+   "addr": "HAMDALLAYE - AVENUE DU MALI - RUE 341 PORTE 108 - BP 2551 - BAMAKO",
+   "tel": "+223 20 29 42 62 / 22 29 42 58",
+   "fax": "+223 22 29 42 58",
+   "web": "https://hcnls.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/hcnls-haut-conseil-national-de-lutte-contre-le-sida/"
+  },
+  {
+   "name": "ICRISAT MALI",
+   "addr": "BAMAKO",
+   "tel": "+223 20223375",
+   "fax": "+223 20228683",
+   "web": "https://www.icrisat.org",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/icrisat-mali/"
+  },
+  {
+   "name": "IER – INSTITUT D’ECONOMIE RURALE DU MALI",
+   "addr": "SOTUBA ACI - RUE MOHAMED V - BP 258 - BAMAKO",
+   "tel": "+223 20 23 19 05 / 20 22 26 06",
+   "fax": "+223 20 22 37 75",
+   "web": "http://www.ier.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ier-institut-deconomie-rurale-du-mali/"
+  },
+  {
+   "name": "IGM – INSTITUT GEOGRAPHIQUE DU MALI",
+   "addr": "SOGONIKO FASO KANU - BP 240 - BAMAKO",
+   "tel": "+223 20 20 28 40 / 20 20 33 14",
+   "fax": "+223 20 20 46 27",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/igm-institut-geographique-du-mali/"
+  },
+  {
+   "name": "INPS – INSTITUT NATIONAL DE PREVOYANCE SOCIALE",
+   "addr": "SQUARE PATRICE LUMUMBA - BP 53 - BAMAKO",
+   "tel": "+223 20 70 51 70/ 83 04 06 87",
+   "fax": "",
+   "web": "https://www.inps.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/inps-institut-national-de-prevoyance-sociale/"
+  },
+  {
+   "name": "INSP – INSTITUT NATIONAL DE SANTE PUBLIQUE",
+   "addr": "HIPPODROME - ROUTE DE KOULIKORO - RUE 235 PORTE 52 - BP 1771 - BAMAKO",
+   "tel": "+223 20 21 42 31",
+   "fax": "",
+   "web": "https://insp.ml",
+   "date": "06/11/2024",
+   "url": "https://www.malipages.com/annuaire/lien/insp-institut-national-de-sante-publique/"
+  },
+  {
+   "name": "INSTAT – INSTITUT NATIONAL DE LA STATISTIQUE",
+   "addr": "HAMDALLAYE ACI 2000 - AVENUE DU MALI - BP 12 - BAMAKO",
+   "tel": "+223 20 22 24 55",
+   "fax": "",
+   "web": "",
+   "date": "06/09/2022",
+   "url": "https://www.malipages.com/annuaire/lien/instat-institut-national-de-la-statistique/"
+  },
+  {
+   "name": "LA POSTE DU MALI",
+   "addr": "AVENUE DE LA LIBERTE PORTE 473 - BAMAKO",
+   "tel": "+223 83 84 84 90",
+   "fax": "",
+   "web": "https://laposte.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/onp-loffice-national-des-postes/"
+  },
+  {
+   "name": "LABORATOIRE NATIONAL DES EAUX",
+   "addr": "SOTUBA - BAMAKO",
+   "tel": "+223 66 75 37 85 / 66 75 37 86",
+   "fax": "",
+   "web": "",
+   "date": "11/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/laboratoire-national-des-eaux/"
+  },
+  {
+   "name": "LCV – LABORATOIRE CENTRAL VETERINAIRE",
+   "addr": "SOTUBA - ROUTE DE KOULIKORO KM 8 - BP 2295 - BAMAKO",
+   "tel": "+223 20 24 33 44",
+   "fax": "+223 20249809",
+   "web": "https://labovet-mali.org",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/lcv-laboratoire-central-veterinaire/"
+  },
+  {
+   "name": "MAECI – MINISTERE DES AFFAIRES ETRANGERES ET DE LA COOPERATION INTERNATIONALE",
+   "addr": "KOULOUBA - BP E 792 - BAMAKO",
+   "tel": "+223 20 22 50 92/ 20 22 67 40",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-des-affaires-etrangeres-et-de-la-cooperation-internationale/"
+  },
+  {
+   "name": "MAIRIE COMMUNE I",
+   "addr": "KOROFINA NORD - BAMAKO",
+   "tel": "+223 20 24 90 65",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-commune-i/"
+  },
+  {
+   "name": "MAIRIE COMMUNE II",
+   "addr": "MISSIRA - BAMAKO",
+   "tel": "+223 20 21 66 66",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-commune-ii/"
+  },
+  {
+   "name": "MAIRIE COMMUNE III",
+   "addr": "OUOLOFOBOUGOU - BAMAKO",
+   "tel": "+223 20 22 62 76",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-commune-iii/"
+  },
+  {
+   "name": "MAIRIE COMMUNE IV",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 20 29 64 84",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-commune-iv/"
+  },
+  {
+   "name": "MAIRIE COMMUNE V",
+   "addr": "BAMAKO COURA - BAMAKO",
+   "tel": "+223 20 28 20 96",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-commune-v/"
+  },
+  {
+   "name": "MAIRIE COMMUNE VI",
+   "addr": "SOGONIKO - BAMAKO",
+   "tel": "+223 20 20 38 77/ 76 32 86 14",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-commune-vi/"
+  },
+  {
+   "name": "MAIRIE DE BADIANGARA",
+   "addr": "BANDIAGARA",
+   "tel": "+223 21 42 00 12",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-badiangara/"
+  },
+  {
+   "name": "MAIRIE DE BAMAKO",
+   "addr": "PLACE DE LA LIBERTE - BP 256 - BAMAKO",
+   "tel": "+223  20 22 29 46 / 20 22 55 40",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-bamako/"
+  },
+  {
+   "name": "MAIRIE DE DJENNE",
+   "addr": "DJENNE",
+   "tel": "+223 21 42 02 48",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-djenne/"
+  },
+  {
+   "name": "MAIRIE DE GAO",
+   "addr": "GAO",
+   "tel": "+223 21 82 02 69",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-gao/"
+  },
+  {
+   "name": "MAIRIE DE KAYES",
+   "addr": "AVENUE DU 22 SEPTEMBRE - KAYES",
+   "tel": "+223 21 52 10 82",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-kayes/"
+  },
+  {
+   "name": "MAIRIE DE KIDAL",
+   "addr": "KIDAL",
+   "tel": "+223 21 85 00 76",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-kidal/"
+  },
+  {
+   "name": "MAIRIE DE KOULIKORO",
+   "addr": "KOULIKORO",
+   "tel": "+223 21 26 20 18",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-koulikoro/"
+  },
+  {
+   "name": "MAIRIE DE KOURY",
+   "addr": "BP 01 - KOURY",
+   "tel": "+223 21 64 42 02",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-koury/"
+  },
+  {
+   "name": "MAIRIE DE LA COMMUNE DE PELENGANA",
+   "addr": "BP 604 - PELENGANA",
+   "tel": "+223 21 32 14 21",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-la-commune-de-pelengana/"
+  },
+  {
+   "name": "MAIRIE DE MOPTI",
+   "addr": "AVENUE DE L'INDEPENDANCE - BP 150 - MOPTI",
+   "tel": "+223 21 43 01 51/ 77 10 60 09 / 76 24 00 48",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-mopti/"
+  },
+  {
+   "name": "MAIRIE DE SANA",
+   "addr": "SANA",
+   "tel": "+223 21 37 54 34",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-sana/"
+  },
+  {
+   "name": "MAIRIE DE SANZANA",
+   "addr": "SANZANA",
+   "tel": "+223 21 63 00 60",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-sanzana/"
+  },
+  {
+   "name": "MAIRIE DE SEGOU",
+   "addr": "QUARTIER ADMINISTRATIF - RN 6 - BP 90 - SEGOU",
+   "tel": "+223 21 32 19 57",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-segou/"
+  },
+  {
+   "name": "MAIRIE DE SIKASSO",
+   "addr": "KABOILA II - AVENUE LOURY - BP 32 - SIKASSO",
+   "tel": "+223 76 01 07 34 / 69 81 00 70",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-sikasso/"
+  },
+  {
+   "name": "MAIRIE DE TESSALIT",
+   "addr": "TESSALIT",
+   "tel": "+223 21 85 30 03",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-tessalit/"
+  },
+  {
+   "name": "MAIRIE DE TOMBOUCTOU",
+   "addr": "TOMBOUCTOU",
+   "tel": "+223 21 92 13 87",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mairie-de-tombouctou/"
+  },
+  {
+   "name": "MALIDENKO – PROJET DE RESILIENCE COMMUNAUTAIRE ET DE SERVICES INTENSIFS AU MALI",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 2 - 2EME ETAGE - BAMAKO",
+   "tel": "+223 20 01 20 18 / 76 12 41 61",
+   "fax": "",
+   "web": "",
+   "date": "29/07/2025",
+   "url": "https://www.malipages.com/annuaire/lien/malidenko-projet-de-resilience-communautaire-et-de-services-intensifs-au-mali/"
+  },
+  {
+   "name": "MEDIATEUR DE LA REPUBLIQUE DU MALI",
+   "addr": "hAMDALLAYE ACI 2000 - CITE ADMINISTRATIVE - BAMAKO",
+   "tel": "+223 20 29 20 04/05",
+   "fax": "",
+   "web": "https://www.mediateurdumali.com/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mediateur-de-la-republique-du-mali/"
+  },
+  {
+   "name": "MINISTERE DE L’ADMINISTRATION TERRITORIALE ET DE LA DECENTRALISATION",
+   "addr": "RUE BABA DIARRA - BP 215 - BAMAKO",
+   "tel": "+223 20 22 42 12 / 20 22 42 67 / 20 22 34 09",
+   "fax": "+223 20 23 02 47",
+   "web": "https://www.matcl.gov.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-ladministration-territoriale-et-de-la-decentralisation/"
+  },
+  {
+   "name": "MINISTERE DE L’ARTISANAT, DE LA CULTURE, DE L’INDUSTRIE HOTELIERE ET DU TOURISME",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 5 - BP E 4075 - BAMAKO",
+   "tel": "+223  20 01 50 00",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-lartisanat-et-du-tourisme/"
+  },
+  {
+   "name": "MINISTERE DE L’ECONOMIE ET DES FINANCES",
+   "addr": "HAMDALLAYE ACI 2000 - BP 234 - BAMAKO",
+   "tel": "+223  20 22 58 58",
+   "fax": "",
+   "web": "http://www.finances.gouv.ml/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-leconomie-et-des-finances/"
+  },
+  {
+   "name": "MINISTERE DE L’EDUCATION NATIONALE",
+   "addr": "PLACE DE LA LIBERTE - BP 71 - BAMAKO",
+   "tel": "+223 20 23 10 35",
+   "fax": "+223 20 23 05 45",
+   "web": "https://www.porteduc.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-leducation-nationale/"
+  },
+  {
+   "name": "MINISTERE DE L’ELEVAGE ET DE LA PECHE",
+   "addr": "CITE ADMINISTRATIVE - BAMAKO",
+   "tel": "+223 20 23 51 97",
+   "fax": "",
+   "web": "http://www.mep.gouv.ml",
+   "date": "06/04/2021",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-lelevage-et-de-la-peche/"
+  },
+  {
+   "name": "MINISTERE DE L’ENERGIE ET DE L’HYDRAULIQUE",
+   "addr": "QUARTIER DU FLEUVE - BAMAKO",
+   "tel": "+223 20224184",
+   "fax": "+223 20222160",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-lenergie-et-de-lhydraulique/"
+  },
+  {
+   "name": "MINISTERE DE L’ENTREPRENARIAT NATIONAL, DE L’EMPLOI ET DE LA FORMATION PROFESSIONNELLE",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 8 - BP 3298 - BAMAKO",
+   "tel": "+223 20 79 42 85",
+   "fax": "",
+   "web": "https://menefp.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-lemploi-et-de-la-formation-professionnelle/"
+  },
+  {
+   "name": "MINISTERE DE L’ENVIRONNEMENT, DE L’ASSAINISSEMENT ET DU DEVELOPPEMENT DURABLE",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 20 29 51 68",
+   "fax": "+223 20 29 51 70",
+   "web": "https://environnement.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-lenvironnement-de-lassainissement-et-du-developpement-durable/"
+  },
+  {
+   "name": "MINISTERE DE L’URBANISME ET DE LA POLITIQUE DE LA VILLE",
+   "addr": "BAMAKO",
+   "tel": "+223 20220548",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-lurbanisme-et-de-la-politique-de-la-ville/"
+  },
+  {
+   "name": "MINISTERE DE LA COMMUNICATION ET DE L’ECONOMIE NUMERIQUE",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 9 - BAMAKO",
+   "tel": "+223 20 21 90 04",
+   "fax": "",
+   "web": "https://communication.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-communication-et-de-leconomie-numerique/"
+  },
+  {
+   "name": "MINISTERE DE LA DEFENSE ET DES ANCIENS COMBATTANTS",
+   "addr": "BAMAKO",
+   "tel": "+223 20225021",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-defense-et-des-anciens-combattants/"
+  },
+  {
+   "name": "MINISTERE DE LA JEUNESSE ET DES SPORTS",
+   "addr": "BAMAKO",
+   "tel": "+223 20220133",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-jeunesse-et-des-sports/"
+  },
+  {
+   "name": "MINISTERE DE LA JUSTICE",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 12 - BP 97 - BAMAKO",
+   "tel": "+223  20 01 59 11 /  20 01 59 16 / 20 01 59 00",
+   "fax": "",
+   "web": "http://www.justice.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-justice/"
+  },
+  {
+   "name": "MINISTERE DE LA PROMOTION DE LA FEMME, DE L’ENFANT ET DE LA FAMILLE",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 4 - BP 2688 - BAMAKO",
+   "tel": "+223 20 79 34 36",
+   "fax": "",
+   "web": "https://mpfef.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-promotion-de-la-femme-de-lenfant-et-de-la-famille/"
+  },
+  {
+   "name": "MINISTERE DE LA RECONCILIATION, DE LA PAIX ET DE LA COHESION NATIONALE",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 9 - BAMAKO",
+   "tel": "+223 20 01 90 00",
+   "fax": "",
+   "web": "https://reconciliation.gouv.ml",
+   "date": "28/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-reconciliation-de-la-paix-et-de-la-cohesion-nationale/"
+  },
+  {
+   "name": "MINISTERE DE LA REFONDATION DE L’ETAT",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 2 - BAMAKO",
+   "tel": "+223 20 01 47 17 / 79 21 16 67",
+   "fax": "",
+   "web": "",
+   "date": "29/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-refondation-de-letat/"
+  },
+  {
+   "name": "MINISTERE DE LA SANTE ET DU DEVELOPPEMENT SOCIAL",
+   "addr": "CITE ADMINISTRATIVE - BP 232 - BAMAKO",
+   "tel": "+223 20 23 42 66/ 20 23 02 03",
+   "fax": "",
+   "web": "http://www.sante.gov.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-sante/"
+  },
+  {
+   "name": "MINISTERE DE LA SECURITE ET DE LA PROTECTION CIVILE",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223  20 23 10 74",
+   "fax": "",
+   "web": "https://www.securite.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-securite-et-de-la-protection-civile/"
+  },
+  {
+   "name": "MINISTERE DES MALIENS DE L’EXTERIEUR ET DE L’INTEGRATION AFRICAINE",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT N° 6 - BAMAKO",
+   "tel": "+223 20 01 60 00 / 20 21 81 49/ 20 21 81 48",
+   "fax": "+223 20 22 07 57",
+   "web": "http://maliens-exterieur.gouv.ml",
+   "date": "04/06/2022",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-des-maliens-de-lexterieur-et-de-lintegration-africaine/"
+  },
+  {
+   "name": "MINISTERE DES MINES",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT 3 - BAMAKO",
+   "tel": "+223 20 01 35 00",
+   "fax": "",
+   "web": "https://www.mines.gouv.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-des-mines/"
+  },
+  {
+   "name": "MINISTERE DES TRANSPORT ET DES INFRASTRUCTURES",
+   "addr": "AVENUE DE LA LIBERTE - BP 78 - BAMAKO",
+   "tel": "+223 20 29 11 25",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-des-transport-et-des-infrastructures/"
+  },
+  {
+   "name": "MINISTERE DU DEVELOPPEMENT RURAL",
+   "addr": "CITE ADMINISTRATIVE - BATIMENT N° 1 - BAMAKO",
+   "tel": "+223 20 01 10 00",
+   "fax": "",
+   "web": "https://maep.gouv.ml/",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ministere-du-developpement-rural/"
+  },
+  {
+   "name": "OAM – ORDRE DES ARCHITECTES DU MALI",
+   "addr": "BADALABOUGOU SEMA I - RUE 90 PORTE 9040 - BAMAKO",
+   "tel": "+223 20239830",
+   "fax": "+223 20239831",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/oam-ordre-des-architectes-du-mali/"
+  },
+  {
+   "name": "OAPI – ORGANISATION AFRICAINE DE LA PROPRIETE INTELLECTUELLE / CEMAPI – CENTRE MALIEN DE PROMOTION DE LA PROPRIETE INDUSTRIELLE",
+   "addr": "HAMDALLAYE ACI 2000 - BP 278 - BAMAKO",
+   "tel": "+223 20 29 90 90/ 20 29 90 91",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/oapi-organisation-africaine-de-la-propriete-intellectuelle/"
+  },
+  {
+   "name": "OCLEI MALI – OFFICE CENTRAL DE LUTTE CONTRE L’ENRICHISSEMENT ILLICITE",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 20 29 12 31",
+   "fax": "",
+   "web": "",
+   "date": "14/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/oclei-mali-office-central-de-lutte-contre-lenrichissement-illicite/"
+  },
+  {
+   "name": "OFFICE RIZ SEGOU",
+   "addr": "BP 94 - SEGOU",
+   "tel": "+223 21 32 03 26",
+   "fax": "+223 21 32 04 57",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/office-riz-segou/"
+  },
+  {
+   "name": "OFII – OFFICE FRANCAIS DE L’IMMIGRATION ET DE L’INTEGRATION",
+   "addr": "QUARTIER DU FLEUVE - AMBASSADE DE FRANCE AU MALI - AVENUE MOUSSA TRAVELE - PORTE 512 - BP 3172 - BAMAKO",
+   "tel": "+223 20 22 50 17",
+   "fax": "+223 20 22 72 81",
+   "web": "https://ml.ambafrance.org/La-Representation-de-l-OFII-au-Mali",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/ofii-office-francais-de-limmigration-et-de-lintegration/"
+  },
+  {
+   "name": "OMA – OBSERVATOIRE DU MARCHE AGRICOLE",
+   "addr": "HIPPODROME - RUE 474 PORTE 279 - BP E 5589 - BAMAKO",
+   "tel": "+223 20 21 40 73",
+   "fax": "+223 20 21 40 73",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/oma-observatoire-du-marche-agricole/"
+  },
+  {
+   "name": "OMH – OFFICE MALIEN DE L’HABITAT",
+   "addr": "COUR DU MINISTERE DES TRANSPORTS ET DES INFRASTRUCTURES - BAMAKO",
+   "tel": "+223 20 23 24 81 / 20 23 16 19",
+   "fax": "+223 20 23 68 39",
+   "web": "https://omh-mali.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/omh-office-malien-de-lhabitat/"
+  },
+  {
+   "name": "ONASR – OFFICE NATIONAL DE LA SANTE DE LA REPRODUCTION",
+   "addr": "HAMDALLAYE ACI 2000 - BP 242 - BAMAKO",
+   "tel": "+223 20 29 70 76",
+   "fax": "+223 20 29 70 75",
+   "web": "",
+   "date": "17/01/2025",
+   "url": "https://www.malipages.com/annuaire/lien/onasr-office-national-de-la-sante-de-la-reproduction/"
+  },
+  {
+   "name": "ONEF – OBSERVATOIRE NATIONAL DE L’EMPLOI ET DE LA FORMATION",
+   "addr": "BACODJICORONI  ACI - BAMAKO",
+   "tel": "+223 20 28 61 09/ 99 66 51 72",
+   "fax": "",
+   "web": "https://onef.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/onef-observatoire-national-de-lemploi-et-de-la-formation/"
+  },
+  {
+   "name": "OPAM – OFFICE DES PRODUITS AGRICOLES DU MALI",
+   "addr": "ZONE INDUSTRIELLE BAKARIBOUGOU - BP 132 - BAMAKO",
+   "tel": "+223 20 21 40 85/20 21 31 48",
+   "fax": "+223 20 21 04 06",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/opam-office-des-produits-agricoles-du-mali/"
+  },
+  {
+   "name": "OPI – ORGANISATION PATRONALE DES INDUSTRIELS DU MALI",
+   "addr": "BAMAKO",
+   "tel": "+223 44 90 14 94",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/opi-organisation-patronale-des-industriels-du-mali/"
+  },
+  {
+   "name": "OPV – OFFICE DE PROTECTION DES VEGETAUX",
+   "addr": "QUARTIER DU FLEUVE - SQUARE PATRICE LUMUMBA - BP E 281 - BAMAKO",
+   "tel": "+223 20 22 24 04",
+   "fax": "+223 20 22 48 12",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/opv-office-de-protection-des-vegetaux/"
+  },
+  {
+   "name": "ORDRE DES NOTAIRES DU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - IMMEUBLE FILY - BAMAKO",
+   "tel": "+223 20 29 39 96",
+   "fax": "",
+   "web": "",
+   "date": "22/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/ordre-des-notaires-du-mali/"
+  },
+  {
+   "name": "ORDRE DES PHARMACIENS DU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 20 23 40 18",
+   "fax": "",
+   "web": "https://ordrepharmacien.ml",
+   "date": "20/01/2024",
+   "url": "https://www.malipages.com/annuaire/lien/ordre-des-pharmaciens-du-mali/"
+  },
+  {
+   "name": "PPM – PHARMACIE POPULAIRE DU MALI",
+   "addr": "QUARTIER DU FLEUVE - AVENUE MOUSSA TRAVELE PORTE 724 - BP 277 - BAMAKO",
+   "tel": "+223 20 22 50 59",
+   "fax": "+223 20 22 90 34",
+   "web": "http://www.ppmmali.net",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/pharmacie-populaire-du-mali/"
+  },
+  {
+   "name": "PRIMATURE",
+   "addr": "QUARTIER DU FLEUVE - BAMAKO",
+   "tel": "+223 20 01 49 00",
+   "fax": "",
+   "web": "https://www.primature.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/primature/"
+  },
+  {
+   "name": "PRUBA – PROJET DE RESILIENCE URBAINE DE BAMAKO",
+   "addr": "DARSALAM - RUE 565 - IMMEUBLE DIRECTION NATIONALE DE L'URBANISME - BAMAKO",
+   "tel": "+223 20 23 66 23",
+   "fax": "+223 20 23 68 15",
+   "web": "",
+   "date": "19/10/2023",
+   "url": "https://www.malipages.com/annuaire/lien/pruba-projet-de-resilience-urbaine-de-bamako/"
+  },
+  {
+   "name": "SCOFI – PROJET PROMOUVOIR LA SCOLARISATION DES FILLES AU MALI",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 378 - IMMEUBLE ABT - BAMAKO",
+   "tel": "+223 66 74 90 44 / 70 72 77 54",
+   "fax": "",
+   "web": "",
+   "date": "12/04/2022",
+   "url": "https://www.malipages.com/annuaire/lien/scofi-projet-promouvoir-la-scolarisation-des-filles-au-mali/"
+  },
+  {
+   "name": "SECRETARIAT A L’HARMONISATION DE L’AIDE",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 311 PORTE 41 - BAMAKO",
+   "tel": "+223 20 23 23 41",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/secretariat-a-lharmonisation-de-laide/"
+  },
+  {
+   "name": "SOMAGEP SA – SOCIETE MALIENNE DE GESTION DE L’EAU POTABLE SA",
+   "addr": "DJICORONI TROUKABOUGOU - RUE 41 - BP E 708 - BAMAKO",
+   "tel": "+223 20 23 75 91/ 20 22 40 30",
+   "fax": "+223 Service de Dépannage : 66 74 78 32",
+   "web": "https://www.somagep.ml",
+   "date": "08/05/2021",
+   "url": "https://www.malipages.com/annuaire/lien/somagep-sa-societe-malienne-de-gestion-de-leau-potable-sa/"
+  },
+  {
+   "name": "SOMAPEP – SOCIETE MALIENNE DE PATRIMOINE DE L’EAU POTABLE",
+   "addr": "MAGNAMBOUGOU FASO KANU - BP 1528 - BAMAKO",
+   "tel": "+223 20 22 00 26 / 66 75 02 85",
+   "fax": "+223 20 22 02 00",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/somapep-societe-malienne-de-patrimoine-de-leau-potable/"
+  },
+  {
+   "name": "SONAREM – SOCIETE NATIONALE DE RECHERCHES ET D’EXPLOITATION DES RESSOURCES MINIERES DU MALI",
+   "addr": "BP 2 - KATI",
+   "tel": "+223 21 27 20 49",
+   "fax": "+223 21272042",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/sonarem-societe-nationale-de-recherches-et-dexploitation-des-ressources-minieres-du-mali/"
+  },
+  {
+   "name": "SYNDICAT MIXTE INTERCOLLECTIVITES « GRAND BAMAKO »",
+   "addr": "MAIRIE DU DISTRICT DE BAMAKO - BAMAKO",
+   "tel": "+223 20 22 29 46",
+   "fax": "",
+   "web": "",
+   "date": "03/02/2025",
+   "url": "https://www.malipages.com/annuaire/lien/syndicat-mixte-intercollectivites-grand-bamako/"
+  },
+  {
+   "name": "UEMOA – UNION ECONOMIQUE ET MONETAIRE OUEST AFRICAINE",
+   "addr": "HAMDALLAYE ACI 2000 - IMMEUBLE MGR JEAN MARIE CISSE - BP 2365 - BAMAKO",
+   "tel": "+223 20 29 01 67/ 44 90 18 29",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/uemoa-union-economique-et-monetaire-ouest-africaine/"
+  },
+  {
+   "name": "UNITE DE GESTION DES PROJETS FONDS MONDIAL / GAVI",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 78 48 89 39",
+   "fax": "",
+   "web": "",
+   "date": "24/06/2023",
+   "url": "https://www.malipages.com/annuaire/lien/unite-de-gestion-des-projets-fonds-mondial-gavi/"
+  }
+ ],
+ "services-medicaux": [
+  {
+   "name": "BIOLAB3",
+   "addr": "MISSABOUGOU - BAMAKO",
+   "tel": "+223 20 71 75 25/ 65 18 66 18",
+   "fax": "",
+   "web": "https://www.biolab3.net",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/biolab3/"
+  },
+  {
+   "name": "CABINET RADIOLOGIQUE CELY",
+   "addr": "MARCHE DIBIDA - BAMAKO",
+   "tel": "+223 20231515",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/cabinet-radiologique-cely/"
+  },
+  {
+   "name": "CCENTRE DE BIOLOGIE DE BAMAKO – BIOGENE",
+   "addr": "KOROFINA - ROUTE DE KOULIKORO - BAMAKO",
+   "tel": "+223 92 52 62 17",
+   "fax": "",
+   "web": "https://cbbbiogene.ml",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/ccentre-de-biologie-de-bamako-biogene/"
+  },
+  {
+   "name": "CLINIQUE ALDI",
+   "addr": "RUE TITI NIARE - BAMAKO",
+   "tel": "+223 20 21 14 34 / 75 24 97 77",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/clinique-aldi/"
+  },
+  {
+   "name": "GROUPE SANTE TIEBA",
+   "addr": "SEBENIKORO - BAMAKO",
+   "tel": "+223 94 63 26 22 / 63 02 76 09",
+   "fax": "",
+   "web": "https://labotieba.ml",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/groupe-sante-tieba/"
+  },
+  {
+   "name": "KEREFE SOINS A DOMICILE",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 93 90 51 31",
+   "fax": "",
+   "web": "https://www.kerefe.com",
+   "date": "02/08/2026",
+   "url": "https://www.malipages.com/annuaire/lien/kerefe/"
+  },
+  {
+   "name": "LABORATOIRE BIO 2000",
+   "addr": "HAMDALLAYE ACI 2000 - AVENUE CHEICK ZAYED - BAMAKO",
+   "tel": "+223 20 29 55 14 / 79 15 52 60",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/laboratoire-bio-2000/"
+  },
+  {
+   "name": "LABORATOIRE BIO7 SARL",
+   "addr": "MEDINA COURA - BAMAKO",
+   "tel": "+223 62 46 99 48/ 70 76 61 31",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/laboratoire-bio7-sarl/"
+  },
+  {
+   "name": "LABORATOIRE BIOTECH SARL",
+   "addr": "TOROKOROBOUGOU - IMMEUBLE SOYA - BAMAKO",
+   "tel": "+223 66 71 52 47 / 20 28 21 24",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/laboratoire-biotech-sarl/"
+  },
+  {
+   "name": "LABORATOIRE BOHIRO",
+   "addr": "MISSABOUGOU - BAMAKO",
+   "tel": "+223 82 10 08 60/61 81 98 18",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/laboratoire-bohiro/"
+  },
+  {
+   "name": "LABORATOIRE D’ANALYSES LE DIAFOUNOU",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 408 PORTE 185 - BAMAKO",
+   "tel": "+223 66 73 91 70/ 76 59 89 59",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/laboratoire-danalyses-le-diafounou/"
+  },
+  {
+   "name": "LABORATOIRE D’ANALYSES MEDICALES DE LA RIVE DROITE",
+   "addr": "TOROKOROBOUGOU - BAMAKO",
+   "tel": "+223 20 23 03 68",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/laboratoire-danalyses-medicales-de-la-rive-droite/"
+  },
+  {
+   "name": "LABORATOIRE D’ANALYSES MEDICALES KABALA",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 20292276",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/laboratoire-danalyses-medicales-kabala/"
+  },
+  {
+   "name": "LABORATOIRE D’ANALYSES SAMBARO",
+   "addr": "RUE 321 PORTE 158 - SIKASSO",
+   "tel": "+223 21 62 08 13/76 24 17 16",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/laboratoire-danalyses-sambaro/"
+  },
+  {
+   "name": "LABORATOIRE DE BIOLOGIE MEDICALE CELLAL SA",
+   "addr": "MAGNAMBOUGOU RURAL  - BP 7109 - BAMAKO",
+   "tel": "+223 70 25 25 72 /  70 16 74 93",
+   "fax": "",
+   "web": "https://www.labocellal.link",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/laboratoire-cellal/"
+  },
+  {
+   "name": "LABORATOIRE EUREKA",
+   "addr": "FALADIE - RUE 885 PORTE 332 - BAMAKO",
+   "tel": "+223 74 52 57 37/ 64 96 81 53",
+   "fax": "",
+   "web": "https://www.laboratoire-eureka.ml",
+   "date": "26/02/2025",
+   "url": "https://www.malipages.com/annuaire/lien/laboratoire-eureka/"
+  },
+  {
+   "name": "LABORATOIRE LABIOKA",
+   "addr": "PLATEAU - CITE ASECNA - KAYES",
+   "tel": "+223 21 52 37 71 / 77 21 32 97",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/laboratoire-labioka/"
+  },
+  {
+   "name": "LABORATOIRE LAMED",
+   "addr": "SOTUBA - BAMAKO",
+   "tel": "+223  76 45 91 38",
+   "fax": "",
+   "web": "",
+   "date": "18/03/2025",
+   "url": "https://www.malipages.com/annuaire/lien/laboratoire-lamed/"
+  },
+  {
+   "name": "LABORATOIRE PA & KA",
+   "addr": "HAMDALLAYE ACI 2000 - RUE 432 PORTE 217 - BP E 4824 - BAMAKO",
+   "tel": "+223 20 23 65 03/ 20 22 15 30",
+   "fax": "",
+   "web": "https://labo-paka.com",
+   "date": "02/11/2023",
+   "url": "https://www.malipages.com/annuaire/lien/laboratoire-pa-ka/"
+  },
+  {
+   "name": "SANTE MOBILE",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 96 96 96 17",
+   "fax": "",
+   "web": "https://www.santemobilegroupe.com",
+   "date": "31/12/2019",
+   "url": "https://www.malipages.com/annuaire/lien/sante-mobile/"
+  }
+ ],
+ "telecom": [
+  {
+   "name": "ALKAN MALI SA",
+   "addr": "HAMDALLAYE ACI 2000 - IMMEUBLE SDC - BAMAKO",
+   "tel": "+223 61 54 02 26 / 75 68 82 84",
+   "fax": "",
+   "web": "http://www.alkancit.com",
+   "date": "28/03/2019",
+   "url": "https://www.malipages.com/annuaire/lien/alkan-mali-sa/"
+  },
+  {
+   "name": "ATEL SA – ALPHA TELECOMMUNICATIONS MALI",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 50 00 01 49",
+   "fax": "",
+   "web": "",
+   "date": "14/01/2018",
+   "url": "https://www.malipages.com/annuaire/lien/alpha-telecommunications-mali-atel/"
+  },
+  {
+   "name": "CARLCARE TECHNOLOGY – TRANSSION HOLDING MALI",
+   "addr": "GRAND MARCHE - IMMEUBLE INPS - 3EME ETAGE - BAMAKO",
+   "tel": "+223 93 69 57 48",
+   "fax": "",
+   "web": "https://www.carlcare.com/ml",
+   "date": "04/02/2020",
+   "url": "https://www.malipages.com/annuaire/lien/carlcare-technology-transsion-holding-mali/"
+  },
+  {
+   "name": "INTERCOM MALI",
+   "addr": "NIARELA - RUE ENSEIGN ROUGE - BAMAKO",
+   "tel": "+223 75 17 12 23",
+   "fax": "",
+   "web": "https://intercom.ml",
+   "date": "22/02/2024",
+   "url": "https://www.malipages.com/annuaire/lien/intercom-mali/"
+  },
+  {
+   "name": "MOOV AFRICA MALITEL",
+   "addr": "HAMDALLAYE ACI 2000 - BP 740 - BAMAKO",
+   "tel": "+223 20 21 30 22",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/moov-africa-malitel/"
+  },
+  {
+   "name": "MOOV AFRICA SOTELMA",
+   "addr": "HAMDALLAYE ACI 2000 - BP 740 - BAMAKO",
+   "tel": "+223 20 21 52 80",
+   "fax": "+223 20 21 30 22",
+   "web": "https://www.moov-africa.ml",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/moov-africa-sotelma/"
+  },
+  {
+   "name": "ORANGE MALI SA",
+   "addr": "HAMDALLAYE ACI 2000 - IMMEUBLE TEYLIUM - BP E 3991 - BAMAKO",
+   "tel": "+223 44 99 90 00",
+   "fax": "+223 44 99 90 01",
+   "web": "http://www.orangemali.com",
+   "date": "26/10/2019",
+   "url": "https://www.malipages.com/annuaire/lien/orange-mali/"
+  },
+  {
+   "name": "TECHNOTEL MALI SARL",
+   "addr": "SOGONIKO - BAMAKO",
+   "tel": "+223 66 72 92 77 / 76 38 80 57",
+   "fax": "",
+   "web": "",
+   "date": "02/02/2025",
+   "url": "https://www.malipages.com/annuaire/lien/technotel-mali-sarl/"
+  },
+  {
+   "name": "TECNO MOBILE",
+   "addr": "NIAMAKORO - BAMAKO",
+   "tel": "+223 75 58 58 41",
+   "fax": "",
+   "web": "",
+   "date": "22/02/2024",
+   "url": "https://www.malipages.com/annuaire/lien/tecno-mobile/"
+  },
+  {
+   "name": "TELECEL MALI",
+   "addr": "HAMDALLAYE ACI 2000 - IMMEUBLE TELECEL - BAMAKO",
+   "tel": "+223 40 50 50 50",
+   "fax": "",
+   "web": "http://www.telecelmali.com",
+   "date": "04/09/2019",
+   "url": "https://www.malipages.com/annuaire/lien/telecel-mali/"
+  },
+  {
+   "name": "XIAOMI MALI",
+   "addr": "FALADIE - RUE DU GOUVERNEUR PORTE 108 - BAMAKO",
+   "tel": "+223 76 01 71 72 / 44 39 88 50",
+   "fax": "",
+   "web": "",
+   "date": "17/11/2019",
+   "url": "https://www.malipages.com/annuaire/lien/xiaomi-mali/"
+  },
+  {
+   "name": "ZIL TELECOM INTERNATIONAL",
+   "addr": "BOULKASSOUMBOUGOU - ROUTE DE KOULIKORO - RUE 420 PORTE 4673 - BP E590 - BAMAKO",
+   "tel": "+223 20 24 76 90/ 90 32 10 75",
+   "fax": "",
+   "web": "",
+   "date": "26/10/2019",
+   "url": "https://www.malipages.com/annuaire/lien/zil-telecom-international/"
+  }
+ ],
+ "presse": [
+  {
+   "name": "JOLIBA FM",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223 71 71 59 16",
+   "fax": "",
+   "web": "",
+   "date": "16/02/2025",
+   "url": "https://www.malipages.com/annuaire/lien/joliba-fm/"
+  },
+  {
+   "name": "JOURNAL L’ESSOR",
+   "addr": "SQUARE PATRICE LUMUMBA - BP 141 - BAMAKO",
+   "tel": "+223 20 22 36 83 / 20 22 57 67",
+   "fax": "+223 20 23 43 74",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/journal-lessor/"
+  },
+  {
+   "name": "JOURNAL L’INDEPENDANT – SOMAPRESSE",
+   "addr": "ACI 2000 DJICORONI PARA - RUE 360 PORTE 3276 - BP E 1040 - BAMAKO",
+   "tel": "+223 20 29 06 02/ 71 63 49 69 / 66 46 25 25",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/journal-lindependant-somapresse/"
+  },
+  {
+   "name": "JOURNAL LE CHALLENGER",
+   "addr": "HAMDALLAYE ACI 2000 - BAMAKO",
+   "tel": "+223  72 65 69 16",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/journal-le-challenger/"
+  },
+  {
+   "name": "JOURNAL LE REPUBLICAIN – SOCIETE EDICOM",
+   "addr": "DRAVELA BOLIBANA - RUE 400 PORTE 116 - BP 1484 - BAMAKO",
+   "tel": "+223 20 29 09 00 / 66 79 13 21",
+   "fax": "+223 20 29 09 33",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/journal-le-republicain-societe-edicom/"
+  },
+  {
+   "name": "JOURNAL LE SEGOVIEN",
+   "addr": "IMMEUBLE BONNE ETOILE DU MALI - BP 88 - SEGOU",
+   "tel": "+223 21 32 30 88",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/journal-le-segovien/"
+  },
+  {
+   "name": "JOURNAL LE SOIR DE BAMAKO",
+   "addr": "KALABAN COURA - BAMAKO",
+   "tel": "+223 20 20 06 91/ 90 00 78 08",
+   "fax": "+223 20 20 85 79",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/journal-le-soir-de-bamako/"
+  },
+  {
+   "name": "JOURNAL LES ECHOS",
+   "addr": "NIAMAKORO - BP 2043 - BAMAKO",
+   "tel": "+223 20 29 62 89/  66 75 14 92",
+   "fax": "+223 20297639",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/journal-les-echos/"
+  },
+  {
+   "name": "JOURNAL NOUVEL HORIZON",
+   "addr": "SOGONIKO - RUE 223 PORTE 145 - BP 942 - BAMAKO",
+   "tel": "+223 20 20 06 91/  89 15 26 91",
+   "fax": "+223 20 20 85 79",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/journal-nouvel-horizon/"
+  },
+  {
+   "name": "LA VOIX DE MOPTI",
+   "addr": "MOPTI",
+   "tel": "+223 63 50 66 63",
+   "fax": "",
+   "web": "https://voixdemopti.com",
+   "date": "01/02/2026",
+   "url": "https://www.malipages.com/annuaire/lien/la-voix-de-mopti/"
+  },
+  {
+   "name": "LE JALON MEDIA",
+   "addr": "BAMAKO",
+   "tel": "+223 74 13 10 08",
+   "fax": "",
+   "web": "",
+   "date": "24/02/2025",
+   "url": "https://www.malipages.com/annuaire/lien/le-jalon-media/"
+  },
+  {
+   "name": "MAISON DE LA PRESSE DU MALI",
+   "addr": "MEDINA COURA - RUE 20 PORTE 28 - BAMAKO",
+   "tel": "+223  76 13 29 84/ 76 71 81 44",
+   "fax": "",
+   "web": "",
+   "date": "13/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/maison-de-la-presse-du-mali/"
+  },
+  {
+   "name": "MALI TRIBUNE",
+   "addr": "KALABAN COURA SUD EXTENSION - BAMAKO",
+   "tel": "+223 79 26 84 51/ 66 35 01 01",
+   "fax": "",
+   "web": "https://malitribune.com",
+   "date": "25/07/2017",
+   "url": "https://www.malipages.com/annuaire/lien/mali-tribune/"
+  },
+  {
+   "name": "MALIJET",
+   "addr": "BAMAKO",
+   "tel": "+223 20 29 35 35",
+   "fax": "",
+   "web": "https://www.malijet.com",
+   "date": "20/02/2024",
+   "url": "https://www.malipages.com/annuaire/lien/malijet/"
+  },
+  {
+   "name": "MALITRIBUNE",
+   "addr": "IMMEUBLE DIABALI TRANSIT - 2EME ETAGE - APPARTEMENT 4 - BAMAKO",
+   "tel": "+223 71 46 83 66 / 89 90 84 19",
+   "fax": "",
+   "web": "https://malitribune.com",
+   "date": "06/04/2020",
+   "url": "https://www.malipages.com/annuaire/lien/malitribune/"
+  },
+  {
+   "name": "MALIWEB MEDIA SERVICES",
+   "addr": "BAMAKO",
+   "tel": "+223 65 92 99 58",
+   "fax": "",
+   "web": "http://www.maliweb.net",
+   "date": "03/03/2021",
+   "url": "https://www.malipages.com/annuaire/lien/maliweb-media-services/"
+  },
+  {
+   "name": "OKELEDO MAGAZINE",
+   "addr": "BAMAKO",
+   "tel": "+223 94 00 00 68",
+   "fax": "",
+   "web": "",
+   "date": "11/03/2024",
+   "url": "https://www.malipages.com/annuaire/lien/okeledo-magazine/"
+  },
+  {
+   "name": "RHHM SRAL",
+   "addr": "BAMAKO",
+   "tel": "+223 71 44 12 08",
+   "fax": "",
+   "web": "https://www.rhhm.net",
+   "date": "11/03/2024",
+   "url": "https://www.malipages.com/annuaire/lien/rhhm-sral/"
+  }
+ ]
+}

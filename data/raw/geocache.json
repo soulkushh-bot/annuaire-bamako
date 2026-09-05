@@ -1,0 +1,268 @@
+{
+ "acalan-academie-africaine-des-langues": {
+  "lat": null,
+  "q": "Académie Africaine des Langues, Bamako"
+ },
+ "amalan-academie-malienne-des-langues": {
+  "lat": 12.6561619,
+  "lng": -8.001088,
+  "q": "Académie Malienne des Langues, Bamako",
+  "osm": "node/3817116268",
+  "label": "Académie MAlienne des LANgues, TAH 5, Dravéla, Dar Salam, Médina Coura, Bamako, Mali"
+ },
+ "agefau-mali": {
+  "lat": null,
+  "q": "AGEFAU Mali, Bamako"
+ },
+ "agetipe-agence-d-execution-des-travaux-d-interet-public-pour-l-emploi": {
+  "lat": 12.633517,
+  "lng": -8.018383,
+  "q": "AGETIPE, Bamako",
+  "osm": "node/7934137086",
+  "label": "AGETIPE, Rue 331, ACI 2000, Para Djicoroni, Bamako, Mali"
+ },
+ "adn-agence-de-developpement-du-nord": {
+  "lat": null,
+  "q": "Agence de Développement du Nord, Bamako"
+ },
+ "adnm-agence-de-developpement-du-nord-du-mali": {
+  "lat": null,
+  "q": "Agence de Développement du Nord du Mali, Bamako"
+ },
+ "aedd-agence-de-l-environnement-et-du-developpement-durable": {
+  "lat": null,
+  "q": "Agence de l'Environnement et du Développement Durable, Bamako"
+ },
+ "agence-des-energies-renouvelables-du-mali": {
+  "lat": null,
+  "q": "Agence des Énergies Renouvelables du Mali, Bamako"
+ },
+ "agetic-agence-des-technologies-de-l-information-et-de-la-communication": {
+  "lat": 12.6385069,
+  "lng": -8.0212004,
+  "q": "Agence des Technologies de l'Information et de la Communication, Bamako",
+  "osm": "node/4485823489",
+  "label": "Agence des Technologies de l'Information et de la Communication, Rue 360, Hamdallaye, ACI 2000, Para Djicoroni, Bamako, "
+ },
+ "amanorm-agence-malienne-de-normalisation-et-de-promotion-de-la-qualite": {
+  "lat": null,
+  "q": "Agence Malienne de Normalisation et de Promotion de la Qualité, Bamako"
+ },
+ "anict-agence-nationale-d-investissement-des-collectivites-territoriales": {
+  "lat": 12.6534353,
+  "lng": -8.0030647,
+  "q": "ANICT, Bamako",
+  "osm": "way/202524364",
+  "label": "ANICT Institution de l'Etat, Rue 605, Dravéla, Dar Salam, Médina Coura, Bamako, Mali"
+ },
+ "agence-nationale-de-communication-pour-le-developpement-ancd": {
+  "lat": null,
+  "q": "Agence Nationale de Communication pour le Développement, Bamako"
+ },
+ "angesem-agence-nationale-de-gestion-des-stations-d-epuration-du-mali": {
+  "lat": null,
+  "q": "Agence Nationale de Gestion des Stations d'Épuration du Mali, Bamako"
+ },
+ "anpe-agence-nationale-pour-l-emploi": {
+  "lat": 12.6373719,
+  "lng": -8.0024293,
+  "q": "Agence Nationale pour l'Emploi, Bamako",
+  "osm": "node/4426729675",
+  "label": "Direction Générale de l'Agence Nationale pour l'Emploi, Avenue Moussa Traoré, Bolibana, Dar Salam, Médina Coura, Bamako,"
+ },
+ "apej-agence-pour-la-promotion-de-l-emploi-des-jeunes": {
+  "lat": 12.6384281,
+  "lng": -8.0326913,
+  "q": "Agence pour la Promotion de l'Emploi des Jeunes, Bamako",
+  "osm": "node/3468115887",
+  "label": "Agence pour la Promotion de l'Emploi des Jeunes (APEJ), Rue 430, Hamdallaye, ACI 2000, Lafiabougou, Bamako, Mali"
+ },
+ "apex-mali-agence-pour-la-promotion-des-exportations-du-mali": {
+  "lat": null,
+  "q": "Agence pour la Promotion des Exportations du Mali, Bamako"
+ },
+ "ageroute": {
+  "lat": 12.6372684,
+  "lng": -8.0195163,
+  "q": "AGEROUTE, Bamako",
+  "osm": "node/7692332088",
+  "label": "AGEROUTE, Rue 29, ACI 2000, Para Djicoroni, Bamako, Mali"
+ },
+ "api-mali": {
+  "lat": null,
+  "q": "API-Mali, Bamako"
+ },
+ "apcam-assemblee-permanente-des-chambres-d-agriculture-du-mali": {
+  "lat": 12.6387702,
+  "lng": -7.9961053,
+  "q": "APCAM, Bamako",
+  "osm": "node/5758624251",
+  "label": "APCAM, Avenue de la Marne, Bozola, Niaréla, Médina Coura, Bamako, Mali"
+ },
+ "apcmm-assemblee-permanente-des-chambres-de-metiers-du-mali": {
+  "lat": null,
+  "q": "Assemblée Permanente des Chambres de Métiers du Mali, Bamako"
+ },
+ "apdp-autorite-de-protection-des-donnees-a-caractere-personnel": {
+  "lat": null,
+  "q": "Autorité de Protection des Données a Caractère Personnel, Bamako"
+ },
+ "armds-autorite-de-regulation-des-marches-publics-et-des-delegations-de-service-p": {
+  "lat": null,
+  "q": "Autorité de Régulation des Marchés Publics et des Délégations de Service Public, Bamako"
+ },
+ "autorite-independante-de-gestion-des-elections-aige": {
+  "lat": null,
+  "q": "Autorité Indépendante de Gestion des Élections, Bamako"
+ },
+ "amrtp-autorite-malienne-de-regulation-des-telecommunications-des-tic-et-des-post": {
+  "lat": null,
+  "q": "Autorité Malienne de Régulation des Télécommunications, des TIC et des Postes, Bamako"
+ },
+ "bumda-bureau-malien-du-droit-de-l-auteur": {
+  "lat": null,
+  "q": "Bureau Malien du Droit de l'Auteur, Bamako"
+ },
+ "cmss-caisse-malienne-de-securite-sociale": {
+  "lat": 12.6092329,
+  "lng": -7.9713979,
+  "q": "Caisse Malienne de Sécurité Sociale, Bamako",
+  "osm": "node/3237901087",
+  "label": "Caisse Malienne de Sécurité Sociale, Rue 43, Faso Kanu, Sabalibougou, Bamako, Mali"
+ },
+ "canam": {
+  "lat": 12.6229361,
+  "lng": -8.0305737,
+  "q": "CANAM, Bamako",
+  "osm": "node/3463651128",
+  "label": "CANAM, Rue 266, ACI 2000, Para Djicoroni, Bamako, Mali"
+ },
+ "cemapi-centre-malien-de-promotion-de-la-propriete-industrielle": {
+  "lat": null,
+  "q": "Centre Malien de Promotion de la Propriété Industrielle, Bamako"
+ },
+ "cnrex-btp-centre-national-de-recherche-et-d-experimentation-pour-le-batiments-et": {
+  "lat": null,
+  "q": "Centre National de Recherche et d'Expérimentation pour le Bâtiments et les Travaux Publiques, Bamako"
+ },
+ "cnr-enf-centre-national-des-ressources-de-l-education-non-formelle": {
+  "lat": 12.6564201,
+  "lng": -8.0000935,
+  "q": "Centre National des Ressources de l'Éducation Non Formelle, Bamako",
+  "osm": "node/3736313903",
+  "label": "centre national des ressources de l'education non formelle, Avenue de la Liberté, Dravéla, Dar Salam, Médina Coura, Bama"
+ },
+ "ccim": {
+  "lat": 12.6389906,
+  "lng": -8.0330098,
+  "q": "Chambre de Commerce et d'Industrie du Mali, Bamako",
+  "osm": "node/3468044304",
+  "label": "Chambre de Commerce et d'Industrie du Mali (Institut Consulaire et de Formation), Rue 395, Hamdallaye, ACI 2000, Lafiabo"
+ },
+ "csa-commissariat-a-la-securite-alimentaire": {
+  "lat": 12.6283704,
+  "lng": -8.0315872,
+  "q": "CSA, Bamako",
+  "osm": "node/7054199887",
+  "label": "CSA, Rue 412, ACI 2000, Para Djicoroni, Bamako, Mali"
+ },
+ "cndh-commission-nationale-des-droits-de-l-homme-du-mali": {
+  "lat": 12.6391376,
+  "lng": -8.0279829,
+  "q": "CNDH, Bamako",
+  "osm": "node/3463729404",
+  "label": "Commission Nationale des Droits de L'Homme (CNDH), Rue 394, Hamdallaye, ACI 2000, Lafiabougou, Bamako, Mali"
+ },
+ "complexe-numerique-de-bamako": {
+  "lat": null,
+  "q": "Complexe Numérique de Bamako, Bamako"
+ },
+ "dge-delegation-generale-aux-elections": {
+  "lat": null,
+  "q": "Délégation Générale aux Élections, Bamako"
+ },
+ "dgdm-direction-generale-des-douanes-maliennes": {
+  "lat": null,
+  "q": "Direction Générale des Douanes Maliennes, Bamako"
+ },
+ "dgi-impots": {
+  "lat": 12.6321253,
+  "lng": -8.0147566,
+  "q": "DGI, Bamako",
+  "osm": "node/4843544890",
+  "label": "Direction Generale Des Impot (DGI), Rue 204, Bolibana, ACI 2000, Para Djicoroni, Bamako, Mali"
+ },
+ "dnh-direction-nationale-de-l-hydraulique": {
+  "lat": null,
+  "q": "Direction Nationale de l'Hydraulique, Bamako"
+ },
+ "dni-direction-nationale-de-l-industrie": {
+  "lat": 12.5994635,
+  "lng": -7.9800975,
+  "q": "DNI, Bamako",
+  "osm": "node/9487013265",
+  "label": "Sougou dni, Commune V, Bamako, Mali"
+ },
+ "dnuh-direction-nationale-de-l-urbanisme-et-de-l-habitat": {
+  "lat": 12.6503697,
+  "lng": -8.0021685,
+  "q": "Direction Nationale de l'Urbanisme et de l'Habitat, Bamako",
+  "osm": "node/9302352387",
+  "label": "Direction Nationale de l'Urbanisme et de l'Habitat, Rue Dioungamadi Sissoko, Ouolofobougou, Dravéla, Dar Salam, Médina C"
+ },
+ "dngm-direction-nationale-de-la-geologie-et-des-mines": {
+  "lat": 12.6514224,
+  "lng": -7.9433555,
+  "q": "DNGM, Bamako",
+  "osm": "node/8878407017",
+  "label": "Site mobile DNGM, Rue Pasteur, Cité de la solidarité à Sotuba, Bakaribougou, Bamako, Mali"
+ },
+ "direction-nationale-des-archives-du-mali": {
+  "lat": null,
+  "q": "Direction Nationale des Archives du Mali, Bamako"
+ },
+ "dncc-direction-nationale-du-commerce-et-de-la-concurrence": {
+  "lat": null,
+  "q": "Direction Nationale du Commerce et de la Concurrence, Bamako"
+ },
+ "drh-direction-regionale-de-l-hydraulique-du-district-de-bamako": {
+  "lat": null,
+  "q": "Direction Régionale de l'Hydraulique du District de Bamako, Bamako"
+ },
+ "fafpa-fonds-d-appui-a-la-formation-professionnelle-et-a-l-apprentissage": {
+  "lat": 12.6312059,
+  "lng": -8.0358679,
+  "q": "FAFPA, Bamako",
+  "osm": "node/3592483413",
+  "label": "Fonds d'Appui a la Formation Professionnelle et d'Apprentissage, Rue 400, Lafiabougou koda, ACI 2000, Lafiabougou, Bamak"
+ },
+ "inps": {
+  "lat": 12.6358401,
+  "lng": -8.0049371,
+  "q": "INPS, Bamako",
+  "osm": "node/4281265694",
+  "label": "INPS, Avenue Ruault, Bolibana, Dar Salam, Médina Coura, Bamako, Mali"
+ },
+ "ier-institut-d-economie-rurale-du-mali": {
+  "lat": 12.6406732,
+  "lng": -7.9967383,
+  "q": "IER, Bamako",
+  "osm": "node/7181925887",
+  "label": "IER DIRECTION, Rue 335, Bozola, Bagadadji, Médina Coura, Bamako, Mali"
+ },
+ "igm-institut-geographique-du-mali": {
+  "lat": 12.6101659,
+  "lng": -7.9735249,
+  "q": "Institut Géographique du Mali, Bamako",
+  "osm": "way/218456457",
+  "label": "Institut Géographique du Mali, Faso Kanu, Sabalibougou, Bamako, BP 240 Bamako, Mali"
+ },
+ "instat-institut-national-de-la-statistique": {
+  "lat": null,
+  "q": "Institut National de la Statistique, Bamako"
+ },
+ "oma-observatoire-du-marche-agricole": {
+  "lat": null,
+  "q": "Observatoire du Marché Agricole, Bamako"
+ }
+}

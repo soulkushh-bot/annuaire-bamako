@@ -363,6 +363,8 @@ def main():
     # géocodage
     n_geo = 0
     for e in entries:
+        if e.get("lat"):            # coordonnées saisies à la main dans curated.json : prioritaires
+            n_geo += 1; continue
         g = geo.get(e["id"])
         if g and g.get("lat"):
             e["lat"], e["lng"] = round(g["lat"], 6), round(g["lng"], 6); n_geo += 1

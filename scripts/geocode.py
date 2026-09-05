@@ -20,8 +20,34 @@ def fold(s):
     s = unicodedata.normalize("NFD", s or "")
     return "".join(c for c in s if unicodedata.category(c) != "Mn").lower()
 
-def tokens(s):
-    return {t for t in re.findall(r"[a-z0-9]+", fold(s)) if len(t) > 2 and t not in STOP}
+def tokens(s, keep_generic=False):
+    return {t for t in re.findall(r"[a-z0-9]+", fold(s)) if len(t) > 2 and (keep_generic or t not in STOP)}
+
+def variants(e):
+    """Formes de requête à essayer : OSM nomme « Hôpital Gabriel Touré », jamais « CHU Gabriel Touré »."""
+    base = re.sub(r"\(.*?\)|—.*$", "", e["name"])
+    base = re.sub(r"[«»\"']", " ", base)
+    base = re.sub(r"\s+", " ", base).strip(" ,-")
+    out = [base]
+    m = re.match(r"^CHU[\s-]+(?:du |de la |de |d')?(.+)$", base, re.I)
+    if m:
+        out.append("Hôpital " + m.group(1))
+    if re.match(r"^Hôpital\b", base, re.I):
+        out.append("CHU " + re.sub(r"^Hôpital\s+(?:du |de la |de |d')?", "", base, flags=re.I))
+    if e.get("acronym"):
+        out.append(e["acronym"])
+    # queue distinctive : « Centre Hospitalier Mère-Enfant Le Luxembourg » -> « Le Luxembourg »
+    words = base.split()
+    if len(words) > 3:
+        out.append(" ".join(words[-2:]))
+    if e.get("quartier"):
+        out.append(f"{base}, {e['quartier']}")
+    seen, uniq = set(), []
+    for v in out:
+        k = fold(v)
+        if k and k not in seen:
+            seen.add(k); uniq.append(v)
+    return uniq
 
 def query(q):
     url = "https://nominatim.openstreetmap.org/search?" + urllib.parse.urlencode({
@@ -34,33 +60,41 @@ def accept(e, res):
     lat, lon = float(res["lat"]), float(res["lon"])
     if not (BBOX[0] <= lat <= BBOX[1] and BBOX[2] <= lon <= BBOX[3]):
         return False
-    if res.get("class") in {"place", "highway", "boundary", "landuse", "natural", "waterway"}:
+    if res.get("class") in {"place", "highway", "boundary", "landuse", "natural", "waterway", "public_transport", "railway"}:
+        return False
+    # Un arrêt de bus porte souvent le nom de l'établissement voisin : ce n'est pas l'établissement.
+    if re.match(r"arret|arrêt|station\b", fold(res.get("display_name", ""))):
         return False
     names = " ".join(str(v) for v in (res.get("namedetails") or {}).values()) + " " + res.get("display_name", "")
-    want = tokens(e["name"]) | tokens(e.get("acronym", ""))
-    got = tokens(names)
-    common = want & got
-    # acronyme exact ou au moins 2 mots significatifs (1 si le nom n'en a qu'un)
-    if e.get("acronym") and fold(e["acronym"]) in got:
+    if e.get("acronym") and fold(e["acronym"]) in tokens(names, keep_generic=True):
         return True
+    want = tokens(e["name"]) | tokens(e.get("acronym", ""))
     need = 1 if len(want) <= 1 else 2
-    return len(common) >= need
+    if not want:
+        # Nom entièrement composé de mots génériques (« Hôpital du Mali ») : on les réutilise,
+        # mais en exigeant qu'ils correspondent presque tous.
+        want = tokens(e["name"], keep_generic=True)
+        need = max(2, len(want) - 1)
+    got = tokens(names, keep_generic=True)
+    return len(want & got) >= need
 
 def main():
     data = json.load(open(P("data", "annuaire.json"), encoding="utf-8"))
     cache = json.load(open(CACHE, encoding="utf-8")) if os.path.exists(CACHE) else {}
-    only = set(sys.argv[1:])  # ids optionnels à (re)géocoder
-    todo = [e for e in data["entries"] if (e["id"] in only) or (not only and e["id"] not in cache)]
+    args = sys.argv[1:]
+    retry = "--retry" in args            # relance les fiches restées sans coordonnées
+    only = {a for a in args if not a.startswith("--")}
+    def pending(e):
+        if only:
+            return e["id"] in only
+        c = cache.get(e["id"])
+        return c is None or (retry and not c.get("lat"))
+    todo = [e for e in data["entries"] if pending(e)]
     print(len(todo), "fiches à géocoder")
     for i, e in enumerate(todo, 1):
         if e["category"] == "urgences":
             cache[e["id"]] = {"lat": None, "q": None}; continue
-        base = re.sub(r"\(.*?\)|—.*$", "", e["name"]).strip()
-        cands = [f"{base}, Bamako"]
-        if e.get("acronym"):
-            cands.append(f"{e['acronym']}, Bamako")
-        if e.get("quartier"):
-            cands.append(f"{base}, {e['quartier']}, Bamako")
+        cands = [f"{v}, Bamako" for v in variants(e)]
         hit = None
         for q in cands:
             try:

@@ -46,7 +46,7 @@
         <div class="search-box">
           <svg class="search-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
           <input id="q" type="search" placeholder="Ex. : Gabriel Touré, ministère de la Santé, mairie Commune IV, INPS…" autocomplete="off" inputmode="search" enterkeyhint="search">
-          <button class="search-clear" id="q-clear" type="button" aria-label="Effacer la recherche" hidden>×</button>
+          <button class="search-clear" id="q-clear" type="button" aria-label="Effacer la recherche" hidden><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
         </div>
       </form>
 
@@ -77,9 +77,16 @@
 
     <section id="resultats" aria-live="polite">
       <div class="results-head">
-        <p class="count" id="count">Chargement…</p>
+        <p class="count" id="count">Chargement de l'annuaire…</p>
       </div>
-      <div class="grid" id="grid"></div>
+      <div class="grid" id="grid">
+        <div class="skel"><span></span><span></span><span></span><span></span></div>
+        <div class="skel"><span></span><span></span><span></span><span></span></div>
+        <div class="skel"><span></span><span></span><span></span><span></span></div>
+        <div class="skel"><span></span><span></span><span></span><span></span></div>
+        <div class="skel"><span></span><span></span><span></span><span></span></div>
+        <div class="skel"><span></span><span></span><span></span><span></span></div>
+      </div>
       <div class="empty" id="empty" hidden>
         <p><strong>Aucun résultat.</strong> Essayez un autre mot, une autre catégorie, ou <button class="link" id="empty-reset" type="button">réinitialisez les filtres</button>.</p>
         <p class="suggest-line" hidden>Il manque une structure ? <a id="empty-suggest" href="#" target="_blank" rel="noopener">Proposez-la</a>.</p>
@@ -105,7 +112,7 @@
     <article class="card">
       <div class="card-head">
         <span class="badge"></span>
-        <span class="head-right"><span class="verif" hidden>✓ vérifié</span><span class="commune"></span></span>
+        <span class="head-right"><span class="verif" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>vérifié</span><span class="commune"></span></span>
       </div>
       <h3 class="card-title"></h3>
       <p class="card-sub"></p>

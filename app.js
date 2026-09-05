@@ -307,7 +307,13 @@
       const r = await fetch('data/annuaire.json', { cache: 'no-cache' });
       DATA = await r.json();
     } catch (err) {
-      els.count.textContent = 'Impossible de charger les données.';
+      // Panne de chargement : dire quoi faire, et laisser les numéros d'urgence accessibles.
+      els.grid.innerHTML = '';
+      els.count.textContent = 'Annuaire indisponible';
+      els.empty.hidden = false;
+      els.empty.firstElementChild.innerHTML =
+        `<strong>Les fiches n'ont pas pu être chargées.</strong> Vérifiez votre connexion et rechargez la page.
+         Les numéros d'urgence en haut de l'écran restent composables.`;
       return;
     }
     DATA.entries.forEach((e) => {

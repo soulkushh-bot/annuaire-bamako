@@ -894,7 +894,7 @@
    "category": "administrations",
    "type": "",
    "quartier": "Hamdallaye ACI 2000",
-   "commune": "Commune III",
+   "commune": "Commune IV",
    "address": "Hamdallaye ACI 2000, Ex Base Aérienne, BP E 5386, Bamako",
    "phones": [
     {
@@ -1042,7 +1042,7 @@
    "category": "administrations",
    "type": "Direction nationale",
    "quartier": "Zone Industrielle",
-   "commune": "Commune I",
+   "commune": "Commune II",
    "address": "Zone Industrielle, Route de Sotuba, Bamako",
    "phones": [
     {
@@ -5105,7 +5105,7 @@
    "category": "education",
    "type": "Université",
    "quartier": "Badialan III / Zrny 26 Mars / Sotuba ACI",
-   "commune": "Commune I",
+   "commune": "Commune III",
    "address": "Badialan III / Zrny 26 Mars / Sotuba ACI, Bamako",
    "phones": [
     {
@@ -5544,7 +5544,7 @@
    "category": "gouvernement",
    "type": "",
    "quartier": "Hamdallaye ACI 2000",
-   "commune": "Commune III",
+   "commune": "Commune IV",
    "address": "Hamdallaye ACI 2000, Cité Administrative, Bamako",
    "phones": [
     {

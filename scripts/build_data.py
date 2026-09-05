@@ -193,11 +193,17 @@ def guess_commune(addr, quartier=""):
         return "Commune V"
     if "kalaban coura" in a or "kalabancoura" in a:
         return "Commune V"
+    # Une adresse malienne commence par le quartier : c'est le repère le plus à gauche qui compte,
+    # et non le premier trouvé dans la liste. Sans cela « Hamdallaye ACI 2000 - Ex Base aérienne »
+    # basculait en Commune III à cause de « ex base », et « Zone Industrielle - Route de Sotuba »
+    # en Commune I à cause de « sotuba ».
+    best, best_pos, kbest = "", len(a) + 1, ""
     for com, keys in COMMUNES.items():
         for k in keys:
-            if k in a:
-                return com
-    return ""
+            pos = a.find(k)
+            if pos != -1 and (pos < best_pos or (pos == best_pos and len(k) > len(kbest))):
+                best, best_pos, kbest = com, pos, k
+    return best
 
 def split_addr(addr):
     """'HAMDALLAYE ACI 2000 - RUE 405 PORTE 359 - BP E 423 - BAMAKO' -> (quartier, adresse lisible, ville)."""

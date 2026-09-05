@@ -535,7 +535,7 @@
       "type": "Centre de santé de référence (maternité, urgences, chirurgie)",
       "quartier": "Korofina",
       "commune": "Commune I",
-      "address": "Korofina Nord, Commune I, Bamako",
+      "address": "Korofina, Commune I, Bamako",
       "phones": [
         {
           "number": "20246064"
@@ -543,9 +543,9 @@
       ],
       "email": "csrefc1@hotmail.com",
       "source": {
-        "name": "Annuaire des structures de santé — OIM Mali (2023)",
-        "url": "https://mali.iom.int/sites/g/files/tmzbdl1636/files/documents/2023-04/ANNEXE%206%20ANNUAIRE%20STRUCTURES%20SANTE.pdf",
-        "note": "à confirmer"
+        "name": "OIM Mali (2023) ; OpenStreetMap",
+        "url": "https://www.openstreetmap.org/?mlat=12.66871&mlon=-7.95397#map=18/12.66871/-7.95397",
+        "note": "localisé dans OpenStreetMap sous le nom « CSRef de Korofina »"
       },
       "tags": [
         "CSRef",
@@ -553,7 +553,9 @@
         "maternité",
         "accouchement",
         "vaccination"
-      ]
+      ],
+      "lat": 12.66871,
+      "lng": -7.95397
     },
     {
       "id": "csref-commune-2",
@@ -561,14 +563,14 @@
       "acronym": "CSRéf CII",
       "category": "sante",
       "type": "Centre de santé de référence (maternité, urgences, chirurgie)",
-      "quartier": "Missira",
+      "quartier": "Quinzambougou",
       "commune": "Commune II",
-      "address": "Rue 477, Commune II, Bamako",
+      "address": "Quinzambougou (San Fil), Commune II, Bamako",
       "phones": [],
       "source": {
-        "name": "Doctor4Africa / Medpages",
-        "url": "https://doctor4africa.com/listing/bamako,mali/community-health-centre,hospital/centre-de-sante-de-reference-de-commune-2/",
-        "note": "téléphone non trouvé en ligne — se présenter sur place"
+        "name": "Doctor4Africa / Medpages ; OpenStreetMap",
+        "url": "https://www.openstreetmap.org/?mlat=12.64624&mlon=-7.97497#map=18/12.64624/-7.97497",
+        "note": "position OpenStreetMap ; téléphone toujours introuvable en ligne — se présenter sur place"
       },
       "tags": [
         "CSRef",
@@ -576,7 +578,9 @@
         "maternité",
         "accouchement",
         "vaccination"
-      ]
+      ],
+      "lat": 12.64624,
+      "lng": -7.97497
     },
     {
       "id": "csref-commune-3",
@@ -584,14 +588,14 @@
       "acronym": "CSRéf CIII",
       "category": "sante",
       "type": "Centre de santé de référence (maternité, urgences, chirurgie)",
-      "quartier": "Centre commercial",
+      "quartier": "Bolibana",
       "commune": "Commune III",
-      "address": "Avenue de l'Indépendance, Commune III, Bamako",
+      "address": "Boulevard de l'Indépendance, Bolibana (Dar Salam), Commune III, Bamako",
       "phones": [],
       "source": {
-        "name": "Medpages",
-        "url": "https://www.medpages.info/sf/index.php?page=organisation&orgcode=351495",
-        "note": "téléphone non trouvé en ligne — se présenter sur place"
+        "name": "Medpages ; OpenStreetMap",
+        "url": "https://www.openstreetmap.org/?mlat=12.64159&mlon=-8.00625#map=18/12.64159/-8.00625",
+        "note": "position OpenStreetMap ; téléphone toujours introuvable en ligne — se présenter sur place"
       },
       "tags": [
         "CSRef",
@@ -599,7 +603,9 @@
         "maternité",
         "accouchement",
         "vaccination"
-      ]
+      ],
+      "lat": 12.64159,
+      "lng": -8.00625
     },
     {
       "id": "csref-commune-6",
@@ -665,7 +671,7 @@
       "type": "Centre de santé de référence (maternité, urgences, chirurgie)",
       "quartier": "Badalabougou",
       "commune": "Commune V",
-      "address": "Badalabougou, Commune V, Bamako",
+      "address": "Badalabougou (Quartier Mali), Commune V, Bamako",
       "phones": [
         {
           "number": "20224180"
@@ -673,9 +679,9 @@
       ],
       "email": "csrefc5@yahoo.fr",
       "source": {
-        "name": "Annuaire des structures de santé — OIM Mali (2023)",
-        "url": "https://mali.iom.int/sites/g/files/tmzbdl1636/files/documents/2023-04/ANNEXE%206%20ANNUAIRE%20STRUCTURES%20SANTE.pdf",
-        "note": "à confirmer"
+        "name": "OIM Mali (2023) ; OpenStreetMap",
+        "url": "https://www.openstreetmap.org/?mlat=12.61178&mlon=-7.99498#map=18/12.61178/-7.99498",
+        "note": "position OpenStreetMap"
       },
       "tags": [
         "CSRef",
@@ -683,7 +689,9 @@
         "maternité",
         "accouchement",
         "vaccination"
-      ]
+      ],
+      "lat": 12.61178,
+      "lng": -7.99498
     },
     {
       "id": "cnts-bamako",

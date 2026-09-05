@@ -3,43 +3,56 @@
   "verified": "2026-09-05",
   "categories": {
     "urgences": {
-      "label": "Urgences"
+      "label": "Urgences",
+      "short": "Urgence"
     },
     "sante": {
-      "label": "Santé"
+      "label": "Santé",
+      "short": "Santé"
     },
     "gouvernement": {
-      "label": "Gouvernement & institutions"
+      "label": "Gouvernement & institutions",
+      "short": "Institution"
     },
     "administrations": {
-      "label": "Administrations & agences"
+      "label": "Administrations & agences",
+      "short": "Admin."
     },
     "collectivites": {
-      "label": "Mairies"
+      "label": "Mairies",
+      "short": "Mairie"
     },
     "education": {
-      "label": "Universités & écoles"
+      "label": "Universités & écoles",
+      "short": "École"
     },
     "justice": {
-      "label": "Justice"
+      "label": "Justice",
+      "short": "Justice"
     },
     "securite": {
-      "label": "Police & secours"
+      "label": "Police & secours",
+      "short": "Police"
     },
     "services": {
-      "label": "Eau, électricité, télécom, transport"
+      "label": "Eau, électricité, télécom, transport",
+      "short": "Service"
     },
     "ambassades": {
-      "label": "Ambassades & consulats"
+      "label": "Ambassades & consulats",
+      "short": "Ambassade"
     },
     "organisations": {
-      "label": "Organisations internationales"
+      "label": "Organisations internationales",
+      "short": "International"
     },
     "culture": {
-      "label": "Culture & sport"
+      "label": "Culture & sport",
+      "short": "Culture"
     },
     "medias": {
-      "label": "Médias publics"
+      "label": "Médias publics",
+      "short": "Média"
     }
   },
   "urgences": [

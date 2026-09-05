@@ -7,7 +7,7 @@
     q: $('#q'), qClear: $('#q-clear'), chips: $('#chips-cat'), commune: $('#f-commune'), sort: $('#f-sort'),
     reset: $('#btn-reset'), grid: $('#grid'), count: $('#count'), empty: $('#empty'), emptyReset: $('#empty-reset'),
     urg: $('#urgences-list'), btnCarte: $('#btn-carte'), mapPanel: $('#map-panel'), stats: $('#stats'),
-    tpl: $('#tpl-card'), suggest: [$('#empty-suggest'), $('#about-suggest')],
+    tpl: $('#tpl-row'), suggest: [$('#empty-suggest'), $('#about-suggest')],
   };
 
   const state = { q: '', cat: '', commune: '', sort: 'name', map: false };
@@ -126,17 +126,37 @@
   function renderCard(e) {
     const node = els.tpl.content.firstElementChild.cloneNode(true);
     node.id = `f-${e.id}`;
+    const cat = DATA.categories[e.category];
     const badge = $('.badge', node);
-    badge.textContent = DATA.categories[e.category]?.label || e.category;
+    // Libellé court en vue liste : « Administrations & agences » occupait 147 px et
+    // chassait la commune, alors que les puces de filtre portent déjà le nom complet.
+    badge.textContent = cat?.short || cat?.label || e.category;
+    badge.title = cat?.label || '';
     badge.dataset.cat = e.category;
     $('.commune', node).textContent = e.commune || '';
+    $('.row-title', node).textContent = e.name;
+
+    // Le premier numéro est composable sans déplier : c'est la raison d'être de l'annuaire.
+    const premier = (e.phones || [])[0];
+    if (premier) {
+      const info = phoneInfo(typeof premier === 'string' ? premier : premier.number);
+      const appel = document.createElement('a');
+      appel.className = 'appel';
+      appel.href = `tel:${info.tel}`;
+      appel.textContent = info.display;
+      appel.setAttribute('aria-label', `Appeler ${e.name} au ${info.display}`);
+      // Sans cela, composer un numéro déplierait aussi la fiche.
+      appel.addEventListener('click', (ev) => ev.stopPropagation());
+      $('.row-call', node).appendChild(appel);
+    }
     // Distingue les fiches recoupées à la main de celles reprises telles quelles de l'annuaire source.
     if (e.source?.verified) {
       const v = $('.verif', node);
       v.hidden = false;
       v.title = `Coordonnées recoupées à la main le ${fmtDate(e.source.verified)}`;
+      v.setAttribute('aria-label', `Fiche vérifiée le ${fmtDate(e.source.verified)}`);
+      v.setAttribute('role', 'img');
     }
-    $('.card-title', node).textContent = e.name;
     $('.card-sub', node).textContent = [e.type, e.quartier].filter(Boolean).join(' · ');
     $('.card-addr', node).textContent = e.address || '';
     $('.card-hours', node).textContent = e.hours || '';
@@ -363,6 +383,7 @@
         ev.preventDefault();
         const card = document.getElementById(`f-${goto.dataset.goto}`);
         if (card) {
+          card.open = true;              // arriver depuis la carte doit montrer le détail
           const doux = !matchMedia('(prefers-reduced-motion: reduce)').matches;
           card.scrollIntoView({ behavior: doux ? 'smooth' : 'auto', block: 'center' });
           card.classList.add('flash');
@@ -370,6 +391,13 @@
         }
       }
     });
+  }
+
+  // Le bandeau d'urgence colle sous l'en-tête : sa hauteur est mesurée, car elle change
+  // avec le contenu (attribution, retour à la ligne du titre sur petit écran).
+  function mesurerEntete() {
+    const h = document.querySelector('.top')?.offsetHeight;
+    if (h) document.documentElement.style.setProperty('--head-h', `${h}px`);
   }
 
   // --- démarrage ---------------------------------------------------------
@@ -402,6 +430,8 @@
       a.closest('.suggest-line').hidden = false;
     });
     renderUrgences(); renderChips(); renderCommunes(); bind();
+    mesurerEntete();
+    addEventListener('resize', mesurerEntete, { passive: true });
     const n = DATA.entries.length;
     const withGeo = DATA.entries.filter((e) => e.lat && e.lng).length;
     const verif = DATA.entries.filter((e) => e.source?.verified).length;

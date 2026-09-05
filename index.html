@@ -6,6 +6,7 @@
   <title>Annuaire Bamako — Hôpitaux, ministères, universités, services publics</title>
   <meta name="description" content="Trouvez rapidement l'adresse et le téléphone des hôpitaux, ministères, universités, mairies, ambassades et services publics de Bamako (Mali). Appel direct, WhatsApp, itinéraire.">
   <meta name="theme-color" content="#0f7a4f">
+  <meta name="author" content="Souleymane Coulibaly">
   <link rel="manifest" href="manifest.webmanifest">
   <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
   <link rel="apple-touch-icon" href="icons/icon-192.png">
@@ -17,9 +18,12 @@
 
   <header class="top">
     <div class="wrap top-inner">
-      <a class="brand" href="./" aria-label="Annuaire Bamako — accueil">
+      <a class="brand" href="./" aria-label="Annuaire Bamako, un projet de Souleymane Coulibaly — accueil">
         <span class="brand-mark" aria-hidden="true"></span>
-        <span class="brand-text"><strong>Annuaire</strong> Bamako</span>
+        <span class="brand-text">
+          <strong>Annuaire</strong> Bamako
+          <span class="brand-by">Un projet de Souleymane Coulibaly</span>
+        </span>
       </a>
       <nav class="top-nav" aria-label="Navigation">
         <button class="btn-ghost" id="btn-carte" type="button" aria-pressed="false">Carte</button>
@@ -78,13 +82,15 @@
       <div class="results-head">
         <p class="count" id="count" aria-live="polite" aria-atomic="true">Chargement de l'annuaire…</p>
       </div>
-      <div class="grid" id="grid">
-        <div class="skel"><span></span><span></span><span></span><span></span></div>
-        <div class="skel"><span></span><span></span><span></span><span></span></div>
-        <div class="skel"><span></span><span></span><span></span><span></span></div>
-        <div class="skel"><span></span><span></span><span></span><span></span></div>
-        <div class="skel"><span></span><span></span><span></span><span></span></div>
-        <div class="skel"><span></span><span></span><span></span><span></span></div>
+      <div class="liste" id="grid">
+        <div class="skel"><span></span><span></span></div>
+        <div class="skel"><span></span><span></span></div>
+        <div class="skel"><span></span><span></span></div>
+        <div class="skel"><span></span><span></span></div>
+        <div class="skel"><span></span><span></span></div>
+        <div class="skel"><span></span><span></span></div>
+        <div class="skel"><span></span><span></span></div>
+        <div class="skel"><span></span><span></span></div>
       </div>
       <div class="empty" id="empty" hidden>
         <p><strong>Aucun résultat.</strong> Essayez un autre mot, une autre catégorie, ou <button class="link" id="empty-reset" type="button">réinitialisez les filtres</button>.</p>
@@ -103,24 +109,34 @@
 
   <footer class="foot">
     <div class="wrap">
-      <p>Annuaire Bamako — données ouvertes, sources citées. Fonctionne hors-ligne une fois chargé.</p>
+      <p><strong>Annuaire Bamako</strong> — un projet de Souleymane Coulibaly.
+         Données ouvertes, sources citées. Fonctionne hors-ligne une fois chargé.</p>
     </div>
   </footer>
 
-  <template id="tpl-card">
-    <article class="card">
-      <div class="card-head">
-        <span class="badge"></span>
-        <span class="head-right"><span class="verif" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg>vérifié</span><span class="commune"></span></span>
+  <template id="tpl-row">
+    <details class="row" name="fiche">
+      <summary class="row-head">
+        <span class="row-main">
+          <span class="row-title"></span>
+          <span class="row-meta">
+            <span class="badge"></span>
+            <span class="verif" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m4 12.5 5 5L20 6.5"/></svg><span class="verif-txt">vérifié</span></span>
+            <span class="commune"></span>
+          </span>
+        </span>
+        <span class="row-call"></span>
+        <svg class="row-chevron" viewBox="0 0 24 24" aria-hidden="true"><path d="m8 10 4 4 4-4"/></svg>
+      </summary>
+      <div class="row-body">
+        <p class="card-sub"></p>
+        <address class="card-addr"></address>
+        <p class="card-hours"></p>
+        <ul class="card-phones"></ul>
+        <div class="card-actions"></div>
+        <p class="card-source"></p>
       </div>
-      <h3 class="card-title"></h3>
-      <p class="card-sub"></p>
-      <address class="card-addr"></address>
-      <p class="card-hours"></p>
-      <ul class="card-phones"></ul>
-      <div class="card-actions"></div>
-      <p class="card-source"></p>
-    </article>
+    </details>
   </template>
 
   <script src="app.js" defer></script>

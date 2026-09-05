@@ -100,6 +100,10 @@
       return terms.every((t) => hit(e._hay, t));
     });
     const byName = (a, b) => a.name.localeCompare(b.name, 'fr');
+    if (state.sort === 'verified') {
+      list.sort((a, b) => Number(!!b.source?.verified) - Number(!!a.source?.verified) || byName(a, b));
+      return list;
+    }
     if (state.sort === 'cat') list.sort((a, b) => (a.category + a.name).localeCompare(b.category + b.name, 'fr'));
     else if (state.sort === 'recent') {
       const d = (e) => e.source?.verified || e.source?.date || '';
@@ -126,6 +130,12 @@
     badge.textContent = DATA.categories[e.category]?.label || e.category;
     badge.dataset.cat = e.category;
     $('.commune', node).textContent = e.commune || '';
+    // Distingue les fiches recoupées à la main de celles reprises telles quelles de l'annuaire source.
+    if (e.source?.verified) {
+      const v = $('.verif', node);
+      v.hidden = false;
+      v.title = `Coordonnées recoupées à la main le ${fmtDate(e.source.verified)}`;
+    }
     $('.card-title', node).textContent = e.name;
     $('.card-sub', node).textContent = [e.type, e.quartier].filter(Boolean).join(' · ');
     $('.card-addr', node).textContent = e.address || '';

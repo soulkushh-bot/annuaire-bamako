@@ -63,6 +63,7 @@
             <option value="name">Nom A → Z</option>
             <option value="cat">Catégorie</option>
             <option value="recent">Vérification la plus récente</option>
+            <option value="verified">Fiches vérifiées d'abord</option>
           </select>
         </label>
         <button class="btn-ghost small" id="btn-reset" type="button">Réinitialiser</button>
@@ -104,7 +105,7 @@
     <article class="card">
       <div class="card-head">
         <span class="badge"></span>
-        <span class="commune"></span>
+        <span class="head-right"><span class="verif" hidden>✓ vérifié</span><span class="commune"></span></span>
       </div>
       <h3 class="card-title"></h3>
       <p class="card-sub"></p>

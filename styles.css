@@ -108,6 +108,9 @@ h1 { font-size: clamp(1.6rem, 2.6vw + 1rem, 2.4rem); line-height: 1.15; margin: 
   .badge[data-cat="services"] { background: #241f3a; color: #b8a8f0; }
   .badge[data-cat="justice"], .badge[data-cat="securite"] { background: #222a2f; color: #c3ccd3; }
 }
+.head-right { display: inline-flex; align-items: center; gap: 8px; }
+.verif { font-size: .7rem; font-weight: 700; letter-spacing: .04em; color: var(--green-ink);
+  background: var(--green-soft); border-radius: 999px; padding: 2px 8px; white-space: nowrap; }
 .commune { font-size: .78rem; color: var(--muted); white-space: nowrap; }
 .card-title { margin: 0; font-size: 1.05rem; line-height: 1.3; }
 .card-sub { margin: -4px 0 0; color: var(--muted); font-size: .88rem; }

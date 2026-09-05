@@ -2,29 +2,85 @@
   "_comment": "Fiches vérifiées à la main sur des sources officielles ou de référence. Elles remplacent les fiches brutes Malipages dont le nom correspond à un motif de `replaces`. Dates ISO. Téléphones au format national à 8 chiffres (ou numéro court).",
   "verified": "2026-09-05",
   "categories": {
-    "urgences": { "label": "Urgences" },
-    "sante": { "label": "Santé" },
-    "gouvernement": { "label": "Gouvernement & institutions" },
-    "administrations": { "label": "Administrations & agences" },
-    "collectivites": { "label": "Mairies" },
-    "education": { "label": "Universités & écoles" },
-    "justice": { "label": "Justice" },
-    "securite": { "label": "Police & secours" },
-    "services": { "label": "Eau, électricité, télécom, transport" },
-    "ambassades": { "label": "Ambassades & consulats" },
-    "organisations": { "label": "Organisations internationales" },
-    "culture": { "label": "Culture & sport" },
-    "medias": { "label": "Médias publics" }
+    "urgences": {
+      "label": "Urgences"
+    },
+    "sante": {
+      "label": "Santé"
+    },
+    "gouvernement": {
+      "label": "Gouvernement & institutions"
+    },
+    "administrations": {
+      "label": "Administrations & agences"
+    },
+    "collectivites": {
+      "label": "Mairies"
+    },
+    "education": {
+      "label": "Universités & écoles"
+    },
+    "justice": {
+      "label": "Justice"
+    },
+    "securite": {
+      "label": "Police & secours"
+    },
+    "services": {
+      "label": "Eau, électricité, télécom, transport"
+    },
+    "ambassades": {
+      "label": "Ambassades & consulats"
+    },
+    "organisations": {
+      "label": "Organisations internationales"
+    },
+    "culture": {
+      "label": "Culture & sport"
+    },
+    "medias": {
+      "label": "Médias publics"
+    }
   },
   "urgences": [
-    { "number": "122", "label": "Protection civile (pompiers, secours)", "note": "Accidents, incendies, inondations, sauvetage — source : ministère de la Santé (sante.gov.ml)" },
-    { "number": "101", "label": "Police nationale", "note": "Agression, vol, menace, ordre public" },
-    { "number": "111", "label": "Gendarmerie", "note": "Zones périurbaines et rurales" },
-    { "number": "36061", "label": "Numéro vert Santé", "note": "Information, orientation, alertes sanitaires" },
-    { "number": "80001115", "label": "Police secours (n° vert)", "note": "Aussi : 20 23 95 11" },
-    { "number": "80001201", "label": "Protection civile Bamako (n° vert)", "note": "Standard : 20 22 80 81" },
-    { "number": "144", "label": "Gestion des crises" },
-    { "number": "145", "label": "Garde nationale" }
+    {
+      "number": "122",
+      "label": "Protection civile (pompiers, secours)",
+      "note": "Accidents, incendies, inondations, sauvetage — source : ministère de la Santé (sante.gov.ml)"
+    },
+    {
+      "number": "101",
+      "label": "Police nationale",
+      "note": "Agression, vol, menace, ordre public"
+    },
+    {
+      "number": "111",
+      "label": "Gendarmerie",
+      "note": "Zones périurbaines et rurales"
+    },
+    {
+      "number": "36061",
+      "label": "Numéro vert Santé",
+      "note": "Information, orientation, alertes sanitaires"
+    },
+    {
+      "number": "80001115",
+      "label": "Police secours (n° vert)",
+      "note": "Aussi : 20 23 95 11"
+    },
+    {
+      "number": "80001201",
+      "label": "Protection civile Bamako (n° vert)",
+      "note": "Standard : 20 22 80 81"
+    },
+    {
+      "number": "144",
+      "label": "Gestion des crises"
+    },
+    {
+      "number": "145",
+      "label": "Garde nationale"
+    }
   ],
   "entries": [
     {
@@ -33,13 +89,32 @@
       "category": "urgences",
       "type": "Secours, incendie, accidents",
       "phones": [
-        { "number": "122", "label": "numéro court national" },
-        { "number": "80001201", "label": "numéro vert Bamako" },
-        { "number": "20228081", "label": "standard Direction régionale Bamako" }
+        {
+          "number": "122",
+          "label": "numéro court national"
+        },
+        {
+          "number": "80001201",
+          "label": "numéro vert Bamako"
+        },
+        {
+          "number": "20228081",
+          "label": "standard Direction régionale Bamako"
+        }
       ],
       "website": "https://dgpc.gouv.ml/",
-      "source": { "name": "Ministère de la Santé — numéros d'urgence", "url": "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=187&Itemid=111" },
-      "tags": ["pompiers", "sapeurs", "incendie", "ambulance", "secours", "inondation"]
+      "source": {
+        "name": "Ministère de la Santé — numéros d'urgence",
+        "url": "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=187&Itemid=111"
+      },
+      "tags": [
+        "pompiers",
+        "sapeurs",
+        "incendie",
+        "ambulance",
+        "secours",
+        "inondation"
+      ]
     },
     {
       "id": "urgences-police-nationale",
@@ -47,13 +122,31 @@
       "category": "urgences",
       "type": "Agression, vol, ordre public",
       "phones": [
-        { "number": "101", "label": "numéro court national" },
-        { "number": "80001115", "label": "Police secours (n° vert)" },
-        { "number": "20239511", "label": "Police secours" },
-        { "number": "80001125", "label": "Police nationale (n° vert)" }
+        {
+          "number": "101",
+          "label": "numéro court national"
+        },
+        {
+          "number": "80001115",
+          "label": "Police secours (n° vert)"
+        },
+        {
+          "number": "20239511",
+          "label": "Police secours"
+        },
+        {
+          "number": "80001125",
+          "label": "Police nationale (n° vert)"
+        }
       ],
-      "source": { "name": "Ministère de la Santé — numéros d'urgence", "url": "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=187&Itemid=111" },
-      "tags": ["police secours", "commissariat"]
+      "source": {
+        "name": "Ministère de la Santé — numéros d'urgence",
+        "url": "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=187&Itemid=111"
+      },
+      "tags": [
+        "police secours",
+        "commissariat"
+      ]
     },
     {
       "id": "urgences-gendarmerie",
@@ -61,20 +154,41 @@
       "category": "urgences",
       "type": "Sécurité zones périurbaines et rurales",
       "phones": [
-        { "number": "111", "label": "numéro court national" },
-        { "number": "80001114", "label": "numéro vert" }
+        {
+          "number": "111",
+          "label": "numéro court national"
+        },
+        {
+          "number": "80001114",
+          "label": "numéro vert"
+        }
       ],
-      "source": { "name": "Ministère de la Santé — numéros d'urgence", "url": "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=187&Itemid=111" }
+      "source": {
+        "name": "Ministère de la Santé — numéros d'urgence",
+        "url": "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=187&Itemid=111"
+      }
     },
     {
       "id": "urgences-sante-numero-vert",
       "name": "Numéro vert Santé (36061)",
       "category": "urgences",
       "type": "Information et orientation sanitaire",
-      "phones": [{ "number": "36061", "label": "gratuit, 24h/24" }],
+      "phones": [
+        {
+          "number": "36061",
+          "label": "gratuit, 24h/24"
+        }
+      ],
       "website": "https://www.sante.gov.ml/",
-      "source": { "name": "Ministère de la Santé — numéros d'urgence", "url": "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=187&Itemid=111" },
-      "tags": ["covid", "épidémie", "alerte"]
+      "source": {
+        "name": "Ministère de la Santé — numéros d'urgence",
+        "url": "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=187&Itemid=111"
+      },
+      "tags": [
+        "covid",
+        "épidémie",
+        "alerte"
+      ]
     },
     {
       "id": "urgences-crise-garde-nationale",
@@ -82,10 +196,19 @@
       "category": "urgences",
       "type": "Coordination des crises majeures",
       "phones": [
-        { "number": "144", "label": "gestion des crises" },
-        { "number": "145", "label": "Garde nationale" }
+        {
+          "number": "144",
+          "label": "gestion des crises"
+        },
+        {
+          "number": "145",
+          "label": "Garde nationale"
+        }
       ],
-      "source": { "name": "Ministère de la Santé — numéros d'urgence", "url": "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=187&Itemid=111" }
+      "source": {
+        "name": "Ministère de la Santé — numéros d'urgence",
+        "url": "https://www.sante.gov.ml/index.php?option=com_content&view=article&id=187&Itemid=111"
+      }
     },
     {
       "id": "sapeurs-pompiers-dravela",
@@ -95,9 +218,26 @@
       "quartier": "Dravéla",
       "commune": "Commune III",
       "address": "Dravéla, Bamako",
-      "phones": [{ "number": "20222011", "label": "standard" }, { "number": "122", "label": "urgence" }],
-      "source": { "name": "Liste des numéros d'urgence au Mali (Groupe Securicom, 2019)", "url": "https://www.groupesecuricom.com/wp-content/uploads/2019/02/NUMEROS-URGENCE-MALI.pdf", "note": "numéro de standard à confirmer" },
-      "tags": ["pompiers", "incendie", "protection civile"]
+      "phones": [
+        {
+          "number": "20222011",
+          "label": "standard"
+        },
+        {
+          "number": "122",
+          "label": "urgence"
+        }
+      ],
+      "source": {
+        "name": "Liste des numéros d'urgence au Mali (Groupe Securicom, 2019)",
+        "url": "https://www.groupesecuricom.com/wp-content/uploads/2019/02/NUMEROS-URGENCE-MALI.pdf",
+        "note": "numéro de standard à confirmer"
+      },
+      "tags": [
+        "pompiers",
+        "incendie",
+        "protection civile"
+      ]
     },
     {
       "id": "chu-gabriel-toure",
@@ -108,12 +248,31 @@
       "quartier": "Médina Coura",
       "commune": "Commune II",
       "address": "Médina Coura, BP 267, Bamako",
-      "phones": [{ "number": "20230780", "label": "standard" }, { "number": "20239986" }],
+      "phones": [
+        {
+          "number": "20230780",
+          "label": "standard"
+        },
+        {
+          "number": "20239986"
+        }
+      ],
       "website": "https://www.chu-gabrieltoure.com/",
       "hours": "Urgences 24h/24",
-      "source": { "name": "Site du CHU Gabriel Touré / Malipages", "url": "https://www.malipages.com/annuaire/lien/hopital-gabriel-toure/" },
-      "replaces": ["HOPITAL GABRIEL TOURE"],
-      "tags": ["hôpital", "urgences", "pédiatrie", "traumatologie", "CHU"]
+      "source": {
+        "name": "Site du CHU Gabriel Touré / Malipages",
+        "url": "https://www.malipages.com/annuaire/lien/hopital-gabriel-toure/"
+      },
+      "replaces": [
+        "HOPITAL GABRIEL TOURE"
+      ],
+      "tags": [
+        "hôpital",
+        "urgences",
+        "pédiatrie",
+        "traumatologie",
+        "CHU"
+      ]
     },
     {
       "id": "chu-point-g",
@@ -123,10 +282,30 @@
       "quartier": "Point G",
       "commune": "Commune III",
       "address": "Colline du Point G, Route de Kati, BP 333, Bamako",
-      "phones": [{ "number": "20225002", "label": "standard" }, { "number": "20225003" }],
-      "source": { "name": "Malipages / annuaire du ministère de la Santé", "url": "https://www.malipages.com/annuaire/lien/hopital-du-point-g/" },
-      "replaces": ["HOPITAL DU POINT G"],
-      "tags": ["hôpital", "urgences", "cardiologie", "néphrologie", "CHU", "Point-G"]
+      "phones": [
+        {
+          "number": "20225002",
+          "label": "standard"
+        },
+        {
+          "number": "20225003"
+        }
+      ],
+      "source": {
+        "name": "Malipages / annuaire du ministère de la Santé",
+        "url": "https://www.malipages.com/annuaire/lien/hopital-du-point-g/"
+      },
+      "replaces": [
+        "HOPITAL DU POINT G"
+      ],
+      "tags": [
+        "hôpital",
+        "urgences",
+        "cardiologie",
+        "néphrologie",
+        "CHU",
+        "Point-G"
+      ]
     },
     {
       "id": "hopital-du-mali",
@@ -136,13 +315,35 @@
       "quartier": "Missabougou",
       "commune": "Commune VI",
       "address": "Missabougou (route du 3e pont), BP 3333, Bamako",
-      "phones": [{ "number": "20727569", "label": "standard" }, { "number": "20727600" }, { "number": "20727500" }],
+      "phones": [
+        {
+          "number": "20727569",
+          "label": "standard"
+        },
+        {
+          "number": "20727600"
+        },
+        {
+          "number": "20727500"
+        }
+      ],
       "email": "contact@hopitaldumali.ml",
       "website": "https://hopitaldumali.ml/",
       "hours": "Visites : 6h30–7h30, 12h30–14h30, 18h–20h ; week-end et fériés 9h–21h",
-      "source": { "name": "Site officiel de l'Hôpital du Mali", "url": "https://hopitaldumali.ml/" },
-      "replaces": ["HOPITAL DU MALI"],
-      "tags": ["hôpital", "oncologie", "radiothérapie", "neurochirurgie", "laboratoire 24h"]
+      "source": {
+        "name": "Site officiel de l'Hôpital du Mali",
+        "url": "https://hopitaldumali.ml/"
+      },
+      "replaces": [
+        "HOPITAL DU MALI"
+      ],
+      "tags": [
+        "hôpital",
+        "oncologie",
+        "radiothérapie",
+        "neurochirurgie",
+        "laboratoire 24h"
+      ]
     },
     {
       "id": "chu-kati",
@@ -152,10 +353,37 @@
       "quartier": "Kati",
       "commune": "Kati (hors District)",
       "address": "Camp Soundiata Keita, BP 16, Kati",
-      "phones": [{ "number": "21272065", "label": "standard" }, { "number": "21272068" }, { "number": "21272008" }, { "number": "21272913" }, { "number": "21272914" }],
-      "source": { "name": "Malipages / annuaire CHU Kati (ministère de la Santé)", "url": "http://www.sante.gov.ml/index.php/evenements/conferences/item/1590-annuaire-chu-kati" },
-      "replaces": ["HOPITAL DE KATI"],
-      "tags": ["hôpital", "orthopédie", "traumatologie", "Kati"]
+      "phones": [
+        {
+          "number": "21272065",
+          "label": "standard"
+        },
+        {
+          "number": "21272068"
+        },
+        {
+          "number": "21272008"
+        },
+        {
+          "number": "21272913"
+        },
+        {
+          "number": "21272914"
+        }
+      ],
+      "source": {
+        "name": "Malipages / annuaire CHU Kati (ministère de la Santé)",
+        "url": "http://www.sante.gov.ml/index.php/evenements/conferences/item/1590-annuaire-chu-kati"
+      },
+      "replaces": [
+        "HOPITAL DE KATI"
+      ],
+      "tags": [
+        "hôpital",
+        "orthopédie",
+        "traumatologie",
+        "Kati"
+      ]
     },
     {
       "id": "chme-luxembourg",
@@ -166,13 +394,33 @@
       "quartier": "Hamdallaye ACI 2000",
       "commune": "Commune IV",
       "address": "Hamdallaye ACI 2000, Bamako",
-      "phones": [{ "number": "20294444", "label": "standard" }, { "number": "92360559", "label": "SMS" }],
+      "phones": [
+        {
+          "number": "20294444",
+          "label": "standard"
+        },
+        {
+          "number": "92360559",
+          "label": "SMS"
+        }
+      ],
       "email": "contact@chme-luxembourg.ml",
       "website": "https://chme-luxembourg.ml/",
       "hours": "Lundi–samedi 7h–22h",
-      "source": { "name": "Site officiel du CHME Le Luxembourg", "url": "https://chme-luxembourg.ml/contact" },
-      "replaces": ["CENTRE HOSPITALIER MERE ENFANT LE LUXEMBOURG"],
-      "tags": ["hôpital", "pédiatrie", "maternité", "enfant", "Luxembourg"]
+      "source": {
+        "name": "Site officiel du CHME Le Luxembourg",
+        "url": "https://chme-luxembourg.ml/contact"
+      },
+      "replaces": [
+        "CENTRE HOSPITALIER MERE ENFANT LE LUXEMBOURG"
+      ],
+      "tags": [
+        "hôpital",
+        "pédiatrie",
+        "maternité",
+        "enfant",
+        "Luxembourg"
+      ]
     },
     {
       "id": "chu-iota",
@@ -183,11 +431,32 @@
       "quartier": "Centre commercial",
       "commune": "Commune III",
       "address": "Centre commercial, BP 248, Bamako",
-      "phones": [{ "number": "20223421", "label": "standard" }, { "number": "20222722" }, { "number": "20237245" }],
+      "phones": [
+        {
+          "number": "20223421",
+          "label": "standard"
+        },
+        {
+          "number": "20222722"
+        },
+        {
+          "number": "20237245"
+        }
+      ],
       "website": "https://www.chu-iota.ml/",
-      "source": { "name": "Malipages / site du CHU-IOTA", "url": "https://www.malipages.com/annuaire/lien/iota-institut-dophtamologie-tropicale-de-lafrique/" },
-      "replaces": ["IOTA"],
-      "tags": ["yeux", "ophtalmologie", "lunettes", "cataracte"]
+      "source": {
+        "name": "Malipages / site du CHU-IOTA",
+        "url": "https://www.malipages.com/annuaire/lien/iota-institut-dophtamologie-tropicale-de-lafrique/"
+      },
+      "replaces": [
+        "IOTA"
+      ],
+      "tags": [
+        "yeux",
+        "ophtalmologie",
+        "lunettes",
+        "cataracte"
+      ]
     },
     {
       "id": "chu-cnos",
@@ -198,10 +467,28 @@
       "quartier": "Quartier du Fleuve",
       "commune": "Commune III",
       "address": "Quartier du Fleuve, BP 2067, Bamako",
-      "phones": [{ "number": "20226517", "label": "standard" }, { "number": "20233183" }],
-      "source": { "name": "Malipages", "url": "https://www.malipages.com/annuaire/gouvernement-ambassades/" },
-      "replaces": ["CNOS"],
-      "tags": ["dentiste", "dents", "stomatologie", "maxillo"]
+      "phones": [
+        {
+          "number": "20226517",
+          "label": "standard"
+        },
+        {
+          "number": "20233183"
+        }
+      ],
+      "source": {
+        "name": "Malipages",
+        "url": "https://www.malipages.com/annuaire/gouvernement-ambassades/"
+      },
+      "replaces": [
+        "CNOS"
+      ],
+      "tags": [
+        "dentiste",
+        "dents",
+        "stomatologie",
+        "maxillo"
+      ]
     },
     {
       "id": "hopital-dermatologie-bamako",
@@ -212,10 +499,33 @@
       "quartier": "Djicoroni Para",
       "commune": "Commune IV",
       "address": "Djicoroni Para, Rue Raoul Follereau, BP 251, Bamako",
-      "phones": [{ "number": "20225131", "label": "standard" }, { "number": "20222865" }, { "number": "61720903", "label": "mobile (Malipages 2025)" }],
-      "source": { "name": "ILEP / Malipages", "url": "https://ilepfederation.org/hopital-de-dermatologie-de-bamako-hdb-ex-cnam/" },
-      "replaces": ["HOPITAL DE DERMATOLOGIE DE BAMAKO", "CNAM"],
-      "tags": ["peau", "dermatologie", "lèpre", "Marchoux"]
+      "phones": [
+        {
+          "number": "20225131",
+          "label": "standard"
+        },
+        {
+          "number": "20222865"
+        },
+        {
+          "number": "61720903",
+          "label": "mobile (Malipages 2025)"
+        }
+      ],
+      "source": {
+        "name": "ILEP / Malipages",
+        "url": "https://ilepfederation.org/hopital-de-dermatologie-de-bamako-hdb-ex-cnam/"
+      },
+      "replaces": [
+        "HOPITAL DE DERMATOLOGIE DE BAMAKO",
+        "CNAM"
+      ],
+      "tags": [
+        "peau",
+        "dermatologie",
+        "lèpre",
+        "Marchoux"
+      ]
     },
     {
       "id": "csref-commune-1",
@@ -226,10 +536,24 @@
       "quartier": "Korofina",
       "commune": "Commune I",
       "address": "Korofina Nord, Commune I, Bamako",
-      "phones": [{ "number": "20246064" }],
+      "phones": [
+        {
+          "number": "20246064"
+        }
+      ],
       "email": "csrefc1@hotmail.com",
-      "source": { "name": "Annuaire des structures de santé — OIM Mali (2023)", "url": "https://mali.iom.int/sites/g/files/tmzbdl1636/files/documents/2023-04/ANNEXE%206%20ANNUAIRE%20STRUCTURES%20SANTE.pdf", "note": "à confirmer" },
-      "tags": ["CSRef", "CSCom", "maternité", "accouchement", "vaccination"]
+      "source": {
+        "name": "Annuaire des structures de santé — OIM Mali (2023)",
+        "url": "https://mali.iom.int/sites/g/files/tmzbdl1636/files/documents/2023-04/ANNEXE%206%20ANNUAIRE%20STRUCTURES%20SANTE.pdf",
+        "note": "à confirmer"
+      },
+      "tags": [
+        "CSRef",
+        "CSCom",
+        "maternité",
+        "accouchement",
+        "vaccination"
+      ]
     },
     {
       "id": "csref-commune-2",
@@ -241,8 +565,18 @@
       "commune": "Commune II",
       "address": "Rue 477, Commune II, Bamako",
       "phones": [],
-      "source": { "name": "Doctor4Africa / Medpages", "url": "https://doctor4africa.com/listing/bamako,mali/community-health-centre,hospital/centre-de-sante-de-reference-de-commune-2/", "note": "téléphone non trouvé en ligne — se présenter sur place" },
-      "tags": ["CSRef", "CSCom", "maternité", "accouchement", "vaccination"]
+      "source": {
+        "name": "Doctor4Africa / Medpages",
+        "url": "https://doctor4africa.com/listing/bamako,mali/community-health-centre,hospital/centre-de-sante-de-reference-de-commune-2/",
+        "note": "téléphone non trouvé en ligne — se présenter sur place"
+      },
+      "tags": [
+        "CSRef",
+        "CSCom",
+        "maternité",
+        "accouchement",
+        "vaccination"
+      ]
     },
     {
       "id": "csref-commune-3",
@@ -254,8 +588,18 @@
       "commune": "Commune III",
       "address": "Avenue de l'Indépendance, Commune III, Bamako",
       "phones": [],
-      "source": { "name": "Medpages", "url": "https://www.medpages.info/sf/index.php?page=organisation&orgcode=351495", "note": "téléphone non trouvé en ligne — se présenter sur place" },
-      "tags": ["CSRef", "CSCom", "maternité", "accouchement", "vaccination"]
+      "source": {
+        "name": "Medpages",
+        "url": "https://www.medpages.info/sf/index.php?page=organisation&orgcode=351495",
+        "note": "téléphone non trouvé en ligne — se présenter sur place"
+      },
+      "tags": [
+        "CSRef",
+        "CSCom",
+        "maternité",
+        "accouchement",
+        "vaccination"
+      ]
     },
     {
       "id": "csref-commune-6",
@@ -266,9 +610,24 @@
       "quartier": "Sogoniko",
       "commune": "Commune VI",
       "address": "Sogoniko, Commune VI, Bamako",
-      "phones": [{ "number": "20202633" }],
-      "source": { "name": "Mali Yellow Pages", "url": "https://www.maliyp.com/company/215710/Centre_de_Sant%C3%A9_de_R%C3%A9f%C3%A9rence_Commune_VI", "note": "à confirmer" },
-      "tags": ["CSRef", "CSCom", "maternité", "accouchement", "vaccination", "pédiatrie"]
+      "phones": [
+        {
+          "number": "20202633"
+        }
+      ],
+      "source": {
+        "name": "Mali Yellow Pages",
+        "url": "https://www.maliyp.com/company/215710/Centre_de_Sant%C3%A9_de_R%C3%A9f%C3%A9rence_Commune_VI",
+        "note": "à confirmer"
+      },
+      "tags": [
+        "CSRef",
+        "CSCom",
+        "maternité",
+        "accouchement",
+        "vaccination",
+        "pédiatrie"
+      ]
     },
     {
       "id": "csref-commune-4",
@@ -279,10 +638,24 @@
       "quartier": "Lafiabougou",
       "commune": "Commune IV",
       "address": "Lafiabougou, Rue 280, Commune IV, Bamako",
-      "phones": [{ "number": "20293514" }],
+      "phones": [
+        {
+          "number": "20293514"
+        }
+      ],
       "email": "csrefcom4@yahoo.fr",
-      "source": { "name": "MaliAtlas", "url": "https://maliatlas.com/organisation/centresantereferencecomiv", "note": "à confirmer" },
-      "tags": ["CSRef", "CSCom", "maternité", "accouchement", "vaccination"]
+      "source": {
+        "name": "MaliAtlas",
+        "url": "https://maliatlas.com/organisation/centresantereferencecomiv",
+        "note": "à confirmer"
+      },
+      "tags": [
+        "CSRef",
+        "CSCom",
+        "maternité",
+        "accouchement",
+        "vaccination"
+      ]
     },
     {
       "id": "csref-commune-5",
@@ -293,10 +666,24 @@
       "quartier": "Badalabougou",
       "commune": "Commune V",
       "address": "Badalabougou, Commune V, Bamako",
-      "phones": [{ "number": "20224180" }],
+      "phones": [
+        {
+          "number": "20224180"
+        }
+      ],
       "email": "csrefc5@yahoo.fr",
-      "source": { "name": "Annuaire des structures de santé — OIM Mali (2023)", "url": "https://mali.iom.int/sites/g/files/tmzbdl1636/files/documents/2023-04/ANNEXE%206%20ANNUAIRE%20STRUCTURES%20SANTE.pdf", "note": "à confirmer" },
-      "tags": ["CSRef", "CSCom", "maternité", "accouchement", "vaccination"]
+      "source": {
+        "name": "Annuaire des structures de santé — OIM Mali (2023)",
+        "url": "https://mali.iom.int/sites/g/files/tmzbdl1636/files/documents/2023-04/ANNEXE%206%20ANNUAIRE%20STRUCTURES%20SANTE.pdf",
+        "note": "à confirmer"
+      },
+      "tags": [
+        "CSRef",
+        "CSCom",
+        "maternité",
+        "accouchement",
+        "vaccination"
+      ]
     },
     {
       "id": "cnts-bamako",
@@ -308,8 +695,16 @@
       "commune": "Commune II",
       "address": "Quinzambougou, Rue Achkabad, Bamako",
       "phones": [],
-      "source": { "name": "Health Research Web Africa", "url": "https://healthresearchwebafrica.org.za/fr/mali/institution_4746", "note": "téléphone non trouvé en ligne" },
-      "tags": ["sang", "don de sang", "transfusion"]
+      "source": {
+        "name": "Health Research Web Africa",
+        "url": "https://healthresearchwebafrica.org.za/fr/mali/institution_4746",
+        "note": "téléphone non trouvé en ligne"
+      },
+      "tags": [
+        "sang",
+        "don de sang",
+        "transfusion"
+      ]
     },
     {
       "id": "presidence-koulouba",
@@ -319,10 +714,22 @@
       "quartier": "Koulouba",
       "commune": "Commune III",
       "address": "Palais de Koulouba, BP 10, Bamako",
-      "phones": [{ "number": "20702000", "label": "standard" }],
+      "phones": [
+        {
+          "number": "20702000",
+          "label": "standard"
+        }
+      ],
       "website": "https://koulouba.ml/",
-      "source": { "name": "Site officiel de la Présidence", "url": "https://koulouba.ml/" },
-      "tags": ["président", "Koulouba", "palais"]
+      "source": {
+        "name": "Site officiel de la Présidence",
+        "url": "https://koulouba.ml/"
+      },
+      "tags": [
+        "président",
+        "Koulouba",
+        "palais"
+      ]
     },
     {
       "id": "primature",
@@ -332,11 +739,24 @@
       "quartier": "Quartier du Fleuve",
       "commune": "Commune III",
       "address": "Quartier du Fleuve, Bamako",
-      "phones": [{ "number": "20014900", "label": "standard" }],
+      "phones": [
+        {
+          "number": "20014900",
+          "label": "standard"
+        }
+      ],
       "website": "https://www.primature.ml/",
-      "source": { "name": "Malipages / site de la Primature", "url": "https://www.malipages.com/annuaire/lien/primature/" },
-      "replaces": ["PRIMATURE"],
-      "tags": ["premier ministre", "gouvernement"]
+      "source": {
+        "name": "Malipages / site de la Primature",
+        "url": "https://www.malipages.com/annuaire/lien/primature/"
+      },
+      "replaces": [
+        "PRIMATURE"
+      ],
+      "tags": [
+        "premier ministre",
+        "gouvernement"
+      ]
     },
     {
       "id": "cnt-conseil-national-transition",
@@ -347,11 +767,28 @@
       "quartier": "Bagadadji",
       "commune": "Commune II",
       "address": "Bagadadji, BP 284, Bamako",
-      "phones": [{ "number": "20215724", "label": "standard" }, { "number": "20216169" }],
+      "phones": [
+        {
+          "number": "20215724",
+          "label": "standard"
+        },
+        {
+          "number": "20216169"
+        }
+      ],
       "website": "https://www.assemblee-nationale.ml/",
-      "source": { "name": "Malipages (fiche Assemblée nationale) / IPU", "url": "https://data.ipu.org/parliament/ML/ML-LC01/basic/contact-details/" },
-      "replaces": ["ASSEMBLEE NATIONALE DU MALI"],
-      "tags": ["parlement", "députés", "assemblée"]
+      "source": {
+        "name": "Malipages (fiche Assemblée nationale) / IPU",
+        "url": "https://data.ipu.org/parliament/ML/ML-LC01/basic/contact-details/"
+      },
+      "replaces": [
+        "ASSEMBLEE NATIONALE DU MALI"
+      ],
+      "tags": [
+        "parlement",
+        "députés",
+        "assemblée"
+      ]
     },
     {
       "id": "cour-supreme",
@@ -361,12 +798,26 @@
       "quartier": "Banankabougou",
       "commune": "Commune VI",
       "address": "Banankabougou Bolé, BP 07, Bamako",
-      "phones": [{ "number": "20202404", "label": "standard" }],
+      "phones": [
+        {
+          "number": "20202404",
+          "label": "standard"
+        }
+      ],
       "email": "contact@coursupreme.ml",
       "website": "https://coursupreme.ml/",
-      "source": { "name": "Site officiel de la Cour Suprême", "url": "https://coursupreme.ml/" },
-      "replaces": ["COUR SUPREME DU MALI"],
-      "tags": ["justice", "cassation", "tribunal"]
+      "source": {
+        "name": "Site officiel de la Cour Suprême",
+        "url": "https://coursupreme.ml/"
+      },
+      "replaces": [
+        "COUR SUPREME DU MALI"
+      ],
+      "tags": [
+        "justice",
+        "cassation",
+        "tribunal"
+      ]
     },
     {
       "id": "tgi-commune-3",
@@ -376,9 +827,21 @@
       "quartier": "Centre commercial",
       "commune": "Commune III",
       "address": "Centre commercial, Rue Quentin Porte 64, Bamako",
-      "phones": [{ "number": "20225263" }],
-      "source": { "name": "eRegulations Mali", "url": "https://mali.eregulations.org/Contacts/13?l=fr" },
-      "tags": ["tribunal", "justice", "casier judiciaire", "nationalité"]
+      "phones": [
+        {
+          "number": "20225263"
+        }
+      ],
+      "source": {
+        "name": "eRegulations Mali",
+        "url": "https://mali.eregulations.org/Contacts/13?l=fr"
+      },
+      "tags": [
+        "tribunal",
+        "justice",
+        "casier judiciaire",
+        "nationalité"
+      ]
     },
     {
       "id": "tgi-commune-5",
@@ -388,9 +851,21 @@
       "quartier": "Badalabougou",
       "commune": "Commune V",
       "address": "Commune V, Bamako",
-      "phones": [{ "number": "20281856" }],
-      "source": { "name": "Annuaire en ligne (near-place)", "url": "https://ml.near-place.com/tribunal-de-grande-instance-commune-v-bamako", "note": "à confirmer" },
-      "tags": ["tribunal", "justice", "casier judiciaire"]
+      "phones": [
+        {
+          "number": "20281856"
+        }
+      ],
+      "source": {
+        "name": "Annuaire en ligne (near-place)",
+        "url": "https://ml.near-place.com/tribunal-de-grande-instance-commune-v-bamako",
+        "note": "à confirmer"
+      },
+      "tags": [
+        "tribunal",
+        "justice",
+        "casier judiciaire"
+      ]
     },
     {
       "id": "dgi-impots",
@@ -401,12 +876,31 @@
       "quartier": "Hamdallaye ACI 2000",
       "commune": "Commune IV",
       "address": "Hamdallaye ACI 2000, BP 776, Bamako",
-      "phones": [{ "number": "20299918", "label": "standard" }, { "number": "20292529" }],
+      "phones": [
+        {
+          "number": "20299918",
+          "label": "standard"
+        },
+        {
+          "number": "20292529"
+        }
+      ],
       "website": "https://www.dgi.gouv.ml/",
       "hours": "Lun–jeu 7h30–16h (pause 12h30–13h) ; ven 7h30–17h30",
-      "source": { "name": "Site officiel de la DGI", "url": "https://www.dgi.gouv.ml/comment-obtenir-des-renseignements-sur-nos-bureaux/" },
-      "replaces": ["DGI – DIRECTION GENERALE DES IMPOTS"],
-      "tags": ["impôts", "NIF", "taxe", "e-impôts", "vignette"]
+      "source": {
+        "name": "Site officiel de la DGI",
+        "url": "https://www.dgi.gouv.ml/comment-obtenir-des-renseignements-sur-nos-bureaux/"
+      },
+      "replaces": [
+        "DGI – DIRECTION GENERALE DES IMPOTS"
+      ],
+      "tags": [
+        "impôts",
+        "NIF",
+        "taxe",
+        "e-impôts",
+        "vignette"
+      ]
     },
     {
       "id": "edm-sa",
@@ -418,15 +912,40 @@
       "commune": "Commune III",
       "address": "Square Patrice Lumumba, BP 69, Bamako",
       "phones": [
-        { "number": "66752136", "label": "dépannage rive gauche" },
-        { "number": "20704295", "label": "dépannage rive gauche" },
-        { "number": "20704296", "label": "dépannage rive gauche" },
-        { "number": "66755754", "label": "dépannage rive droite" },
-        { "number": "20704258", "label": "dépannage rive droite" }
+        {
+          "number": "66752136",
+          "label": "dépannage rive gauche"
+        },
+        {
+          "number": "20704295",
+          "label": "dépannage rive gauche"
+        },
+        {
+          "number": "20704296",
+          "label": "dépannage rive gauche"
+        },
+        {
+          "number": "66755754",
+          "label": "dépannage rive droite"
+        },
+        {
+          "number": "20704258",
+          "label": "dépannage rive droite"
+        }
       ],
       "website": "https://www.edmsa.ml/",
-      "source": { "name": "Site officiel EDM-SA", "url": "https://www.edmsa.ml/" },
-      "tags": ["électricité", "coupure", "courant", "facture", "compteur", "Isago"]
+      "source": {
+        "name": "Site officiel EDM-SA",
+        "url": "https://www.edmsa.ml/"
+      },
+      "tags": [
+        "électricité",
+        "coupure",
+        "courant",
+        "facture",
+        "compteur",
+        "Isago"
+      ]
     },
     {
       "id": "somagep-sa",
@@ -438,16 +957,35 @@
       "commune": "Commune IV",
       "address": "Djicoroni Troukabougou, Rue 41, BP E 708, Bamako",
       "phones": [
-        { "number": "20704100", "label": "standard" },
-        { "number": "66747832", "label": "dépannage" },
-        { "number": "20226927" }
+        {
+          "number": "20704100",
+          "label": "standard"
+        },
+        {
+          "number": "66747832",
+          "label": "dépannage"
+        },
+        {
+          "number": "20226927"
+        }
       ],
       "email": "somagep@somagep.ml",
       "website": "https://www.somagep.ml/",
       "hours": "Lun–ven 7h30–16h",
-      "source": { "name": "Site officiel SOMAGEP-SA", "url": "https://www.somagep.ml/contact/" },
-      "replaces": ["SOMAGEP SA"],
-      "tags": ["eau", "robinet", "fuite", "facture", "branchement"]
+      "source": {
+        "name": "Site officiel SOMAGEP-SA",
+        "url": "https://www.somagep.ml/contact/"
+      },
+      "replaces": [
+        "SOMAGEP SA"
+      ],
+      "tags": [
+        "eau",
+        "robinet",
+        "fuite",
+        "facture",
+        "branchement"
+      ]
     },
     {
       "id": "orange-mali",
@@ -458,15 +996,38 @@
       "commune": "Commune IV",
       "address": "Hamdallaye ACI 2000, Immeuble Teylium, BP E 3991, Bamako",
       "phones": [
-        { "number": "7400", "label": "service client (depuis un mobile Orange)" },
-        { "number": "44999400", "label": "service client (autres réseaux)" },
-        { "number": "37070", "label": "Orange Money" },
-        { "number": "44999000", "label": "siège" }
+        {
+          "number": "7400",
+          "label": "service client (depuis un mobile Orange)"
+        },
+        {
+          "number": "44999400",
+          "label": "service client (autres réseaux)"
+        },
+        {
+          "number": "37070",
+          "label": "Orange Money"
+        },
+        {
+          "number": "44999000",
+          "label": "siège"
+        }
       ],
       "website": "https://www.orangemali.com/",
-      "source": { "name": "Site officiel Orange Mali / Malipages", "url": "https://www.orangemali.com/fr/service-clients.html" },
-      "replaces": ["ORANGE MALI SA"],
-      "tags": ["téléphone", "internet", "Orange Money", "mobile money", "SIM"]
+      "source": {
+        "name": "Site officiel Orange Mali / Malipages",
+        "url": "https://www.orangemali.com/fr/service-clients.html"
+      },
+      "replaces": [
+        "ORANGE MALI SA"
+      ],
+      "tags": [
+        "téléphone",
+        "internet",
+        "Orange Money",
+        "mobile money",
+        "SIM"
+      ]
     },
     {
       "id": "moov-africa-malitel",
@@ -477,15 +1038,40 @@
       "commune": "Commune IV",
       "address": "Hamdallaye ACI 2000, BP 740, Bamako",
       "phones": [
-        { "number": "222", "label": "service client (depuis un mobile Moov)" },
-        { "number": "1213", "label": "problèmes ligne fixe / ADSL" },
-        { "number": "35414", "label": "Moov Money" },
-        { "number": "20213022", "label": "siège" }
+        {
+          "number": "222",
+          "label": "service client (depuis un mobile Moov)"
+        },
+        {
+          "number": "1213",
+          "label": "problèmes ligne fixe / ADSL"
+        },
+        {
+          "number": "35414",
+          "label": "Moov Money"
+        },
+        {
+          "number": "20213022",
+          "label": "siège"
+        }
       ],
       "website": "https://www.moov-africa.ml/",
-      "source": { "name": "Moov Africa Malitel (site et pages officielles) / Malipages", "url": "https://www.moov-africa.ml/moovafrica/Pages/Contact.aspx" },
-      "replaces": ["MOOV AFRICA MALITEL", "MOOV AFRICA SOTELMA"],
-      "tags": ["téléphone", "internet", "Moov Money", "Malitel", "Sotelma", "SIM"]
+      "source": {
+        "name": "Moov Africa Malitel (site et pages officielles) / Malipages",
+        "url": "https://www.moov-africa.ml/moovafrica/Pages/Contact.aspx"
+      },
+      "replaces": [
+        "MOOV AFRICA MALITEL",
+        "MOOV AFRICA SOTELMA"
+      ],
+      "tags": [
+        "téléphone",
+        "internet",
+        "Moov Money",
+        "Malitel",
+        "Sotelma",
+        "SIM"
+      ]
     },
     {
       "id": "la-poste-du-mali",
@@ -495,12 +1081,27 @@
       "quartier": "Darsalam",
       "commune": "Commune III",
       "address": "Avenue de la Liberté, Porte 473, Darsalam, Bamako",
-      "phones": [{ "number": "83848490" }],
+      "phones": [
+        {
+          "number": "83848490"
+        }
+      ],
       "email": "info@laposte.ml",
       "website": "https://laposte.ml/",
-      "source": { "name": "Malipages / site La Poste", "url": "https://www.malipages.com/annuaire/lien/onp-loffice-national-des-postes/" },
-      "replaces": ["LA POSTE DU MALI"],
-      "tags": ["poste", "colis", "courrier", "timbre", "boîte postale"]
+      "source": {
+        "name": "Malipages / site La Poste",
+        "url": "https://www.malipages.com/annuaire/lien/onp-loffice-national-des-postes/"
+      },
+      "replaces": [
+        "LA POSTE DU MALI"
+      ],
+      "tags": [
+        "poste",
+        "colis",
+        "courrier",
+        "timbre",
+        "boîte postale"
+      ]
     },
     {
       "id": "aeroport-bamako-senou",
@@ -510,11 +1111,24 @@
       "quartier": "Sénou",
       "commune": "Commune VI",
       "address": "Sénou, route de l'aéroport, Bamako",
-      "phones": [{ "number": "20205774", "label": "Aéroports du Mali" }],
+      "phones": [
+        {
+          "number": "20205774",
+          "label": "Aéroports du Mali"
+        }
+      ],
       "email": "adm@aeroports-du-mali.com",
       "website": "https://www.aeroport-bamako.com/",
-      "source": { "name": "Malipages / Logistics Cluster", "url": "https://www.malipages.com/annuaire/lien/aeroport-international-president-modibo-keita-de-bamako-senou/" },
-      "tags": ["aéroport", "vol", "avion", "Sénou"]
+      "source": {
+        "name": "Malipages / Logistics Cluster",
+        "url": "https://www.malipages.com/annuaire/lien/aeroport-international-president-modibo-keita-de-bamako-senou/"
+      },
+      "tags": [
+        "aéroport",
+        "vol",
+        "avion",
+        "Sénou"
+      ]
     },
     {
       "id": "gare-routiere-sogoniko",
@@ -525,8 +1139,19 @@
       "commune": "Commune VI",
       "address": "Boulevard de l'OUA, Sogoniko, Bamako",
       "phones": [],
-      "source": { "name": "OpenStreetMap / Mapcarta", "url": "https://mapcarta.com/W131355241", "note": "pas de standard unique : contacter directement les compagnies" },
-      "tags": ["bus", "car", "transport", "Ségou", "Sikasso", "voyage"]
+      "source": {
+        "name": "OpenStreetMap / Mapcarta",
+        "url": "https://mapcarta.com/W131355241",
+        "note": "pas de standard unique : contacter directement les compagnies"
+      },
+      "tags": [
+        "bus",
+        "car",
+        "transport",
+        "Ségou",
+        "Sikasso",
+        "voyage"
+      ]
     },
     {
       "id": "musee-national",
@@ -536,9 +1161,20 @@
       "quartier": "Route de Koulouba",
       "commune": "Commune III",
       "address": "Route de Koulouba, Avenue de la Liberté, BP 159, Bamako",
-      "phones": [{ "number": "20223486" }],
-      "source": { "name": "Africultures / FUGA", "url": "https://africultures.com/structures/?no=6894" },
-      "tags": ["musée", "culture", "exposition"]
+      "phones": [
+        {
+          "number": "20223486"
+        }
+      ],
+      "source": {
+        "name": "Africultures / FUGA",
+        "url": "https://africultures.com/structures/?no=6894"
+      },
+      "tags": [
+        "musée",
+        "culture",
+        "exposition"
+      ]
     },
     {
       "id": "palais-culture-amadou-hampate-ba",
@@ -548,9 +1184,21 @@
       "quartier": "Badalabougou",
       "commune": "Commune V",
       "address": "Badalabougou Sema, BP E 1738, Bamako",
-      "phones": [{ "number": "20223370" }],
-      "source": { "name": "Malipages / Africultures", "url": "https://www.malipages.com/annuaire/lien/palais-de-la-culture-amadou-hampate-ba/" },
-      "tags": ["concert", "spectacle", "théâtre", "culture"]
+      "phones": [
+        {
+          "number": "20223370"
+        }
+      ],
+      "source": {
+        "name": "Malipages / Africultures",
+        "url": "https://www.malipages.com/annuaire/lien/palais-de-la-culture-amadou-hampate-ba/"
+      },
+      "tags": [
+        "concert",
+        "spectacle",
+        "théâtre",
+        "culture"
+      ]
     },
     {
       "id": "bibliotheque-nationale",
@@ -560,10 +1208,22 @@
       "quartier": "Hamdallaye ACI 2000",
       "commune": "Commune IV",
       "address": "Hamdallaye ACI 2000, BP E 4473, Bamako",
-      "phones": [{ "number": "20299423" }],
+      "phones": [
+        {
+          "number": "20299423"
+        }
+      ],
       "website": "https://bnmali.wordpress.com/",
-      "source": { "name": "Malipages", "url": "https://www.malipages.com/annuaire/lien/bibliotheque-nationale-du-mali/" },
-      "tags": ["bibliothèque", "livres", "lecture", "archives"]
+      "source": {
+        "name": "Malipages",
+        "url": "https://www.malipages.com/annuaire/lien/bibliotheque-nationale-du-mali/"
+      },
+      "tags": [
+        "bibliothèque",
+        "livres",
+        "lecture",
+        "archives"
+      ]
     },
     {
       "id": "stade-26-mars",
@@ -574,8 +1234,17 @@
       "commune": "Commune VI",
       "address": "Route nationale 6 (RN6), Yirimadio, Bamako",
       "phones": [],
-      "source": { "name": "Wikipédia", "url": "https://fr.wikipedia.org/wiki/Stade_du_26_Mars", "note": "pas de standard public trouvé" },
-      "tags": ["football", "stade", "sport", "match"]
+      "source": {
+        "name": "Wikipédia",
+        "url": "https://fr.wikipedia.org/wiki/Stade_du_26_Mars",
+        "note": "pas de standard public trouvé"
+      },
+      "tags": [
+        "football",
+        "stade",
+        "sport",
+        "match"
+      ]
     },
     {
       "id": "ortm",
@@ -586,10 +1255,23 @@
       "quartier": "Bozola",
       "commune": "Commune II",
       "address": "Rue de la Marne, Bozola, BP 171, Bamako",
-      "phones": [{ "number": "20215937", "label": "standard" }],
+      "phones": [
+        {
+          "number": "20215937",
+          "label": "standard"
+        }
+      ],
       "website": "https://www.ortm.ml/",
-      "source": { "name": "Malipages / site ORTM", "url": "https://www.malipages.com/annuaire/lien/ortm-office-radio-television-du-mali/" },
-      "tags": ["télévision", "radio", "ORTM", "média"]
+      "source": {
+        "name": "Malipages / site ORTM",
+        "url": "https://www.malipages.com/annuaire/lien/ortm-office-radio-television-du-mali/"
+      },
+      "tags": [
+        "télévision",
+        "radio",
+        "ORTM",
+        "média"
+      ]
     },
     {
       "id": "usttb",
@@ -600,12 +1282,30 @@
       "quartier": "Hamdallaye ACI 2000",
       "commune": "Commune IV",
       "address": "Hamdallaye ACI 2000, Rue 405 Porte 359, BP E 423, Bamako",
-      "phones": [{ "number": "20290407", "label": "rectorat" }],
+      "phones": [
+        {
+          "number": "20290407",
+          "label": "rectorat"
+        }
+      ],
       "email": "contact@usttb.edu.ml",
       "website": "https://usttb-edu.org/",
-      "source": { "name": "Site officiel USTTB / Malipages", "url": "https://usttb-edu.org/contact/" },
-      "replaces": ["USTTB"],
-      "tags": ["université", "médecine", "pharmacie", "FMOS", "FST", "sciences", "Point G"]
+      "source": {
+        "name": "Site officiel USTTB / Malipages",
+        "url": "https://usttb-edu.org/contact/"
+      },
+      "replaces": [
+        "USTTB"
+      ],
+      "tags": [
+        "université",
+        "médecine",
+        "pharmacie",
+        "FMOS",
+        "FST",
+        "sciences",
+        "Point G"
+      ]
     },
     {
       "id": "uyob-ulshb",
@@ -616,11 +1316,34 @@
       "quartier": "Baco Djicoroni ACI",
       "commune": "Commune V",
       "address": "Baco Djicoroni ACI, Rue 627 Porte 83, BP E 2528, Bamako (campus de Kabala)",
-      "phones": [{ "number": "20280264", "label": "rectorat" }, { "number": "20280265" }, { "number": "20707703", "label": "campus Kabala (Malipages)" }],
+      "phones": [
+        {
+          "number": "20280264",
+          "label": "rectorat"
+        },
+        {
+          "number": "20280265"
+        },
+        {
+          "number": "20707703",
+          "label": "campus Kabala (Malipages)"
+        }
+      ],
       "website": "http://www.ulshb.edu.ml/",
-      "source": { "name": "Site ULSHB / Le Grand Frère / Malipages", "url": "https://legrandfrere.africa/etablissement/universite-des-lettres-et-des-sciences-humaines-de-bamako-ulshb/" },
-      "replaces": ["ULSHB"],
-      "tags": ["université", "lettres", "sciences humaines", "Kabala", "ULSHB"]
+      "source": {
+        "name": "Site ULSHB / Le Grand Frère / Malipages",
+        "url": "https://legrandfrere.africa/etablissement/universite-des-lettres-et-des-sciences-humaines-de-bamako-ulshb/"
+      },
+      "replaces": [
+        "ULSHB"
+      ],
+      "tags": [
+        "université",
+        "lettres",
+        "sciences humaines",
+        "Kabala",
+        "ULSHB"
+      ]
     },
     {
       "id": "kurukanfuga-usjpb",
@@ -631,10 +1354,36 @@
       "quartier": "Badalabougou",
       "commune": "Commune V",
       "address": "Cité universitaire de Badalabougou, BP E 2528, Bamako",
-      "phones": [{ "number": "20229302" }, { "number": "20221932" }, { "number": "66729020" }, { "number": "76396124", "label": "Malipages 2025" }],
-      "source": { "name": "Le Grand Frère / AUF / Malipages", "url": "https://legrandfrere.africa/etablissement/luniversite-des-sciences-juridiques-et-politiques-de-bamako-usjpb/" },
-      "replaces": ["UNIVERSITE KURUKANFUGA DE BAMAKO", "USJPB"],
-      "tags": ["université", "droit", "faculté de droit", "sciences politiques", "USJPB"]
+      "phones": [
+        {
+          "number": "20229302"
+        },
+        {
+          "number": "20221932"
+        },
+        {
+          "number": "66729020"
+        },
+        {
+          "number": "76396124",
+          "label": "Malipages 2025"
+        }
+      ],
+      "source": {
+        "name": "Le Grand Frère / AUF / Malipages",
+        "url": "https://legrandfrere.africa/etablissement/luniversite-des-sciences-juridiques-et-politiques-de-bamako-usjpb/"
+      },
+      "replaces": [
+        "UNIVERSITE KURUKANFUGA DE BAMAKO",
+        "USJPB"
+      ],
+      "tags": [
+        "université",
+        "droit",
+        "faculté de droit",
+        "sciences politiques",
+        "USJPB"
+      ]
     },
     {
       "id": "ussgb",
@@ -645,11 +1394,27 @@
       "quartier": "Quartier du Fleuve",
       "commune": "Commune III",
       "address": "Quartier du Fleuve, Rue 310 Porte 238, BP 2575, Bamako",
-      "phones": [{ "number": "20220865", "label": "rectorat" }],
+      "phones": [
+        {
+          "number": "20220865",
+          "label": "rectorat"
+        }
+      ],
       "website": "https://ussgb.edu.ml/",
-      "source": { "name": "Malipages / site USSGB", "url": "https://www.malipages.com/annuaire/lien/ussgb-universite-des-sciences-sociales-et-de-gestion-de-bamako/" },
-      "replaces": ["USSGB"],
-      "tags": ["université", "économie", "gestion", "FSEG", "FHG"]
+      "source": {
+        "name": "Malipages / site USSGB",
+        "url": "https://www.malipages.com/annuaire/lien/ussgb-universite-des-sciences-sociales-et-de-gestion-de-bamako/"
+      },
+      "replaces": [
+        "USSGB"
+      ],
+      "tags": [
+        "université",
+        "économie",
+        "gestion",
+        "FSEG",
+        "FHG"
+      ]
     },
     {
       "id": "eni-abt",
@@ -660,11 +1425,27 @@
       "quartier": "Centre commercial",
       "commune": "Commune III",
       "address": "Avenue Van Vollenhoven, Porte 410, BP 242, Bamako",
-      "phones": [{ "number": "20222736", "label": "standard" }],
+      "phones": [
+        {
+          "number": "20222736",
+          "label": "standard"
+        }
+      ],
       "website": "https://www.eni-abt.ml/",
-      "source": { "name": "Malipages / site ENI-ABT", "url": "https://www.malipages.com/annuaire/lien/eni-abt-ecole-nationale-dingenieurs-abderhamane-baba-toure/" },
-      "replaces": ["ENI ABT", "ENI-ABT"],
-      "tags": ["ingénieur", "génie civil", "école", "ENI"]
+      "source": {
+        "name": "Malipages / site ENI-ABT",
+        "url": "https://www.malipages.com/annuaire/lien/eni-abt-ecole-nationale-dingenieurs-abderhamane-baba-toure/"
+      },
+      "replaces": [
+        "ENI ABT",
+        "ENI-ABT"
+      ],
+      "tags": [
+        "ingénieur",
+        "génie civil",
+        "école",
+        "ENI"
+      ]
     },
     {
       "id": "ensup-bamako",
@@ -675,12 +1456,27 @@
       "quartier": "Quartier du Fleuve",
       "commune": "Commune III",
       "address": "Quartier du Fleuve, Rue 22 Octobre 1946, BP 241, Bamako",
-      "phones": [{ "number": "20222189", "label": "standard" }],
+      "phones": [
+        {
+          "number": "20222189",
+          "label": "standard"
+        }
+      ],
       "email": "contact@ensupbamako.edu.ml",
       "website": "https://ensupbamako.edu.ml/",
-      "source": { "name": "Site officiel ENSup / Malipages", "url": "https://ensupbamako.edu.ml/contact/" },
-      "replaces": ["ENSUP"],
-      "tags": ["professeur", "enseignant", "école normale", "ENSup"]
+      "source": {
+        "name": "Site officiel ENSup / Malipages",
+        "url": "https://ensupbamako.edu.ml/contact/"
+      },
+      "replaces": [
+        "ENSUP"
+      ],
+      "tags": [
+        "professeur",
+        "enseignant",
+        "école normale",
+        "ENSup"
+      ]
     },
     {
       "id": "ena-mali",
@@ -691,12 +1487,31 @@
       "quartier": "Kati Sananfara",
       "commune": "Kati (hors District)",
       "address": "Kati Sananfara, BP E 2877, Bamako",
-      "phones": [{ "number": "20222719", "label": "standard" }, { "number": "20223368" }],
+      "phones": [
+        {
+          "number": "20222719",
+          "label": "standard"
+        },
+        {
+          "number": "20223368"
+        }
+      ],
       "email": "contact@enamali.ml",
       "website": "https://www.enamali.ml/",
-      "source": { "name": "MaliAtlas / Malipages / site ENA", "url": "https://maliatlas.com/organisation/enamaliecolenationaledadministration" },
-      "replaces": ["ENA MALI", "ENA – ECOLE NATIONALE D"],
-      "tags": ["fonction publique", "administration", "concours", "ENA"]
+      "source": {
+        "name": "MaliAtlas / Malipages / site ENA",
+        "url": "https://maliatlas.com/organisation/enamaliecolenationaledadministration"
+      },
+      "replaces": [
+        "ENA MALI",
+        "ENA – ECOLE NATIONALE D"
+      ],
+      "tags": [
+        "fonction publique",
+        "administration",
+        "concours",
+        "ENA"
+      ]
     },
     {
       "id": "api-mali",
@@ -707,11 +1522,37 @@
       "quartier": "Quartier du Fleuve",
       "commune": "Commune III",
       "address": "Quartier du Fleuve, BP 1980, Bamako",
-      "phones": [{ "number": "20229525", "label": "standard" }, { "number": "20229526" }, { "number": "76156424", "label": "accueil 8h–16h" }, { "number": "71622020", "label": "accueil 8h–16h" }],
+      "phones": [
+        {
+          "number": "20229525",
+          "label": "standard"
+        },
+        {
+          "number": "20229526"
+        },
+        {
+          "number": "76156424",
+          "label": "accueil 8h–16h"
+        },
+        {
+          "number": "71622020",
+          "label": "accueil 8h–16h"
+        }
+      ],
       "website": "https://apimali.gov.ml/",
-      "source": { "name": "Site officiel API-Mali / Malipages", "url": "https://apimali.gov.ml/contact/" },
-      "replaces": ["API MALI"],
-      "tags": ["création d'entreprise", "investissement", "RCCM", "guichet unique"]
+      "source": {
+        "name": "Site officiel API-Mali / Malipages",
+        "url": "https://apimali.gov.ml/contact/"
+      },
+      "replaces": [
+        "API MALI"
+      ],
+      "tags": [
+        "création d'entreprise",
+        "investissement",
+        "RCCM",
+        "guichet unique"
+      ]
     },
     {
       "id": "ccim",
@@ -722,11 +1563,29 @@
       "quartier": "Centre commercial",
       "commune": "Commune III",
       "address": "Centre commercial, Place de la Liberté, Porte 2, BP 46, Bamako",
-      "phones": [{ "number": "20225036", "label": "standard" }, { "number": "76130236" }],
+      "phones": [
+        {
+          "number": "20225036",
+          "label": "standard"
+        },
+        {
+          "number": "76130236"
+        }
+      ],
       "website": "https://www.cci.ml/",
-      "source": { "name": "Malipages / site CCIM", "url": "https://www.malipages.com/annuaire/lien/ccim-chambre-de-commerce-et-industrie-du-mali/" },
-      "replaces": ["CCIM"],
-      "tags": ["commerce", "entreprise", "carte d'importateur", "chambre de commerce"]
+      "source": {
+        "name": "Malipages / site CCIM",
+        "url": "https://www.malipages.com/annuaire/lien/ccim-chambre-de-commerce-et-industrie-du-mali/"
+      },
+      "replaces": [
+        "CCIM"
+      ],
+      "tags": [
+        "commerce",
+        "entreprise",
+        "carte d'importateur",
+        "chambre de commerce"
+      ]
     },
     {
       "id": "canam",
@@ -737,11 +1596,30 @@
       "quartier": "Hamdallaye ACI 2000",
       "commune": "Commune IV",
       "address": "Hamdallaye ACI 2000, Avenue du Mali, Immeuble Salia Daou, Bamako",
-      "phones": [{ "number": "44976412", "label": "standard" }, { "number": "80005550", "label": "numéro vert" }],
+      "phones": [
+        {
+          "number": "44976412",
+          "label": "standard"
+        },
+        {
+          "number": "80005550",
+          "label": "numéro vert"
+        }
+      ],
       "website": "https://www.canam.ml/",
-      "source": { "name": "Malipages / site CANAM", "url": "https://www.malipages.com/annuaire/lien/canam-caisse-nationale-dassurance-maladie/" },
-      "replaces": ["CANAM"],
-      "tags": ["AMO", "assurance maladie", "carte AMO", "remboursement"]
+      "source": {
+        "name": "Malipages / site CANAM",
+        "url": "https://www.malipages.com/annuaire/lien/canam-caisse-nationale-dassurance-maladie/"
+      },
+      "replaces": [
+        "CANAM"
+      ],
+      "tags": [
+        "AMO",
+        "assurance maladie",
+        "carte AMO",
+        "remboursement"
+      ]
     },
     {
       "id": "inps",
@@ -752,12 +1630,38 @@
       "quartier": "Square Patrice Lumumba",
       "commune": "Commune III",
       "address": "Square Patrice Lumumba, BP 53, Bamako",
-      "phones": [{ "number": "20705170", "label": "standard (Malipages)" }, { "number": "20212554", "label": "direction générale (CIPRES)" }, { "number": "20216001" }, { "number": "83040687" }],
+      "phones": [
+        {
+          "number": "20705170",
+          "label": "standard (Malipages)"
+        },
+        {
+          "number": "20212554",
+          "label": "direction générale (CIPRES)"
+        },
+        {
+          "number": "20216001"
+        },
+        {
+          "number": "83040687"
+        }
+      ],
       "email": "inps@inpsmali.com",
       "website": "https://www.inps.ml/",
-      "source": { "name": "Malipages / CIPRES", "url": "https://lacipres.org/linstitut-national-de-prevoyance-sociale-inps-du-mali/" },
-      "replaces": ["INPS"],
-      "tags": ["retraite", "pension", "cotisations", "sécurité sociale", "allocations familiales"]
+      "source": {
+        "name": "Malipages / CIPRES",
+        "url": "https://lacipres.org/linstitut-national-de-prevoyance-sociale-inps-du-mali/"
+      },
+      "replaces": [
+        "INPS"
+      ],
+      "tags": [
+        "retraite",
+        "pension",
+        "cotisations",
+        "sécurité sociale",
+        "allocations familiales"
+      ]
     },
     {
       "id": "mairie-commune-5",
@@ -770,16 +1674,32 @@
       "lat": 12.60738,
       "lng": -8.00178,
       "phones": [
-        { "number": "20282096", "label": "standard" },
-        { "number": "20284161", "label": "à confirmer" }
+        {
+          "number": "20282096",
+          "label": "standard"
+        },
+        {
+          "number": "20284161",
+          "label": "à confirmer"
+        }
       ],
       "source": {
         "name": "OpenStreetMap (hôtel de ville de Torokorobougou) et MaliAtlas",
         "url": "https://www.openstreetmap.org/?mlat=12.60738&mlon=-8.00178#map=18/12.60738/-8.00178",
         "note": "l'annuaire Malipages la situe à tort à Bamako Coura, quartier de la Commune III"
       },
-      "replaces": ["MAIRIE COMMUNE V"],
-      "tags": ["mairie", "état civil", "acte de naissance", "mariage", "300 logements", "Quartier Mali", "Badalabougou"]
+      "replaces": [
+        "MAIRIE COMMUNE V"
+      ],
+      "tags": [
+        "mairie",
+        "état civil",
+        "acte de naissance",
+        "mariage",
+        "300 logements",
+        "Quartier Mali",
+        "Badalabougou"
+      ]
     },
     {
       "id": "mairie-district-bamako",
@@ -789,10 +1709,272 @@
       "quartier": "Centre commercial",
       "commune": "Commune III",
       "address": "Place de la Liberté, BP 256, Bamako",
-      "phones": [{ "number": "20222946", "label": "standard" }, { "number": "20225540" }],
-      "source": { "name": "Malipages", "url": "https://www.malipages.com/annuaire/mairies/" },
-      "replaces": ["MAIRIE DE BAMAKO"],
-      "tags": ["mairie", "district", "gouverneur", "état civil"]
+      "phones": [
+        {
+          "number": "20222946",
+          "label": "standard"
+        },
+        {
+          "number": "20225540"
+        }
+      ],
+      "source": {
+        "name": "Malipages",
+        "url": "https://www.malipages.com/annuaire/mairies/"
+      },
+      "replaces": [
+        "MAIRIE DE BAMAKO"
+      ],
+      "tags": [
+        "mairie",
+        "district",
+        "gouverneur",
+        "état civil"
+      ]
+    },
+    {
+      "id": "commissariat-1er",
+      "name": "Commissariat de police de Centre Commercial",
+      "acronym": "1er arrondissement",
+      "category": "securite",
+      "type": "Commissariat de police (1er arrondissement)",
+      "quartier": "Centre commercial",
+      "commune": "Commune III",
+      "address": "Centre commercial, Bamako",
+      "phones": [
+        {
+          "number": "20225137"
+        }
+      ],
+      "source": {
+        "name": "Arrêté du ministère de la Sécurité et de la Protection civile du 31 août 2022 (renommage des commissariats)",
+        "url": "https://lanouvellevoiedumali.com/securite-publique-les-commissariats-de-police-de-bamako-et-de-koulikoro-portent-desormais-les-noms-de-leurs-zones-dimplantation/",
+        "note": "Avenue de la République, porte 664 ; position OpenStreetMap"
+      },
+      "replaces": [
+        "COMMISSARIAT DE POLICE – 1ER ARRONDISSEMENT"
+      ],
+      "tags": [
+        "police",
+        "plainte",
+        "vol",
+        "commissariat",
+        "1er arrondissement",
+        "Centre Commercial"
+      ],
+      "lat": 12.64618,
+      "lng": -8.00083
+    },
+    {
+      "id": "commissariat-2e",
+      "name": "Commissariat de police de Dravéla-Bolibana",
+      "acronym": "2e arrondissement",
+      "category": "securite",
+      "type": "Commissariat de police (2e arrondissement)",
+      "quartier": "Dravéla",
+      "commune": "Commune III",
+      "address": "Dravéla, Bamako",
+      "phones": [
+        {
+          "number": "20223429"
+        }
+      ],
+      "source": {
+        "name": "Arrêté du ministère de la Sécurité et de la Protection civile du 31 août 2022 (renommage des commissariats)",
+        "url": "https://lanouvellevoiedumali.com/securite-publique-les-commissariats-de-police-de-bamako-et-de-koulikoro-portent-desormais-les-noms-de-leurs-zones-dimplantation/"
+      },
+      "replaces": [
+        "COMMISSARIAT DE POLICE – 2EME ARRONDISSEMENT"
+      ],
+      "tags": [
+        "police",
+        "plainte",
+        "vol",
+        "commissariat",
+        "2e arrondissement",
+        "Dravéla-Bolibana"
+      ]
+    },
+    {
+      "id": "commissariat-3e",
+      "name": "Commissariat de police de Quinzambougou",
+      "acronym": "3e arrondissement",
+      "category": "securite",
+      "type": "Commissariat de police (3e arrondissement)",
+      "quartier": "Quinzambougou",
+      "commune": "Commune II",
+      "address": "Quinzambougou, Bamako",
+      "phones": [
+        {
+          "number": "20212361"
+        }
+      ],
+      "source": {
+        "name": "Arrêté du ministère de la Sécurité et de la Protection civile du 31 août 2022 (renommage des commissariats)",
+        "url": "https://lanouvellevoiedumali.com/securite-publique-les-commissariats-de-police-de-bamako-et-de-koulikoro-portent-desormais-les-noms-de-leurs-zones-dimplantation/"
+      },
+      "replaces": [
+        "COMMISSARIAT DE POLICE – 3EME ARRONDISSEMENT"
+      ],
+      "tags": [
+        "police",
+        "plainte",
+        "vol",
+        "commissariat",
+        "3e arrondissement",
+        "Quinzambougou"
+      ]
+    },
+    {
+      "id": "commissariat-4e",
+      "name": "Commissariat de police de Torokorobougou",
+      "acronym": "4e arrondissement",
+      "category": "securite",
+      "type": "Commissariat de police (4e arrondissement)",
+      "quartier": "Torokorobougou",
+      "commune": "Commune V",
+      "address": "Torokorobougou, Bamako",
+      "phones": [
+        {
+          "number": "20224247"
+        }
+      ],
+      "source": {
+        "name": "Arrêté du ministère de la Sécurité et de la Protection civile du 31 août 2022 (renommage des commissariats)",
+        "url": "https://lanouvellevoiedumali.com/securite-publique-les-commissariats-de-police-de-bamako-et-de-koulikoro-portent-desormais-les-noms-de-leurs-zones-dimplantation/"
+      },
+      "replaces": [
+        "COMMISSARIAT DE POLICE – 4EME ARRONDISSEMENT"
+      ],
+      "tags": [
+        "police",
+        "plainte",
+        "vol",
+        "commissariat",
+        "4e arrondissement",
+        "Torokorobougou"
+      ]
+    },
+    {
+      "id": "commissariat-5e",
+      "name": "Commissariat de police de Lafiabougou",
+      "acronym": "5e arrondissement",
+      "category": "securite",
+      "type": "Commissariat de police (5e arrondissement)",
+      "quartier": "Lafiabougou",
+      "commune": "Commune IV",
+      "address": "Lafiabougou, Bamako",
+      "phones": [
+        {
+          "number": "20294043"
+        }
+      ],
+      "source": {
+        "name": "Arrêté du ministère de la Sécurité et de la Protection civile du 31 août 2022 (renommage des commissariats)",
+        "url": "https://lanouvellevoiedumali.com/securite-publique-les-commissariats-de-police-de-bamako-et-de-koulikoro-portent-desormais-les-noms-de-leurs-zones-dimplantation/"
+      },
+      "replaces": [
+        "COMMISSARIAT DE POLICE – 5EME ARRONDISSEMENT"
+      ],
+      "tags": [
+        "police",
+        "plainte",
+        "vol",
+        "commissariat",
+        "5e arrondissement",
+        "Lafiabougou"
+      ]
+    },
+    {
+      "id": "commissariat-7e",
+      "name": "Commissariat de police de Sogoniko",
+      "acronym": "7e arrondissement",
+      "category": "securite",
+      "type": "Commissariat de police (7e arrondissement)",
+      "quartier": "Sogoniko",
+      "commune": "Commune VI",
+      "address": "Sogoniko, Bamako",
+      "phones": [
+        {
+          "number": "20200981"
+        }
+      ],
+      "source": {
+        "name": "Arrêté du ministère de la Sécurité et de la Protection civile du 31 août 2022 (renommage des commissariats)",
+        "url": "https://lanouvellevoiedumali.com/securite-publique-les-commissariats-de-police-de-bamako-et-de-koulikoro-portent-desormais-les-noms-de-leurs-zones-dimplantation/"
+      },
+      "replaces": [
+        "COMMISSARIAT DE POLICE – 7EME ARRONDISSEMENT"
+      ],
+      "tags": [
+        "police",
+        "plainte",
+        "vol",
+        "commissariat",
+        "7e arrondissement",
+        "Sogoniko"
+      ]
+    },
+    {
+      "id": "commissariat-10e",
+      "name": "Commissariat de police de Niamakoro",
+      "acronym": "10e arrondissement",
+      "category": "securite",
+      "type": "Commissariat de police (10e arrondissement)",
+      "quartier": "Niamakoro",
+      "commune": "Commune VI",
+      "address": "Niamakoro, Bamako",
+      "phones": [
+        {
+          "number": "20203720"
+        }
+      ],
+      "source": {
+        "name": "Arrêté du ministère de la Sécurité et de la Protection civile du 31 août 2022 (renommage des commissariats)",
+        "url": "https://lanouvellevoiedumali.com/securite-publique-les-commissariats-de-police-de-bamako-et-de-koulikoro-portent-desormais-les-noms-de-leurs-zones-dimplantation/"
+      },
+      "replaces": [
+        "COMMISSARIAT DE POLICE – 10EME ARRONDISSEMENT"
+      ],
+      "tags": [
+        "police",
+        "plainte",
+        "vol",
+        "commissariat",
+        "10e arrondissement",
+        "Niamakoro"
+      ]
+    },
+    {
+      "id": "commissariat-11e",
+      "name": "Commissariat de police du 11e arrondissement",
+      "category": "securite",
+      "type": "Commissariat de police",
+      "quartier": "Niamakoro",
+      "commune": "Commune VI",
+      "address": "Niamakoro, Bamako",
+      "lat": 12.57781,
+      "lng": -7.98709,
+      "phones": [
+        {
+          "number": "20281005"
+        }
+      ],
+      "source": {
+        "name": "OpenStreetMap (poste de police nommé)",
+        "url": "https://www.openstreetmap.org/?mlat=12.57781&mlon=-7.98709#map=18/12.57781/-7.98709",
+        "note": "l'arrêté de 2022 a renommé les commissariats ; le nouveau nom de celui-ci n'est pas publié"
+      },
+      "replaces": [
+        "COMMISSARIAT DE POLICE – 11EME ARRONDISSEMENT"
+      ],
+      "tags": [
+        "police",
+        "plainte",
+        "vol",
+        "commissariat",
+        "11e arrondissement"
+      ]
     }
   ]
 }

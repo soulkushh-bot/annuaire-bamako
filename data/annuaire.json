@@ -4,7 +4,7 @@
   "repo": "soulkushh-bot/annuaire-bamako",
   "contact": "",
   "count": 386,
-  "geocoded": 124
+  "geocoded": 123
  },
  "categories": {
   "urgences": {
@@ -8250,44 +8250,232 @@
    ]
   },
   {
-   "id": "commissariat-de-police-du-10e-arrondissement",
-   "name": "Commissariat de police du 10e arrondissement",
+   "id": "commissariat-1er",
+   "name": "Commissariat de police de Centre Commercial",
+   "acronym": "1er arrondissement",
    "category": "securite",
-   "type": "Commissariat de police",
-   "quartier": "",
-   "commune": "",
-   "address": "Bamako",
+   "type": "Commissariat de police (1er arrondissement)",
+   "quartier": "Centre commercial",
+   "commune": "Commune III",
+   "address": "Centre commercial, Bamako",
+   "phones": [
+    {
+     "number": "20225137"
+    }
+   ],
+   "source": {
+    "name": "Arrêté du ministère de la Sécurité et de la Protection civile du 31 août 2022 (renommage des commissariats)",
+    "url": "https://lanouvellevoiedumali.com/securite-publique-les-commissariats-de-police-de-bamako-et-de-koulikoro-portent-desormais-les-noms-de-leurs-zones-dimplantation/",
+    "note": "Avenue de la République, porte 664 ; position OpenStreetMap",
+    "verified": "2026-09-05"
+   },
+   "tags": [
+    "police",
+    "plainte",
+    "vol",
+    "commissariat",
+    "1er arrondissement",
+    "Centre Commercial"
+   ],
+   "lat": 12.64618,
+   "lng": -8.00083
+  },
+  {
+   "id": "commissariat-2e",
+   "name": "Commissariat de police de Dravéla-Bolibana",
+   "acronym": "2e arrondissement",
+   "category": "securite",
+   "type": "Commissariat de police (2e arrondissement)",
+   "quartier": "Dravéla",
+   "commune": "Commune III",
+   "address": "Dravéla, Bamako",
+   "phones": [
+    {
+     "number": "20223429"
+    }
+   ],
+   "source": {
+    "name": "Arrêté du ministère de la Sécurité et de la Protection civile du 31 août 2022 (renommage des commissariats)",
+    "url": "https://lanouvellevoiedumali.com/securite-publique-les-commissariats-de-police-de-bamako-et-de-koulikoro-portent-desormais-les-noms-de-leurs-zones-dimplantation/",
+    "verified": "2026-09-05"
+   },
+   "tags": [
+    "police",
+    "plainte",
+    "vol",
+    "commissariat",
+    "2e arrondissement",
+    "Dravéla-Bolibana"
+   ]
+  },
+  {
+   "id": "commissariat-5e",
+   "name": "Commissariat de police de Lafiabougou",
+   "acronym": "5e arrondissement",
+   "category": "securite",
+   "type": "Commissariat de police (5e arrondissement)",
+   "quartier": "Lafiabougou",
+   "commune": "Commune IV",
+   "address": "Lafiabougou, Bamako",
+   "phones": [
+    {
+     "number": "20294043"
+    }
+   ],
+   "source": {
+    "name": "Arrêté du ministère de la Sécurité et de la Protection civile du 31 août 2022 (renommage des commissariats)",
+    "url": "https://lanouvellevoiedumali.com/securite-publique-les-commissariats-de-police-de-bamako-et-de-koulikoro-portent-desormais-les-noms-de-leurs-zones-dimplantation/",
+    "verified": "2026-09-05"
+   },
+   "tags": [
+    "police",
+    "plainte",
+    "vol",
+    "commissariat",
+    "5e arrondissement",
+    "Lafiabougou"
+   ]
+  },
+  {
+   "id": "commissariat-10e",
+   "name": "Commissariat de police de Niamakoro",
+   "acronym": "10e arrondissement",
+   "category": "securite",
+   "type": "Commissariat de police (10e arrondissement)",
+   "quartier": "Niamakoro",
+   "commune": "Commune VI",
+   "address": "Niamakoro, Bamako",
    "phones": [
     {
      "number": "20203720"
     }
    ],
    "source": {
-    "name": "Malipages",
-    "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-10eme-arrondissement/",
-    "date": "2017-07-13"
-   }
+    "name": "Arrêté du ministère de la Sécurité et de la Protection civile du 31 août 2022 (renommage des commissariats)",
+    "url": "https://lanouvellevoiedumali.com/securite-publique-les-commissariats-de-police-de-bamako-et-de-koulikoro-portent-desormais-les-noms-de-leurs-zones-dimplantation/",
+    "verified": "2026-09-05"
+   },
+   "tags": [
+    "police",
+    "plainte",
+    "vol",
+    "commissariat",
+    "10e arrondissement",
+    "Niamakoro"
+   ]
   },
   {
-   "id": "commissariat-de-police-du-11e-arrondissement",
+   "id": "commissariat-3e",
+   "name": "Commissariat de police de Quinzambougou",
+   "acronym": "3e arrondissement",
+   "category": "securite",
+   "type": "Commissariat de police (3e arrondissement)",
+   "quartier": "Quinzambougou",
+   "commune": "Commune II",
+   "address": "Quinzambougou, Bamako",
+   "phones": [
+    {
+     "number": "20212361"
+    }
+   ],
+   "source": {
+    "name": "Arrêté du ministère de la Sécurité et de la Protection civile du 31 août 2022 (renommage des commissariats)",
+    "url": "https://lanouvellevoiedumali.com/securite-publique-les-commissariats-de-police-de-bamako-et-de-koulikoro-portent-desormais-les-noms-de-leurs-zones-dimplantation/",
+    "verified": "2026-09-05"
+   },
+   "tags": [
+    "police",
+    "plainte",
+    "vol",
+    "commissariat",
+    "3e arrondissement",
+    "Quinzambougou"
+   ]
+  },
+  {
+   "id": "commissariat-7e",
+   "name": "Commissariat de police de Sogoniko",
+   "acronym": "7e arrondissement",
+   "category": "securite",
+   "type": "Commissariat de police (7e arrondissement)",
+   "quartier": "Sogoniko",
+   "commune": "Commune VI",
+   "address": "Sogoniko, Bamako",
+   "phones": [
+    {
+     "number": "20200981"
+    }
+   ],
+   "source": {
+    "name": "Arrêté du ministère de la Sécurité et de la Protection civile du 31 août 2022 (renommage des commissariats)",
+    "url": "https://lanouvellevoiedumali.com/securite-publique-les-commissariats-de-police-de-bamako-et-de-koulikoro-portent-desormais-les-noms-de-leurs-zones-dimplantation/",
+    "verified": "2026-09-05"
+   },
+   "tags": [
+    "police",
+    "plainte",
+    "vol",
+    "commissariat",
+    "7e arrondissement",
+    "Sogoniko"
+   ]
+  },
+  {
+   "id": "commissariat-4e",
+   "name": "Commissariat de police de Torokorobougou",
+   "acronym": "4e arrondissement",
+   "category": "securite",
+   "type": "Commissariat de police (4e arrondissement)",
+   "quartier": "Torokorobougou",
+   "commune": "Commune V",
+   "address": "Torokorobougou, Bamako",
+   "phones": [
+    {
+     "number": "20224247"
+    }
+   ],
+   "source": {
+    "name": "Arrêté du ministère de la Sécurité et de la Protection civile du 31 août 2022 (renommage des commissariats)",
+    "url": "https://lanouvellevoiedumali.com/securite-publique-les-commissariats-de-police-de-bamako-et-de-koulikoro-portent-desormais-les-noms-de-leurs-zones-dimplantation/",
+    "verified": "2026-09-05"
+   },
+   "tags": [
+    "police",
+    "plainte",
+    "vol",
+    "commissariat",
+    "4e arrondissement",
+    "Torokorobougou"
+   ]
+  },
+  {
+   "id": "commissariat-11e",
    "name": "Commissariat de police du 11e arrondissement",
    "category": "securite",
    "type": "Commissariat de police",
-   "quartier": "",
-   "commune": "",
-   "address": "Bamako",
+   "quartier": "Niamakoro",
+   "commune": "Commune VI",
+   "address": "Niamakoro, Bamako",
+   "lat": 12.57781,
+   "lng": -7.98709,
    "phones": [
     {
      "number": "20281005"
     }
    ],
    "source": {
-    "name": "Malipages",
-    "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-11eme-arrondissement/",
-    "date": "2017-07-13"
+    "name": "OpenStreetMap (poste de police nommé)",
+    "url": "https://www.openstreetmap.org/?mlat=12.57781&mlon=-7.98709#map=18/12.57781/-7.98709",
+    "note": "l'arrêté de 2022 a renommé les commissariats ; le nouveau nom de celui-ci n'est pas publié",
+    "verified": "2026-09-05"
    },
-   "lat": 12.577814,
-   "lng": -7.987091
+   "tags": [
+    "police",
+    "plainte",
+    "vol",
+    "commissariat",
+    "11e arrondissement"
+   ]
   },
   {
    "id": "commissariat-de-police-du-12e-arrondissement",
@@ -8347,105 +8535,6 @@
    }
   },
   {
-   "id": "commissariat-de-police-du-1er-arrondissement",
-   "name": "Commissariat de police du 1er arrondissement",
-   "category": "securite",
-   "type": "Commissariat de police",
-   "quartier": "",
-   "commune": "",
-   "address": "Bamako",
-   "phones": [
-    {
-     "number": "20225137"
-    }
-   ],
-   "source": {
-    "name": "Malipages",
-    "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-1er-arrondissement/",
-    "date": "2017-07-13"
-   },
-   "lat": 12.646182,
-   "lng": -8.000828
-  },
-  {
-   "id": "commissariat-de-police-du-2e-arrondissement",
-   "name": "Commissariat de police du 2e arrondissement",
-   "category": "securite",
-   "type": "Commissariat de police",
-   "quartier": "",
-   "commune": "",
-   "address": "Bamako",
-   "phones": [
-    {
-     "number": "20223429"
-    }
-   ],
-   "source": {
-    "name": "Malipages",
-    "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-2eme-arrondissement/",
-    "date": "2017-07-13"
-   }
-  },
-  {
-   "id": "commissariat-de-police-du-3e-arrondissement",
-   "name": "Commissariat de police du 3e arrondissement",
-   "category": "securite",
-   "type": "Commissariat de police",
-   "quartier": "",
-   "commune": "",
-   "address": "Bamako",
-   "phones": [
-    {
-     "number": "20212361"
-    }
-   ],
-   "source": {
-    "name": "Malipages",
-    "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-3eme-arrondissement/",
-    "date": "2017-07-13"
-   }
-  },
-  {
-   "id": "commissariat-de-police-du-4e-arrondissement",
-   "name": "Commissariat de police du 4e arrondissement",
-   "category": "securite",
-   "type": "Commissariat de police",
-   "quartier": "",
-   "commune": "",
-   "address": "Bamako",
-   "phones": [
-    {
-     "number": "20224247"
-    }
-   ],
-   "source": {
-    "name": "Malipages",
-    "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-4eme-arrondissement/",
-    "date": "2017-07-13"
-   }
-  },
-  {
-   "id": "commissariat-de-police-du-5e-arrondissement",
-   "name": "Commissariat de police du 5e arrondissement",
-   "category": "securite",
-   "type": "Commissariat de police",
-   "quartier": "",
-   "commune": "",
-   "address": "Bamako",
-   "phones": [
-    {
-     "number": "20294043"
-    }
-   ],
-   "source": {
-    "name": "Malipages",
-    "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-5eme-arrondissement/",
-    "date": "2017-07-13"
-   },
-   "lat": 12.639194,
-   "lng": -8.035612
-  },
-  {
    "id": "commissariat-de-police-du-6e-arrondissement",
    "name": "Commissariat de police du 6e arrondissement",
    "category": "securite",
@@ -8461,25 +8550,6 @@
    "source": {
     "name": "Malipages",
     "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-6eme-arrondissement/",
-    "date": "2017-07-13"
-   }
-  },
-  {
-   "id": "commissariat-de-police-du-7e-arrondissement",
-   "name": "Commissariat de police du 7e arrondissement",
-   "category": "securite",
-   "type": "Commissariat de police",
-   "quartier": "",
-   "commune": "",
-   "address": "Bamako",
-   "phones": [
-    {
-     "number": "20200981"
-    }
-   ],
-   "source": {
-    "name": "Malipages",
-    "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-7eme-arrondissement/",
     "date": "2017-07-13"
    }
   },

@@ -232,6 +232,45 @@
       "tags": ["CSRef", "CSCom", "maternité", "accouchement", "vaccination"]
     },
     {
+      "id": "csref-commune-2",
+      "name": "Centre de Santé de Référence de la Commune II",
+      "acronym": "CSRéf CII",
+      "category": "sante",
+      "type": "Centre de santé de référence (maternité, urgences, chirurgie)",
+      "quartier": "Missira",
+      "commune": "Commune II",
+      "address": "Rue 477, Commune II, Bamako",
+      "phones": [],
+      "source": { "name": "Doctor4Africa / Medpages", "url": "https://doctor4africa.com/listing/bamako,mali/community-health-centre,hospital/centre-de-sante-de-reference-de-commune-2/", "note": "téléphone non trouvé en ligne — se présenter sur place" },
+      "tags": ["CSRef", "CSCom", "maternité", "accouchement", "vaccination"]
+    },
+    {
+      "id": "csref-commune-3",
+      "name": "Centre de Santé de Référence de la Commune III",
+      "acronym": "CSRéf CIII",
+      "category": "sante",
+      "type": "Centre de santé de référence (maternité, urgences, chirurgie)",
+      "quartier": "Centre commercial",
+      "commune": "Commune III",
+      "address": "Avenue de l'Indépendance, Commune III, Bamako",
+      "phones": [],
+      "source": { "name": "Medpages", "url": "https://www.medpages.info/sf/index.php?page=organisation&orgcode=351495", "note": "téléphone non trouvé en ligne — se présenter sur place" },
+      "tags": ["CSRef", "CSCom", "maternité", "accouchement", "vaccination"]
+    },
+    {
+      "id": "csref-commune-6",
+      "name": "Centre de Santé de Référence de la Commune VI",
+      "acronym": "CSRéf CVI",
+      "category": "sante",
+      "type": "Centre de santé de référence (maternité, urgences, chirurgie)",
+      "quartier": "Sogoniko",
+      "commune": "Commune VI",
+      "address": "Sogoniko, Commune VI, Bamako",
+      "phones": [{ "number": "20202633" }],
+      "source": { "name": "Mali Yellow Pages", "url": "https://www.maliyp.com/company/215710/Centre_de_Sant%C3%A9_de_R%C3%A9f%C3%A9rence_Commune_VI", "note": "à confirmer" },
+      "tags": ["CSRef", "CSCom", "maternité", "accouchement", "vaccination", "pédiatrie"]
+    },
+    {
       "id": "csref-commune-4",
       "name": "Centre de Santé de Référence de la Commune IV",
       "acronym": "CSRéf CIV",

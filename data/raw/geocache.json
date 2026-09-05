@@ -264,5 +264,354 @@
  "oma-observatoire-du-marche-agricole": {
   "lat": null,
   "q": "Observatoire du Marché Agricole, Bamako"
+ },
+ "onef-observatoire-national-de-l-emploi-et-de-la-formation": {
+  "lat": null,
+  "q": "Observatoire National de l'Emploi et de la Formation, Bamako"
+ },
+ "oclei-mali-office-central-de-lutte-contre-l-enrichissement-illicite": {
+  "lat": 12.650765,
+  "lng": -8.0013031,
+  "q": "Office Central de Lutte Contre l'Enrichissement Illicite, Bamako",
+  "osm": "node/9447725245",
+  "label": "Office Central de lutte contre l'enrichissement illicite, Avenue de la Liberté, Dravéla, Dar Salam, Médina Coura, Bamako"
+ },
+ "opv-office-de-protection-des-vegetaux": {
+  "lat": null,
+  "q": "Office de Protection des Végétaux, Bamako"
+ },
+ "opam-office-des-produits-agricoles-du-mali": {
+  "lat": 12.6508333,
+  "lng": -7.97226,
+  "q": "OPAM, Bamako",
+  "osm": "node/1838650085",
+  "label": "OPAM, Rue 905, San Fil, Quinzambougou, Bakaribougou, Bamako, Mali"
+ },
+ "omh-office-malien-de-l-habitat": {
+  "lat": 12.6500265,
+  "lng": -8.0023019,
+  "q": "OMH, Bamako",
+  "osm": "node/7816320392",
+  "label": "OMH HABITAT, Rue 608, Ouolofobougou, Dravéla, Dar Salam, Médina Coura, Bamako, Mali"
+ },
+ "oam-ordre-des-architectes-du-mali": {
+  "lat": null,
+  "q": "Ordre des Architectes du Mali, Bamako"
+ },
+ "sonarem-societe-nationale-de-recherches-et-d-exploitation-des-ressources-miniere": {
+  "lat": null,
+  "q": "Société Nationale de Recherches et d'Exploitation des Ressources Minières du Mali, Bamako"
+ },
+ "ambassade-d-afrique-du-sud-au-mali": {
+  "lat": null,
+  "q": "Ambassade d'Afrique du Sud au Mali, Bamako"
+ },
+ "ambassade-d-algerie-au-mali": {
+  "lat": null,
+  "q": "Ambassade d'Algérie au Mali, Bamako"
+ },
+ "ambassade-d-allemagne": {
+  "lat": 12.6249771,
+  "lng": -7.9882471,
+  "q": "Ambassade d'Allemagne, Bamako",
+  "osm": "node/534853707",
+  "label": "Ambassade d'Allemagne, Avenue de l'O.U.A., Badalabougou Est, Sabalibougou, Bamako, Mali"
+ },
+ "ambassade-d-arabie-saoudite-au-mali": {
+  "lat": null,
+  "q": "Ambassade d'Arabie Saoudite au Mali, Bamako"
+ },
+ "ambassade-d-autriche": {
+  "lat": null,
+  "q": "Ambassade d'Autriche, Bamako"
+ },
+ "ambassade-d-egypte-au-mali": {
+  "lat": null,
+  "q": "Ambassade d'Égypte au Mali, Bamako"
+ },
+ "ambassade-d-espagne-au-mali": {
+  "lat": null,
+  "q": "Ambassade d'Espagne au Mali, Bamako"
+ },
+ "ambassade-d-inde-au-mali": {
+  "lat": null,
+  "q": "Ambassade d'Inde au Mali, Bamako"
+ },
+ "ambassade-d-iran-au-mali": {
+  "lat": null,
+  "q": "Ambassade d'Iran au Mali, Bamako"
+ },
+ "ambassade-de-belgique-au-mali": {
+  "lat": null,
+  "q": "Ambassade de Belgique au Mali, Bamako"
+ },
+ "ambassade-de-chineau-mali": {
+  "lat": null,
+  "q": "Ambassade de Chineau Mali, Bamako"
+ },
+ "ambassade-de-cote-d-ivoire-au-mali": {
+  "lat": null,
+  "q": "Ambassade de Cote d'Ivoire au Mali, Bamako"
+ },
+ "ambassade-de-cuba-au-mali": {
+  "lat": null,
+  "q": "Ambassade de Cuba au Mali, Bamako"
+ },
+ "ambassade-de-france-au-mali": {
+  "lat": null,
+  "q": "Ambassade de France au Mali, Bamako"
+ },
+ "ambassade-de-guinee-au-mali": {
+  "lat": null,
+  "q": "Ambassade de Guinée au Mali, Bamako"
+ },
+ "ambassade-de-l-etat-de-palestine": {
+  "lat": null,
+  "q": "Ambassade de l'État de Palestine, Bamako"
+ },
+ "ambassade-de-libye": {
+  "lat": 12.6314273,
+  "lng": -8.0140364,
+  "q": "Ambassade de Libye, Bamako",
+  "osm": "node/5548318277",
+  "label": "Ambassade de Libye, Immeuble Nimaga, N'Golonina, Bamako, 1670, Mali"
+ },
+ "ambassade-de-mauritanie-au-mali": {
+  "lat": null,
+  "q": "Ambassade de Mauritanie au Mali, Bamako"
+ },
+ "ambassade-de-russie-au-mali": {
+  "lat": null,
+  "q": "Ambassade de Russie au Mali, Bamako"
+ },
+ "ambassade-de-tunisie-au-mali": {
+  "lat": null,
+  "q": "Ambassade de Tunisie au Mali, Bamako"
+ },
+ "ambassade-de-turquie-au-mali": {
+  "lat": null,
+  "q": "Ambassade de Turquie au Mali, Bamako"
+ },
+ "ambassade-des-etats-unis-d-amerique-us-embassy": {
+  "lat": 12.6297307,
+  "lng": -8.0190063,
+  "q": "Ambassade des États Unis d'Amerique, Bamako",
+  "osm": "way/422192273",
+  "label": "Ambassade des États-Unis, 297, Rue 243, ACI 2000, Para Djicoroni, Bamako, Mali"
+ },
+ "ambassade-des-pays-bas-au-mali": {
+  "lat": null,
+  "q": "Ambassade des Pays Bas au Mali, Bamako"
+ },
+ "ambassade-du-bresil": {
+  "lat": 12.6204869,
+  "lng": -7.9997119,
+  "q": "Ambassade du Brésil, Bamako",
+  "osm": "node/1877584482",
+  "label": "Ambassade du Brésil, 62, Rue 111, Quartier Mali, Badalabougou, Sabalibougou, Bamako, Mali"
+ },
+ "ambassade-du-burkina-faso-au-mali": {
+  "lat": null,
+  "q": "Ambassade du Burkina Faso au Mali, Bamako"
+ },
+ "ambassade-du-canada-au-mali": {
+  "lat": null,
+  "q": "Ambassade du Canada au Mali, Bamako"
+ },
+ "ambassade-du-ghana-au-mali": {
+  "lat": null,
+  "q": "Ambassade du Ghana au Mali, Bamako"
+ },
+ "ambassade-du-japon-au-mali": {
+  "lat": null,
+  "q": "Ambassade du Japon au Mali, Bamako"
+ },
+ "ambassade-du-niger-au-mali": {
+  "lat": null,
+  "q": "Ambassade du Niger au Mali, Bamako"
+ },
+ "ambassade-du-nigeria-au-mali": {
+  "lat": null,
+  "q": "Ambassade du Nigeria au Mali, Bamako"
+ },
+ "ambassade-du-qatar-au-mali": {
+  "lat": null,
+  "q": "Ambassade du Qatar au Mali, Bamako"
+ },
+ "ambassade-du-royaume-du-maroc-au-mali": {
+  "lat": null,
+  "q": "Ambassade du Royaume du Maroc au Mali, Bamako"
+ },
+ "ambassade-du-royaume-uni-au-mali": {
+  "lat": null,
+  "q": "Ambassade du Royaume-Uni au Mali, Bamako"
+ },
+ "ambassade-du-senegal-au-mali": {
+  "lat": null,
+  "q": "Ambassade du Sénégal au Mali, Bamako"
+ },
+ "ambassade-royale-de-danemark-au-mali": {
+  "lat": null,
+  "q": "Ambassade Royale de Danemark au Mali, Bamako"
+ },
+ "consulat-de-belgique-au-mali": {
+  "lat": null,
+  "q": "Consulat de Belgique au Mali, Bamako"
+ },
+ "consulat-du-benin-au-mali": {
+  "lat": null,
+  "q": "Consulat du Benin au Mali, Bamako"
+ },
+ "consulat-du-liban": {
+  "lat": 12.6382893,
+  "lng": -7.9981767,
+  "q": "Consulat du Liban, Bamako",
+  "osm": "node/5548318279",
+  "label": "Consulat honoraire du Liban, 135, Rue 310, Bozola, Niaréla, Médina Coura, Bamako, Mali"
+ },
+ "consulat-honoraire-de-l-italie-a-bamako": {
+  "lat": null,
+  "q": "Consulat Honoraire de l'Italie a Bamako, Bamako"
+ },
+ "delegation-de-l-union-europeenne-au-mali": {
+  "lat": null,
+  "q": "Délégation de l'Union Europeenne au Mali, Bamako"
+ },
+ "mairie-commune-i": {
+  "lat": 12.6699634,
+  "lng": -7.9534196,
+  "q": "Mairie Commune I, Bamako",
+  "osm": "node/6409072827",
+  "label": "Mairie Commune I, Rue 161, Korofina, Bakaribougou, Bamako, Mali"
+ },
+ "mairie-commune-ii": {
+  "lat": 12.6512324,
+  "lng": -7.987936,
+  "q": "Mairie Commune II, Bamako",
+  "osm": "node/8486864015",
+  "label": "Mairie commune II, Promenade des Angevins, Groupe Scolaire Arc-en-ciel, Bagadadji, Médina Coura, Bamako, Mali"
+ },
+ "mairie-commune-iii": {
+  "lat": 12.6442232,
+  "lng": -8.0053134,
+  "q": "Mairie Commune III, Bamako",
+  "osm": "node/6244032486",
+  "label": "Mairie de Dravela commune III, 112, Rue 383, Ouolofobougou, Bamako Coura, Dar Salam, Médina Coura, Bamako, Mali"
+ },
+ "mairie-commune-iv": {
+  "lat": 12.6289707,
+  "lng": -8.035898,
+  "q": "Mairie Commune IV, Bamako",
+  "osm": "node/3592465269",
+  "label": "Mairie de la Commune IV, Rue 243, Hamdallaye, ACI 2000, Lafiabougou, Bamako, Mali"
+ },
+ "mairie-commune-v": {
+  "lat": 12.6282357,
+  "lng": -8.0355125,
+  "q": "Mairie Commune V, Bamako",
+  "osm": "way/315773733",
+  "label": "Mairie Commune V, Rue 243, Hamdallaye, ACI 2000, Lafiabougou, Bamako, Mali"
+ },
+ "mairie-commune-vi": {
+  "lat": 12.600909,
+  "lng": -7.9638825,
+  "q": "Mairie Commune VI, Bamako",
+  "osm": "node/5545812978",
+  "label": "Mairie de la commune VI, Avenue de l'O.U.A., Niamakoro Cité UNICEF, Sogoniko, Kalaban Coura, Bamako, Mali"
+ },
+ "mairie-district-bamako": {
+  "lat": 12.6472717,
+  "lng": -8.0014788,
+  "q": "Mairie du District de Bamako, Bamako",
+  "osm": "node/534853521",
+  "label": "Hôtel de Ville - Mairie du District de Bamako, Avenue de la Liberté, Dravéla, Dar Salam, Médina Coura, Bamako, Mali"
+ },
+ "bibliotheque-nationale": {
+  "lat": 12.6389042,
+  "lng": -8.0208561,
+  "q": "Bibliothèque Nationale du Mali, Bamako",
+  "osm": "way/316975840",
+  "label": "La Bibliothèque Nationale du Mali, Rue 360, Hamdallaye, ACI 2000, Para Djicoroni, Bamako, Mali"
+ },
+ "ccf-centre-culturel-francais-institut-francais-du-mali": {
+  "lat": 12.637933,
+  "lng": -8.0048051,
+  "q": "CCF, Bamako",
+  "osm": "node/701760321",
+  "label": "Patio du CCF, Boulevard de l'Indépendance, Bolibana, Dar Salam, Médina Coura, Bamako, Mali"
+ },
+ "cicb-centre-international-de-conferences-de-bamako": {
+  "lat": 12.6305002,
+  "lng": -8.005343,
+  "q": "CICB, Bamako",
+  "osm": "way/91085507",
+  "label": "CICB, Boulevard Abdel Aziz Bouteflika, Centre Ville, Badalabougou, Para Djicoroni, Bamako, Mali"
+ },
+ "musee-national": {
+  "lat": null,
+  "q": "Musée National du Mali, Bamako"
+ },
+ "palais-culture-amadou-hampate-ba": {
+  "lat": 12.6228127,
+  "lng": -7.9875395,
+  "q": "Palais de la Culture Amadou Hampâté Bâ, Bamako",
+  "osm": "node/6966509574",
+  "label": "Palais de la Culture Amadou Hampaté Ba, Avenue de l'O.U.A., Quartier Mali, Badalabougou Est, Sabalibougou, Bamako, Mali"
+ },
+ "stade-26-mars": {
+  "lat": 12.6043766,
+  "lng": -7.9217374,
+  "q": "Stade du 26 Mars, Bamako",
+  "osm": "way/614805134",
+  "label": "Stade du 26 Mars, Route de Ségou, Faladie Sema, Yirimandio, Bamako, Mali"
+ },
+ "academia-mali": {
+  "lat": null,
+  "q": "Academia Mali, Bamako"
+ },
+ "agence-universitaire-de-la-francophonie-campus-numerique-francophone-de-bamako": {
+  "lat": null,
+  "q": "Agence Universitaire de la Francophonie, Bamako"
+ },
+ "american-international-school-of-bamako-aisb": {
+  "lat": null,
+  "q": "American International School of Bamako, Bamako"
+ },
+ "askuni-mali": {
+  "lat": null,
+  "q": "Askuni Mali, Bamako"
+ },
+ "bamacours": {
+  "lat": null,
+  "q": "Bamacours, Bamako"
+ },
+ "bilingual-school-of-bamako": {
+  "lat": null,
+  "q": "Bilingual School of Bamako, Bamako"
+ },
+ "campus-mali": {
+  "lat": 12.6162617,
+  "lng": -7.9859678,
+  "q": "Campus Mali, Bamako",
+  "osm": "node/4005315510",
+  "label": "Campus Numérique Francophone de Bamako, RN6, Quartier Mali, Badalabougou, Sabalibougou, Bamako, Mali"
+ },
+ "cefib-bamako": {
+  "lat": 12.6509523,
+  "lng": -7.9743876,
+  "q": "Cefib Bamako, Bamako",
+  "osm": "node/563320292",
+  "label": "CEFIB, Rue 557, Missira, Quinzambougou, Bakaribougou, Bamako, Mali"
+ },
+ "cfct-centre-de-formation-des-collectivites-territoriales": {
+  "lat": 12.6836826,
+  "lng": -8.0083912,
+  "q": "Centre de Formation des Collectivités Territoriales, Bamako",
+  "osm": "node/4878996321",
+  "label": "Centre de formation des Collectivités territoriales, Bamako - Dakar Transafrican Highway, Sananfara-Médine, Sananfara, C"
+ },
+ "centre-de-formation-et-de-perfectionnement-en-statistique-cfp-stat": {
+  "lat": null,
+  "q": "Centre de Formation et de Perfectionnement en Statistique, Bamako"
  }
 }

@@ -142,5 +142,14 @@ h1 { font-size: clamp(1.6rem, 2.6vw + 1rem, 2.4rem); line-height: 1.15; margin: 
   .top-nav .btn-ghost[href] { display: none; }
   .grid { grid-template-columns: 1fr; }
   .select select { min-width: 130px; }
+  /* Les catégories défilent horizontalement : sur un petit écran, empilées, elles repoussaient
+     les résultats hors de l'écran. Le débord latéral est confiné à cette bande. */
+  .chips {
+    flex-wrap: nowrap; overflow-x: auto; scrollbar-width: none;
+    scroll-snap-type: x proximity; padding-bottom: 4px;
+    margin-inline: -12px; padding-inline: 12px;
+  }
+  .chips::-webkit-scrollbar { display: none; }
+  .chip { flex: none; scroll-snap-align: start; }
 }
 @media print { .top, .urgences, .search, .chips, .filters-row, .card-actions, .foot { display: none !important; } .card { break-inside: avoid; box-shadow: none; } }

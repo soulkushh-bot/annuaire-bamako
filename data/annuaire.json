@@ -3,8 +3,8 @@
   "generated": "2026-09-05",
   "repo": "",
   "contact": "",
-  "count": 383,
-  "geocoded": 22
+  "count": 386,
+  "geocoded": 45
  },
  "categories": {
   "urgences": {
@@ -1331,7 +1331,9 @@
     "url": "https://www.malipages.com/annuaire/lien/oclei-mali-office-central-de-lutte-contre-lenrichissement-illicite/",
     "date": "2024-01-14"
    },
-   "acronym": "OCLEI MALI"
+   "acronym": "OCLEI MALI",
+   "lat": 12.650765,
+   "lng": -8.001303
   },
   {
    "id": "opv-office-de-protection-des-vegetaux",
@@ -1376,7 +1378,9 @@
     "date": "2017-07-13"
    },
    "acronym": "OPAM",
-   "fax": "20210406"
+   "fax": "20210406",
+   "lat": 12.650833,
+   "lng": -7.97226
   },
   {
    "id": "omh-office-malien-de-l-habitat",
@@ -1401,7 +1405,9 @@
    },
    "acronym": "OMH",
    "fax": "20236839",
-   "website": "https://omh-mali.ml"
+   "website": "https://omh-mali.ml",
+   "lat": 12.650026,
+   "lng": -8.002302
   },
   {
    "id": "oam-ordre-des-architectes-du-mali",
@@ -1507,7 +1513,9 @@
     "url": "https://www.malipages.com/annuaire/lien/ambassade-dallemagne/",
     "date": "2017-07-13"
    },
-   "fax": "20229650"
+   "fax": "20229650",
+   "lat": 12.624977,
+   "lng": -7.988247
   },
   {
    "id": "ambassade-d-arabie-saoudite-au-mali",
@@ -1799,7 +1807,9 @@
     "url": "https://www.malipages.com/annuaire/lien/ambassade-de-libye/",
     "date": "2017-07-13"
    },
-   "fax": "20223496"
+   "fax": "20223496",
+   "lat": 12.631427,
+   "lng": -8.014036
   },
   {
    "id": "ambassade-de-mauritanie-au-mali",
@@ -1906,7 +1916,9 @@
     "date": "2017-07-13"
    },
    "fax": "20702479",
-   "website": "https://ml.usembassy.gov/"
+   "website": "https://ml.usembassy.gov/",
+   "lat": 12.629731,
+   "lng": -8.019006
   },
   {
    "id": "ambassade-des-pays-bas-au-mali",
@@ -1948,7 +1960,9 @@
     "name": "Malipages",
     "url": "https://www.malipages.com/annuaire/lien/ambassade-du-bresil/",
     "date": "2021-05-14"
-   }
+   },
+   "lat": 12.620487,
+   "lng": -7.999712
   },
   {
    "id": "ambassade-du-burkina-faso-au-mali",
@@ -2237,7 +2251,9 @@
     "url": "https://www.malipages.com/annuaire/lien/consulat-du-liban/",
     "date": "2017-07-13"
    },
-   "website": "http://www.consulatlibanmali.org"
+   "website": "http://www.consulatlibanmali.org",
+   "lat": 12.638289,
+   "lng": -7.998177
   },
   {
    "id": "consulat-honoraire-de-l-italie-a-bamako",
@@ -2299,7 +2315,9 @@
     "name": "Malipages",
     "url": "https://www.malipages.com/annuaire/lien/mairie-commune-i/",
     "date": "2017-07-13"
-   }
+   },
+   "lat": 12.669963,
+   "lng": -7.95342
   },
   {
    "id": "mairie-commune-ii",
@@ -2318,7 +2336,9 @@
     "name": "Malipages",
     "url": "https://www.malipages.com/annuaire/lien/mairie-commune-ii/",
     "date": "2017-07-13"
-   }
+   },
+   "lat": 12.651232,
+   "lng": -7.987936
   },
   {
    "id": "mairie-commune-iii",
@@ -2337,7 +2357,9 @@
     "name": "Malipages",
     "url": "https://www.malipages.com/annuaire/lien/mairie-commune-iii/",
     "date": "2017-07-13"
-   }
+   },
+   "lat": 12.644223,
+   "lng": -8.005313
   },
   {
    "id": "mairie-commune-iv",
@@ -2356,7 +2378,9 @@
     "name": "Malipages",
     "url": "https://www.malipages.com/annuaire/lien/mairie-commune-iv/",
     "date": "2017-07-13"
-   }
+   },
+   "lat": 12.628971,
+   "lng": -8.035898
   },
   {
    "id": "mairie-commune-v",
@@ -2375,7 +2399,9 @@
     "name": "Malipages",
     "url": "https://www.malipages.com/annuaire/lien/mairie-commune-v/",
     "date": "2017-07-13"
-   }
+   },
+   "lat": 12.628236,
+   "lng": -8.035512
   },
   {
    "id": "mairie-commune-vi",
@@ -2397,7 +2423,9 @@
     "name": "Malipages",
     "url": "https://www.malipages.com/annuaire/lien/mairie-commune-vi/",
     "date": "2017-07-13"
-   }
+   },
+   "lat": 12.600909,
+   "lng": -7.963883
   },
   {
    "id": "mairie-district-bamako",
@@ -2426,7 +2454,9 @@
     "district",
     "gouverneur",
     "état civil"
-   ]
+   ],
+   "lat": 12.647272,
+   "lng": -8.001479
   },
   {
    "id": "bibliotheque-nationale",
@@ -2452,7 +2482,9 @@
     "livres",
     "lecture",
     "archives"
-   ]
+   ],
+   "lat": 12.638904,
+   "lng": -8.020856
   },
   {
    "id": "ccf-centre-culturel-francais-institut-francais-du-mali",
@@ -2474,7 +2506,9 @@
    },
    "acronym": "CCF",
    "fax": "20225828",
-   "website": "http://www.institutfrancaismali.org"
+   "website": "http://www.institutfrancaismali.org",
+   "lat": 12.637933,
+   "lng": -8.004805
   },
   {
    "id": "cicb-centre-international-de-conferences-de-bamako",
@@ -2497,7 +2531,9 @@
     "url": "https://www.malipages.com/annuaire/lien/palais-des-congres/",
     "date": "2017-07-13"
    },
-   "acronym": "CICB"
+   "acronym": "CICB",
+   "lat": 12.6305,
+   "lng": -8.005343
   },
   {
    "id": "musee-national",
@@ -2546,7 +2582,9 @@
     "spectacle",
     "théâtre",
     "culture"
-   ]
+   ],
+   "lat": 12.622813,
+   "lng": -7.987539
   },
   {
    "id": "stade-26-mars",
@@ -2568,7 +2606,9 @@
     "stade",
     "sport",
     "match"
-   ]
+   ],
+   "lat": 12.604377,
+   "lng": -7.921737
   },
   {
    "id": "academia-mali",
@@ -2712,7 +2752,9 @@
     "name": "Malipages",
     "url": "https://www.malipages.com/annuaire/lien/campus-mali/",
     "date": "2019-11-17"
-   }
+   },
+   "lat": 12.616262,
+   "lng": -7.985968
   },
   {
    "id": "cefib-bamako",
@@ -2731,7 +2773,9 @@
     "name": "Malipages",
     "url": "https://www.malipages.com/annuaire/lien/cefib-bamako/",
     "date": "2017-07-13"
-   }
+   },
+   "lat": 12.650952,
+   "lng": -7.974388
   },
   {
    "id": "cfct-centre-de-formation-des-collectivites-territoriales",
@@ -2754,7 +2798,9 @@
     "url": "https://www.malipages.com/annuaire/lien/cfct-centre-de-formation-des-collectivites-territoriales/",
     "date": "2021-07-07"
    },
-   "acronym": "CFCT"
+   "acronym": "CFCT",
+   "lat": 12.683683,
+   "lng": -8.008391
   },
   {
    "id": "centre-de-formation-et-de-perfectionnement-en-statistique-cfp-stat",
@@ -6580,6 +6626,54 @@
    ]
   },
   {
+   "id": "csref-commune-2",
+   "name": "Centre de Santé de Référence de la Commune II",
+   "acronym": "CSRéf CII",
+   "category": "sante",
+   "type": "Centre de santé de référence (maternité, urgences, chirurgie)",
+   "quartier": "Missira",
+   "commune": "Commune II",
+   "address": "Rue 477, Commune II, Bamako",
+   "phones": [],
+   "source": {
+    "name": "Doctor4Africa / Medpages",
+    "url": "https://doctor4africa.com/listing/bamako,mali/community-health-centre,hospital/centre-de-sante-de-reference-de-commune-2/",
+    "note": "téléphone non trouvé en ligne — se présenter sur place",
+    "verified": "2026-09-05"
+   },
+   "tags": [
+    "CSRef",
+    "CSCom",
+    "maternité",
+    "accouchement",
+    "vaccination"
+   ]
+  },
+  {
+   "id": "csref-commune-3",
+   "name": "Centre de Santé de Référence de la Commune III",
+   "acronym": "CSRéf CIII",
+   "category": "sante",
+   "type": "Centre de santé de référence (maternité, urgences, chirurgie)",
+   "quartier": "Centre commercial",
+   "commune": "Commune III",
+   "address": "Avenue de l'Indépendance, Commune III, Bamako",
+   "phones": [],
+   "source": {
+    "name": "Medpages",
+    "url": "https://www.medpages.info/sf/index.php?page=organisation&orgcode=351495",
+    "note": "téléphone non trouvé en ligne — se présenter sur place",
+    "verified": "2026-09-05"
+   },
+   "tags": [
+    "CSRef",
+    "CSCom",
+    "maternité",
+    "accouchement",
+    "vaccination"
+   ]
+  },
+  {
    "id": "csref-commune-4",
    "name": "Centre de Santé de Référence de la Commune IV",
    "acronym": "CSRéf CIV",
@@ -6635,6 +6729,35 @@
     "maternité",
     "accouchement",
     "vaccination"
+   ]
+  },
+  {
+   "id": "csref-commune-6",
+   "name": "Centre de Santé de Référence de la Commune VI",
+   "acronym": "CSRéf CVI",
+   "category": "sante",
+   "type": "Centre de santé de référence (maternité, urgences, chirurgie)",
+   "quartier": "Sogoniko",
+   "commune": "Commune VI",
+   "address": "Sogoniko, Commune VI, Bamako",
+   "phones": [
+    {
+     "number": "20202633"
+    }
+   ],
+   "source": {
+    "name": "Mali Yellow Pages",
+    "url": "https://www.maliyp.com/company/215710/Centre_de_Sant%C3%A9_de_R%C3%A9f%C3%A9rence_Commune_VI",
+    "note": "à confirmer",
+    "verified": "2026-09-05"
+   },
+   "tags": [
+    "CSRef",
+    "CSCom",
+    "maternité",
+    "accouchement",
+    "vaccination",
+    "pédiatrie"
    ]
   },
   {

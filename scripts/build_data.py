@@ -393,7 +393,8 @@ def main():
     entries.sort(key=lambda e: (e["category"], fold(e["name"])))
 
     out = {
-        "meta": {"generated": datetime.date.today().isoformat(), "repo": "", "contact": "",
+        "meta": {"generated": datetime.date.today().isoformat(),
+                 "repo": "soulkushh-bot/annuaire-bamako", "contact": "",
                  "count": len(entries), "geocoded": n_geo},
         "categories": curated["categories"],
         "urgences": curated["urgences"],

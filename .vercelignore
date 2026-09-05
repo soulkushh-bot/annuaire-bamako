@@ -1,0 +1,6 @@
+# Ne publier que le site : le reste vit dans le dépôt Git, pas sur le CDN.
+scripts/
+data/raw/
+data/curated.json
+.claude/
+README.md

@@ -8,50 +8,125 @@
         "role": "primary",
         "displayName": "Vert du Mali",
         "canonical": "#14B53A",
-        "tonalRamp": ["#05300f", "#074a19", "#0a6b28", "#0f8f33", "#14B53A", "#4ecd6d", "#8ee2a2", "#d6f6de"]
+        "tonalRamp": [
+          "#05300f",
+          "#074a19",
+          "#0a6b28",
+          "#0f8f33",
+          "#14B53A",
+          "#4ecd6d",
+          "#8ee2a2",
+          "#d6f6de"
+        ]
       },
       "vert-action": {
         "role": "primary",
         "displayName": "Vert d'action",
         "canonical": "#0a7d3c",
-        "tonalRamp": ["#03210f", "#053417", "#064a22", "#08632d", "#0a7d3c", "#0fa851", "#4fcd85", "#c9f0d8"]
+        "tonalRamp": [
+          "#03210f",
+          "#053417",
+          "#064a22",
+          "#08632d",
+          "#0a7d3c",
+          "#0fa851",
+          "#4fcd85",
+          "#c9f0d8"
+        ]
       },
       "mali-or": {
         "role": "secondary",
         "displayName": "Or du Mali",
         "canonical": "#FCD116",
-        "tonalRamp": ["#3a3005", "#574808", "#7a660b", "#a88c0e", "#d4b012", "#FCD116", "#fde264", "#fff5cc"]
+        "tonalRamp": [
+          "#3a3005",
+          "#574808",
+          "#7a660b",
+          "#a88c0e",
+          "#d4b012",
+          "#FCD116",
+          "#fde264",
+          "#fff5cc"
+        ]
       },
       "mali-rouge": {
         "role": "tertiary",
         "displayName": "Rouge du Mali",
         "canonical": "#CE1126",
-        "tonalRamp": ["#2e040a", "#4a0710", "#6d0a18", "#a3151f", "#CE1126", "#e8434f", "#f4868e", "#fbe6e7"]
+        "tonalRamp": [
+          "#2e040a",
+          "#4a0710",
+          "#6d0a18",
+          "#a3151f",
+          "#CE1126",
+          "#e8434f",
+          "#f4868e",
+          "#fbe6e7"
+        ]
       },
       "fond": {
         "role": "neutral",
         "displayName": "Fond de page",
         "canonical": "#f6f7f4",
-        "tonalRamp": ["#0f1412", "#1a211d", "#2b3430", "#495450", "#6d7a74", "#9fb0a6", "#d5ded8", "#f6f7f4"]
+        "tonalRamp": [
+          "#0f1412",
+          "#1a211d",
+          "#2b3430",
+          "#495450",
+          "#6d7a74",
+          "#9fb0a6",
+          "#d5ded8",
+          "#f6f7f4"
+        ]
       },
       "encre": {
         "role": "neutral",
         "displayName": "Encre",
         "canonical": "#17201b",
-        "tonalRamp": ["#0a0f0c", "#17201b", "#2c3a32", "#455449", "#5d6b63", "#8b9a92", "#c2ccc6", "#eef2ee"]
+        "tonalRamp": [
+          "#0a0f0c",
+          "#17201b",
+          "#2c3a32",
+          "#455449",
+          "#5d6b63",
+          "#8b9a92",
+          "#c2ccc6",
+          "#eef2ee"
+        ]
       },
       "filet": {
         "role": "neutral",
         "displayName": "Filet",
         "canonical": "#e2e6e1",
-        "tonalRamp": ["#151a17", "#212722", "#333b36", "#4c554f", "#78837c", "#a9b3ac", "#cdd4cf", "#e2e6e1"]
+        "tonalRamp": [
+          "#151a17",
+          "#212722",
+          "#333b36",
+          "#4c554f",
+          "#78837c",
+          "#a9b3ac",
+          "#cdd4cf",
+          "#e2e6e1"
+        ]
       }
     },
     "typographyMeta": {
-      "display": { "displayName": "Titre de page", "purpose": "Une seule fois par page, suivi du trait d'or." },
-      "title": { "displayName": "Nom de structure", "purpose": "Le nom dans la liste, tronqué à deux lignes." },
-      "data": { "displayName": "Chiffres", "purpose": "Numéros de téléphone et compteurs, en tabular-nums." },
-      "label": { "displayName": "Étiquette", "purpose": "Catégorie, marque de vérification, libellés de champs." }
+      "display": {
+        "displayName": "Titre de page",
+        "purpose": "Une seule fois par page, suivi du trait d'or."
+      },
+      "title": {
+        "displayName": "Nom de structure",
+        "purpose": "Le nom dans la liste, tronqué à deux lignes."
+      },
+      "data": {
+        "displayName": "Chiffres",
+        "purpose": "Numéros de téléphone et compteurs, en tabular-nums."
+      },
+      "label": {
+        "displayName": "Étiquette",
+        "purpose": "Catégorie, marque de vérification, libellés de champs."
+      }
     },
     "shadows": [
       {
@@ -66,13 +141,31 @@
       }
     ],
     "motion": [
-      { "name": "ease", "value": "cubic-bezier(.2, .8, .3, 1)", "purpose": "Easing unique du système." },
-      { "name": "fast", "value": "150ms", "purpose": "Toutes les transitions d'état. Le mouvement signale un changement, jamais une décoration." },
-      { "name": "pulse-chargement", "value": "1.4s", "purpose": "Pulsation des silhouettes, désactivée sous prefers-reduced-motion." }
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.2, .8, .3, 1)",
+        "purpose": "Easing unique du système."
+      },
+      {
+        "name": "fast",
+        "value": "150ms",
+        "purpose": "Toutes les transitions d'état. Le mouvement signale un changement, jamais une décoration."
+      },
+      {
+        "name": "pulse-chargement",
+        "value": "1.4s",
+        "purpose": "Pulsation des silhouettes, désactivée sous prefers-reduced-motion."
+      }
     ],
     "breakpoints": [
-      { "name": "urgence-compacte", "value": "430px" },
-      { "name": "mobile", "value": "560px" }
+      {
+        "name": "urgence-compacte",
+        "value": "430px"
+      },
+      {
+        "name": "mobile",
+        "value": "560px"
+      }
     ]
   },
   "components": [
@@ -80,7 +173,7 @@
       "name": "Pilule d'urgence",
       "kind": "custom",
       "refersTo": "pilule-urgence",
-      "description": "Numéro vital composable, posé sur le bandeau rouge collant. Perd son mot sous 430 px.",
+      "description": "Numéro vital composable, posé sur le bandeau rouge collant. Garde son libellé à toutes les largeurs ; le bandeau défile plutôt que d'abréger.",
       "html": "<div class=\"ds-bandeau\"><span class=\"ds-bandeau-label\">URGENCES</span><a class=\"ds-urg\" href=\"tel:122\" aria-label=\"Pompiers — 122\"><b>122</b><span>Pompiers</span></a><a class=\"ds-urg\" href=\"tel:101\" aria-label=\"Police — 101\"><b>101</b><span>Police</span></a></div>",
       "css": ".ds-bandeau { display: flex; align-items: center; gap: 10px; background: #CE1126; padding: 8px 12px; } .ds-bandeau-label { font: 700 .75rem system-ui, sans-serif; letter-spacing: .07em; color: #fff; opacity: .95; } .ds-urg { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; padding: 0 14px; border-radius: 999px; background: #fff; color: #22282a; font: 600 .9375rem system-ui, sans-serif; text-decoration: none; transition: transform 150ms cubic-bezier(.2,.8,.3,1), box-shadow 150ms cubic-bezier(.2,.8,.3,1); } .ds-urg b { color: #CE1126; font-size: 1.125rem; font-variant-numeric: tabular-nums; } .ds-urg:hover { box-shadow: 0 0 0 3px rgba(255,255,255,.45); } .ds-urg:active { transform: translateY(1px); }"
     },
@@ -144,13 +237,46 @@
       "Chaque fiche porte sa source et sa date à l'écran."
     ],
     "rules": [
-      { "name": "La Règle du Rouge Réservé", "body": "Le rouge ne sert qu'à l'urgence. Aucune erreur de formulaire, aucun bouton de suppression, aucun accent décoratif ne le reprend. Un utilisateur qui voit du rouge sur cet écran doit pouvoir en déduire qu'il s'agit d'un numéro à composer en cas de danger.", "section": "colors" },
-      { "name": "La Règle des Trois Champs", "body": "Le tricolore apparaît toujours en trois champs de largeur égale aux valeurs exactes du drapeau, jamais en dégradé progressif, jamais en aplat partiel, jamais réordonné. Deux emplacements seulement : le filet de 4 px en tête de l'en-tête collant, et la marque de 26 px.", "section": "colors" },
-      { "name": "La Règle de l'Encre Sombre sur le Vert Vif", "body": "Tout fond en #14B53A porte une encre à #05300f. Le blanc sur le vert du drapeau donne 2,3:1 et a déjà été livré une fois par erreur.", "section": "colors" },
-      { "name": "La Règle de l'Échelle Fermée", "body": "Sept pas fixes en rem (0.75 / 0.8438 / 0.9375 / 1 / 1.125 / 1.5 / 2), aucune taille littérale dans la feuille de style, aucun clamp(). Une version antérieure déclarait ces jetons puis laissait coexister dix-neuf tailles improvisées.", "section": "typography" },
-      { "name": "La Règle des Chiffres Alignés", "body": "Toute suite de chiffres qu'un lecteur peut être amené à comparer ou à recopier — numéros, fax, compteurs, horaires — est en tabular-nums.", "section": "typography" },
-      { "name": "La Règle des Sept Fiches", "body": "Un écran de téléphone de 812 px doit montrer au moins cinq fiches sous les filtres. La grille de cartes n'en montrait qu'une : c'est ce qui l'a fait remplacer.", "section": "layout" },
-      { "name": "La Règle de l'Ombre Unique", "body": "Une seule ombre dans tout le système. Un besoin de hiérarchie se résout par la couleur de fond ou un filet, jamais par une deuxième ombre.", "section": "elevation" }
+      {
+        "name": "La Règle du Rouge Réservé",
+        "body": "Le rouge ne sert qu'à l'urgence. Aucune erreur de formulaire, aucun bouton de suppression, aucun accent décoratif ne le reprend. Un utilisateur qui voit du rouge sur cet écran doit pouvoir en déduire qu'il s'agit d'un numéro à composer en cas de danger.",
+        "section": "colors"
+      },
+      {
+        "name": "La Règle des Trois Champs",
+        "body": "Le tricolore apparaît toujours en trois champs de largeur égale aux valeurs exactes du drapeau, jamais en dégradé progressif, jamais en aplat partiel, jamais réordonné. Deux emplacements seulement : le filet de 4 px en tête de l'en-tête collant, et la marque de 26 px.",
+        "section": "colors"
+      },
+      {
+        "name": "La Règle de l'Encre Sombre sur le Vert Vif",
+        "body": "Tout fond en #14B53A porte une encre à #05300f. Le blanc sur le vert du drapeau donne 2,3:1 et a déjà été livré une fois par erreur.",
+        "section": "colors"
+      },
+      {
+        "name": "La Règle de l'Échelle Fermée",
+        "body": "Sept pas fixes en rem (0.75 / 0.8438 / 0.9375 / 1 / 1.125 / 1.5 / 2), aucune taille littérale dans la feuille de style, aucun clamp(). Une version antérieure déclarait ces jetons puis laissait coexister dix-neuf tailles improvisées.",
+        "section": "typography"
+      },
+      {
+        "name": "La Règle des Chiffres Alignés",
+        "body": "Toute suite de chiffres qu'un lecteur peut être amené à comparer ou à recopier — numéros, fax, compteurs, horaires — est en tabular-nums.",
+        "section": "typography"
+      },
+      {
+        "name": "La Règle des Sept Fiches",
+        "body": "Un écran de téléphone de 812 px doit montrer au moins cinq fiches sous les filtres. La grille de cartes n'en montrait qu'une : c'est ce qui l'a fait remplacer.",
+        "section": "layout"
+      },
+      {
+        "name": "La Règle de l'Ombre Unique",
+        "body": "Une seule ombre dans tout le système. Un besoin de hiérarchie se résout par la couleur de fond ou un filet, jamais par une deuxième ombre.",
+        "section": "elevation"
+      },
+      {
+        "name": "La Règle du Mot Conservé",
+        "body": "Densifier ne veut pas dire abréger. Un numéro d'urgence garde son libellé à toutes les largeurs, et une étiquette abrégée dans la liste doit revenir en toutes lettres dans le dépliage. Le public inclut des Maliens de l'extérieur rentrés au pays, pour qui « 122 » ou « Admin. » ne vont pas de soi. Quand la place manque, on fait défiler en l'annonçant, on ne retire pas le mot.",
+        "section": "layout"
+      }
     ],
     "dos": [
       "Do garder le bandeau d'urgence collant, rouge plein, et ses cibles à 44 px. C'est le seul élément dont la disponibilité est vitale.",
@@ -168,7 +294,8 @@
       "Don't charger une police web ni une bibliothèque avant le premier rendu. Leaflet n'est tiré qu'à l'ouverture de la carte.",
       "Don't rendre les 386 fiches d'un coup : la liste se rend par lots de 60.",
       "Don't substituer un glyphe Unicode à une icône.",
-      "Don't ajouter une seconde ombre au système."
+      "Don't ajouter une seconde ombre au système.",
+      "Don't retirer le libellé d'un numéro d'urgence pour gagner de la place : faire défiler en l'annonçant, plutôt que d'abréger."
     ]
   }
 }

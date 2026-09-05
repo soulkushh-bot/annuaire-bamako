@@ -101,7 +101,13 @@ button { font: inherit; }
 /* Bandeau urgences */
 .urgences { background: var(--red-solid); position: sticky; top: var(--head-h); z-index: 49;
   box-shadow: 0 1px 0 rgba(0,0,0,.18); }
-.urgences-inner { display: flex; align-items: center; gap: 10px; padding: 8px 0; overflow-x: auto; scrollbar-width: none; }
+.urgences-inner { display: flex; align-items: center; gap: 10px; padding: 8px 0;
+  overflow-x: auto; scrollbar-width: none; scroll-snap-type: x proximity;
+  /* Le dégradé de droite dit qu'il reste des numéros au-delà du bord. */
+  -webkit-mask-image: linear-gradient(90deg, #000 0 calc(100% - 34px), transparent 100%);
+  mask-image: linear-gradient(90deg, #000 0 calc(100% - 34px), transparent 100%); }
+.urgences-inner > * { scroll-snap-align: start; }
+.urgences-list > * { scroll-snap-align: start; }
 .urgences-inner::-webkit-scrollbar { display: none; }
 .urgences-label { font-weight: 700; color: #fff; text-transform: uppercase; font-size: var(--t-xs);
   letter-spacing: .07em; flex: none; opacity: .95; }
@@ -196,6 +202,12 @@ h1::after { content: ""; display: block; width: 64px; height: 5px; margin-top: 1
   overflow: hidden; min-width: 0; }
 .row-meta .commune { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .row-meta .badge { flex: none; }
+/* Distance : la seule donnée de la ligne qui change selon où l'on se trouve. */
+.distance { flex: none; display: inline-flex; align-items: center; gap: 4px;
+  font-size: var(--t-xs); font-weight: 700; color: var(--gold-ink);
+  background: var(--gold-soft); border-radius: 999px; padding: 2px 8px;
+  font-variant-numeric: tabular-nums; white-space: nowrap; }
+.distance:empty, .distance[hidden] { display: none; }
 .appel { display: inline-flex; align-items: center; min-height: var(--tap); padding: 0 13px;
   border-radius: 10px; background: var(--green-soft); color: var(--green-ink);
   font-weight: 700; font-size: var(--t-md); text-decoration: none; white-space: nowrap;
@@ -267,14 +279,12 @@ h1::after { content: ""; display: block; width: 64px; height: 5px; margin-top: 1
 .foot { border-top: 1px solid var(--line); padding: 20px 0 32px; color: var(--muted); font-size: var(--t-sm); }
 .foot p { margin: 0; }
 
-/* Sous 430 px le mot ne tient pas à côté du chiffre, et c'est le chiffre qui sauve.
-   Les quatre numéros vitaux doivent être visibles sans défiler ; le libellé reste
-   dans aria-label et dans l'infobulle. */
+/* Le mot reste à côté du chiffre à toutes les largeurs : « 122 » seul ne dit rien à
+   quelqu'un qui rentre au pays après des années. Le bandeau défile donc sur petit écran,
+   mais il l'annonce — dégradé de bord et accroche au défilement. */
 @media (max-width: 430px) {
   .urgences-label { display: none; }
-  .urg span { display: none; }
-  .urg { padding: 0 13px; }
-  .urg b { font-size: var(--t-xl); }
+  .urg { padding: 0 12px; gap: 6px; }
   .urgences-list { gap: 7px; }
 }
 

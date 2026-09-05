@@ -209,8 +209,9 @@ absorbant la troncature).
 
 **Responsive :** le changement est structurel, jamais typographique. Sous 560 px, la bande de
 catégories défile horizontalement au lieu de s'empiler, la marque « vérifié » se réduit à sa
-coche et les étiquettes de catégorie rapetissent. Sous 430 px, les pilules d'urgence perdent leur
-mot pour ne garder que le numéro, afin que les quatre numéros vitaux tiennent sans défilement.
+coche et les étiquettes de catégorie rapetissent. Sous 430 px, les pilules d'urgence resserrent
+leur marge intérieure mais **gardent leur libellé** : le bandeau défile alors horizontalement,
+en l'annonçant par un dégradé de bord et une accroche au défilement.
 
 L'en-tête est collant à 0 ; le bandeau d'urgence est collant juste dessous, à une hauteur
 **mesurée au chargement** et non codée en dur, parce que le contenu de l'en-tête peut changer.
@@ -222,6 +223,12 @@ séparations généreuses (16–24 px).
 
 **La Règle des Sept Fiches.** Un écran de téléphone de 812 px doit montrer au moins cinq fiches
 sous les filtres. La grille de cartes n'en montrait qu'une : c'est ce qui l'a fait remplacer.
+
+**La Règle du Mot Conservé.** Densifier ne veut pas dire abréger. Un numéro d'urgence garde son
+libellé à toutes les largeurs, et une étiquette abrégée dans la liste doit revenir en toutes
+lettres dans le dépliage. Le public inclut des Maliens de l'extérieur rentrés au pays, pour qui
+« 122 » ou « Admin. » ne vont pas de soi. Quand la place manque, on fait défiler en l'annonçant,
+on ne retire pas le mot.
 
 ## Elevation & Depth
 
@@ -259,9 +266,9 @@ glyphes Unicode ni des émojis.
 La bande rouge pleine juste sous l'en-tête, collante à la hauteur mesurée de celui-ci. Elle
 porte le libellé « URGENCES » en capitales blanches puis les pilules blanches des quatre numéros
 vitaux (122, 101, 111, 36061) en chiffres rouges de 1,125 rem, hauteur 44 px. Les quatre numéros
-secondaires sont derrière un bouton « +4 autres » translucide. Sous 430 px, les pilules perdent
-leur mot ; le service passe alors par `aria-label` et `title`. Ce composant ne se met jamais en
-retrait : il n'entre pas dans le défilement, ne se réduit pas, ne se colore pas autrement.
+secondaires sont derrière un bouton « +4 autres » translucide. Le libellé du service reste affiché à toutes les
+largeurs — « 122 » seul ne dit rien à qui rentre au pays après des années — et le bandeau défile
+donc sur petit écran, en l'annonçant. Ce composant ne se met jamais en retrait : il n'entre pas dans le défilement, ne se réduit pas, ne se colore pas autrement.
 
 ### Ligne de fiche *(composant signature)*
 Un `<details>` — dépliage sans JavaScript, clavier et lecteurs d'écran gratuits — regroupé par
@@ -290,6 +297,12 @@ horizontalement, sans barre de défilement visible.
 Filet de 2 px, rayon 14 px, ombre de surface, icône loupe à gauche en `--encre-douce`. Au focus,
 le filet passe au vert d'action. Le bouton d'effacement est un disque de 34 px avec une croix
 dessinée en SVG.
+
+### Repère de distance
+Pastille or à encre sombre, chiffres alignés, visible seulement sous le tri « Les plus proches de
+moi ». C'est la seule donnée de la ligne qui dépend de l'endroit où se trouve le lecteur. Si la
+position est refusée ou indisponible, le tri revient au nom et le compteur le dit : la liste ne
+reste jamais muette.
 
 ### Silhouettes de chargement
 Huit blocs à la forme d'une ligne : deux barres grises (46 % et 28 % de large), rayon 12 px,

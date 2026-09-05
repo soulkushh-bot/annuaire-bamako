@@ -91,6 +91,44 @@
     history.replaceState(null, '', qs ? `?${qs}` : location.pathname);
   }
 
+  // --- proximité ---------------------------------------------------------
+  // Pensé pour qui ne connaît pas la ville — un Malien de l'extérieur rentré au pays,
+  // un nouvel arrivant : la question n'est pas « comment ça s'appelle » mais « c'est où ».
+  let maPosition = null;
+
+  const distanceKm = (a, b) => {
+    const R = 6371, rad = (d) => d * Math.PI / 180;
+    const dLat = rad(b.lat - a.lat), dLon = rad(b.lng - a.lng);
+    const x = Math.sin(dLat / 2) ** 2
+      + Math.cos(rad(a.lat)) * Math.cos(rad(b.lat)) * Math.sin(dLon / 2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(x));
+  };
+
+  const formatDistance = (km) => (km < 1 ? `${Math.round(km * 1000)} m` : `${km.toFixed(1).replace('.', ',')} km`);
+
+  function demanderPosition() {
+    if (!navigator.geolocation) {
+      els.count.textContent = 'Votre appareil ne sait pas donner sa position.';
+      return Promise.resolve(null);
+    }
+    els.count.textContent = 'Recherche de votre position…';
+    return new Promise((resolve) => {
+      navigator.geolocation.getCurrentPosition(
+        (p) => { maPosition = { lat: p.coords.latitude, lng: p.coords.longitude }; resolve(maPosition); },
+        () => {
+          // Refus ou échec : on le dit et on revient au tri par nom plutôt que d'afficher une liste muette.
+          maPosition = null;
+          state.sort = 'name';
+          els.sort.value = 'name';
+          render();
+          els.count.textContent = 'Position indisponible — tri par nom rétabli. Autorisez la localisation pour trier par distance.';
+          resolve(null);
+        },
+        { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 },
+      );
+    });
+  }
+
   // --- filtrage ----------------------------------------------------------
   function filtered() {
     const terms = fold(state.q).trim().split(/\s+/).filter(Boolean);
@@ -100,6 +138,11 @@
       return terms.every((t) => hit(e._hay, t));
     });
     const byName = (a, b) => a.name.localeCompare(b.name, 'fr');
+    if (state.sort === 'proche' && maPosition) {
+      list.forEach((e) => { e._d = (e.lat && e.lng) ? distanceKm(maPosition, e) : Infinity; });
+      list.sort((a, b) => a._d - b._d || byName(a, b));
+      return list;
+    }
     if (state.sort === 'verified') {
       list.sort((a, b) => Number(!!b.source?.verified) - Number(!!a.source?.verified) || byName(a, b));
       return list;
@@ -135,6 +178,11 @@
     badge.dataset.cat = e.category;
     $('.commune', node).textContent = e.commune || '';
     $('.row-title', node).textContent = e.name;
+    if (state.sort === 'proche' && Number.isFinite(e._d)) {
+      const d = $('.distance', node);
+      d.textContent = formatDistance(e._d);
+      d.hidden = false;
+    }
 
     // Le premier numéro est composable sans déplier : c'est la raison d'être de l'annuaire.
     const premier = (e.phones || [])[0];
@@ -157,7 +205,8 @@
       v.setAttribute('aria-label', `Fiche vérifiée le ${fmtDate(e.source.verified)}`);
       v.setAttribute('role', 'img');
     }
-    $('.card-sub', node).textContent = [e.type, e.quartier].filter(Boolean).join(' · ');
+    // Le libellé complet revient dans le dépliage : la liste abrège pour tenir, le détail explique.
+    $('.card-sub', node).textContent = [cat?.label, e.type, e.quartier].filter(Boolean).join(' · ');
     $('.card-addr', node).textContent = e.address || '';
     $('.card-hours', node).textContent = e.hours || '';
 
@@ -351,7 +400,14 @@
     els.q.addEventListener('input', () => { clearTimeout(t); t = setTimeout(() => { state.q = els.q.value; render(); }, 120); });
     els.qClear.addEventListener('click', () => { els.q.value = ''; state.q = ''; render(); els.q.focus(); });
     els.commune.addEventListener('change', () => { state.commune = els.commune.value; render(); });
-    els.sort.addEventListener('change', () => { state.sort = els.sort.value; render(); });
+    els.sort.addEventListener('change', async () => {
+      state.sort = els.sort.value;
+      if (state.sort === 'proche' && !maPosition) {
+        writeUrl();
+        if (!(await demanderPosition())) return;
+      }
+      render();
+    });
     const reset = () => {
       Object.assign(state, { q: '', cat: '', commune: '', sort: 'name' });
       els.q.value = ''; els.commune.value = ''; els.sort.value = 'name';

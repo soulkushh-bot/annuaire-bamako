@@ -20,6 +20,13 @@ pompiers, trouver le CSRéf de sa commune pour un accouchement, joindre le servi
 savoir où se situe le commissariat de son arrondissement. Il est souvent sur un téléphone
 Android d'entrée de gamme, sur une connexion lente ou coupée, parfois dans l'urgence.
 
+**Le Malien de l'extérieur rentré au pays**, explicitement nommé par le propriétaire du projet.
+Il connaît le Mali mais plus la ville au quotidien : les quartiers ont bougé, les numéros courts
+ne lui sont pas familiers, il ne sait pas forcément que 122 est celui des pompiers. Conséquence
+directe sur l'interface : **les abréviations qui vont de soi pour un habitant ne vont pas de soi
+pour lui.** Une compression qui gagne de la place en retirant un mot doit être vérifiée contre
+ce public avant d'être retenue.
+
 Publics secondaires : les nouveaux arrivants et visiteurs cherchant une ambassade ou un hôpital,
 et les agents publics qui ont besoin des coordonnées d'une autre administration.
 
@@ -56,8 +63,8 @@ Le nom **Danaya** — « la confiance » en bambara — nomme cet engagement.
 
 **Ce que l'application fait :** recherche insensible aux accents et par tranches de numéro,
 filtres par catégorie et par commune, tri (nom, catégorie, vérification récente, vérifiées
-d'abord), appel direct, WhatsApp sur les numéros mobiles, itinéraire Google Maps, carte Leaflet
-des fiches géolocalisées, partage, signalement d'erreur vers les issues GitHub, fonctionnement
+d'abord, **les plus proches de moi** par géolocalisation), appel direct, WhatsApp sur les numéros
+mobiles, itinéraire Google Maps, carte Leaflet des fiches géolocalisées, partage, signalement d'erreur vers les issues GitHub, fonctionnement
 hors-ligne, installation sur l'écran d'accueil.
 
 **Contraintes techniques :** page unique statique ; aucune dépendance chargée avant le premier
@@ -105,15 +112,19 @@ masqués.
 
 ## Product Principles
 
-1. **Un manque affiché vaut mieux qu'un numéro inventé.** Sur un hôpital ou un commissariat, une
+1. **Densifier ne veut pas dire abréger.** Gagner de la place en retirant un mot se paie chez
+   celui qui ne connaît pas déjà la réponse. Les numéros d'urgence gardent leur libellé à toutes
+   les largeurs ; la liste peut abréger une étiquette à condition que le dépliage la rétablisse
+   en toutes lettres.
+2. **Un manque affiché vaut mieux qu'un numéro inventé.** Sur un hôpital ou un commissariat, une
    erreur envoie quelqu'un au mauvais endroit un jour où ça compte.
-2. **La source et la date font partie de la donnée**, pas d'une mention légale. Elles s'affichent
+3. **La source et la date font partie de la donnée**, pas d'une mention légale. Elles s'affichent
    sur la fiche.
-3. **Les numéros d'urgence sont hors concours** : toujours à l'écran, jamais derrière une
+4. **Les numéros d'urgence sont hors concours** : toujours à l'écran, jamais derrière une
    recherche, jamais derrière un défilement, cible tactile pleine.
-4. **Le premier écran doit tenir sur un téléphone lent.** Rien ne bloque le rendu initial ; ce
+5. **Le premier écran doit tenir sur un téléphone lent.** Rien ne bloque le rendu initial ; ce
    qui n'est pas indispensable est chargé à la demande.
-5. **On corrige dans `curated.json`, jamais dans le fichier publié**, et toute correction porte
+6. **On corrige dans `curated.json`, jamais dans le fichier publié**, et toute correction porte
    une source.
 
 ## Accessibility & Inclusion

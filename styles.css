@@ -4,11 +4,18 @@
   --ink: #17201b;
   --muted: #5d6b63;
   --line: #e2e6e1;
-  --green: #0f7a4f;
-  --green-ink: #0b5c3b;
-  --green-soft: #e3f3ea;
-  --gold: #c99a1f;
-  --gold-soft: #fbf1d6;
+  /* Drapeau du Mali, valeurs de référence : vert #14B53A, or #FCD116, rouge #CE1126.
+     Elles servent aux aplats et aux marques ; le texte utilise les variantes assombries,
+     car le vert et l'or du drapeau ne tiennent pas 4,5:1 en encre sur fond clair. */
+  --ml-vert: #14B53A;
+  --ml-or: #FCD116;
+  --ml-rouge: #CE1126;
+  --green: #0a7d3c;            /* aplats interactifs, blanc lisible dessus */
+  --green-ink: #075c2c;        /* encre verte sur fond clair */
+  --green-soft: #e2f6e7;
+  --gold: var(--ml-or);
+  --gold-ink: #6b4e00;         /* encre lisible sur l'or */
+  --gold-soft: #fff5cc;
   --red: #b4232c;
   --red-soft: #fbe6e7;
   --radius: 14px;
@@ -18,7 +25,7 @@
   --t-lg: 1.125rem; --t-xl: 1.5rem; --t-2xl: 2rem;
   --head-h: 56px;
   /* Rouge d'urgence tenant le texte blanc dans les deux thèmes : --red vire au rose en sombre. */
-  --red-solid: #a81f27;
+  --red-solid: var(--ml-rouge);
   --tap: 44px;                 /* cible tactile minimale */
   --ease: cubic-bezier(.2, .8, .3, 1);
   --fast: 150ms;
@@ -28,8 +35,9 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --bg: #0f1412; --surface: #171d1a; --ink: #eef2ee; --muted: #9fb0a6; --line: #263029;
-    --green: #3fbf85; --green-ink: #8fe0b8; --green-soft: #12291d; --gold: #e0b44a; --gold-soft: #2c2410;
-    --red: #ff7b83; --red-soft: #33171a; --red-solid: #7d1a20; --shadow: 0 1px 2px rgba(0,0,0,.4);
+    --green: #35c765; --green-ink: #86e8a6; --green-soft: #10291a;
+    --gold: var(--ml-or); --gold-ink: #ffdf6b; --gold-soft: #2e2610;
+    --red: #ff7b83; --red-soft: #33171a; --red-solid: #a3151f; --shadow: 0 1px 2px rgba(0,0,0,.4);
     color-scheme: dark;
   }
 }
@@ -67,19 +75,27 @@ button { font: inherit; }
 
 /* En-tête */
 .top { background: var(--surface); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 50; }
+/* Le drapeau, lu de haut en bas plutôt que de gauche à droite : trois champs égaux
+   qui coiffent chaque écran. C'est une structure, pas une décoration. */
+.top::before {
+  content: ""; display: block; height: 4px;
+  background: linear-gradient(90deg,
+    var(--ml-vert) 0 33.333%, var(--ml-or) 33.333% 66.666%, var(--ml-rouge) 66.666%);
+}
 .top-inner { display: flex; align-items: center; justify-content: space-between; min-height: 56px; gap: 12px; }
 .brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-size: var(--t-lg); }
 .brand-text { display: flex; flex-direction: column; line-height: 1.15; }
 .brand-by { font-size: var(--t-xs); font-weight: 400; color: var(--muted); letter-spacing: .01em; }
-.brand-mark { width: 26px; height: 26px; border-radius: 8px; background: linear-gradient(135deg, var(--green) 0 50%, var(--gold) 50% 100%); position: relative; }
-.brand-mark::after { content: ""; position: absolute; inset: 8px; border-radius: 50%; background: #fff; }
+.brand-mark { width: 26px; height: 26px; border-radius: 7px; flex: none;
+  background: linear-gradient(90deg,
+    var(--ml-vert) 0 33.333%, var(--ml-or) 33.333% 66.666%, var(--ml-rouge) 66.666%); }
 .top-nav { display: flex; gap: 6px; }
 .btn-ghost { background: transparent; border: 1px solid var(--line); color: var(--ink); padding: 7px 12px;
   border-radius: 999px; cursor: pointer; text-decoration: none; font-size: var(--t-md);
   transition: background var(--fast) var(--ease), border-color var(--fast) var(--ease); }
 .btn-ghost:active { transform: translateY(1px); }
 .btn-ghost:hover { background: var(--green-soft); border-color: var(--green); }
-.btn-ghost[aria-pressed="true"] { background: var(--green); border-color: var(--green); color: #fff; }
+.btn-ghost[aria-pressed="true"] { background: var(--ml-vert); border-color: var(--ml-vert); color: #05300f; font-weight: 600; }
 .btn-ghost.small { padding: 5px 10px; font-size: var(--t-sm); }
 
 /* Bandeau urgences */
@@ -106,7 +122,9 @@ button { font: inherit; }
 
 /* Recherche */
 .hero { padding: 28px 0 12px; }
-h1 { font-size: var(--t-2xl); line-height: 1.15; margin: 0 0 10px; letter-spacing: -.02em; }
+h1 { font-size: var(--t-2xl); line-height: 1.15; margin: 0 0 12px; letter-spacing: -.02em; }
+h1::after { content: ""; display: block; width: 64px; height: 5px; margin-top: 10px;
+  border-radius: 3px; background: var(--ml-or); }
 .lead { color: var(--muted); margin: 0 0 20px; max-width: 62ch; }
 .search-box { position: relative; display: flex; align-items: center; background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
 .search-box:focus-within { border-color: var(--green); }
@@ -126,8 +144,8 @@ h1 { font-size: var(--t-2xl); line-height: 1.15; margin: 0 0 10px; letter-spacin
 .chip:active { transform: translateY(1px); }
 .chip small { color: var(--muted); font-size: var(--t-sm); }
 .chip:hover { border-color: var(--green); }
-.chip[aria-pressed="true"] { background: var(--green); border-color: var(--green); color: #fff; }
-.chip[aria-pressed="true"] small { color: rgba(255,255,255,.8); }
+.chip[aria-pressed="true"] { background: var(--ml-vert); border-color: var(--ml-vert); color: #05300f; font-weight: 600; }
+.chip[aria-pressed="true"] small { color: rgba(5, 48, 15, .7); }
 
 .filters-row { display: flex; gap: 12px; align-items: end; flex-wrap: wrap; margin-bottom: 8px; }
 .select { display: flex; flex-direction: column; gap: 4px; font-size: var(--t-sm); color: var(--muted); }
@@ -164,7 +182,7 @@ h1 { font-size: var(--t-2xl); line-height: 1.15; margin: 0 0 10px; letter-spacin
 .row { background: var(--surface); border: 1px solid var(--line); border-radius: 12px;
   box-shadow: var(--shadow); scroll-margin-top: 150px; overflow: hidden; }
 .row[open] { border-color: var(--green); }
-.row.flash { outline: 3px solid var(--gold); outline-offset: 1px; }
+.row.flash { outline: 3px solid var(--ml-or); outline-offset: 1px; }
 .row-head { display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 10px;
   padding: 7px 11px; cursor: pointer; list-style: none;
   transition: background var(--fast) var(--ease); min-height: 58px; }
@@ -201,8 +219,8 @@ h1 { font-size: var(--t-2xl); line-height: 1.15; margin: 0 0 10px; letter-spacin
 @media (prefers-color-scheme: dark) {
   /* En sombre, --green est une menthe claire : l'encre doit être le fond, pas du blanc. */
   .chip[aria-pressed="true"], .btn-ghost[aria-pressed="true"],
-  .tel:hover, .tel:active, .act:active { color: var(--bg); }
-  .chip[aria-pressed="true"] small { color: rgba(15, 20, 18, .75); }
+  .tel:hover, .tel:active, .act:active, .appel:hover, .appel:active { color: #05300f; }
+  .chip[aria-pressed="true"] small { color: rgba(5, 48, 15, .7); }
   .badge[data-cat="urgences"] { background: var(--red); color: var(--bg); }
   .badge[data-cat="education"] { color: var(--gold); }
   .badge[data-cat="ambassades"] { background: #1a2740; color: #9db8f0; }
@@ -212,6 +230,7 @@ h1 { font-size: var(--t-2xl); line-height: 1.15; margin: 0 0 10px; letter-spacin
 .head-right { display: inline-flex; align-items: center; gap: 8px; }
 .verif { flex: none; display: inline-flex; align-items: center; gap: 4px; font-size: var(--t-xs); font-weight: 700;
   letter-spacing: .03em; color: var(--green-ink); background: var(--green-soft);
+  box-shadow: inset 0 0 0 1px rgba(20, 181, 58, .35);
   border-radius: 999px; padding: 3px 9px 3px 7px; white-space: nowrap; }
 .verif svg { width: 12px; height: 12px; stroke: currentColor; fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
 .commune { font-size: var(--t-xs); color: var(--muted); white-space: nowrap; }

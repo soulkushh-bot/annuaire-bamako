@@ -1,6 +1,9 @@
-# Annuaire Bamako
+# Danaya
 
-Application web qui rassemble **adresses et numéros de téléphone des infrastructures publiques du District de Bamako** : hôpitaux et cliniques, ministères et institutions, universités et écoles, mairies, commissariats, ambassades, eau/électricité/télécoms, culture.
+**Danaya** — « la confiance » en bambara. Un projet de **Souleymane Coulibaly**.
+
+
+L'annuaire de Bamako. Application web qui rassemble **adresses et numéros de téléphone des infrastructures publiques du District de Bamako** : hôpitaux et cliniques, ministères et institutions, universités et écoles, mairies, commissariats, ambassades, eau/électricité/télécoms, culture.
 
 - Recherche instantanée (insensible aux accents), filtres par catégorie et par commune
 - Appel en un clic, WhatsApp quand le numéro est un mobile, itinéraire Google Maps
@@ -8,6 +11,7 @@ Application web qui rassemble **adresses et numéros de téléphone des infrastr
 - Bandeau des numéros d'urgence toujours visible
 - Fonctionne hors-ligne une fois la page chargée (service worker), installable sur mobile (PWA)
 - **Chaque fiche affiche sa source et sa date** — aucune coordonnée inventée
+- Signature visuelle aux couleurs du drapeau malien
 
 ## Lancer en local
 
@@ -34,12 +38,15 @@ Ou, depuis l'interface Vercel : **Add New… → Project → importer le dépôt
 Laisser « Framework Preset » sur **Other**, ne rien mettre en Build Command, et `.` en Output Directory.
 
 Après le premier déploiement, renseignez votre dépôt dans `scripts/build_data.py` (champ `meta.repo`,
-par exemple `"votre-compte/annuaire-bamako"`) puis relancez `python scripts/build_data.py` : les boutons
+par exemple `"soulkushh-bot/annuaire-bamako"`) puis relancez `python scripts/build_data.py` : les boutons
 « Signaler » de chaque fiche ouvriront alors une issue GitHub pré-remplie.
 
 ## Structure
 
 ```
+PRODUCT.md                 vérité produit durable (utilisateurs, contraintes, principes)
+DESIGN.md                  système visuel, jetons et règles nommées
+.impeccable/design.json    extensions du système (ombres, mouvement, composants)
 index.html                 page unique
 styles.css  app.js         interface (thème clair/sombre automatique)
 sw.js  manifest.webmanifest cache hors-ligne + installation mobile
@@ -98,7 +105,7 @@ votre adresse et votre source font autorité.
 **Limites à connaître :**
 
 - Une partie des fiches Malipages date de 2017 ; la date de la fiche est affichée sur chaque carte.
-- **124 fiches sur 386 sont géolocalisées.** Un point n'est accepté que s'il est dans Bamako, que sa
+- **125 fiches sur 386 sont géolocalisées.** Un point n'est accepté que s'il est dans Bamako, que sa
   nature concorde (un institut n'est pas un ministère), que le sigle éventuel ouvre le nom du lieu, et
   que le nom recoupe suffisamment celui de la fiche. Les fiches sans correspondance sûre n'ont pas de
   marqueur : le bouton « Itinéraire » bascule alors sur une recherche par nom et adresse dans Google

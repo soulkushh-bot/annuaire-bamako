@@ -1,11 +1,11 @@
 {
-  "name": "Annuaire Bamako",
-  "short_name": "Annuaire BKO",
-  "description": "Adresses et téléphones des hôpitaux, ministères, universités et services publics de Bamako.",
+  "name": "Danaya — Annuaire de Bamako",
+  "short_name": "Danaya",
+  "description": "Adresses et téléphones des hôpitaux, ministères, universités, mairies et services publics de Bamako. Chaque fiche cite sa source.",
   "start_url": "./",
   "display": "standalone",
   "background_color": "#f6f7f4",
-  "theme_color": "#0f7a4f",
+  "theme_color": "#14B53A",
   "lang": "fr",
   "icons": [
     { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },

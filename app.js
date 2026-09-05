@@ -68,7 +68,7 @@
       ? `Fiche : ${e.name} (id ${e.id})\n\nCe qui est incorrect / à mettre à jour :\n\n`
       : 'Nom :\nCatégorie :\nAdresse :\nTéléphone(s) :\nSource (site, document) :\n';
     if (repo) return `https://github.com/${repo}/issues/new?title=${encodeURIComponent(title)}&body=${encodeURIComponent(body)}`;
-    return `mailto:${contact}?subject=${encodeURIComponent('[Annuaire Bamako] ' + title)}&body=${encodeURIComponent(body)}`;
+    return `mailto:${contact}?subject=${encodeURIComponent('[Danaya] ' + title)}&body=${encodeURIComponent(body)}`;
   }
 
   // --- URL <-> état -------------------------------------------------------

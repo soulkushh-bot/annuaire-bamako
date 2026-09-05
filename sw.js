@@ -1,6 +1,6 @@
 /* Cache hors-ligne minimal : l'app est servie depuis le cache puis rafraîchie en arrière-plan
    (stale-while-revalidate), les données sont prises sur le réseau en priorité. */
-const VERSION = 'annuaire-v2';
+const VERSION = 'danaya-v3';
 const CORE = ['./', './index.html', './styles.css', './app.js', './manifest.webmanifest', './icons/icon.svg'];
 
 self.addEventListener('install', (e) => {

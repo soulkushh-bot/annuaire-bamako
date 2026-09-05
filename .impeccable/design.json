@@ -1,0 +1,174 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-09-05T22:40:00Z",
+  "title": "Design System: Danaya",
+  "extensions": {
+    "colorMeta": {
+      "mali-vert": {
+        "role": "primary",
+        "displayName": "Vert du Mali",
+        "canonical": "#14B53A",
+        "tonalRamp": ["#05300f", "#074a19", "#0a6b28", "#0f8f33", "#14B53A", "#4ecd6d", "#8ee2a2", "#d6f6de"]
+      },
+      "vert-action": {
+        "role": "primary",
+        "displayName": "Vert d'action",
+        "canonical": "#0a7d3c",
+        "tonalRamp": ["#03210f", "#053417", "#064a22", "#08632d", "#0a7d3c", "#0fa851", "#4fcd85", "#c9f0d8"]
+      },
+      "mali-or": {
+        "role": "secondary",
+        "displayName": "Or du Mali",
+        "canonical": "#FCD116",
+        "tonalRamp": ["#3a3005", "#574808", "#7a660b", "#a88c0e", "#d4b012", "#FCD116", "#fde264", "#fff5cc"]
+      },
+      "mali-rouge": {
+        "role": "tertiary",
+        "displayName": "Rouge du Mali",
+        "canonical": "#CE1126",
+        "tonalRamp": ["#2e040a", "#4a0710", "#6d0a18", "#a3151f", "#CE1126", "#e8434f", "#f4868e", "#fbe6e7"]
+      },
+      "fond": {
+        "role": "neutral",
+        "displayName": "Fond de page",
+        "canonical": "#f6f7f4",
+        "tonalRamp": ["#0f1412", "#1a211d", "#2b3430", "#495450", "#6d7a74", "#9fb0a6", "#d5ded8", "#f6f7f4"]
+      },
+      "encre": {
+        "role": "neutral",
+        "displayName": "Encre",
+        "canonical": "#17201b",
+        "tonalRamp": ["#0a0f0c", "#17201b", "#2c3a32", "#455449", "#5d6b63", "#8b9a92", "#c2ccc6", "#eef2ee"]
+      },
+      "filet": {
+        "role": "neutral",
+        "displayName": "Filet",
+        "canonical": "#e2e6e1",
+        "tonalRamp": ["#151a17", "#212722", "#333b36", "#4c554f", "#78837c", "#a9b3ac", "#cdd4cf", "#e2e6e1"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Titre de page", "purpose": "Une seule fois par page, suivi du trait d'or." },
+      "title": { "displayName": "Nom de structure", "purpose": "Le nom dans la liste, tronqué à deux lignes." },
+      "data": { "displayName": "Chiffres", "purpose": "Numéros de téléphone et compteurs, en tabular-nums." },
+      "label": { "displayName": "Étiquette", "purpose": "Catégorie, marque de vérification, libellés de champs." }
+    },
+    "shadows": [
+      {
+        "name": "surface",
+        "value": "0 1px 2px rgba(20, 30, 25, .06), 0 6px 20px -12px rgba(20, 30, 25, .25)",
+        "purpose": "La seule ombre du système : lignes de fiches, en-tête, champ de recherche. Décalage et flou, jamais un halo."
+      },
+      {
+        "name": "halo-urgence",
+        "value": "0 0 0 3px rgba(255,255,255,.45)",
+        "purpose": "Survol des pilules blanches posées sur le rouge, où une ombre portée ne se verrait pas."
+      }
+    ],
+    "motion": [
+      { "name": "ease", "value": "cubic-bezier(.2, .8, .3, 1)", "purpose": "Easing unique du système." },
+      { "name": "fast", "value": "150ms", "purpose": "Toutes les transitions d'état. Le mouvement signale un changement, jamais une décoration." },
+      { "name": "pulse-chargement", "value": "1.4s", "purpose": "Pulsation des silhouettes, désactivée sous prefers-reduced-motion." }
+    ],
+    "breakpoints": [
+      { "name": "urgence-compacte", "value": "430px" },
+      { "name": "mobile", "value": "560px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Pilule d'urgence",
+      "kind": "custom",
+      "refersTo": "pilule-urgence",
+      "description": "Numéro vital composable, posé sur le bandeau rouge collant. Perd son mot sous 430 px.",
+      "html": "<div class=\"ds-bandeau\"><span class=\"ds-bandeau-label\">URGENCES</span><a class=\"ds-urg\" href=\"tel:122\" aria-label=\"Pompiers — 122\"><b>122</b><span>Pompiers</span></a><a class=\"ds-urg\" href=\"tel:101\" aria-label=\"Police — 101\"><b>101</b><span>Police</span></a></div>",
+      "css": ".ds-bandeau { display: flex; align-items: center; gap: 10px; background: #CE1126; padding: 8px 12px; } .ds-bandeau-label { font: 700 .75rem system-ui, sans-serif; letter-spacing: .07em; color: #fff; opacity: .95; } .ds-urg { display: inline-flex; align-items: center; gap: 7px; min-height: 44px; padding: 0 14px; border-radius: 999px; background: #fff; color: #22282a; font: 600 .9375rem system-ui, sans-serif; text-decoration: none; transition: transform 150ms cubic-bezier(.2,.8,.3,1), box-shadow 150ms cubic-bezier(.2,.8,.3,1); } .ds-urg b { color: #CE1126; font-size: 1.125rem; font-variant-numeric: tabular-nums; } .ds-urg:hover { box-shadow: 0 0 0 3px rgba(255,255,255,.45); } .ds-urg:active { transform: translateY(1px); }"
+    },
+    {
+      "name": "Ligne de fiche",
+      "kind": "card",
+      "refersTo": "ligne-fiche",
+      "description": "L'unité de la liste : nom, catégorie, commune, numéro composable, dépliable sur le détail.",
+      "html": "<details class=\"ds-row\"><summary class=\"ds-row-head\"><span class=\"ds-row-main\"><span class=\"ds-row-title\">CHU Gabriel Touré</span><span class=\"ds-row-meta\"><span class=\"ds-badge\">Santé</span><span class=\"ds-commune\">Commune II</span></span></span><a class=\"ds-appel\" href=\"tel:+22320230780\">20 23 07 80</a><svg class=\"ds-chevron\" viewBox=\"0 0 24 24\"><path d=\"m8 10 4 4 4-4\"/></svg></summary><div class=\"ds-row-body\">Médina Coura, BP 267, Bamako</div></details>",
+      "css": ".ds-row { background: #fff; border: 1px solid #e2e6e1; border-radius: 12px; box-shadow: 0 1px 2px rgba(20,30,25,.06), 0 6px 20px -12px rgba(20,30,25,.25); overflow: hidden; font-family: system-ui, sans-serif; } .ds-row[open] { border-color: #0a7d3c; } .ds-row-head { display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 10px; padding: 7px 11px; min-height: 58px; cursor: pointer; list-style: none; transition: background 150ms cubic-bezier(.2,.8,.3,1); } .ds-row-head::-webkit-details-marker { display: none; } .ds-row-head:hover { background: #e2f6e7; } .ds-row-main { display: flex; flex-direction: column; gap: 2px; min-width: 0; } .ds-row-title { font-size: .9375rem; font-weight: 600; line-height: 1.25; } .ds-row-meta { display: flex; align-items: center; gap: 6px; flex-wrap: nowrap; overflow: hidden; } .ds-badge { flex: none; font-size: .75rem; font-weight: 600; padding: 3px 9px; border-radius: 6px; background: #e2f6e7; color: #075c2c; } .ds-commune { font-size: .75rem; color: #5d6b63; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; } .ds-appel { display: inline-flex; align-items: center; min-height: 44px; padding: 0 13px; border-radius: 10px; background: #e2f6e7; color: #075c2c; font-weight: 700; font-size: .9375rem; font-variant-numeric: tabular-nums; text-decoration: none; transition: background 150ms cubic-bezier(.2,.8,.3,1); } .ds-appel:hover { background: #0a7d3c; color: #fff; } .ds-chevron { width: 18px; height: 18px; stroke: #5d6b63; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; transition: transform 150ms cubic-bezier(.2,.8,.3,1); } .ds-row[open] .ds-chevron { transform: rotate(180deg); } .ds-row-body { padding: 12px 11px 14px; border-top: 1px solid #e2e6e1; font-size: .9375rem; }"
+    },
+    {
+      "name": "Puce de filtre",
+      "kind": "chip",
+      "refersTo": "puce-filtre",
+      "description": "Filtre de catégorie avec son compte. Sélectionnée, elle prend le vert du drapeau et une encre très sombre.",
+      "html": "<div style=\"display:flex;gap:8px\"><button class=\"ds-chip ds-chip-active\">Tout <small>386</small></button><button class=\"ds-chip\">Santé <small>77</small></button></div>",
+      "css": ".ds-chip { display: inline-flex; align-items: center; gap: 6px; border: 1px solid #e2e6e1; background: #fff; color: #17201b; border-radius: 999px; padding: 7px 13px; font: 400 .9375rem system-ui, sans-serif; cursor: pointer; transition: background 150ms cubic-bezier(.2,.8,.3,1), border-color 150ms cubic-bezier(.2,.8,.3,1); } .ds-chip small { font-size: .8438rem; color: #5d6b63; font-variant-numeric: tabular-nums; } .ds-chip:hover { border-color: #0a7d3c; } .ds-chip:focus-visible { outline: 2px solid #0a7d3c; outline-offset: 2px; } .ds-chip-active { background: #14B53A; border-color: #14B53A; color: #05300f; font-weight: 600; } .ds-chip-active small { color: rgba(5,48,15,.7); }"
+    },
+    {
+      "name": "Champ de recherche",
+      "kind": "input",
+      "refersTo": "champ-recherche",
+      "description": "Le point d'entrée principal. Filet de 2 px qui passe au vert au focus, effacement en SVG.",
+      "html": "<div class=\"ds-search\"><svg class=\"ds-search-icon\" viewBox=\"0 0 24 24\"><circle cx=\"11\" cy=\"11\" r=\"7\"/><path d=\"m20 20-3.5-3.5\"/></svg><input class=\"ds-search-input\" type=\"search\" placeholder=\"Ex. : Gabriel Touré, mairie Commune IV…\"><button class=\"ds-search-clear\" aria-label=\"Effacer\"><svg viewBox=\"0 0 24 24\"><path d=\"M6 6l12 12M18 6L6 18\"/></svg></button></div>",
+      "css": ".ds-search { display: flex; align-items: center; background: #fff; border: 2px solid #e2e6e1; border-radius: 14px; box-shadow: 0 1px 2px rgba(20,30,25,.06), 0 6px 20px -12px rgba(20,30,25,.25); } .ds-search:focus-within { border-color: #0a7d3c; } .ds-search-icon { width: 22px; height: 22px; margin-left: 14px; stroke: #5d6b63; fill: none; stroke-width: 2; stroke-linecap: round; flex: none; } .ds-search-input { flex: 1; border: 0; background: transparent; color: #17201b; font: 400 1.0625rem system-ui, sans-serif; padding: 14px 12px; min-width: 0; outline: none; caret-color: #0a7d3c; } .ds-search-clear { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; margin-right: 10px; border: 0; border-radius: 50%; background: #e2e6e1; color: #17201b; cursor: pointer; transition: background 150ms cubic-bezier(.2,.8,.3,1); } .ds-search-clear svg { width: 14px; height: 14px; stroke: currentColor; fill: none; stroke-width: 2.2; stroke-linecap: round; } .ds-search-clear:hover { background: #5d6b63; color: #fff; }"
+    },
+    {
+      "name": "Marque tricolore",
+      "kind": "nav",
+      "refersTo": "marque",
+      "description": "Le drapeau en trois bandes verticales, avec le nom et l'attribution. Coiffé du filet tricolore de l'en-tête.",
+      "html": "<div class=\"ds-top\"><a class=\"ds-brand\" href=\"./\"><span class=\"ds-mark\"></span><span class=\"ds-brand-text\"><strong>Danaya</strong><span class=\"ds-brand-by\">Annuaire de Bamako · Souleymane Coulibaly</span></span></a></div>",
+      "css": ".ds-top { background: #fff; border-bottom: 1px solid #e2e6e1; font-family: system-ui, sans-serif; } .ds-top::before { content: \"\"; display: block; height: 4px; background: linear-gradient(90deg, #14B53A 0 33.333%, #FCD116 33.333% 66.666%, #CE1126 66.666%); } .ds-brand { display: inline-flex; align-items: center; gap: 10px; padding: 10px 12px; text-decoration: none; color: #17201b; font-size: 1.125rem; } .ds-mark { width: 26px; height: 26px; border-radius: 7px; flex: none; background: linear-gradient(90deg, #14B53A 0 33.333%, #FCD116 33.333% 66.666%, #CE1126 66.666%); } .ds-brand-text { display: flex; flex-direction: column; line-height: 1.15; } .ds-brand-by { font-size: .75rem; font-weight: 400; color: #5d6b63; }"
+    },
+    {
+      "name": "Silhouette de chargement",
+      "kind": "custom",
+      "refersTo": "silhouette",
+      "description": "Ce que voit l'utilisateur pendant le chargement des données : la forme de ce qui arrive, jamais un rond tournant.",
+      "html": "<div class=\"ds-skel\"><span></span><span></span></div>",
+      "css": ".ds-skel { background: #fff; border: 1px solid #e2e6e1; border-radius: 12px; padding: 13px 12px; min-height: 56px; box-shadow: 0 1px 2px rgba(20,30,25,.06), 0 6px 20px -12px rgba(20,30,25,.25); } .ds-skel span { display: block; height: 12px; border-radius: 6px; background: #e2e6e1; margin-bottom: 8px; } .ds-skel span:nth-child(1) { width: 46%; height: 14px; } .ds-skel span:nth-child(2) { width: 28%; height: 10px; margin-bottom: 0; } @media (prefers-reduced-motion: no-preference) { .ds-skel span { animation: ds-pulse 1.4s cubic-bezier(.2,.8,.3,1) infinite; } @keyframes ds-pulse { 50% { opacity: .45; } } }"
+    },
+    {
+      "name": "Marque de vérification",
+      "kind": "chip",
+      "refersTo": "verifie",
+      "description": "Distingue les 61 fiches recoupées à la main des 325 reprises telles quelles. Se réduit à la coche sous 560 px.",
+      "html": "<span class=\"ds-verif\" title=\"Coordonnées recoupées à la main le 05/09/2026\"><svg viewBox=\"0 0 24 24\"><path d=\"m4 12.5 5 5L20 6.5\"/></svg><span class=\"ds-verif-txt\">vérifié</span></span>",
+      "css": ".ds-verif { display: inline-flex; align-items: center; gap: 4px; padding: 3px 9px 3px 7px; border-radius: 999px; background: #e2f6e7; color: #075c2c; font: 700 .75rem system-ui, sans-serif; letter-spacing: .03em; box-shadow: inset 0 0 0 1px rgba(20,181,58,.35); white-space: nowrap; } .ds-verif svg { width: 12px; height: 12px; stroke: currentColor; fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; } @media (max-width: 560px) { .ds-verif { padding: 4px; border-radius: 50%; } .ds-verif-txt { display: none; } }"
+    }
+  ],
+  "narrative": {
+    "northStar": "Le registre de garde",
+    "overview": "Le cahier posé sur le comptoir d'un poste de garde, la nuit : on l'ouvre, on trouve le numéro, on appelle. Rien n'y est là pour séduire. Chaque ligne porte une écriture différente selon qui l'a inscrite et quand, et c'est justement ce qui permet de savoir à quelle entrée se fier. Danaya transpose cela : une liste dense, un numéro composable par ligne, et la provenance de chaque information écrite à côté d'elle plutôt qu'enfouie dans une mention légale.\n\nLe drapeau malien n'est pas un ornement posé sur ce registre, c'est sa reliure. Ses trois champs coiffent chaque écran en un filet de 4 px, la marque les reprend en trois bandes verticales, et le rouge redescend immédiatement dessous pour porter le bandeau des urgences — le drapeau lu de haut en bas au lieu de gauche à droite. Le vert tient les actions et la marque « vérifié », l'or tient les repères, le rouge n'est jamais dépensé ailleurs que sur l'urgence.\n\nLa densité prime sur le confort visuel : sept fiches par écran de téléphone, pas une. Le système refuse la mise en page marketing — pas d'image d'en-tête, pas de bloc de persuasion, pas de carte pleine largeur pour dire une seule chose.",
+    "keyCharacteristics": [
+      "Tricolore structurel, jamais décoratif : trois champs égaux, jamais un dégradé, jamais un lavis.",
+      "Pile de polices système : aucune police web, aucun téléchargement avant le premier rendu.",
+      "Liste dense de lignes dépliables ; la carte détaillée est le dépliage, pas la liste.",
+      "Le rouge est réservé à l'urgence et n'apparaît nulle part ailleurs.",
+      "Chaque fiche porte sa source et sa date à l'écran."
+    ],
+    "rules": [
+      { "name": "La Règle du Rouge Réservé", "body": "Le rouge ne sert qu'à l'urgence. Aucune erreur de formulaire, aucun bouton de suppression, aucun accent décoratif ne le reprend. Un utilisateur qui voit du rouge sur cet écran doit pouvoir en déduire qu'il s'agit d'un numéro à composer en cas de danger.", "section": "colors" },
+      { "name": "La Règle des Trois Champs", "body": "Le tricolore apparaît toujours en trois champs de largeur égale aux valeurs exactes du drapeau, jamais en dégradé progressif, jamais en aplat partiel, jamais réordonné. Deux emplacements seulement : le filet de 4 px en tête de l'en-tête collant, et la marque de 26 px.", "section": "colors" },
+      { "name": "La Règle de l'Encre Sombre sur le Vert Vif", "body": "Tout fond en #14B53A porte une encre à #05300f. Le blanc sur le vert du drapeau donne 2,3:1 et a déjà été livré une fois par erreur.", "section": "colors" },
+      { "name": "La Règle de l'Échelle Fermée", "body": "Sept pas fixes en rem (0.75 / 0.8438 / 0.9375 / 1 / 1.125 / 1.5 / 2), aucune taille littérale dans la feuille de style, aucun clamp(). Une version antérieure déclarait ces jetons puis laissait coexister dix-neuf tailles improvisées.", "section": "typography" },
+      { "name": "La Règle des Chiffres Alignés", "body": "Toute suite de chiffres qu'un lecteur peut être amené à comparer ou à recopier — numéros, fax, compteurs, horaires — est en tabular-nums.", "section": "typography" },
+      { "name": "La Règle des Sept Fiches", "body": "Un écran de téléphone de 812 px doit montrer au moins cinq fiches sous les filtres. La grille de cartes n'en montrait qu'une : c'est ce qui l'a fait remplacer.", "section": "layout" },
+      { "name": "La Règle de l'Ombre Unique", "body": "Une seule ombre dans tout le système. Un besoin de hiérarchie se résout par la couleur de fond ou un filet, jamais par une deuxième ombre.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do garder le bandeau d'urgence collant, rouge plein, et ses cibles à 44 px. C'est le seul élément dont la disponibilité est vitale.",
+      "Do mesurer la hauteur de l'en-tête au chargement et la publier dans --head-h : une valeur codée en dur s'est déjà désynchronisée en ajoutant une ligne dans l'en-tête.",
+      "Do poser une encre à #05300f sur tout fond en vert du drapeau.",
+      "Do passer chaque taille de police par un jeton --t-*.",
+      "Do dessiner les icônes en SVG au trait de 2 px.",
+      "Do thématiser ce que dessine le navigateur : sélection, curseur, anneaux de focus, ascenseurs, décalage de soulignement, chiffres tabulaires."
+    ],
+    "donts": [
+      "Don't utiliser le rouge ailleurs que sur l'urgence.",
+      "Don't écrire du blanc sur #14B53A ni sur #FCD116 : 2,3:1 et 1,3:1.",
+      "Don't remettre la liste en grille de cartes de taille identique : à 375 px elle ne montrait qu'une fiche sur 386.",
+      "Don't imposer un border-radius dans la règle de focus : il écrase la forme des pilules.",
+      "Don't charger une police web ni une bibliothèque avant le premier rendu. Leaflet n'est tiré qu'à l'ouverture de la carte.",
+      "Don't rendre les 386 fiches d'un coup : la liste se rend par lots de 60.",
+      "Don't substituer un glyphe Unicode à une icône.",
+      "Don't ajouter une seconde ombre au système."
+    ]
+  }
+}

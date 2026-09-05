@@ -4,7 +4,7 @@
   "repo": "",
   "contact": "",
   "count": 386,
-  "geocoded": 128
+  "geocoded": 124
  },
  "categories": {
   "urgences": {
@@ -107,9 +107,7 @@
     "date": "2026-06-13"
    },
    "acronym": "ACALAN",
-   "fax": "20290457",
-   "lat": 12.656162,
-   "lng": -8.001088
+   "fax": "20290457"
   },
   {
    "id": "amalan-academie-malienne-des-langues",
@@ -725,8 +723,8 @@
     "carte AMO",
     "remboursement"
    ],
-   "lat": 12.622936,
-   "lng": -8.030574
+   "lat": 12.623722,
+   "lng": -8.030304
   },
   {
    "id": "cemapi-centre-malien-de-promotion-de-la-propriete-industrielle",
@@ -1011,9 +1009,7 @@
     "date": "2017-07-13"
    },
    "acronym": "DNI",
-   "fax": "20296138",
-   "lat": 12.599464,
-   "lng": -7.980098
+   "fax": "20296138"
   },
   {
    "id": "dnuh-direction-nationale-de-l-urbanisme-et-de-l-habitat",
@@ -1058,9 +1054,7 @@
     "url": "https://www.malipages.com/annuaire/lien/dngm-direction-nationale-de-la-geologie-et-des-mines/",
     "date": "2017-07-13"
    },
-   "acronym": "DNGM",
-   "lat": 12.651422,
-   "lng": -7.943356
+   "acronym": "DNGM"
   },
   {
    "id": "direction-nationale-des-archives-du-mali",
@@ -1223,8 +1217,8 @@
    "acronym": "IER",
    "fax": "20223775",
    "website": "http://www.ier.ml",
-   "lat": 12.640673,
-   "lng": -7.996738
+   "lat": 12.655731,
+   "lng": -7.922065
   },
   {
    "id": "igm-institut-geographique-du-mali",
@@ -2510,9 +2504,7 @@
    },
    "acronym": "CCF",
    "fax": "20225828",
-   "website": "http://www.institutfrancaismali.org",
-   "lat": 12.637933,
-   "lng": -8.004805
+   "website": "http://www.institutfrancaismali.org"
   },
   {
    "id": "cicb-centre-international-de-conferences-de-bamako",
@@ -3158,9 +3150,7 @@
     "name": "Malipages",
     "url": "https://www.malipages.com/annuaire/lien/ecole-biya-bamako/",
     "date": "2017-07-13"
-   },
-   "lat": 12.592149,
-   "lng": -7.952562
+   }
   },
   {
    "id": "ecica-ecole-centrle-pour-l-industrie-le-commerce-et-l-administration",
@@ -3296,9 +3286,7 @@
     "url": "https://www.malipages.com/annuaire/lien/ehesp-mali-ecole-des-hauts-etudes-en-sante-publique/",
     "date": "2025-03-01"
    },
-   "acronym": "EHESP MALI",
-   "lat": 12.639354,
-   "lng": -8.030235
+   "acronym": "EHESP MALI"
   },
   {
    "id": "ecole-graine-d-eveil",
@@ -3633,8 +3621,8 @@
    },
    "acronym": "ESIAU",
    "website": "https://esiau-mali.com",
-   "lat": 12.606438,
-   "lng": -7.989199
+   "lat": 12.650942,
+   "lng": -8.014585
   },
   {
    "id": "esct-ecole-superieure-de-commerce-et-de-technologie",
@@ -3799,9 +3787,7 @@
     "date": "2019-11-17"
    },
    "acronym": "EUTG",
-   "website": "https://www.eutg-mali.com",
-   "lat": 12.579232,
-   "lng": -8.005786
+   "website": "https://www.eutg-mali.com"
   },
   {
    "id": "ecosup-alternance",
@@ -4345,9 +4331,7 @@
     "url": "https://www.malipages.com/annuaire/lien/iglam-institut-de-gestion-et-des-langues-appliquees-aux-metiers/",
     "date": "2017-07-13"
    },
-   "acronym": "IGLAM",
-   "lat": 12.580095,
-   "lng": -8.01732
+   "acronym": "IGLAM"
   },
   {
    "id": "imatec-mali-institut-de-management-et-de-technologie",
@@ -5645,8 +5629,8 @@
    },
    "fax": "20230545",
    "website": "https://www.porteduc.ml",
-   "lat": 12.645733,
-   "lng": -8.001557
+   "lat": 12.645043,
+   "lng": -8.001296
   },
   {
    "id": "ministere-de-l-elevage-et-de-la-peche",
@@ -5856,7 +5840,9 @@
     "url": "https://www.malipages.com/annuaire/lien/ministere-de-la-promotion-de-la-femme-de-lenfant-et-de-la-famille/",
     "date": "2017-07-13"
    },
-   "website": "https://mpfef.gouv.ml"
+   "website": "https://mpfef.gouv.ml",
+   "lat": 12.625648,
+   "lng": -8.034376
   },
   {
    "id": "ministere-de-la-reconciliation-de-la-paix-et-de-la-cohesion-nationale",
@@ -6279,9 +6265,7 @@
     "url": "https://www.malipages.com/annuaire/lien/amarap-agence-malienne-de-radio-protection/",
     "date": "2017-07-13"
    },
-   "acronym": "AMARAP",
-   "lat": 12.611827,
-   "lng": -7.987588
+   "acronym": "AMARAP"
   },
   {
    "id": "cabinet-radiologique-cely",
@@ -6787,7 +6771,9 @@
     "maternité",
     "accouchement",
     "vaccination"
-   ]
+   ],
+   "lat": 12.641592,
+   "lng": -8.006252
   },
   {
    "id": "csref-commune-4",
@@ -7146,8 +7132,8 @@
     "lunettes",
     "cataracte"
    ],
-   "lat": 12.651787,
-   "lng": -7.995694
+   "lat": 12.65195,
+   "lng": -7.9955
   },
   {
    "id": "clinique-aldi",
@@ -7384,7 +7370,9 @@
     "url": "https://www.malipages.com/annuaire/lien/clinique-le-lac-tele/",
     "date": "2017-07-13"
    },
-   "fax": "20292963"
+   "fax": "20292963",
+   "lat": 12.56164,
+   "lng": -7.99007
   },
   {
    "id": "clinique-les-acacias",
@@ -8428,7 +8416,9 @@
     "name": "Malipages",
     "url": "https://www.malipages.com/annuaire/lien/commissariat-de-police-5eme-arrondissement/",
     "date": "2017-07-13"
-   }
+   },
+   "lat": 12.639194,
+   "lng": -8.035612
   },
   {
    "id": "commissariat-de-police-du-6e-arrondissement",
@@ -8627,7 +8617,9 @@
     "facture",
     "compteur",
     "Isago"
-   ]
+   ],
+   "lat": 12.609076,
+   "lng": -7.95893
   },
   {
    "id": "gare-routiere-sogoniko",

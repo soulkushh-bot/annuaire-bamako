@@ -95,9 +95,14 @@ votre adresse et votre source font autorité.
 **Limites à connaître :**
 
 - Une partie des fiches Malipages date de 2017 ; la date de la fiche est affichée sur chaque carte.
-- Le géocodage n'accepte un point que s'il est dans Bamako **et** que son nom recoupe celui de la fiche.
-  Les fiches sans correspondance fiable n'ont pas de marqueur : le bouton « Itinéraire » bascule alors
-  sur une recherche par nom et adresse dans Google Maps, plutôt que d'afficher une position fausse.
+- **124 fiches sur 386 sont géolocalisées.** Un point n'est accepté que s'il est dans Bamako, que sa
+  nature concorde (un institut n'est pas un ministère), que le sigle éventuel ouvre le nom du lieu, et
+  que le nom recoupe suffisamment celui de la fiche. Les fiches sans correspondance sûre n'ont pas de
+  marqueur : le bouton « Itinéraire » bascule alors sur une recherche par nom et adresse dans Google
+  Maps, plutôt que d'afficher une position fausse. Ce choix coûte quelques marqueurs corrects, mais
+  un marqueur faux envoie quelqu'un au mauvais endroit.
+- Pour épingler un point vous-même, ajoutez `"lat"` et `"lng"` à la fiche dans `data/curated.json` :
+  ils ont priorité sur le géocodage automatique.
 - Les rattachements aux communes sont déduits du quartier ; quelques-uns peuvent être approximatifs.
 - **En urgence vitale, composez les numéros courts nationaux** plutôt qu'un standard qui peut avoir changé.
 

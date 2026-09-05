@@ -1,10 +1,7 @@
 {
  "acalan-academie-africaine-des-langues": {
-  "lat": 12.6561619,
-  "lng": -8.001088,
-  "q": "des Langues, Bamako",
-  "osm": "node/3817116268",
-  "label": "Académie MAlienne des LANgues, TAH 5, Dravéla, Dar Salam, Médina Coura, Bamako, Mali"
+  "lat": null,
+  "q": "Académie Africaine des Langues, Bamako"
  },
  "amalan-academie-malienne-des-langues": {
   "lat": 12.6561619,
@@ -46,7 +43,7 @@
  "agetic-agence-des-technologies-de-l-information-et-de-la-communication": {
   "lat": 12.6385069,
   "lng": -8.0212004,
-  "q": "Agence des Technologies de l'Information et de la Communication, Bamako",
+  "q": "Agence des Technologies de l Information et de la Communication, Bamako",
   "osm": "node/4485823489",
   "label": "Agence des Technologies de l'Information et de la Communication, Rue 360, Hamdallaye, ACI 2000, Para Djicoroni, Bamako, "
  },
@@ -72,14 +69,14 @@
  "anpe-agence-nationale-pour-l-emploi": {
   "lat": 12.6373719,
   "lng": -8.0024293,
-  "q": "Agence Nationale pour l'Emploi, Bamako",
+  "q": "Agence Nationale pour l Emploi, Bamako",
   "osm": "node/4426729675",
   "label": "Direction Générale de l'Agence Nationale pour l'Emploi, Avenue Moussa Traoré, Bolibana, Dar Salam, Médina Coura, Bamako,"
  },
  "apej-agence-pour-la-promotion-de-l-emploi-des-jeunes": {
   "lat": 12.6384281,
   "lng": -8.0326913,
-  "q": "Agence pour la Promotion de l'Emploi des Jeunes, Bamako",
+  "q": "Agence pour la Promotion de l Emploi des Jeunes, Bamako",
   "osm": "node/3468115887",
   "label": "Agence pour la Promotion de l'Emploi des Jeunes (APEJ), Rue 430, Hamdallaye, ACI 2000, Lafiabougou, Bamako, Mali"
  },
@@ -127,7 +124,7 @@
  },
  "bumda-bureau-malien-du-droit-de-l-auteur": {
   "lat": null,
-  "q": "Bureau Malien du Droit de l'Auteur, Bamako"
+  "q": "Bureau Malien du Droit de l Auteur, Bamako"
  },
  "cmss-caisse-malienne-de-securite-sociale": {
   "lat": 12.6092329,
@@ -137,10 +134,10 @@
   "label": "Caisse Malienne de Sécurité Sociale, Rue 43, Faso Kanu, Sabalibougou, Bamako, Mali"
  },
  "canam": {
-  "lat": 12.6229361,
-  "lng": -8.0305737,
+  "lat": 12.623722,
+  "lng": -8.0303039,
   "q": "CANAM, Bamako",
-  "osm": "node/3463651128",
+  "osm": "node/4243443995",
   "label": "CANAM, Rue 266, ACI 2000, Para Djicoroni, Bamako, Mali"
  },
  "cemapi-centre-malien-de-promotion-de-la-propriete-industrielle": {
@@ -149,19 +146,19 @@
  },
  "cnrex-btp-centre-national-de-recherche-et-d-experimentation-pour-le-batiments-et": {
   "lat": null,
-  "q": "Centre National de Recherche et d'Expérimentation pour le Bâtiments et les Travaux Publiques, Bamako"
+  "q": "Centre National de Recherche et d Expérimentation pour le Bâtiments et les Travaux Publiques, Bamako"
  },
  "cnr-enf-centre-national-des-ressources-de-l-education-non-formelle": {
   "lat": 12.6564201,
   "lng": -8.0000935,
-  "q": "Centre National des Ressources de l'Éducation Non Formelle, Bamako",
+  "q": "Centre National des Ressources de l Éducation Non Formelle, Bamako",
   "osm": "node/3736313903",
   "label": "centre national des ressources de l'education non formelle, Avenue de la Liberté, Dravéla, Dar Salam, Médina Coura, Bama"
  },
  "ccim": {
   "lat": 12.6389906,
   "lng": -8.0330098,
-  "q": "Chambre de Commerce et d'Industrie du Mali, Bamako",
+  "q": "Chambre de Commerce et d Industrie du Mali, Bamako",
   "osm": "node/3468044304",
   "label": "Chambre de Commerce et d'Industrie du Mali (Institut Consulaire et de Formation), Rue 395, Hamdallaye, ACI 2000, Lafiabo"
  },
@@ -200,28 +197,22 @@
  },
  "dnh-direction-nationale-de-l-hydraulique": {
   "lat": null,
-  "q": "Direction Nationale de l'Hydraulique, Bamako"
+  "q": "Direction Nationale de l Hydraulique, Bamako"
  },
  "dni-direction-nationale-de-l-industrie": {
-  "lat": 12.5994635,
-  "lng": -7.9800975,
-  "q": "DNI, Bamako",
-  "osm": "node/9487013265",
-  "label": "Sougou dni, Commune V, Bamako, Mali"
+  "lat": null,
+  "q": "Direction Nationale de l Industrie, Bamako"
  },
  "dnuh-direction-nationale-de-l-urbanisme-et-de-l-habitat": {
   "lat": 12.6503697,
   "lng": -8.0021685,
-  "q": "Direction Nationale de l'Urbanisme et de l'Habitat, Bamako",
+  "q": "Direction Nationale de l Urbanisme et de l Habitat, Bamako",
   "osm": "node/9302352387",
   "label": "Direction Nationale de l'Urbanisme et de l'Habitat, Rue Dioungamadi Sissoko, Ouolofobougou, Dravéla, Dar Salam, Médina C"
  },
  "dngm-direction-nationale-de-la-geologie-et-des-mines": {
-  "lat": 12.6514224,
-  "lng": -7.9433555,
-  "q": "DNGM, Bamako",
-  "osm": "node/8878407017",
-  "label": "Site mobile DNGM, Rue Pasteur, Cité de la solidarité à Sotuba, Bakaribougou, Bamako, Mali"
+  "lat": null,
+  "q": "Direction Nationale de la Géologie et des Mines, Bamako"
  },
  "direction-nationale-des-archives-du-mali": {
   "lat": null,
@@ -233,7 +224,7 @@
  },
  "drh-direction-regionale-de-l-hydraulique-du-district-de-bamako": {
   "lat": null,
-  "q": "Direction Régionale de l'Hydraulique du District de Bamako, Bamako"
+  "q": "Direction Régionale de l Hydraulique du District de Bamako, Bamako"
  },
  "fafpa-fonds-d-appui-a-la-formation-professionnelle-et-a-l-apprentissage": {
   "lat": 12.6312059,
@@ -250,11 +241,11 @@
   "label": "INPS, Avenue Ruault, Bolibana, Dar Salam, Médina Coura, Bamako, Mali"
  },
  "ier-institut-d-economie-rurale-du-mali": {
-  "lat": 12.6406732,
-  "lng": -7.9967383,
+  "lat": 12.6557306,
+  "lng": -7.9220647,
   "q": "IER, Bamako",
-  "osm": "node/7181925887",
-  "label": "IER DIRECTION, Rue 335, Bozola, Bagadadji, Médina Coura, Bamako, Mali"
+  "osm": "node/4910255122",
+  "label": "Institut d'Economie rural (IER) de Sotuba, Route de Sotuba, Cité de la solidarité à Sotuba, Bamako, Mali"
  },
  "igm-institut-geographique-du-mali": {
   "lat": 12.6101659,
@@ -273,12 +264,12 @@
  },
  "onef-observatoire-national-de-l-emploi-et-de-la-formation": {
   "lat": null,
-  "q": "Observatoire National de l'Emploi et de la Formation, Bamako"
+  "q": "Observatoire National de l Emploi et de la Formation, Bamako"
  },
  "oclei-mali-office-central-de-lutte-contre-l-enrichissement-illicite": {
   "lat": 12.650765,
   "lng": -8.0013031,
-  "q": "Office Central de Lutte Contre l'Enrichissement Illicite, Bamako",
+  "q": "Office Central de Lutte Contre l Enrichissement Illicite, Bamako",
   "osm": "node/9447725245",
   "label": "Office Central de lutte contre l'enrichissement illicite, Avenue de la Liberté, Dravéla, Dar Salam, Médina Coura, Bamako"
  },
@@ -306,46 +297,46 @@
  },
  "sonarem-societe-nationale-de-recherches-et-d-exploitation-des-ressources-miniere": {
   "lat": null,
-  "q": "Société Nationale de Recherches et d'Exploitation des Ressources Minières du Mali, Bamako"
+  "q": "Société Nationale de Recherches et d Exploitation des Ressources Minières du Mali, Bamako"
  },
  "ambassade-d-afrique-du-sud-au-mali": {
   "lat": null,
-  "q": "Ambassade d'Afrique du Sud au Mali, Bamako"
+  "q": "Ambassade d Afrique du Sud au Mali, Bamako"
  },
  "ambassade-d-algerie-au-mali": {
   "lat": null,
-  "q": "Ambassade d'Algérie au Mali, Bamako"
+  "q": "Ambassade d Algérie au Mali, Bamako"
  },
  "ambassade-d-allemagne": {
   "lat": 12.6249771,
   "lng": -7.9882471,
-  "q": "Ambassade d'Allemagne, Bamako",
+  "q": "Ambassade d Allemagne, Bamako",
   "osm": "node/534853707",
   "label": "Ambassade d'Allemagne, Avenue de l'O.U.A., Badalabougou Est, Sabalibougou, Bamako, Mali"
  },
  "ambassade-d-arabie-saoudite-au-mali": {
   "lat": null,
-  "q": "Ambassade d'Arabie Saoudite au Mali, Bamako"
+  "q": "Ambassade d Arabie Saoudite au Mali, Bamako"
  },
  "ambassade-d-autriche": {
   "lat": null,
-  "q": "Ambassade d'Autriche, Bamako"
+  "q": "Ambassade d Autriche, Bamako"
  },
  "ambassade-d-egypte-au-mali": {
   "lat": null,
-  "q": "Ambassade d'Égypte au Mali, Bamako"
+  "q": "Ambassade d Égypte au Mali, Bamako"
  },
  "ambassade-d-espagne-au-mali": {
   "lat": null,
-  "q": "Ambassade d'Espagne au Mali, Bamako"
+  "q": "Ambassade d Espagne au Mali, Bamako"
  },
  "ambassade-d-inde-au-mali": {
   "lat": null,
-  "q": "Ambassade d'Inde au Mali, Bamako"
+  "q": "Ambassade d Inde au Mali, Bamako"
  },
  "ambassade-d-iran-au-mali": {
   "lat": null,
-  "q": "Ambassade d'Iran au Mali, Bamako"
+  "q": "Ambassade d Iran au Mali, Bamako"
  },
  "ambassade-de-belgique-au-mali": {
   "lat": null,
@@ -357,7 +348,7 @@
  },
  "ambassade-de-cote-d-ivoire-au-mali": {
   "lat": null,
-  "q": "Ambassade de Cote d'Ivoire au Mali, Bamako"
+  "q": "Ambassade de Cote d Ivoire au Mali, Bamako"
  },
  "ambassade-de-cuba-au-mali": {
   "lat": null,
@@ -373,7 +364,7 @@
  },
  "ambassade-de-l-etat-de-palestine": {
   "lat": null,
-  "q": "Ambassade de l'État de Palestine, Bamako"
+  "q": "Ambassade de l État de Palestine, Bamako"
  },
  "ambassade-de-libye": {
   "lat": 12.6314273,
@@ -401,7 +392,7 @@
  "ambassade-des-etats-unis-d-amerique-us-embassy": {
   "lat": 12.6297307,
   "lng": -8.0190063,
-  "q": "Ambassade des États Unis d'Amerique, Bamako",
+  "q": "Ambassade des États Unis d Amerique, Bamako",
   "osm": "way/422192273",
   "label": "Ambassade des États-Unis, 297, Rue 243, ACI 2000, Para Djicoroni, Bamako, Mali"
  },
@@ -477,11 +468,11 @@
  },
  "consulat-honoraire-de-l-italie-a-bamako": {
   "lat": null,
-  "q": "Consulat Honoraire de l'Italie a Bamako, Bamako"
+  "q": "Consulat Honoraire de l Italie a Bamako, Bamako"
  },
  "delegation-de-l-union-europeenne-au-mali": {
   "lat": null,
-  "q": "Délégation de l'Union Europeenne au Mali, Bamako"
+  "q": "Délégation de l Union Europeenne au Mali, Bamako"
  },
  "mairie-commune-i": {
   "lat": 12.6699634,
@@ -540,11 +531,8 @@
   "label": "La Bibliothèque Nationale du Mali, Rue 360, Hamdallaye, ACI 2000, Para Djicoroni, Bamako, Mali"
  },
  "ccf-centre-culturel-francais-institut-francais-du-mali": {
-  "lat": 12.637933,
-  "lng": -8.0048051,
-  "q": "CCF, Bamako",
-  "osm": "node/701760321",
-  "label": "Patio du CCF, Boulevard de l'Indépendance, Bolibana, Dar Salam, Médina Coura, Bamako, Mali"
+  "lat": null,
+  "q": "Centre Culturel Français / Institut Français du Mali, Bamako"
  },
  "cicb-centre-international-de-conferences-de-bamako": {
   "lat": 12.6305002,
@@ -681,11 +669,8 @@
   "q": "École Alphonse de Lamartine, Bamako"
  },
  "ecole-biya-bamako": {
-  "lat": 12.5921485,
-  "lng": -7.952562,
-  "q": "École Biya Bamako, Bamako",
-  "osm": "node/5231198555",
-  "label": "Lycée Biya, Avenue de l'O.U.A., Faladie Sema, Kalaban Coura, Bamako, Mali"
+  "lat": null,
+  "q": "École Biya Bamako, Bamako"
  },
  "ecica-ecole-centrle-pour-l-industrie-le-commerce-et-l-administration": {
   "lat": 12.6553429,
@@ -717,15 +702,12 @@
   "q": "École de Santé le Djenne, Bamako"
  },
  "ehesp-mali-ecole-des-hauts-etudes-en-sante-publique": {
-  "lat": 12.639354,
-  "lng": -8.0302354,
-  "q": "EHESP MALI, Bamako",
-  "osm": "node/3463716031",
-  "label": "École des hautes études en santé publiques, Rue 432, Hamdallaye, ACI 2000, Lafiabougou, Bamako, Mali"
+  "lat": null,
+  "q": "École des Hauts Études en Santé Publique, Bamako"
  },
  "ecole-graine-d-eveil": {
   "lat": null,
-  "q": "École Graine d'Eveil, Bamako"
+  "q": "École Graine d Eveil, Bamako"
  },
  "eig-ecole-internationale-de-graphisme-du-mali": {
   "lat": null,
@@ -758,11 +740,11 @@
   "lng": -8.0008375,
   "q": "ENA, Bamako",
   "osm": "way/243317839",
-  "label": "ENA, TAH 5, Dravéla, Dar Salam, Médina Coura, Bamako, Mali"
+  "label": "ENA, TAH 5, Dar Salam, Médina Coura, Bamako, Mali"
  },
  "eni-abt": {
   "lat": null,
-  "q": "École Nationale d'Ingénieurs Abderhamane Baba Touré, Bamako"
+  "q": "École Nationale d Ingénieurs Abderhamane Baba Touré, Bamako"
  },
  "ensup-bamako": {
   "lat": 12.6316207,
@@ -773,7 +755,7 @@
  },
  "erpie-ecole-rationnelle-privee-d-informatique-et-d-electronique": {
   "lat": null,
-  "q": "École Rationnelle Privée d'Informatique et d'Électronique, Bamako"
+  "q": "École Rationnelle Privée d Informatique et d Électronique, Bamako"
  },
  "esgic-ecole-secondaire-et-superieure-de-gestion-d-informatique-et-de-comptabilit": {
   "lat": 12.6058134,
@@ -791,14 +773,14 @@
  },
  "sup-management-ecole-superieur-de-management-du-commerce-et-de-l-information": {
   "lat": null,
-  "q": "École Supérieur de Management du Commerce et de l'Information, Bamako"
+  "q": "École Supérieur de Management du Commerce et de l Information, Bamako"
  },
  "esiau-ecole-superieure-d-ingenierie-d-archtecture-et-d-urbanisme": {
-  "lat": 12.6064383,
-  "lng": -7.9891991,
+  "lat": 12.6509424,
+  "lng": -8.0145854,
   "q": "ESIAU, Bamako",
-  "osm": "way/866334977",
-  "label": "projet ESIAU& ENI, Quartier Mali, Daoudabougou, Sabalibougou, Bamako, Mali"
+  "osm": "node/6247471917",
+  "label": "ESIAU-MALI, Rue 437, Ouolofobougou, Bandialan I, Dar Salam, Médina Coura, Bamako, Mali"
  },
  "esct-ecole-superieure-de-commerce-et-de-technologie": {
   "lat": 12.6059264,
@@ -834,11 +816,8 @@
   "q": "École Supérieure Privée de Géologie et de Mines, Bamako"
  },
  "eutg-ecole-universitaire-de-technologie-et-de-gestion": {
-  "lat": 12.5792324,
-  "lng": -8.0057856,
-  "q": "EUTG, Bamako",
-  "osm": "way/798383669",
-  "label": "Université EUTG, Baco Djicoroni Golf Wamy, Baco Djicoroni Golf, Baco-Djicoroni, Sabalibougou, Bamako, Mali"
+  "lat": null,
+  "q": "École Universitaire de Technologie et de Gestion, Bamako"
  },
  "ecosup-alternance": {
   "lat": null,
@@ -930,7 +909,7 @@
  },
  "iama-institut-africain-des-metiers-de-l-aerien": {
   "lat": null,
-  "q": "Institut Africain des Métiers de l'Aerien, Bamako"
+  "q": "Institut Africain des Métiers de l Aerien, Bamako"
  },
  "icla-institut-canadien-de-langues-en-afrique": {
   "lat": 12.6389492,
@@ -952,11 +931,8 @@
   "q": "Institut de Gestion et de Comptabilité, Bamako"
  },
  "iglam-institut-de-gestion-et-des-langues-appliquees-aux-metiers": {
-  "lat": 12.580095,
-  "lng": -8.0173199,
-  "q": "IGLAM, Bamako",
-  "osm": "node/5304895826",
-  "label": "Université Iglam, Rue 802, Baco Djicoroni Golf, Baco-Djicoroni, Sabalibougou, Bamako, Mali"
+  "lat": null,
+  "q": "Institut de Gestion et des Langues Appliquées aux Métiers, Bamako"
  },
  "imatec-mali-institut-de-management-et-de-technologie": {
   "lat": null,
@@ -986,7 +962,7 @@
  },
  "institut-national-d-ingenierie-de-formation-professionnelle-iniforp": {
   "lat": null,
-  "q": "Institut National d'Ingénierie de Formation Professionnelle, Bamako"
+  "q": "Institut National d Ingénierie de Formation Professionnelle, Bamako"
  },
  "institut-national-de-formation-professionnelle-pour-batiment-les-transports-et-l": {
   "lat": null,
@@ -1109,7 +1085,7 @@
  },
  "pit-chounnes": {
   "lat": null,
-  "q": "Pit'chounnes, Bamako"
+  "q": "Pit chounnes, Bamako"
  },
  "esc-mali-school-of-management": {
   "lat": null,
@@ -1153,7 +1129,7 @@
  },
  "uie-mali-universite-internationale-privee-d-excellence": {
   "lat": null,
-  "q": "Université Internationale Privée d'Excellence, Bamako"
+  "q": "Université Internationale Privée d Excellence, Bamako"
  },
  "universite-koro": {
   "lat": null,
@@ -1219,53 +1195,53 @@
  },
  "ministere-de-l-administration-territoriale-et-de-la-decentralisation": {
   "lat": null,
-  "q": "Ministère de l'Administration Territoriale et de la Décentralisation, Bamako"
+  "q": "Ministère de l Administration Territoriale et de la Décentralisation, Bamako"
  },
  "ministere-de-l-artisanat-de-la-culture-de-l-industrie-hoteliere-et-du-tourisme": {
   "lat": null,
-  "q": "Ministère de l'Artisanat, de la Culture, de l'Industrie Hôtelière et du Tourisme, Bamako"
+  "q": "Ministère de l Artisanat, de la Culture, de l Industrie Hôtelière et du Tourisme, Bamako"
  },
  "ministere-de-l-economie-et-des-finances": {
   "lat": 12.6352353,
   "lng": -8.0030403,
-  "q": "Ministère de l'Économie et des Finances, Bamako",
+  "q": "Ministère de l Économie et des Finances, Bamako",
   "osm": "node/4281286794",
   "label": "ministère de l'économie et des finances, Boulevard du 22 Octobre, Bolibana, Dar Salam, Médina Coura, Bamako, Mali"
  },
  "ministere-de-l-education-nationale": {
-  "lat": 12.6457333,
-  "lng": -8.0015573,
-  "q": "Ministère de l'Éducation Nationale, Bamako",
-  "osm": "node/4281287393",
-  "label": "Ministère de l'éducation nationale, Avenue Mamadou Konaté, Bamako Coura, Dar Salam, Médina Coura, Bamako, Mali"
+  "lat": 12.6450429,
+  "lng": -8.0012962,
+  "q": "Ministère de l Éducation Nationale, Bamako",
+  "osm": "node/7770228385",
+  "label": "MINISTÈRE DE L'ÉDUCATION NATIONALE, RN7, Dravéla, Dar Salam, Médina Coura, Bamako, Mali"
  },
  "ministere-de-l-elevage-et-de-la-peche": {
   "lat": 12.6544494,
   "lng": -8.0012673,
-  "q": "Ministère de l'Élevage et de la Pêche, Bamako",
+  "q": "Ministère de l Élevage et de la Pêche, Bamako",
   "osm": "way/346585712",
   "label": "PAIMEP (Projet d'Appui Onstitutionnel au Ministere de l'Elevage et de la Pêche, Avenue de la Liberté, Dravéla, Dar Salam"
  },
  "ministere-de-l-energie-et-de-l-hydraulique": {
   "lat": null,
-  "q": "Ministère de l'Énergie et de l'Hydraulique, Bamako"
+  "q": "Ministère de l Énergie et de l Hydraulique, Bamako"
  },
  "ministere-de-l-entreprenariat-national-de-l-emploi-et-de-la-formation-profession": {
   "lat": null,
-  "q": "Ministère de l'Entreprenariat National, de l'Emploi et de la Formation Professionnelle, Bamako"
+  "q": "Ministère de l Entreprenariat National, de l Emploi et de la Formation Professionnelle, Bamako"
  },
  "ministere-de-l-environnement-de-l-assainissement-et-du-developpement-durable": {
   "lat": null,
-  "q": "Ministère de l'Environnement, de l'Assainissement et du Développement Durable, Bamako"
+  "q": "Ministère de l Environnement, de l Assainissement et du Développement Durable, Bamako"
  },
  "ministere-de-l-urbanisme-et-de-la-politique-de-la-ville": {
   "lat": null,
-  "q": "Ministère de l'Urbanisme et de la Politique de la Ville, Bamako"
+  "q": "Ministère de l Urbanisme et de la Politique de la Ville, Bamako"
  },
  "ministere-de-la-communication-et-de-l-economie-numerique": {
   "lat": 12.6284261,
   "lng": -8.0098525,
-  "q": "Ministère de la Communication et de l'Économie Numérique, Bamako",
+  "q": "Ministère de la Communication et de l Économie Numérique, Bamako",
   "osm": "node/5735236981",
   "label": "Ministère De L'Economie Numerique et de La Communication, RN6, Centre Ville, Torokorobougou, Para Djicoroni, Bamako, Mal"
  },
@@ -1285,8 +1261,11 @@
   "label": "Ministère de la Justice, Rue 303, Centre Ville, Niaréla, Médina Coura, Bamako, Mali"
  },
  "ministere-de-la-promotion-de-la-femme-de-l-enfant-et-de-la-famille": {
-  "lat": null,
-  "q": "Ministère de la Promotion de la Femme, de l'Enfant et de la Famille, Bamako"
+  "lat": 12.6256483,
+  "lng": -8.034376,
+  "q": "la Famille, Bamako",
+  "osm": "way/93194474",
+  "label": "Ministere dela promotion de la femme, de l'enfant, et de la famille (DAF), Rue 350, ACI 2000, Para Djicoroni, Bamako, Ma"
  },
  "ministere-de-la-reconciliation-de-la-paix-et-de-la-cohesion-nationale": {
   "lat": null,
@@ -1294,7 +1273,7 @@
  },
  "ministere-de-la-refondation-de-l-etat": {
   "lat": null,
-  "q": "Ministère de la Refondation de l'État, Bamako"
+  "q": "Ministère de la Refondation de l État, Bamako"
  },
  "ministere-de-la-sante-et-du-developpement-social": {
   "lat": null,
@@ -1317,7 +1296,7 @@
  "ministere-des-maliens-de-l-exterieur-et-de-l-integration-africaine": {
   "lat": 12.6288014,
   "lng": -8.0102233,
-  "q": "Ministère des Maliens de l'Extérieur et de l'Intégration Africaine, Bamako",
+  "q": "Ministère des Maliens de l Extérieur et de l Intégration Africaine, Bamako",
   "osm": "node/5735236988",
   "label": "Ministère Des Maliens de l'Exterieur et de l'Integration Africaine, RN6, Centre Ville, Torokorobougou, Para Djicoroni, B"
  },
@@ -1352,7 +1331,7 @@
  },
  "cecam-centre-de-reconciliation-et-d-arbitrage-du-mali": {
   "lat": null,
-  "q": "Centre de Réconciliation et d'Arbitrage du Mali, Bamako"
+  "q": "Centre de Réconciliation et d Arbitrage du Mali, Bamako"
  },
  "cour-supreme": {
   "lat": 12.5887324,
@@ -1378,15 +1357,16 @@
   "q": "Agence Malienne de Presse et de Publicité, Bamako"
  },
  "amarap-agence-malienne-de-radio-protection": {
-  "lat": 12.6118266,
-  "lng": -7.9875883,
-  "q": "AMARAP, Bamako",
-  "osm": "node/7737185885",
-  "label": "GPON AMARAP, RN6, Quartier Mali, Badalabougou, Sabalibougou, Bamako, Mali"
+  "lat": null,
+  "q": "Agence Malienne de Radio Protection, Bamako"
+ },
+ "cabinet-radiologique-cely": {
+  "lat": null,
+  "q": "Cabinet Radiologique Cely, Bamako"
  },
  "journal-l-essor": {
   "lat": null,
-  "q": "Journal l'Essor, Bamako"
+  "q": "Journal l Essor, Bamako"
  },
  "maison-de-la-presse-du-mali": {
   "lat": null,
@@ -1413,13 +1393,13 @@
  "anam-agence-nationale-d-assistance-medicale": {
   "lat": 12.6180469,
   "lng": -8.0406696,
-  "q": "Agence Nationale d'Assistance Médicale, Bamako",
+  "q": "Agence Nationale d Assistance Médicale, Bamako",
   "osm": "node/3463666874",
   "label": "Agence nationale d'assistance medicale, Rue 360, Lafiabougou Bougoudani, ACI 2000, Para Djicoroni, Bamako, Mali"
  },
  "agence-nationale-de-telesante-et-d-informatique-medicale-antim": {
   "lat": null,
-  "q": "Agence Nationale de Télésanté et d'Informatique Médicale, Bamako"
+  "q": "Agence Nationale de Télésanté et d Informatique Médicale, Bamako"
  },
  "biolab3": {
   "lat": null,
@@ -1445,6 +1425,26 @@
   "lat": null,
   "q": "Cabinet Dentaire Orodent, Bamako"
  },
+ "cabinet-medical-d-ophtalmologie-vision-sante": {
+  "lat": null,
+  "q": "Cabinet Médical d Ophtalmologie Vision Santé, Bamako"
+ },
+ "cabinet-medical-delta": {
+  "lat": null,
+  "q": "Cabinet Médical Delta, Bamako"
+ },
+ "cabinet-medical-du-centre": {
+  "lat": null,
+  "q": "Cabinet Médical du Centre, Bamako"
+ },
+ "cabinet-medical-kadia-maiga": {
+  "lat": null,
+  "q": "Cabinet Médical Kadia Maiga, Bamako"
+ },
+ "cabinet-medical-mayi": {
+  "lat": null,
+  "q": "Cabinet Médical Mayi, Bamako"
+ },
  "ccentre-de-biologie-de-bamako-biogene": {
   "lat": null,
   "q": "Ccentre de Biologie de Bamako, Bamako"
@@ -1453,6 +1453,20 @@
   "lat": null,
   "q": "Centre de Santé de Référence de la Commune I, Bamako"
  },
+ "csref-commune-2": {
+  "lat": 12.6462437,
+  "lng": -7.9749708,
+  "q": "Centre de Santé de Référence de la Commune II, Bamako",
+  "osm": "node/7726934413",
+  "label": "Centre de Santé de Référence de la Commune II, Rue 781, San Fil, Quinzambougou, Bakaribougou, Bamako, Mali"
+ },
+ "csref-commune-3": {
+  "lat": 12.641592,
+  "lng": -8.0062518,
+  "q": "Commune III, Bamako",
+  "osm": "node/1845456785",
+  "label": "Centre de Santé de Référence (CSREf) de la commune III, Boulevard de l'Indépendance, Bolibana, Dar Salam, Médina Coura, "
+ },
  "csref-commune-4": {
   "lat": null,
   "q": "Centre de Santé de Référence de la Commune IV, Bamako"
@@ -1460,6 +1474,10 @@
  "csref-commune-5": {
   "lat": null,
   "q": "Centre de Santé de Référence de la Commune V, Bamako"
+ },
+ "csref-commune-6": {
+  "lat": null,
+  "q": "Centre de Santé de Référence de la Commune VI, Bamako"
  },
  "chme-luxembourg": {
   "lat": null,
@@ -1506,11 +1524,15 @@
   "label": "CHU CNOS, Rue Poincaré, Bolibana, Dar Salam, Médina Coura, Bamako, Mali"
  },
  "chu-iota": {
-  "lat": 12.6517869,
-  "lng": -7.9956943,
-  "q": "IOTA, Bamako",
-  "osm": "way/90247788",
-  "label": "IOTA, Rue 12, Médina-coura, Médina Coura, Bamako, Mali"
+  "lat": 12.65195,
+  "lng": -7.9955,
+  "q": "Hôpital IOTA, Bamako",
+  "osm": "node/13208556745",
+  "label": "IOTA de Bamako, Rue 12, Médina-coura, Médina Coura, Bamako, Mali"
+ },
+ "clinique-aldi": {
+  "lat": null,
+  "q": "Clinique Aldi, Bamako"
  },
  "clinique-almed": {
   "lat": 12.6506214,
@@ -1529,7 +1551,7 @@
  },
  "clinique-d-accouchement-danaya": {
   "lat": null,
-  "q": "Clinique d'Accouchement Danaya, Bamako"
+  "q": "Clinique d Accouchement Danaya, Bamako"
  },
  "clinique-defi-sante": {
   "lat": null,
@@ -1555,8 +1577,11 @@
   "label": "Clinique Kabala, Rue 213, Hamdallaye, ACI 2000, Lafiabougou, Bamako, Mali"
  },
  "clinique-le-lac-tele": {
-  "lat": null,
-  "q": "Clinique le Lac Tele, Bamako"
+  "lat": 12.56164,
+  "lng": -7.99007,
+  "q": "Lac Tele, Bamako",
+  "osm": "node/3079731103",
+  "label": "LAC TELE [2ème C], ACI Goudron, Kalaban Coura extention SUD, Kalaban Coura, Bamako, Mali"
  },
  "clinique-les-acacias": {
   "lat": null,
@@ -1589,6 +1614,10 @@
   "lat": null,
   "q": "Clinique Perinatale Mohammed VI, Bamako"
  },
+ "clinique-veterinaire-30-millions-d-amis": {
+  "lat": null,
+  "q": "Clinique Vétérinaire 30 Millions d Amis, Bamako"
+ },
  "golden-life-american-hospital": {
   "lat": null,
   "q": "Golden Life American Hospital, Bamako"
@@ -1618,6 +1647,10 @@
   "osm": "way/421885626",
   "label": "Hôpital Mali Gavardo, Bamako - Kangaba Regional Road, Kalabanbougou, Sébénikoro, Bamako, Mali"
  },
+ "hopital-veterinaire-de-bamako": {
+  "lat": null,
+  "q": "Hôpital Vétérinaire de Bamako, Bamako"
+ },
  "insp-institut-national-de-sante-publique": {
   "lat": 12.6574936,
   "lng": -7.9711104,
@@ -1644,17 +1677,24 @@
   "lat": null,
   "q": "Laboratoire Bohiro, Bamako"
  },
+ "lcv-laboratoire-central-veterinaire": {
+  "lat": 12.6692594,
+  "lng": -7.915971,
+  "q": "Laboratoire Central Vétérinaire, Bamako",
+  "osm": "node/7727098301",
+  "label": "LABORATOIRE CENTRAL VÉTÉRINAIRE, Route de Koulikoro, Boulkassoumbougou Kouloubleni, Bamako, Mali"
+ },
  "laboratoire-d-analyses-le-diafounou": {
   "lat": null,
-  "q": "Laboratoire d'Analyses le Diafounou, Bamako"
+  "q": "Laboratoire d Analyses le Diafounou, Bamako"
  },
  "laboratoire-d-analyses-medicales-de-la-rive-droite": {
   "lat": null,
-  "q": "Laboratoire d'Analyses Médicales de la Rive Droite, Bamako"
+  "q": "Laboratoire d Analyses Médicales de la Rive Droite, Bamako"
  },
  "laboratoire-d-analyses-medicales-kabala": {
   "lat": null,
-  "q": "Laboratoire d'Analyses Médicales Kabala, Bamako"
+  "q": "Laboratoire d Analyses Médicales Kabala, Bamako"
  },
  "laboratoire-de-biologie-medicale-cellal-sa": {
   "lat": null,
@@ -1768,8 +1808,11 @@
   "q": "Commissariat de police du 4e arrondissement, Bamako"
  },
  "commissariat-de-police-du-5e-arrondissement": {
-  "lat": null,
-  "q": "Commissariat de police du 5e arrondissement, Bamako"
+  "lat": 12.6391939,
+  "lng": -8.0356124,
+  "q": "5e arrondissement, Bamako",
+  "osm": "node/4507417089",
+  "label": "Commissariat de police du 5ème arrondissement, Avenue Cheik Zayed, Hamdallaye, ACI 2000, Lafiabougou, Bamako, Mali"
  },
  "commissariat-de-police-du-6e-arrondissement": {
   "lat": null,
@@ -1797,7 +1840,7 @@
  "anac-agence-nationale-de-l-aviation-civile": {
   "lat": 12.5538558,
   "lng": -7.9620942,
-  "q": "Agence Nationale de l'Aviation Civile, Bamako",
+  "q": "Agence Nationale de l Aviation Civile, Bamako",
   "osm": "node/4383885590",
   "label": "Agence Nationale de l'Aviation Civile (ANAC), Aéroport/Garantiguibougou, Kalaban Coura Aci, Kalaban Diallobougou, Kalaba"
  },
@@ -1806,8 +1849,11 @@
   "q": "Agence Nationale de la Météorologie, Bamako"
  },
  "edm-sa": {
-  "lat": null,
-  "q": "siège non identifiable dans OSM (le résultat pointait une agence)"
+  "lat": 12.6090762,
+  "lng": -7.9589297,
+  "q": "EDM, Bamako",
+  "osm": "node/5516880880",
+  "label": "EDM, Goudron de Magnambougou, Niamakoro Cité UNICEF, Sogoniko, Kalaban Coura, Bamako, Mali"
  },
  "gare-routiere-sogoniko": {
   "lat": 12.6004451,
@@ -1868,63 +1914,5 @@
  "urgences-protection-civile": {
   "lat": null,
   "q": null
- },
- "cabinet-radiologique-cely": {
-  "lat": null,
-  "q": "Cabinet Radiologique Cely, Bamako"
- },
- "cabinet-medical-d-ophtalmologie-vision-sante": {
-  "lat": null,
-  "q": "Cabinet Médical d'Ophtalmologie Vision Santé, Bamako"
- },
- "cabinet-medical-delta": {
-  "lat": null,
-  "q": "Cabinet Médical Delta, Bamako"
- },
- "cabinet-medical-du-centre": {
-  "lat": null,
-  "q": "Cabinet Médical du Centre, Bamako"
- },
- "cabinet-medical-kadia-maiga": {
-  "lat": null,
-  "q": "Cabinet Médical Kadia Maiga, Bamako"
- },
- "cabinet-medical-mayi": {
-  "lat": null,
-  "q": "Cabinet Médical Mayi, Bamako"
- },
- "csref-commune-2": {
-  "lat": 12.6462437,
-  "lng": -7.9749708,
-  "q": "Centre de Santé de Référence de la Commune II, Bamako",
-  "osm": "node/7726934413",
-  "label": "Centre de Santé de Référence de la Commune II, Rue 781, San Fil, Quinzambougou, Bakaribougou, Bamako, Mali"
- },
- "csref-commune-3": {
-  "lat": null,
-  "q": "Centre de Santé de Référence de la Commune III, Bamako"
- },
- "csref-commune-6": {
-  "lat": null,
-  "q": "Centre de Santé de Référence de la Commune VI, Bamako"
- },
- "clinique-aldi": {
-  "lat": null,
-  "q": "Clinique Aldi, Bamako"
- },
- "clinique-veterinaire-30-millions-d-amis": {
-  "lat": null,
-  "q": "Clinique Vétérinaire 30 Millions d'Amis, Bamako"
- },
- "hopital-veterinaire-de-bamako": {
-  "lat": null,
-  "q": "Hôpital Vétérinaire de Bamako, Bamako"
- },
- "lcv-laboratoire-central-veterinaire": {
-  "lat": 12.6692594,
-  "lng": -7.915971,
-  "q": "Laboratoire Central Vétérinaire, Bamako",
-  "osm": "node/7727098301",
-  "label": "LABORATOIRE CENTRAL VÉTÉRINAIRE, Route de Koulikoro, Boulkassoumbougou Kouloubleni, Bamako, Mali"
  }
 }

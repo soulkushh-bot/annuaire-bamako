@@ -175,9 +175,40 @@
     return node;
   }
 
+  const LOT = 60;               // premier écran rendu tout de suite, la suite à l'approche
+  let reste = [], sentinelle = null;
+
+  function rendreLot() {
+    if (!reste.length) { if (sentinelle) sentinelle.remove(); return; }
+    const lot = reste.splice(0, LOT);
+    const frag = document.createDocumentFragment();
+    lot.forEach((e) => frag.appendChild(renderCard(e)));
+    els.grid.insertBefore(frag, sentinelle);
+    if (!reste.length && sentinelle) { sentinelle.remove(); sentinelle = null; }
+  }
+
+  const observateur = ('IntersectionObserver' in window)
+    ? new IntersectionObserver((ents) => { if (ents.some((x) => x.isIntersecting)) rendreLot(); }, { rootMargin: '600px' })
+    : null;
+
   function render() {
     const list = filtered();
-    els.grid.replaceChildren(...list.map(renderCard));
+    // Rendre les 386 fiches à chaque frappe reconstruisait ~9000 nœuds : intenable
+    // sur les téléphones que vise cette application.
+    reste = list.slice(LOT);
+    const premiers = list.slice(0, LOT).map(renderCard);
+    if (observateur) observateur.disconnect();
+    sentinelle = null;
+    if (reste.length) {
+      sentinelle = document.createElement('div');
+      sentinelle.className = 'sentinelle';
+      sentinelle.setAttribute('aria-hidden', 'true');
+      els.grid.replaceChildren(...premiers, sentinelle);
+      if (observateur) observateur.observe(sentinelle);
+      else rendreLot();
+    } else {
+      els.grid.replaceChildren(...premiers);
+    }
     els.empty.hidden = list.length > 0;
     const n = list.length;
     els.count.textContent = n === DATA.entries.length ? `${n} structures` : `${n} résultat${n > 1 ? 's' : ''} sur ${DATA.entries.length}`;
@@ -211,18 +242,60 @@
   }
 
   function renderUrgences() {
-    els.urg.innerHTML = (DATA.urgences || []).map((u) => {
+    const list = DATA.urgences || [];
+    // Le libellé complet occupait 300 px : sur un écran de 375 px un seul numéro tenait,
+    // et les trois autres numéros vitaux sortaient de l'écran sans aucun indice.
+    const pill = (u) => {
       const info = phoneInfo(u.number);
-      return `<a class="urg" href="tel:${esc(info.tel)}" title="${esc(u.note || '')}"><b>${esc(info.display)}</b><span>${esc(u.label)}</span></a>`;
-    }).join('');
+      const titre = [u.label, u.note].filter(Boolean).join(' — ');
+      const court = u.short || u.label;
+      return `<a class="urg" href="tel:${esc(info.tel)}" title="${esc(titre)}" `
+        + `aria-label="${esc(court)} — ${esc(info.display)}">`
+        + `<b>${esc(info.display)}</b><span>${esc(court)}</span></a>`;
+    };
+    const vitaux = list.filter((u) => u.primary);
+    const autres = list.filter((u) => !u.primary);
+    els.urg.innerHTML = (vitaux.length ? vitaux : list).map(pill).join('')
+      + (autres.length
+        ? `<button class="urg urg-more" type="button" aria-expanded="false">+${autres.length} autres</button>`
+          + `<span class="urg-extra" hidden>${autres.map(pill).join('')}</span>`
+        : '');
+    const more = els.urg.querySelector('.urg-more');
+    if (more) more.addEventListener('click', () => {
+      const extra = els.urg.querySelector('.urg-extra');
+      const open = !extra.hidden;
+      extra.hidden = open;
+      more.setAttribute('aria-expanded', String(!open));
+      more.hidden = !open;
+    });
   }
 
   // --- carte -------------------------------------------------------------
+  // Leaflet n'est tiré qu'à la première ouverture de la carte : la majorité des visites
+  // cherchent un numéro et n'ouvriront jamais le plan.
+  let leafletDemande = false;
+  function chargerLeaflet() {
+    if (leafletDemande) return;
+    leafletDemande = true;
+    const css = document.createElement('link');
+    css.rel = 'stylesheet';
+    css.href = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.css';
+    css.integrity = 'sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=';
+    css.crossOrigin = '';
+    document.head.appendChild(css);
+    const js = document.createElement('script');
+    js.src = 'https://unpkg.com/leaflet@1.9.4/dist/leaflet.js';
+    js.integrity = 'sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=';
+    js.crossOrigin = '';
+    js.onload = () => { if (state.map) toggleMap(true); };
+    document.head.appendChild(js);
+  }
   function toggleMap(on) {
     state.map = on;
     els.mapPanel.hidden = !on;
     els.btnCarte.setAttribute('aria-pressed', String(on));
     if (on) {
+      chargerLeaflet();
       if (!window.L) {
         $('.map-note', els.mapPanel).textContent = 'La carte ne peut pas se charger (connexion indisponible ?).';
         writeUrl();
@@ -290,7 +363,8 @@
         ev.preventDefault();
         const card = document.getElementById(`f-${goto.dataset.goto}`);
         if (card) {
-          card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+          const doux = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+          card.scrollIntoView({ behavior: doux ? 'smooth' : 'auto', block: 'center' });
           card.classList.add('flash');
           setTimeout(() => card.classList.remove('flash'), 1800);
         }
@@ -328,8 +402,13 @@
       a.closest('.suggest-line').hidden = false;
     });
     renderUrgences(); renderChips(); renderCommunes(); bind();
+    const n = DATA.entries.length;
     const withGeo = DATA.entries.filter((e) => e.lat && e.lng).length;
-    els.stats.textContent = `${DATA.entries.length} structures, ${withGeo} géolocalisées. Base mise à jour le ${fmtDate(DATA.meta.generated)}.`;
+    const verif = DATA.entries.filter((e) => e.source?.verified).length;
+    const heures = DATA.entries.filter((e) => e.hours).length;
+    // La fiabilité est ce que cet annuaire promet : le chiffre doit être affiché, pas déduit.
+    els.stats.textContent = `${n} structures, dont ${verif} recoupées à la main et ${withGeo} géolocalisées. `
+      + `Horaires connus pour ${heures} d'entre elles seulement. Base mise à jour le ${fmtDate(DATA.meta.generated)}.`;
     if (state.map) toggleMap(true);
     render();
     if ('serviceWorker' in navigator && location.protocol === 'https:') navigator.serviceWorker.register('sw.js').catch(() => {});

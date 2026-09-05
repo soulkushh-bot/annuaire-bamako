@@ -46,40 +46,56 @@
     {
       "number": "122",
       "label": "Protection civile (pompiers, secours)",
-      "note": "Accidents, incendies, inondations, sauvetage — source : ministère de la Santé (sante.gov.ml)"
+      "note": "Accidents, incendies, inondations, sauvetage — source : ministère de la Santé (sante.gov.ml)",
+      "short": "Pompiers",
+      "primary": true
     },
     {
       "number": "101",
       "label": "Police nationale",
-      "note": "Agression, vol, menace, ordre public"
+      "note": "Agression, vol, menace, ordre public",
+      "short": "Police",
+      "primary": true
     },
     {
       "number": "111",
       "label": "Gendarmerie",
-      "note": "Zones périurbaines et rurales"
+      "note": "Zones périurbaines et rurales",
+      "short": "Gendarmerie",
+      "primary": true
     },
     {
       "number": "36061",
       "label": "Numéro vert Santé",
-      "note": "Information, orientation, alertes sanitaires"
+      "note": "Information, orientation, alertes sanitaires",
+      "short": "Santé",
+      "primary": true
     },
     {
       "number": "80001115",
       "label": "Police secours (n° vert)",
-      "note": "Aussi : 20 23 95 11"
+      "note": "Aussi : 20 23 95 11",
+      "short": "Police secours",
+      "primary": false
     },
     {
       "number": "80001201",
       "label": "Protection civile Bamako (n° vert)",
-      "note": "Standard : 20 22 80 81"
+      "note": "Standard : 20 22 80 81",
+      "short": "Protection civile",
+      "primary": false
     },
     {
       "number": "144",
-      "label": "Gestion des crises"
+      "label": "Gestion des crises",
+      "short": "Crises",
+      "primary": false
     },
     {
       "number": "145",
-      "label": "Garde nationale"
+      "label": "Garde nationale",
+      "short": "Garde nat.",
+      "primary": false
     }
   ],
   "entries": [

@@ -14,8 +14,11 @@
   --radius: 14px;
   /* Échelle fixe, pas de clamp : en UI de tâche l'utilisateur lit à DPI constant,
      et un titre qui rétrécit avec la fenêtre dessert la lecture. Pas 1,2. */
-  --t-xs: .75rem; --t-sm: .8125rem; --t-md: .9375rem; --t-base: 1rem;
-  --t-lg: 1.1875rem; --t-xl: 1.5rem; --t-2xl: 2rem;
+  --t-xs: .75rem; --t-sm: .8438rem; --t-md: .9375rem; --t-base: 1rem;
+  --t-lg: 1.125rem; --t-xl: 1.5rem; --t-2xl: 2rem;
+  --head-h: 56px;
+  /* Rouge d'urgence tenant le texte blanc dans les deux thèmes : --red vire au rose en sombre. */
+  --red-solid: #a81f27;
   --tap: 44px;                 /* cible tactile minimale */
   --ease: cubic-bezier(.2, .8, .3, 1);
   --fast: 150ms;
@@ -26,7 +29,7 @@
   :root {
     --bg: #0f1412; --surface: #171d1a; --ink: #eef2ee; --muted: #9fb0a6; --line: #263029;
     --green: #3fbf85; --green-ink: #8fe0b8; --green-soft: #12291d; --gold: #e0b44a; --gold-soft: #2c2410;
-    --red: #ff7b83; --red-soft: #33171a; --shadow: 0 1px 2px rgba(0,0,0,.4);
+    --red: #ff7b83; --red-soft: #33171a; --red-solid: #7d1a20; --shadow: 0 1px 2px rgba(0,0,0,.4);
     color-scheme: dark;
   }
 }
@@ -36,7 +39,7 @@
 :root { accent-color: var(--green); }
 :where(input, textarea) { caret-color: var(--green); }
 :where(a, button, input, select, [tabindex]):focus-visible {
-  outline: 2px solid var(--green); outline-offset: 2px; border-radius: 6px;
+  outline: 2px solid var(--green); outline-offset: 2px;
 }
 :where(a, button, input, select):focus:not(:focus-visible) { outline: none; }
 * { scrollbar-width: thin; scrollbar-color: var(--line) transparent; }
@@ -46,7 +49,8 @@
 ::-webkit-scrollbar-thumb:hover { background: var(--muted); }
 a { text-underline-offset: .18em; text-decoration-thickness: from-font; }
 /* Chiffres alignés partout où l'on compare des nombres : numéros, compteurs. */
-.tel, .urg b, .chip small, .count, .card-source, .fax { font-variant-numeric: tabular-nums; }
+.tel, .urg b, .chip small, .count, .card-source, .fax, .card-hours, #stats,
+.leaflet-popup-content { font-variant-numeric: tabular-nums; }
 
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
@@ -64,7 +68,7 @@ button { font: inherit; }
 /* En-tête */
 .top { background: var(--surface); border-bottom: 1px solid var(--line); position: sticky; top: 0; z-index: 50; }
 .top-inner { display: flex; align-items: center; justify-content: space-between; min-height: 56px; gap: 12px; }
-.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-size: 1.05rem; }
+.brand { display: inline-flex; align-items: center; gap: 10px; text-decoration: none; color: var(--ink); font-size: var(--t-lg); }
 .brand-mark { width: 26px; height: 26px; border-radius: 8px; background: linear-gradient(135deg, var(--green) 0 50%, var(--gold) 50% 100%); position: relative; }
 .brand-mark::after { content: ""; position: absolute; inset: 8px; border-radius: 50%; background: #fff; }
 .top-nav { display: flex; gap: 6px; }
@@ -74,19 +78,28 @@ button { font: inherit; }
 .btn-ghost:active { transform: translateY(1px); }
 .btn-ghost:hover { background: var(--green-soft); border-color: var(--green); }
 .btn-ghost[aria-pressed="true"] { background: var(--green); border-color: var(--green); color: #fff; }
-.btn-ghost.small { padding: 5px 10px; font-size: .85rem; }
+.btn-ghost.small { padding: 5px 10px; font-size: var(--t-sm); }
 
 /* Bandeau urgences */
-.urgences { background: var(--red-soft); border-bottom: 1px solid var(--line); }
+.urgences { background: var(--red-solid); position: sticky; top: var(--head-h); z-index: 49;
+  box-shadow: 0 1px 0 rgba(0,0,0,.18); }
 .urgences-inner { display: flex; align-items: center; gap: 10px; padding: 8px 0; overflow-x: auto; scrollbar-width: none; }
 .urgences-inner::-webkit-scrollbar { display: none; }
-.urgences-label { font-weight: 700; color: var(--red); text-transform: uppercase; font-size: .75rem; letter-spacing: .06em; flex: none; }
+.urgences-label { font-weight: 700; color: #fff; text-transform: uppercase; font-size: var(--t-xs);
+  letter-spacing: .07em; flex: none; opacity: .95; }
 .urgences-list { display: flex; gap: 8px; }
-.urg { flex: none; display: inline-flex; align-items: baseline; gap: 6px; text-decoration: none; background: var(--surface); border: 1px solid var(--line); border-radius: 999px; padding: 5px 12px; color: var(--ink); font-size: .9rem; }
-.urg b { color: var(--red); font-size: var(--t-lg); letter-spacing: .01em; }
-.urg { transition: border-color var(--fast) var(--ease), background var(--fast) var(--ease); min-height: 36px; }
-.urg:active { background: var(--red); border-color: var(--red); color: #fff; }
-.urg:active b { color: #fff; }
+.urg { flex: none; display: inline-flex; align-items: center; gap: 7px; text-decoration: none;
+  background: #fff; border: 0; border-radius: 999px; padding: 0 14px; color: #22282a;
+  font-size: var(--t-md); font-weight: 600; cursor: pointer; }
+.urg b { color: var(--red-solid); font-size: var(--t-lg); letter-spacing: .01em; }
+.urg { transition: transform var(--fast) var(--ease), box-shadow var(--fast) var(--ease);
+  min-height: var(--tap); }          /* le tap le plus vital de la page mérite la cible pleine */
+.urg:hover { box-shadow: 0 0 0 3px rgba(255,255,255,.45); }
+.urg:active { transform: translateY(1px); }
+.urg-more { font-weight: 600; background: rgba(255,255,255,.16); color: #fff; }
+.urg-more:hover { background: rgba(255,255,255,.28); box-shadow: none; }
+.urg-extra { display: contents; }
+:where(.urgences) :focus-visible { outline-color: #fff; }
 .urg:hover { border-color: var(--red); }
 
 /* Recherche */
@@ -96,10 +109,10 @@ h1 { font-size: var(--t-2xl); line-height: 1.15; margin: 0 0 10px; letter-spacin
 .search-box { position: relative; display: flex; align-items: center; background: var(--surface); border: 2px solid var(--line); border-radius: var(--radius); box-shadow: var(--shadow); }
 .search-box:focus-within { border-color: var(--green); }
 .search-icon { width: 22px; height: 22px; margin-left: 14px; stroke: var(--muted); fill: none; stroke-width: 2; stroke-linecap: round; flex: none; }
-#q { flex: 1; border: 0; background: transparent; color: var(--ink); font-size: 1.05rem; padding: 14px 12px; min-width: 0; outline: none; }
+#q { flex: 1; border: 0; background: transparent; color: var(--ink); font-size: var(--t-lg); padding: 14px 12px; min-width: 0; outline: none; }
 #q::-webkit-search-cancel-button { display: none; }
 .search-clear { display: inline-flex; align-items: center; justify-content: center; border: 0;
-  background: var(--line); color: var(--ink); width: 30px; height: 30px; border-radius: 50%;
+  background: var(--line); color: var(--ink); width: 34px; height: 34px; border-radius: 50%;
   margin-right: 10px; cursor: pointer; transition: background var(--fast) var(--ease); }
 .search-clear svg { width: 14px; height: 14px; stroke: currentColor; stroke-width: 2.2; stroke-linecap: round; }
 .search-clear:hover { background: var(--muted); color: var(--surface); }
@@ -109,21 +122,21 @@ h1 { font-size: var(--t-2xl); line-height: 1.15; margin: 0 0 10px; letter-spacin
   padding: 7px 13px; cursor: pointer; font-size: var(--t-md); display: inline-flex; gap: 6px; align-items: center;
   transition: background var(--fast) var(--ease), border-color var(--fast) var(--ease), color var(--fast) var(--ease); }
 .chip:active { transform: translateY(1px); }
-.chip small { color: var(--muted); font-size: .8rem; }
+.chip small { color: var(--muted); font-size: var(--t-sm); }
 .chip:hover { border-color: var(--green); }
 .chip[aria-pressed="true"] { background: var(--green); border-color: var(--green); color: #fff; }
 .chip[aria-pressed="true"] small { color: rgba(255,255,255,.8); }
 
 .filters-row { display: flex; gap: 12px; align-items: end; flex-wrap: wrap; margin-bottom: 8px; }
-.select { display: flex; flex-direction: column; gap: 4px; font-size: .8rem; color: var(--muted); }
-.select select { font: inherit; font-size: .95rem; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 7px 10px; min-width: 160px; }
+.select { display: flex; flex-direction: column; gap: 4px; font-size: var(--t-sm); color: var(--muted); }
+.select select { font: inherit; font-size: var(--t-md); color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 10px; padding: 7px 10px; min-width: 160px; }
 
 /* Carte */
 .map-panel { margin: 8px 0 16px; }
 #map { height: min(60vh, 460px); border-radius: var(--radius); border: 1px solid var(--line); background: var(--surface); }
-.map-note { color: var(--muted); font-size: .85rem; margin: 6px 2px 0; }
+.map-note { color: var(--muted); font-size: var(--t-sm); margin: 6px 2px 0; }
 .leaflet-container { font: inherit; }
-.leaflet-popup-content { margin: 10px 14px; font-size: .92rem; }
+.leaflet-popup-content { margin: 10px 14px; font-size: var(--t-md); }
 .leaflet-popup-content b { display: block; margin-bottom: 2px; }
 
 /* Chargement : des silhouettes plutôt qu'un écran vide. Sur un réseau lent, l'utilisateur
@@ -142,12 +155,13 @@ h1 { font-size: var(--t-2xl); line-height: 1.15; margin: 0 0 10px; letter-spacin
 
 /* Résultats */
 .results-head { display: flex; justify-content: space-between; align-items: baseline; margin: 8px 0; }
-.count { color: var(--muted); margin: 0; font-size: .92rem; }
+.count { color: var(--muted); margin: 0; font-size: var(--t-md); }
 .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 14px; }
 .card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; box-shadow: var(--shadow); display: flex; flex-direction: column; gap: 8px; scroll-margin-top: 140px; }
 .card.flash { outline: 3px solid var(--gold); }
 .card-head { display: flex; justify-content: space-between; gap: 8px; align-items: center; }
-.badge { font-size: .72rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; padding: 3px 8px; border-radius: 6px; background: var(--green-soft); color: var(--green-ink); }
+.badge { font-size: var(--t-xs); font-weight: 600; letter-spacing: 0; padding: 3px 9px; border-radius: 6px;
+  background: var(--green-soft); color: var(--green-ink); }
 .badge[data-cat="sante"] { background: var(--red-soft); color: var(--red); }
 .badge[data-cat="urgences"] { background: var(--red); color: #fff; }
 .badge[data-cat="education"] { background: var(--gold-soft); color: #7a5a08; }
@@ -155,6 +169,11 @@ h1 { font-size: var(--t-2xl); line-height: 1.15; margin: 0 0 10px; letter-spacin
 .badge[data-cat="services"] { background: #ece9f7; color: #4b3a8c; }
 .badge[data-cat="justice"], .badge[data-cat="securite"] { background: #e9ecef; color: #384048; }
 @media (prefers-color-scheme: dark) {
+  /* En sombre, --green est une menthe claire : l'encre doit être le fond, pas du blanc. */
+  .chip[aria-pressed="true"], .btn-ghost[aria-pressed="true"],
+  .tel:hover, .tel:active, .act:active { color: var(--bg); }
+  .chip[aria-pressed="true"] small { color: rgba(15, 20, 18, .75); }
+  .badge[data-cat="urgences"] { background: var(--red); color: var(--bg); }
   .badge[data-cat="education"] { color: var(--gold); }
   .badge[data-cat="ambassades"] { background: #1a2740; color: #9db8f0; }
   .badge[data-cat="services"] { background: #241f3a; color: #b8a8f0; }
@@ -165,39 +184,51 @@ h1 { font-size: var(--t-2xl); line-height: 1.15; margin: 0 0 10px; letter-spacin
   letter-spacing: .03em; color: var(--green-ink); background: var(--green-soft);
   border-radius: 999px; padding: 3px 9px 3px 7px; white-space: nowrap; }
 .verif svg { width: 12px; height: 12px; stroke: currentColor; fill: none; stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
-.commune { font-size: .78rem; color: var(--muted); white-space: nowrap; }
-.card-title { margin: 0; font-size: 1.05rem; line-height: 1.3; }
-.card-sub { margin: -4px 0 0; color: var(--muted); font-size: .88rem; }
-.card-addr { font-style: normal; font-size: .93rem; color: var(--ink); }
-.card-hours { margin: -4px 0 0; font-size: .86rem; color: var(--green-ink); }
+.commune { font-size: var(--t-xs); color: var(--muted); white-space: nowrap; }
+.card-title { margin: 0; font-size: var(--t-lg); line-height: 1.3; }
+.card-sub { margin: -4px 0 0; color: var(--muted); font-size: var(--t-md); }
+.card-addr { font-style: normal; font-size: var(--t-md); color: var(--ink); }
+.card-hours { margin: -4px 0 0; font-size: var(--t-sm); color: var(--green-ink); }
 .card-addr:empty, .card-sub:empty, .card-hours:empty { display: none; }
-.card-phones .fax { font-size: .82rem; color: var(--muted); }
+.card-phones .fax { font-size: var(--t-sm); color: var(--muted); }
 .card-phones { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px; }
 .card-phones li { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
 .tel { display: inline-flex; align-items: center; gap: 6px; text-decoration: none; background: var(--green-soft); color: var(--green-ink); padding: 6px 10px; border-radius: 8px; font-weight: 600; font-variant-numeric: tabular-nums; }
 .tel { transition: background var(--fast) var(--ease), color var(--fast) var(--ease); min-height: var(--tap); }
 .tel:hover { background: var(--green); color: #fff; }
 .tel:active { background: var(--green-ink); color: #fff; }
-.tel .lbl { font-weight: 400; font-size: .8rem; opacity: .85; }
-.wa { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 8px; background: #25d366; color: #fff; text-decoration: none; }
+.tel .lbl { font-weight: 400; font-size: var(--t-sm); opacity: .85; }
+.wa { display: inline-flex; align-items: center; justify-content: center; width: var(--tap); height: var(--tap);
+  border-radius: 10px; background: #25d366; color: #fff; text-decoration: none; flex: none; }
 .wa svg { width: 18px; height: 18px; fill: currentColor; }
 .card-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 4px; }
-.act { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: transparent; color: var(--ink); text-decoration: none; padding: 6px 10px; border-radius: 8px; font-size: .85rem; cursor: pointer; }
+.act { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line); background: transparent; color: var(--ink); text-decoration: none; padding: 6px 10px; border-radius: 8px; font-size: var(--t-sm); cursor: pointer; }
 .act { transition: background var(--fast) var(--ease), border-color var(--fast) var(--ease); min-height: 38px; }
 .act:hover { border-color: var(--green); background: var(--green-soft); }
 .act:active { background: var(--green); border-color: var(--green); color: #fff; }
 .act svg { width: 15px; height: 15px; stroke: currentColor; fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }
-.card-source { margin: 4px 0 0; font-size: .75rem; color: var(--muted); border-top: 1px dashed var(--line); padding-top: 8px; }
+.card-source { margin: 4px 0 0; font-size: var(--t-xs); color: var(--muted); border-top: 1px dashed var(--line); padding-top: 8px; }
 .card-source a { color: inherit; }
 .empty { text-align: center; color: var(--muted); padding: 40px 0; }
 .link { background: none; border: 0; padding: 0; color: var(--green-ink); text-decoration: underline; cursor: pointer; }
 
 .about { margin: 40px 0 24px; padding: 20px; background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); }
 .about h2 { margin: 0 0 10px; font-size: var(--t-lg); letter-spacing: -.01em; }
-.about p { margin: 0 0 8px; color: var(--muted); font-size: .95rem; }
-.fineprint { font-size: .8rem !important; }
-.foot { border-top: 1px solid var(--line); padding: 20px 0 32px; color: var(--muted); font-size: .85rem; }
+.about p { margin: 0 0 8px; color: var(--muted); font-size: var(--t-md); }
+.fineprint { font-size: var(--t-sm) !important; }
+.foot { border-top: 1px solid var(--line); padding: 20px 0 32px; color: var(--muted); font-size: var(--t-sm); }
 .foot p { margin: 0; }
+
+/* Sous 430 px le mot ne tient pas à côté du chiffre, et c'est le chiffre qui sauve.
+   Les quatre numéros vitaux doivent être visibles sans défiler ; le libellé reste
+   dans aria-label et dans l'infobulle. */
+@media (max-width: 430px) {
+  .urgences-label { display: none; }
+  .urg span { display: none; }
+  .urg { padding: 0 13px; }
+  .urg b { font-size: var(--t-xl); }
+  .urgences-list { gap: 7px; }
+}
 
 @media (max-width: 560px) {
   .wrap { width: min(1120px, 100% - 24px); }
@@ -215,4 +246,15 @@ h1 { font-size: var(--t-2xl); line-height: 1.15; margin: 0 0 10px; letter-spacin
   .chips::-webkit-scrollbar { display: none; }
   .chip { flex: none; scroll-snap-align: start; }
 }
-@media print { .top, .urgences, .search, .chips, .filters-row, .card-actions, .foot { display: none !important; } .card { break-inside: avoid; box-shadow: none; } }
+@media print {
+  .top, .search, .chips, .filters-row, .card-actions, .foot { display: none !important; }
+  /* Le bandeau d'urgence reste : une page imprimée finit scotchée à un mur. */
+  .urgences { position: static; background: #fff; border-bottom: 2px solid #000; }
+  .urgences-label, .urg { color: #000; }
+  .urg b { color: #000; }
+  .urg-more, .sentinelle { display: none !important; }
+  .urg-extra { display: contents; }
+  .card { break-inside: avoid; box-shadow: none; }
+}
+
+.sentinelle { grid-column: 1 / -1; height: 1px; }

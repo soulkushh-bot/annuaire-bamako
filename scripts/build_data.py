@@ -5,7 +5,7 @@
 
 Usage : python scripts/build_data.py
 """
-import json, re, os, unicodedata, datetime
+import json, re, os, copy, unicodedata, datetime
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 P = lambda *a: os.path.join(ROOT, *a)
@@ -212,7 +212,7 @@ def split_addr(addr):
         quartier = smart_case(parts[0])
     elif parts and re.match(r"^(PLACE|SQUARE|CITE ADMINISTRATIVE|ROUTE DE KOULOUBA|AVENUE DE LA LIBERTE|COLLINE)", parts[0], re.I):
         quartier = smart_case(parts[0])
-    readable = ", ".join(smart_case(p) for p in parts)
+    readable = ", ".join(re.sub(r"\s{2,}", " ", smart_case(p)) for p in parts)
     if city:
         readable = f"{readable}, {city}" if readable else city
     return quartier, readable, city
@@ -294,17 +294,15 @@ def main():
     if os.path.exists(P("data", "raw", "geocache.json")):
         geo = json.load(open(P("data", "raw", "geocache.json"), encoding="utf-8"))
 
+    entries, seen_ids, seen_keys, dropped = [], set(), set(), []
     replaces = []
     for c in curated["entries"]:
-        for pat in c.get("replaces", []):
-            replaces.append((fold(pat), c))
-
-    entries, seen_ids, seen_keys, dropped = [], set(), set(), []
-    for c in curated["entries"]:
-        e = dict(c); e.pop("replaces", None)
-        e["source"] = dict(e.get("source", {}))
+        e = copy.deepcopy(c); e.pop("replaces", None)
         e["source"].setdefault("verified", curated["verified"])
         entries.append(e); seen_ids.add(e["id"]); seen_keys.add(fold(e["name"]))
+        # les motifs pointent sur la copie publiée : la fusion doit modifier CETTE fiche
+        for pat in c.get("replaces", []):
+            replaces.append((fold(pat), e))
 
     for src_cat, items in raw.items():
         for it in items:
@@ -329,6 +327,10 @@ def main():
                         matched["phones"].append({"number": n, "label": "Malipages"})
                 if not matched.get("website") and it.get("web"):
                     matched["website"] = it["web"]
+                if not matched.get("fax") and it.get("fax"):
+                    fx = phones_from(it["fax"])
+                    if fx:
+                        matched["fax"] = fx[0]
                 dropped.append((src_cat, rn, "fusionné -> " + matched["id"])); continue
             acro, name, _ = split_name(rn)
             name = re.sub(r"^Commissariat de Police\s*—\s*(\S+)\s*Arrondissement$",

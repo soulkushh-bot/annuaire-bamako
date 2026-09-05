@@ -1,5 +1,6 @@
-/* Cache hors-ligne minimal : fichiers de l'app en cache-first, données en network-first. */
-const VERSION = 'annuaire-v1';
+/* Cache hors-ligne minimal : l'app est servie depuis le cache puis rafraîchie en arrière-plan
+   (stale-while-revalidate), les données sont prises sur le réseau en priorité. */
+const VERSION = 'annuaire-v2';
 const CORE = ['./', './index.html', './styles.css', './app.js', './manifest.webmanifest', './icons/icon.svg'];
 
 self.addEventListener('install', (e) => {
@@ -17,5 +18,16 @@ self.addEventListener('fetch', (e) => {
     e.respondWith(fetch(e.request).then(put).catch(() => caches.match(e.request)));
     return;
   }
-  e.respondWith(caches.match(e.request).then((hit) => hit || fetch(e.request).then(put)));
+  // Les filtres vivent dans la query string (?q=…&cat=…) mais renvoient toujours la même page :
+  // on sert l'unique copie en cache, sinon chaque recherche partagée créerait une entrée de plus.
+  const key = e.request.mode === 'navigate' ? './index.html' : e.request;
+  // Servi depuis le cache, mais rafraîchi en arrière-plan : sans cela, une mise à jour de
+  // app.js ou styles.css ne serait jamais reprise par un visiteur déjà venu.
+  e.respondWith(caches.match(key).then((hit) => {
+    const net = fetch(e.request).then((r) => {
+      if (r.ok) { const copy = r.clone(); caches.open(VERSION).then((c) => c.put(key, copy)); }
+      return r;
+    });
+    return hit || net;
+  }));
 });

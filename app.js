@@ -13,7 +13,6 @@
   const state = { q: '', cat: '', commune: '', sort: 'name', map: false };
   let DATA = { entries: [], categories: {}, urgences: [], meta: {} };
   let map = null, layer = null;
-  const markers = new Map();
 
   // --- utilitaires -------------------------------------------------------
   const fold = (s) => (s || '').toString().normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
@@ -118,6 +117,7 @@
     $('.card-title', node).textContent = e.name;
     $('.card-sub', node).textContent = [e.type, e.quartier].filter(Boolean).join(' · ');
     $('.card-addr', node).textContent = e.address || '';
+    $('.card-hours', node).textContent = e.hours || '';
 
     const ul = $('.card-phones', node);
     (e.phones || []).forEach((p) => {
@@ -130,6 +130,12 @@
       ul.appendChild(li);
     });
     if (!e.phones?.length) ul.innerHTML = '<li class="card-sub">Téléphone non disponible</li>';
+    if (e.fax) {
+      const li = document.createElement('li');
+      li.className = 'fax';
+      li.textContent = `Fax ${phoneInfo(e.fax).display}`;
+      ul.appendChild(li);
+    }
 
     const a = (href, icon, txt, extra = '') => `<a class="act" href="${esc(href)}" ${extra}>${icon}<span>${esc(txt)}</span></a>`;
     let html = a(mapsUrl(e), ICONS.route, 'Itinéraire', 'target="_blank" rel="noopener"');
@@ -216,12 +222,10 @@
   function updateMarkers(list) {
     if (!map) return;
     layer.clearLayers();
-    markers.clear();
     const pts = list.filter((e) => e.lat && e.lng);
     pts.forEach((e) => {
-      const m = L.marker([e.lat, e.lng]).addTo(layer);
-      m.bindPopup(`<b>${esc(e.name)}</b>${esc(e.address || e.quartier || '')}<br><a href="#f-${esc(e.id)}" data-goto="${esc(e.id)}">Voir la fiche</a>`);
-      markers.set(e.id, m);
+      L.marker([e.lat, e.lng]).addTo(layer)
+        .bindPopup(`<b>${esc(e.name)}</b>${esc(e.address || e.quartier || '')}<br><a href="#f-${esc(e.id)}" data-goto="${esc(e.id)}">Voir la fiche</a>`);
     });
     if (pts.length) map.fitBounds(L.latLngBounds(pts.map((e) => [e.lat, e.lng])).pad(0.15), { maxZoom: 15 });
   }

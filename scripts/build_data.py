@@ -316,7 +316,9 @@ def main():
                 pass  # adresse inconnue mais probablement Bamako
             matched = None
             for pat, cur in replaces:
-                if pat in fold(rn):
+                # bornes de mot obligatoires : « mairie commune v » est un préfixe de
+                # « mairie commune vi », qui serait sinon absorbée et perdue.
+                if re.search(r"\b" + re.escape(pat) + r"\b", fold(rn)):
                     matched = cur; break
             phones = phones_from(it["tel"])
             if matched:
@@ -348,6 +350,11 @@ def main():
             commune = guess_commune(it["addr"], quartier)
             if fold(city) in {"kati", "kalabancoro", "baguineda", "niamana"}:
                 commune = "Kati (hors District)"
+            # Une commune annoncée par le nom fait foi : l'adresse de la source peut être erronée
+            # (la mairie de la Commune V y était donnée à Bamako Coura, quartier de la Commune III).
+            m = re.search(r"\bcommune\s+(I{1,3}|IV|VI|V)\b", name, re.I)
+            if m:
+                commune = "Commune " + m.group(1).upper()
             e = {
                 "id": eid, "name": name, "category": cat, "type": guess_type(rn),
                 "quartier": quartier, "commune": commune, "address": address,

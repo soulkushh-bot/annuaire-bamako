@@ -14,10 +14,12 @@ Application web qui rassemble **adresses et numéros de téléphone des infrastr
 Aucune dépendance, aucun build. Il faut juste un serveur HTTP (le `fetch` du JSON ne marche pas en `file://`) :
 
 ```bash
-python -m http.server 8000
+python scripts/serve.py
 ```
 
-Puis ouvrir http://localhost:8000
+Puis ouvrir http://127.0.0.1:8123. Ce serveur envoie `Cache-Control: no-store` : avec un
+`python -m http.server` ordinaire, le navigateur garde `app.js` et `styles.css` et vous testez
+sans le savoir une version périmée.
 
 ## Déployer sur Vercel
 
@@ -45,6 +47,7 @@ data/annuaire.json         base publiée, générée — NE PAS ÉDITER À LA MA
 data/curated.json          fiches vérifiées à la main (prioritaires) ← éditer ici
 data/raw/malipages.json    fiches brutes collectées
 data/raw/geocache.json     coordonnées GPS mises en cache
+scripts/serve.py           serveur de développement sans cache
 scripts/scrape_malipages.py collecte
 scripts/geocode.py          géocodage Nominatim (OpenStreetMap)
 scripts/build_data.py       fusion + nettoyage → data/annuaire.json
@@ -104,6 +107,13 @@ votre adresse et votre source font autorité.
 - Pour épingler un point vous-même, ajoutez `"lat"` et `"lng"` à la fiche dans `data/curated.json` :
   ils ont priorité sur le géocodage automatique.
 - Les rattachements aux communes sont déduits du quartier ; quelques-uns peuvent être approximatifs.
+  Quand le nom de la structure annonce lui-même une commune (« Mairie de la Commune V »), c'est lui
+  qui fait foi, l'adresse de la source pouvant être fausse.
+- **Communes ou arrondissements ?** La [loi n°2023-005 du 13 mars 2023](https://matd.gouv.ml/uploads/topics/17110167706065.pdf)
+  a doté le District de Bamako d'un statut particulier : plus de communes, mais sept arrondissements
+  sans personnalité juridique, sous un maire unique. L'application conserve les Communes I à VI parce
+  que c'est le repère employé au quotidien et celui qui figure sur les adresses ; la nuance est
+  expliquée aux utilisateurs dans la section « À propos ».
 - **En urgence vitale, composez les numéros courts nationaux** plutôt qu'un standard qui peut avoir changé.
 
 ## Licence

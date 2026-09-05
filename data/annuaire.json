@@ -2381,27 +2381,6 @@
    "lng": -8.035898
   },
   {
-   "id": "mairie-commune-v",
-   "name": "Mairie Commune V",
-   "category": "collectivites",
-   "type": "Mairie",
-   "quartier": "Bamako Coura",
-   "commune": "Commune III",
-   "address": "Bamako Coura, Bamako",
-   "phones": [
-    {
-     "number": "20282096"
-    }
-   ],
-   "source": {
-    "name": "Malipages",
-    "url": "https://www.malipages.com/annuaire/lien/mairie-commune-v/",
-    "date": "2017-07-13"
-   },
-   "lat": 12.628236,
-   "lng": -8.035512
-  },
-  {
    "id": "mairie-commune-vi",
    "name": "Mairie Commune VI",
    "category": "collectivites",
@@ -2424,6 +2403,42 @@
    },
    "lat": 12.600909,
    "lng": -7.963883
+  },
+  {
+   "id": "mairie-commune-5",
+   "name": "Mairie de la Commune V",
+   "category": "collectivites",
+   "type": "Hôtel de ville",
+   "quartier": "Torokorobougou",
+   "commune": "Commune V",
+   "address": "RN6, quartier 300 Logements, Torokorobougou, Bamako",
+   "lat": 12.60738,
+   "lng": -8.00178,
+   "phones": [
+    {
+     "number": "20282096",
+     "label": "standard"
+    },
+    {
+     "number": "20284161",
+     "label": "à confirmer"
+    }
+   ],
+   "source": {
+    "name": "OpenStreetMap (hôtel de ville de Torokorobougou) et MaliAtlas",
+    "url": "https://www.openstreetmap.org/?mlat=12.60738&mlon=-8.00178#map=18/12.60738/-8.00178",
+    "note": "l'annuaire Malipages la situe à tort à Bamako Coura, quartier de la Commune III",
+    "verified": "2026-09-05"
+   },
+   "tags": [
+    "mairie",
+    "état civil",
+    "acte de naissance",
+    "mariage",
+    "300 logements",
+    "Quartier Mali",
+    "Badalabougou"
+   ]
   },
   {
    "id": "mairie-district-bamako",

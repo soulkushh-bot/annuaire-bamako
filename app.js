@@ -16,6 +16,18 @@
 
   // --- utilitaires -------------------------------------------------------
   const fold = (s) => (s || '').toString().normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+  // Index de recherche : accents retirés, ponctuation remplacée par des espaces, bordé d'espaces
+  // pour pouvoir ancrer les termes sur un début de mot.
+  const hayOf = (s) => ` ${fold(s).replace(/[^a-z0-9]+/g, ' ').trim()} `;
+
+  // Un terme colle au début d'un mot, jamais au milieu : sinon « commune v » sortait 287 fiches,
+  // le « v » se trouvant dans ville, vaccin, Travélé… Les suites de chiffres restent cherchées
+  // en sous-chaîne pour retrouver un numéro tapé par tranches (« 20 23 07 80 »).
+  const hit = (hay, t) => {
+    if (/^\d+$/.test(t)) return hay.includes(t);
+    if (t.length <= 2) return hay.includes(` ${t} `);
+    return hay.includes(` ${t}`);
+  };
   const digits = (s) => (s || '').replace(/\D/g, '');
   const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 
@@ -85,7 +97,7 @@
     const list = DATA.entries.filter((e) => {
       if (state.cat && e.category !== state.cat) return false;
       if (state.commune && (e.commune || '') !== state.commune) return false;
-      return terms.every((t) => e._hay.includes(t));
+      return terms.every((t) => hit(e._hay, t));
     });
     const byName = (a, b) => a.name.localeCompare(b.name, 'fr');
     if (state.sort === 'cat') list.sort((a, b) => (a.category + a.name).localeCompare(b.category + b.name, 'fr'));
@@ -290,7 +302,8 @@
     }
     DATA.entries.forEach((e) => {
       const phones = (e.phones || []).map((p) => (typeof p === 'string' ? p : p.number));
-      e._hay = fold([e.name, e.acronym, e.type, e.address, e.quartier, e.commune, DATA.categories[e.category]?.label, ...(e.tags || []), ...phones].join(' '));
+      e._hay = hayOf([e.name, e.acronym, e.type, e.address, e.quartier, e.commune,
+        DATA.categories[e.category]?.label, e.hours, ...(e.tags || []), ...phones].join(' '));
     });
     const href = suggestUrl(null);
     els.suggest.forEach((a) => {
